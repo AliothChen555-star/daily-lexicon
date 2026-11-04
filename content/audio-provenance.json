@@ -20,5 +20,13 @@
   "dataset": "LJSpeech",
   "datasetLicense": "Public domain, per bundled model card",
   "audioLicense": "CC-BY-SA-4.0",
-  "generatedDate": "2026-11-04"
+  "generatedDate": "2026-11-04",
+  "contentVersion": "0.2.0",
+  "audioFiles": 900,
+  "synthesisParameters": {
+    "lengthScale": 1.04,
+    "noiseScale": 0.5,
+    "noiseWScale": 0.65
+  },
+  "reviewStatus": "pending-full-human-listening"
 }

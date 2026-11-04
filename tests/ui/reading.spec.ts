@@ -1,4 +1,5 @@
 import { test,expect } from '@playwright/test';
+import legacyState from '../fixtures/v0.1-state.json' with {type:'json'};
 
 test('翻卡、评分、刷新后续学与撤销',async ({page}) => {
   const errors:string[]=[]; page.on('pageerror',e=>errors.push(e.message));
@@ -18,6 +19,48 @@ test('翻卡、评分、刷新后续学与撤销',async ({page}) => {
   await page.getByRole('button',{name:'返回今日版'}).click();
   await expect(page.getByRole('progressbar',{name:'今日课程进度'})).toHaveAttribute('aria-valuenow','0');
   expect(errors).toEqual([]);
+});
+
+test('三级语义筛选能逐层定位，切换主题清除下级选择',async ({page})=>{
+  await page.goto('/#library');
+  await page.getByRole('button',{name:'科学与证据',exact:true}).click();
+  await page.getByRole('combobox',{name:'学习场景'}).selectOption('science-evidence');
+  await page.getByRole('combobox',{name:'概念分块'}).selectOption('science-verifying');
+  await expect(page.locator('.dictionary-row')).toHaveCount(5);
+  await page.locator('.dictionary-word').first().click();
+  await expect(page.getByLabel('单词的语义位置')).toContainText('科学与证据');
+  await expect(page.getByLabel('单词的语义位置')).toContainText('验证与重现');
+  await page.getByRole('button',{name:'关闭弹窗'}).click();
+  await page.getByRole('button',{name:'指代与连接',exact:true}).click();
+  await expect(page.getByRole('combobox',{name:'学习场景'})).toHaveValue('');
+  await expect(page.getByRole('combobox',{name:'概念分块'})).toBeDisabled();
+  await expect(page.locator('.dictionary-row')).toHaveCount(30);
+});
+
+test('旧版本地档案启动升级后保留12词进度和笔记，刷新不重复配额',async ({page})=>{
+  await page.clock.setFixedTime(new Date('2026-11-04T04:00:00Z'));
+  await page.goto('/');await expect(page.getByRole('button',{name:'开始今日学习',exact:true})).toBeVisible();
+  await page.evaluate(async value=>{
+    await new Promise<void>((resolve,reject)=>{
+      const request=indexedDB.open('daily-lexicon-v1');
+      request.onerror=()=>reject(request.error);
+      request.onsuccess=()=>{const db=request.result,tx=db.transaction('state','readwrite');tx.objectStore('state').put({key:'main',value});tx.oncomplete=()=>{db.close();resolve();};tx.onerror=()=>reject(tx.error);};
+    });
+  },legacyState);
+  await page.reload();
+  await expect(page.getByLabel('词包升级说明',{exact:true})).toContainText('增补 180 词');
+  await expect(page.getByRole('progressbar')).toHaveAttribute('aria-valuenow','12');
+  await expect(page.getByRole('progressbar')).toHaveAttribute('aria-valuemax','30');
+  await expect(page.getByText('本轮 12 / 300 词',{exact:true})).toBeVisible();
+  await page.getByRole('button',{name:'继续今日学习'}).click();
+  await expect(page.getByRole('heading',{name:'prospect',exact:true})).toBeVisible();
+  await page.getByRole('button',{name:'返回今日版'}).click();await page.reload();
+  await expect(page.getByRole('progressbar')).toHaveAttribute('aria-valuenow','12');
+  await page.getByRole('button',{name:'词库目录',exact:true}).click();
+  await page.getByRole('combobox',{name:'学习状态'}).selectOption('saved');
+  await expect(page.locator('.dictionary-row')).toHaveCount(2);
+  await page.getByRole('textbox',{name:'搜索单词或中文释义'}).fill('see');await page.locator('.dictionary-word').click();
+  await expect(page.getByRole('textbox',{name:'我的笔记'})).toHaveValue(legacyState.notes['dl-see']);
 });
 
 test('词库搜索、收藏、笔记和备份往返',async ({page},testInfo) => {

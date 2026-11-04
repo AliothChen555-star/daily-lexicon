@@ -1,0 +1,301 @@
+id	word	referenceLevel	topic	scene	concept	family	reviewStatus	sourceTags	issues
+dl-see	see	基础	mind	mind-perception	mind-seeing	see	editorial-draft	gk zk	none
+dl-look	look	基础	mind	mind-perception	mind-seeing	look	editorial-draft	gk zk	none
+dl-notice	notice	四级	mind	mind-perception	mind-seeing	notice	editorial-draft	cet4 cet6 gk zk	none
+dl-observe	observe	四级	mind	mind-perception	mind-seeing	observe	editorial-draft	cet4 cet6 gk	none
+dl-observation	observation	四级	mind	mind-perception	mind-seeing	observe	editorial-draft	cet4 cet6	none
+dl-observer	observer	六级	mind	mind-perception	mind-seeing	observe	editorial-draft	cet4 cet6	none
+dl-inspect	inspect	四级	mind	mind-perception	mind-seeing	spect	editorial-draft	cet4 cet6 gk	none
+dl-inspection	inspection	六级	mind	mind-perception	mind-seeing	spect	editorial-draft	cet4 cet6	none
+dl-perceive	perceive	六级	mind	mind-perception	mind-seeing	perceive	editorial-draft	cet4 cet6	none
+dl-perception	perception	六级	mind	mind-perception	mind-seeing	perceive	editorial-draft	cet6	none
+dl-perspective	perspective	六级	mind	mind-perception	mind-viewpoints	spect	editorial-draft	cet4 cet6	none
+dl-aspect	aspect	四级	mind	mind-perception	mind-viewpoints	spect	editorial-draft	cet4 cet6 gk	none
+dl-prospect	prospect	六级	mind	mind-perception	mind-viewpoints	spect	editorial-draft	cet4 cet6	none
+dl-suspect	suspect	四级	mind	mind-perception	mind-viewpoints	spect	editorial-draft	cet4 cet6 gk	none
+dl-respect	respect	四级	mind	mind-perception	mind-viewpoints	spect	editorial-draft	cet4 cet6 gk	none
+dl-think	think	基础	mind	mind-reasoning	mind-thinking	think	editorial-draft	gk zk	none
+dl-thought	thought	基础	mind	mind-reasoning	mind-thinking	think	editorial-draft	cet4 cet6 gk zk	none
+dl-consider	consider	四级	mind	mind-reasoning	mind-thinking	consider	editorial-draft	cet4 cet6 gk zk	none
+dl-reconsider	reconsider	六级	mind	mind-reasoning	mind-thinking	consider	editorial-draft		none
+dl-reflect	reflect	四级	mind	mind-reasoning	mind-thinking	reflect	editorial-draft	cet4 cet6 gk	none
+dl-reflection	reflection	四级	mind	mind-reasoning	mind-thinking	reflect	editorial-draft	cet4 cet6	none
+dl-analyze	analyze	六级	mind	mind-reasoning	mind-thinking	analyze	editorial-draft	cet4 gk	none
+dl-analysis	analysis	四级	mind	mind-reasoning	mind-thinking	analyze	editorial-draft	cet4 cet6 gk	none
+dl-assume	assume	四级	mind	mind-reasoning	mind-evidence	assume	editorial-draft	cet4 cet6 gk	none
+dl-assumption	assumption	六级	mind	mind-reasoning	mind-evidence	assume	editorial-draft	cet4 cet6 gk	none
+dl-infer	infer	六级	mind	mind-reasoning	mind-evidence	infer	editorial-draft	cet4 cet6	none
+dl-inference	inference	六级	mind	mind-reasoning	mind-evidence	infer	editorial-draft	cet6	none
+dl-reason	reason	四级	mind	mind-reasoning	mind-evidence	reason	editorial-draft	gk zk	none
+dl-reasonable	reasonable	四级	mind	mind-reasoning	mind-evidence	reason	editorial-draft	cet4 cet6 gk	none
+dl-evidence	evidence	四级	mind	mind-reasoning	mind-evidence	independent	editorial-draft	cet4 cet6 gk	none
+dl-learn	learn	基础	learning	learning-study	learning-learning	learn	editorial-draft	gk zk	none
+dl-learning	learning	基础	learning	learning-study	learning-learning	learn	editorial-draft	cet4 cet6	none
+dl-teach	teach	基础	learning	learning-study	learning-learning	teach	editorial-draft	gk zk	none
+dl-teacher	teacher	基础	learning	learning-study	learning-learning	teach	editorial-draft	gk zk	none
+dl-read	read	基础	learning	learning-study	learning-learning	read	editorial-draft	gk zk	none
+dl-reader	reader	四级	learning	learning-study	learning-learning	read	editorial-draft	cet4 cet6	none
+dl-write	write	基础	learning	learning-study	learning-learning	write	editorial-draft	gk zk	none
+dl-writer	writer	基础	learning	learning-study	learning-learning	write	editorial-draft	cet4 cet6	none
+dl-describe	describe	四级	learning	learning-study	learning-recording	scrib	editorial-draft	cet4 cet6 gk zk	none
+dl-description	description	四级	learning	learning-study	learning-recording	scrib	editorial-draft	cet4 cet6 gk	none
+dl-prescribe	prescribe	六级	learning	learning-study	learning-recording	scrib	editorial-draft	cet4 cet6	none
+dl-prescription	prescription	六级	learning	learning-study	learning-recording	scrib	editorial-draft	cet6 gk	none
+dl-manuscript	manuscript	六级	learning	learning-study	learning-recording	scrib	editorial-draft	cet6	none
+dl-dictate	dictate	六级	learning	learning-study	learning-recording	dict	editorial-draft	cet4 cet6	none
+dl-dictation	dictation	四级	learning	learning-study	learning-recording	dict	editorial-draft	cet4 cet6 gk	none
+dl-predict	predict	四级	learning	learning-expression	learning-claims	dict	editorial-draft	cet4 cet6 gk	none
+dl-prediction	prediction	六级	learning	learning-expression	learning-claims	dict	editorial-draft	cet6	none
+dl-contradict	contradict	六级	learning	learning-expression	learning-claims	dict	editorial-draft	cet6 gk	none
+dl-contradiction	contradiction	六级	learning	learning-expression	learning-claims	dict	editorial-draft	cet4 cet6	none
+dl-explain	explain	基础	learning	learning-expression	learning-claims	explain	editorial-draft	cet4 cet6 gk zk	none
+dl-explanation	explanation	四级	learning	learning-expression	learning-claims	explain	editorial-draft	cet4 cet6 gk	none
+dl-express	express	四级	learning	learning-expression	learning-communication	express	editorial-draft	cet4 cet6 gk zk	none
+dl-expression	expression	四级	learning	learning-expression	learning-communication	express	editorial-draft	cet4 cet6 gk	none
+dl-communicate	communicate	四级	learning	learning-expression	learning-communication	communicate	editorial-draft	cet4 cet6 gk zk	none
+dl-communication	communication	四级	learning	learning-expression	learning-communication	communicate	editorial-draft	cet4 cet6 gk zk	none
+dl-discuss	discuss	基础	learning	learning-expression	learning-communication	discuss	editorial-draft	gk zk	none
+dl-discussion	discussion	四级	learning	learning-expression	learning-communication	discuss	editorial-draft	cet4 cet6 gk zk	none
+dl-conclude	conclude	四级	learning	learning-expression	learning-communication	conclude	editorial-draft	cet4 cet6 gk	none
+dl-conclusion	conclusion	四级	learning	learning-expression	learning-communication	conclude	editorial-draft	cet4 cet6 gk	none
+dl-vocabulary	vocabulary	四级	learning	learning-expression	learning-communication	independent	editorial-draft	cet4 cet6 gk	none
+dl-home	home	基础	living	living-relationships	living-belonging	independent	editorial-draft	gk zk	none
+dl-family	family	基础	living	living-relationships	living-belonging	independent	editorial-draft	gk zk	none
+dl-friend	friend	基础	living	living-relationships	living-belonging	friend	editorial-draft	gk zk	none
+dl-friendship	friendship	四级	living	living-relationships	living-belonging	friend	editorial-draft	gk zk	none
+dl-help	help	基础	living	living-relationships	living-belonging	help	editorial-draft	gk zk	none
+dl-helpful	helpful	基础	living	living-relationships	living-belonging	help	editorial-draft	cet4 cet6 gk zk	none
+dl-care	care	基础	living	living-relationships	living-belonging	care	editorial-draft	gk zk	none
+dl-careful	careful	基础	living	living-relationships	living-belonging	care	editorial-draft	gk zk	none
+dl-trust	trust	四级	living	living-relationships	living-trust	trust	editorial-draft	cet4 cet6 gk zk	none
+dl-trustworthy	trustworthy	六级	living	living-relationships	living-trust	trust	editorial-draft		none
+dl-believe	believe	基础	living	living-relationships	living-trust	believe	editorial-draft	gk zk	none
+dl-belief	belief	四级	living	living-relationships	living-trust	believe	editorial-draft	cet4 gk	none
+dl-credible	credible	六级	living	living-relationships	living-trust	cred	editorial-draft		none
+dl-incredible	incredible	四级	living	living-relationships	living-trust	cred	editorial-draft	cet6	none
+dl-credit	credit	四级	living	living-relationships	living-trust	cred	editorial-draft	gk	none
+dl-create	create	四级	living	living-growth	living-connection	create	editorial-draft	cet4 cet6 gk zk	none
+dl-creative	creative	四级	living	living-growth	living-connection	create	editorial-draft	cet4 cet6	none
+dl-creativity	creativity	六级	living	living-growth	living-connection	create	editorial-draft		none
+dl-connect	connect	四级	living	living-growth	living-connection	connect	editorial-draft	cet4 cet6 gk zk	none
+dl-connection	connection	四级	living	living-growth	living-connection	connect	editorial-draft	cet4 cet6 gk	none
+dl-support	support	四级	living	living-growth	living-connection	port	editorial-draft	cet4 cet6 gk	none
+dl-comfort	comfort	四级	living	living-growth	living-adapting	comfort	editorial-draft	cet4 cet6 gk	none
+dl-comfortable	comfortable	四级	living	living-growth	living-adapting	comfort	editorial-draft	cet4 cet6 gk zk	none
+dl-patient	patient	四级	living	living-growth	living-adapting	patient	editorial-draft	cet4 cet6 gk zk	none
+dl-patience	patience	四级	living	living-growth	living-adapting	patient	editorial-draft	cet4 cet6 gk	none
+dl-adapt	adapt	四级	living	living-growth	living-adapting	adapt	editorial-draft	cet4 cet6 gk	none
+dl-adaptation	adaptation	六级	living	living-growth	living-adapting	adapt	editorial-draft	gk	none
+dl-flexible	flexible	六级	living	living-growth	living-adapting	flex	editorial-draft	cet4 cet6 gk	none
+dl-flexibility	flexibility	六级	living	living-growth	living-adapting	flex	editorial-draft		none
+dl-balance	balance	四级	living	living-growth	living-adapting	independent	editorial-draft	cet4 gk	none
+dl-work	work	基础	society	society-building	society-construction	work	editorial-draft	gk zk	none
+dl-worker	worker	基础	society	society-building	society-construction	work	editorial-draft	gk zk	none
+dl-build	build	基础	society	society-building	society-construction	build	editorial-draft	gk zk	none
+dl-building	building	基础	society	society-building	society-construction	build	editorial-draft	gk zk	none
+dl-construct	construct	四级	society	society-building	society-construction	struct	editorial-draft	cet4 cet6 gk	none
+dl-construction	construction	四级	society	society-building	society-construction	struct	editorial-draft	cet4 cet6 gk	none
+dl-structure	structure	四级	society	society-building	society-construction	struct	editorial-draft	cet4 cet6	none
+dl-reconstruct	reconstruct	六级	society	society-building	society-construction	struct	editorial-draft		none
+dl-infrastructure	infrastructure	六级	society	society-building	society-construction	struct	editorial-draft	cet6	none
+dl-transport	transport	四级	society	society-building	society-transport	port	editorial-draft	cet4 cet6 gk	none
+dl-portable	portable	六级	society	society-building	society-transport	port	editorial-draft	cet4 cet6 gk	none
+dl-report	report	四级	society	society-building	society-transport	port	editorial-draft	gk zk	none
+dl-transfer	transfer	四级	society	society-building	society-transport	independent	editorial-draft	cet4 cet6	none
+dl-transformation	transformation	六级	society	society-building	society-transport	form	editorial-draft	cet4 cet6	none
+dl-transform	transform	四级	society	society-building	society-transport	form	editorial-draft	cet4 cet6 gk	none
+dl-reform	reform	四级	society	society-building	society-transport	form	editorial-draft	cet4 cet6 gk	none
+dl-contribute	contribute	四级	society	society-changes	society-distribution	tribut	editorial-draft	cet4 cet6 gk	none
+dl-contribution	contribution	四级	society	society-changes	society-distribution	tribut	editorial-draft	cet4 gk	none
+dl-distribute	distribute	四级	society	society-changes	society-distribution	tribut	editorial-draft	cet4 cet6 gk	none
+dl-distribution	distribution	六级	society	society-changes	society-distribution	tribut	editorial-draft	cet4 cet6	none
+dl-reject	reject	四级	society	society-changes	society-influence	ject	editorial-draft	cet4 cet6 gk	none
+dl-rejection	rejection	六级	society	society-changes	society-influence	ject	editorial-draft	cet6	none
+dl-inject	inject	六级	society	society-changes	society-influence	ject	editorial-draft	cet6	none
+dl-injection	injection	六级	society	society-changes	society-influence	ject	editorial-draft	cet4 cet6	none
+dl-attract	attract	四级	society	society-changes	society-influence	tract	editorial-draft	cet4 gk	none
+dl-attraction	attraction	四级	society	society-changes	society-influence	tract	editorial-draft	cet4 gk	none
+dl-distract	distract	六级	society	society-changes	society-influence	tract	editorial-draft	cet6	none
+dl-distraction	distraction	六级	society	society-changes	society-influence	tract	editorial-draft		none
+dl-sustainable	sustainable	六级	society	society-changes	society-sustaining	sustain	editorial-draft		none
+dl-sustainability	sustainability	六级	society	society-changes	society-sustaining	sustain	editorial-draft		none
+dl-a	a	基础	function	function-reference	function-determiners	function-reference	editorial-draft	gk zk	none
+dl-the	the	基础	function	function-reference	function-determiners	function-reference	editorial-draft	gk zk	none
+dl-this	this	基础	function	function-reference	function-determiners	function-reference	editorial-draft	gk zk	none
+dl-that	that	基础	function	function-reference	function-determiners	function-reference	editorial-draft	gk zk	none
+dl-it	it	基础	function	function-reference	function-people	function-reference	editorial-draft	gk zk	none
+dl-they	they	基础	function	function-reference	function-people	function-reference	editorial-draft	gk zk	none
+dl-we	we	基础	function	function-reference	function-people	function-reference	editorial-draft	gk zk	none
+dl-you	you	基础	function	function-reference	function-people	function-reference	editorial-draft	gk zk	none
+dl-he	he	基础	function	function-reference	function-people	function-reference	editorial-draft	gk zk	none
+dl-she	she	基础	function	function-reference	function-people	function-reference	editorial-draft	gk zk	none
+dl-and	and	基础	function	function-linking	function-logic	function-links	editorial-draft	gk zk	none
+dl-or	or	基础	function	function-linking	function-logic	function-links	editorial-draft	gk zk	none
+dl-but	but	基础	function	function-linking	function-logic	function-links	editorial-draft	gk zk	none
+dl-because	because	基础	function	function-linking	function-logic	function-links	editorial-draft	gk zk	none
+dl-if	if	基础	function	function-linking	function-logic	function-links	editorial-draft	gk zk	none
+dl-when	when	基础	function	function-linking	function-time-links	function-links	editorial-draft	gk zk	none
+dl-while	while	基础	function	function-linking	function-time-links	function-links	editorial-draft	gk zk	none
+dl-before	before	基础	function	function-linking	function-time-links	function-links	editorial-draft	gk zk	none
+dl-after	after	基础	function	function-linking	function-time-links	function-links	editorial-draft	gk zk	none
+dl-as	as	基础	function	function-linking	function-time-links	function-links	editorial-draft	gk zk	none
+dl-with	with	基础	function	function-relations	function-relation	function-relations	editorial-draft	gk zk	none
+dl-without	without	基础	function	function-relations	function-relation	function-relations	editorial-draft	gk zk	none
+dl-of	of	基础	function	function-relations	function-relation	function-relations	editorial-draft	gk zk	none
+dl-for	for	基础	function	function-relations	function-relation	function-relations	editorial-draft	gk zk	none
+dl-than	than	基础	function	function-relations	function-relation	function-relations	editorial-draft	gk zk	none
+dl-in	in	基础	function	function-relations	function-direction	function-relations	editorial-draft	gk zk	none
+dl-on	on	基础	function	function-relations	function-direction	function-relations	editorial-draft	gk zk	none
+dl-at	at	基础	function	function-relations	function-direction	function-relations	editorial-draft	gk zk	none
+dl-to	to	基础	function	function-relations	function-direction	function-relations	editorial-draft	gk zk	none
+dl-from	from	基础	function	function-relations	function-direction	function-relations	editorial-draft	gk zk	none
+dl-go	go	基础	everyday	everyday-action	everyday-moving	everyday-actions	editorial-draft	gk zk	none
+dl-come	come	基础	everyday	everyday-action	everyday-moving	everyday-actions	editorial-draft	gk zk	none
+dl-take	take	基础	everyday	everyday-action	everyday-moving	everyday-actions	editorial-draft	gk zk	none
+dl-give	give	基础	everyday	everyday-action	everyday-moving	everyday-actions	editorial-draft	gk zk	none
+dl-make	make	基础	everyday	everyday-action	everyday-moving	everyday-actions	editorial-draft	gk zk	none
+dl-get	get	基础	everyday	everyday-action	everyday-moving	everyday-actions	editorial-draft	gk zk	none
+dl-have	have	基础	everyday	everyday-action	everyday-knowing	everyday-actions	editorial-draft	gk zk	none
+dl-do	do	基础	everyday	everyday-action	everyday-knowing	everyday-actions	editorial-draft	gk zk	none
+dl-say	say	基础	everyday	everyday-action	everyday-knowing	say	editorial-draft	gk zk	none
+dl-know	know	基础	everyday	everyday-action	everyday-knowing	know	editorial-draft	gk zk	none
+dl-want	want	基础	everyday	everyday-doing	everyday-needs	everyday-actions	editorial-draft	gk zk	none
+dl-need	need	基础	everyday	everyday-doing	everyday-needs	everyday-actions	editorial-draft	gk zk	none
+dl-find	find	基础	everyday	everyday-doing	everyday-needs	everyday-actions	editorial-draft	gk zk	none
+dl-leave	leave	基础	everyday	everyday-doing	everyday-needs	everyday-actions	editorial-draft	gk zk	none
+dl-bring	bring	基础	everyday	everyday-doing	everyday-needs	everyday-actions	editorial-draft	gk zk	none
+dl-keep	keep	基础	everyday	everyday-doing	everyday-using	everyday-actions	editorial-draft	gk zk	none
+dl-put	put	基础	everyday	everyday-doing	everyday-using	everyday-actions	editorial-draft	gk zk	none
+dl-use	use	基础	everyday	everyday-doing	everyday-using	use	editorial-draft	gk zk	none
+dl-eat	eat	基础	everyday	everyday-doing	everyday-using	everyday-actions	editorial-draft	gk zk	none
+dl-drink	drink	基础	everyday	everyday-doing	everyday-using	everyday-actions	editorial-draft	gk zk	none
+dl-live	live	基础	everyday	everyday-life	everyday-places	live	editorial-draft	gk zk	none
+dl-life	life	基础	everyday	everyday-life	everyday-places	live	editorial-draft	gk zk	none
+dl-house	house	基础	everyday	everyday-life	everyday-places	everyday-places	editorial-draft	gk zk	none
+dl-room	room	基础	everyday	everyday-life	everyday-places	everyday-places	editorial-draft	gk zk	none
+dl-school	school	基础	everyday	everyday-life	everyday-places	everyday-places	editorial-draft	gk zk	none
+dl-book	book	基础	everyday	everyday-life	everyday-places	everyday-places	editorial-draft	gk zk	none
+dl-person	person	基础	everyday	everyday-life	everyday-people	everyday-places	editorial-draft	gk zk	none
+dl-child	child	基础	everyday	everyday-life	everyday-people	everyday-places	editorial-draft	gk zk	none
+dl-good	good	基础	everyday	everyday-life	everyday-people	everyday-places	editorial-draft	gk zk	none
+dl-new	new	基础	everyday	everyday-life	everyday-people	everyday-places	editorial-draft	gk zk	none
+dl-now	now	基础	time	time-calendar	time-dates	time-basics	editorial-draft	gk zk	none
+dl-then	then	基础	time	time-calendar	time-dates	time-basics	editorial-draft	gk zk	none
+dl-today	today	基础	time	time-calendar	time-dates	time-basics	editorial-draft	gk zk	none
+dl-tomorrow	tomorrow	基础	time	time-calendar	time-dates	time-basics	editorial-draft	gk zk	none
+dl-yesterday	yesterday	基础	time	time-calendar	time-dates	time-basics	editorial-draft	gk zk	none
+dl-day	day	基础	time	time-calendar	time-units	time-basics	editorial-draft	gk zk	none
+dl-week	week	基础	time	time-calendar	time-units	time-basics	editorial-draft	gk zk	none
+dl-month	month	基础	time	time-calendar	time-units	time-basics	editorial-draft	gk zk	none
+dl-year	year	基础	time	time-calendar	time-units	time-basics	editorial-draft	gk zk	none
+dl-time	time	基础	time	time-calendar	time-units	time-basics	editorial-draft	gk zk	none
+dl-first	first	基础	time	time-calendar	time-order	time-basics	editorial-draft	gk zk	none
+dl-last	last	基础	time	time-calendar	time-order	time-basics	editorial-draft	gk	none
+dl-next	next	基础	time	time-calendar	time-order	time-basics	editorial-draft	gk zk	none
+dl-early	early	基础	time	time-calendar	time-order	time-basics	editorial-draft	gk zk	none
+dl-late	late	基础	time	time-calendar	time-order	time-basics	editorial-draft	gk zk	none
+dl-begin	begin	四级	time	time-process	time-progress	time-change	editorial-draft	gk zk	none
+dl-end	end	四级	time	time-process	time-progress	time-change	editorial-draft	gk zk	none
+dl-continue	continue	四级	time	time-process	time-progress	time-change	editorial-draft	cet4 cet6 gk zk	none
+dl-delay	delay	四级	time	time-process	time-progress	time-change	editorial-draft	cet4 cet6 gk	none
+dl-period	period	四级	time	time-process	time-progress	time-change	editorial-draft	cet4 cet6 gk zk	none
+dl-temporary	temporary	四级	time	time-process	time-duration	time-change	editorial-draft	cet4 cet6 gk	none
+dl-permanent	permanent	四级	time	time-process	time-duration	time-change	editorial-draft	cet4 cet6 gk	none
+dl-gradual	gradual	四级	time	time-process	time-duration	gradual	editorial-draft	cet4 cet6	none
+dl-gradually	gradually	四级	time	time-process	time-duration	gradual	editorial-draft	cet4 cet6 gk	none
+dl-frequent	frequent	四级	time	time-patterns	time-frequency	frequent	editorial-draft	cet4 cet6 gk	none
+dl-frequently	frequently	四级	time	time-patterns	time-frequency	frequent	editorial-draft	cet4 cet6	none
+dl-occur	occur	四级	time	time-patterns	time-frequency	occur	editorial-draft	cet4 cet6 gk	none
+dl-occurrence	occurrence	四级	time	time-patterns	time-frequency	occur	editorial-draft	cet4 cet6	none
+dl-sequence	sequence	四级	time	time-patterns	time-sequence	sequ	editorial-draft	cet4 cet6	none
+dl-consequence	consequence	四级	time	time-patterns	time-sequence	sequ	editorial-draft	cet4 cet6 gk	none
+dl-breathe	breathe	四级	nature	nature-health	nature-breathing	breathe	editorial-draft	cet4 gk zk	none
+dl-breath	breath	四级	nature	nature-health	nature-breathing	breathe	editorial-draft	cet4 gk zk	none
+dl-healthy	healthy	四级	nature	nature-health	nature-breathing	health	editorial-draft	gk zk	none
+dl-illness	illness	四级	nature	nature-health	nature-breathing	health	editorial-draft	cet4 gk zk	none
+dl-disease	disease	四级	nature	nature-health	nature-breathing	health	editorial-draft	cet4 cet6 gk zk	none
+dl-nutrition	nutrition	六级	nature	nature-health	nature-nutrition	nutrition	editorial-draft	cet6 gk	none
+dl-nutrient	nutrient	六级	nature	nature-health	nature-nutrition	nutrition	editorial-draft	cet6	none
+dl-metabolism	metabolism	六级	nature	nature-health	nature-nutrition	health	editorial-draft		none
+dl-immune	immune	六级	nature	nature-health	nature-nutrition	immune	editorial-draft	cet6	none
+dl-immunity	immunity	六级	nature	nature-health	nature-nutrition	immune	editorial-draft	cet6	none
+dl-diagnose	diagnose	六级	nature	nature-health	nature-diagnosis	diagnose	editorial-draft	cet6	none
+dl-diagnosis	diagnosis	六级	nature	nature-health	nature-diagnosis	diagnose	editorial-draft		none
+dl-energy	energy	四级	nature	nature-environment	nature-resources	nature-resources	editorial-draft	cet4 cet6 zk	none
+dl-resource	resource	四级	nature	nature-environment	nature-resources	nature-resources	editorial-draft	cet4 cet6	none
+dl-climate	climate	四级	nature	nature-environment	nature-resources	nature-resources	editorial-draft	cet4 gk	none
+dl-environment	environment	四级	nature	nature-environment	nature-resources	environment	editorial-draft	cet4 cet6 gk zk	none
+dl-environmental	environmental	四级	nature	nature-environment	nature-resources	environment	editorial-draft	cet6	none
+dl-pollute	pollute	四级	nature	nature-environment	nature-pollution	pollute	editorial-draft	cet4 cet6 gk	none
+dl-pollution	pollution	四级	nature	nature-environment	nature-pollution	pollute	editorial-draft	cet4 cet6 gk	none
+dl-recycle	recycle	四级	nature	nature-environment	nature-pollution	nature-resources	editorial-draft	cet6 gk	none
+dl-protect	protect	四级	nature	nature-environment	nature-pollution	protect	editorial-draft	cet4 cet6 gk zk	none
+dl-protection	protection	四级	nature	nature-environment	nature-pollution	protect	editorial-draft	cet4 cet6 gk	none
+dl-ecology	ecology	六级	nature	nature-ecology	nature-systems	ecology	editorial-draft	cet6 gk	none
+dl-ecological	ecological	六级	nature	nature-ecology	nature-systems	ecology	editorial-draft		none
+dl-ecosystem	ecosystem	六级	nature	nature-ecology	nature-systems	ecology	editorial-draft	cet6	none
+dl-biodiversity	biodiversity	六级	nature	nature-ecology	nature-systems	diverse	editorial-draft		none
+dl-conserve	conserve	六级	nature	nature-ecology	nature-conservation	conserve	editorial-draft	cet4 cet6	none
+dl-conservation	conservation	六级	nature	nature-ecology	nature-conservation	conserve	editorial-draft	cet4 cet6 gk	none
+dl-renewable	renewable	六级	nature	nature-ecology	nature-conservation	nature-resources	editorial-draft		none
+dl-contaminate	contaminate	六级	nature	nature-ecology	nature-conservation	nature-resources	editorial-draft	cet6	none
+dl-science	science	四级	science	science-inquiry	science-methods	science	editorial-draft	gk zk	none
+dl-scientific	scientific	四级	science	science-inquiry	science-methods	science	editorial-draft	cet4 cet6 gk	none
+dl-research	research	四级	science	science-inquiry	science-methods	science	editorial-draft	cet4 cet6 gk zk	none
+dl-experiment	experiment	四级	science	science-inquiry	science-methods	science	editorial-draft	cet4 cet6 gk zk	none
+dl-theory	theory	四级	science	science-inquiry	science-methods	science	editorial-draft	cet4 cet6 gk	none
+dl-method	method	四级	science	science-inquiry	science-methods	method	editorial-draft	cet4 cet6 gk zk	none
+dl-methodology	methodology	六级	science	science-inquiry	science-methods	method	editorial-draft		none
+dl-hypothesis	hypothesis	六级	science	science-inquiry	science-tests	scientific-reasoning	editorial-draft	cet6	none
+dl-empirical	empirical	六级	science	science-inquiry	science-tests	empirical	editorial-draft	cet6	none
+dl-empirically	empirically	六级	science	science-inquiry	science-tests	empirical	editorial-draft		none
+dl-objective	objective	六级	science	science-inquiry	science-tests	scientific-reasoning	editorial-draft	cet4 cet6	none
+dl-subjective	subjective	六级	science	science-inquiry	science-tests	scientific-reasoning	editorial-draft	cet6 gk	none
+dl-data	data	四级	science	science-measuring	science-data	measurement	editorial-draft	cet4 gk	none
+dl-measure	measure	四级	science	science-measuring	science-data	measure	editorial-draft	cet4 cet6 gk	none
+dl-measurement	measurement	四级	science	science-measuring	science-data	measure	editorial-draft	cet4 cet6	none
+dl-accurate	accurate	四级	science	science-measuring	science-data	accurate	editorial-draft	cet4 cet6	none
+dl-accuracy	accuracy	四级	science	science-measuring	science-data	accurate	editorial-draft	cet4 cet6 gk	none
+dl-quantitative	quantitative	六级	science	science-measuring	science-variables	measurement	editorial-draft	cet6	none
+dl-qualitative	qualitative	六级	science	science-measuring	science-variables	measurement	editorial-draft	cet6	none
+dl-variable	variable	六级	science	science-measuring	science-variables	vary	editorial-draft	cet4 cet6	none
+dl-variation	variation	六级	science	science-measuring	science-variables	vary	editorial-draft	cet4 cet6	none
+dl-correlate	correlate	六级	science	science-evidence	science-causes	correlate	editorial-draft	cet6	none
+dl-correlation	correlation	六级	science	science-evidence	science-causes	correlate	editorial-draft	cet6	none
+dl-causal	causal	六级	science	science-evidence	science-causes	cause	editorial-draft	cet6	none
+dl-causality	causality	六级	science	science-evidence	science-causes	cause	editorial-draft		none
+dl-verify	verify	六级	science	science-evidence	science-verifying	verify	editorial-draft	cet4 cet6	none
+dl-verification	verification	六级	science	science-evidence	science-verifying	verify	editorial-draft		none
+dl-replicate	replicate	六级	science	science-evidence	science-verifying	replicate	editorial-draft		none
+dl-replication	replication	六级	science	science-evidence	science-verifying	replicate	editorial-draft		none
+dl-phenomenon	phenomenon	六级	science	science-evidence	science-verifying	scientific-reasoning	editorial-draft	cet4 cet6 gk	none
+dl-legislate	legislate	六级	civic	civic-governance	civic-legislation	legislate	editorial-draft		none
+dl-legislation	legislation	六级	civic	civic-governance	civic-legislation	legislate	editorial-draft	cet4 cet6	none
+dl-legislative	legislative	六级	civic	civic-governance	civic-legislation	legislate	editorial-draft		none
+dl-democracy	democracy	六级	civic	civic-governance	civic-legislation	democracy	editorial-draft	cet4 cet6	none
+dl-democratic	democratic	六级	civic	civic-governance	civic-legislation	democracy	editorial-draft	cet4 cet6	none
+dl-autonomy	autonomy	六级	civic	civic-governance	civic-autonomy	autonomy	editorial-draft		none
+dl-autonomous	autonomous	六级	civic	civic-governance	civic-autonomy	autonomy	editorial-draft	gk	none
+dl-participatory	participatory	六级	civic	civic-governance	civic-autonomy	civic-practices	editorial-draft		none
+dl-collaborate	collaborate	六级	civic	civic-cooperation	civic-working	collaborate	editorial-draft	cet4 cet6	none
+dl-collaboration	collaboration	六级	civic	civic-cooperation	civic-working	collaborate	editorial-draft	cet6	none
+dl-coordinate	coordinate	六级	civic	civic-cooperation	civic-working	coordinate	editorial-draft	cet4 cet6	none
+dl-coordination	coordination	六级	civic	civic-cooperation	civic-working	coordinate	editorial-draft		none
+dl-integrate	integrate	六级	civic	civic-cooperation	civic-working	integrate	editorial-draft	cet4 cet6	none
+dl-integration	integration	六级	civic	civic-cooperation	civic-working	integrate	editorial-draft		none
+dl-inclusion	inclusion	六级	civic	civic-cooperation	civic-inclusion	civic-practices	editorial-draft		none
+dl-exclusion	exclusion	六级	civic	civic-cooperation	civic-inclusion	civic-practices	editorial-draft		none
+dl-diverse	diverse	六级	civic	civic-cooperation	civic-inclusion	diverse	editorial-draft	cet4 cet6 gk	none
+dl-diversity	diversity	六级	civic	civic-cooperation	civic-inclusion	diverse	editorial-draft		none
+dl-equity	equity	六级	civic	civic-cooperation	civic-inclusion	civic-practices	editorial-draft		none
+dl-inequality	inequality	六级	civic	civic-cooperation	civic-inclusion	civic-practices	editorial-draft		none
+dl-allocate	allocate	六级	civic	civic-responsibility	civic-implementation	allocate	editorial-draft	cet6 gk	none
+dl-allocation	allocation	六级	civic	civic-responsibility	civic-implementation	allocate	editorial-draft		none
+dl-implement	implement	六级	civic	civic-responsibility	civic-implementation	implement	editorial-draft	cet4 cet6	none
+dl-implementation	implementation	六级	civic	civic-responsibility	civic-implementation	implement	editorial-draft		none
+dl-accountability	accountability	六级	civic	civic-responsibility	civic-implementation	civic-practices	editorial-draft		none
+dl-transparent	transparent	六级	civic	civic-responsibility	civic-legitimacy	transparent	editorial-draft	cet4 cet6 gk	none
+dl-transparency	transparency	六级	civic	civic-responsibility	civic-legitimacy	transparent	editorial-draft		none
+dl-consensus	consensus	六级	civic	civic-responsibility	civic-legitimacy	civic-practices	editorial-draft	cet6 gk	none
+dl-legitimate	legitimate	六级	civic	civic-responsibility	civic-legitimacy	legitimate	editorial-draft	cet6	none
+dl-legitimacy	legitimacy	六级	civic	civic-responsibility	civic-legitimacy	legitimate	editorial-draft		none

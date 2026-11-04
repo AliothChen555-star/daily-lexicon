@@ -1,8 +1,8 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { Capacitor } from '@capacitor/core';
 import { App as NativeApp } from '@capacitor/app';
-import { assetUrl, content, wordById, wordIds, type Word } from './content';
-import { activeEvents, courseQueue, createState, ensureDaily, exportBackup, gradeWord, initializeEngine, parseBackup, restoreBackup, setNote, shuffle, startRound, studyDay, toggleBookmark, undoLast, updateSettings, MODE_NAMES, type AppState, type Backup, type Grade, type OrderMode, type StudyMode } from './engine';
+import { assetUrl, content, wordById, wordIds, words, topics, families, type Word } from './content';
+import { activeEvents, courseQueue, createState, currentRound, ensureDaily, migrateState, exportBackup, gradeWord, initializeEngine, parseBackup, restoreBackup, setNote, shuffle, startRound, studyDay, toggleBookmark, undoLast, updateSettings, MODE_NAMES, type AppState, type Backup, type Grade, type OrderMode, type StudyMode } from './engine';
 import { latestRecovery, loadState, persistState, preserveRecovery } from './storage';
 import { saveBackupFile } from './native';
 import { Dialog, Icon, WordBody } from './components';
@@ -55,10 +55,11 @@ export default function App() {
     let cancelled = false;
     void Promise.all([initializeEngine(), loadState(), latestRecovery()]).then(async ([, saved, recovery]) => {
       if (cancelled) return;
-      if (saved && (saved.schema !== 1 || saved.packId !== content.id)) throw new Error('本地档案与当前版本不兼容，请保留应用数据并联系维护者。');
-      const initial = ensureDaily(saved ?? createState());
+      const initial = saved ? migrateState(saved) : createState();
+      const upgraded=!!saved && (saved.packId!==initial.packId || saved.contentVersion!==initial.contentVersion);
+      if(saved && upgraded) await preserveRecovery(saved);
       await persistState(initial);
-      if (!cancelled) { stateRef.current = initial; setState(initial); setHasRecovery(!!recovery); }
+      if (!cancelled) { stateRef.current = initial; setState(initial); setHasRecovery(!!recovery || upgraded); }
     }).catch(e => { if (!cancelled) setStartupError(message(e)); });
     return () => { cancelled = true; };
   }, []);
@@ -142,7 +143,7 @@ export default function App() {
   const recover = async () => {
     try {
       const saved = await latestRecovery(); if (!saved) throw new Error('没有找到可恢复的档案。');
-      await commit(() => ensureDaily(saved)); setRecoveryDialog(false); setSession(null); setToast('已恢复导入前的档案。'); navigate('archive');
+      await commit(() => migrateState(saved)); setRecoveryDialog(false); setSession(null); setToast('已恢复保留的档案并匹配当前词包。'); navigate('archive');
     } catch (e) { setToast(message(e)); }
   };
   const undo = async () => {
@@ -167,22 +168,23 @@ export default function App() {
       <div className="masthead-top"><span>一日一页，读词有序</span><span>免费开源 / 离线可读</span></div>
       <div className="masthead-main"><div className="date-block"><span>{new Intl.DateTimeFormat('zh-CN',{ year: 'numeric',month:'long',day:'numeric',timeZone:'Asia/Shanghai' }).format(now)}</span><small>{new Intl.DateTimeFormat('zh-CN',{weekday:'long',timeZone:'Asia/Shanghai'}).format(now)}　·　本地版</small></div>
         <button className="brand" onClick={() => navigate('today')} aria-label="词汇日报首页"><strong>词汇日报</strong><span lang="en">The Daily Lexicon</span></button>
-        <div className="issue-block"><span className="issue-stamp">试刊号</span><small>120 词试用版</small></div></div>
+        <div className="issue-block"><span className="issue-stamp">试刊号</span><small>{words.length} 词试用版</small></div></div>
       <nav className="main-nav" aria-label="主导航"><div className="nav-sections">{NAV.map(item => <button key={item.id} className={view === item.id ? 'selected' : ''} aria-current={view === item.id ? 'page' : undefined} onClick={() => navigate(item.id)}>{item.title}</button>)}</div><div className="nav-tools"><span className="local-status"><i/>记录保存在本机</span><button className={`icon-button ${view === 'settings' ? 'selected' : ''}`} aria-label="学习设置" onClick={() => navigate('settings')}><Icon name="settings"/></button></div></nav>
     </header>
-    {view === 'today' && <TodayPage state={state} now={now} begin={begin} onWord={setDrawer} play={play} navigate={navigate} onNext={() => setConfirmMode('random')}/>}
-    {view === 'study' && <StudyPage state={state} now={now} session={session} word={studyWord} flipped={flipped} grading={grading} flip={() => setFlipped(true)} grade={submitGrade} begin={begin} onWord={setDrawer} play={play} playing={playing} onBookmark={id => act(s => toggleBookmark(s,id))} undo={undo} home={() => navigate('today')} onNext={() => setConfirmMode('random')}/>}
+    {view==='today' && state.contentUpdate && !state.contentUpdate.dismissed && <aside className="content-update" aria-label="词包升级说明"><div><strong>本期增补 {state.contentUpdate.addedWords} 词，旧记录已保留。</strong><p>{currentRound(state).order.length===words.length ? '原有学习记录、收藏和笔记继续使用；今天仍按原配额安排，不重新发放一份课程。' : `当前${currentRound(state).order.length}词轮次先按原顺序读完，随后进入${words.length}词语义轮。`}</p></div><button className="icon-button" aria-label="收起词包升级说明" onClick={()=>act(s=>({...s,contentUpdate:s.contentUpdate?{...s.contentUpdate,dismissed:true}:undefined}))}><Icon name="close" size={18}/></button></aside>}
+    {view === 'today' && <TodayPage state={state} now={now} begin={begin} onWord={setDrawer} play={play} navigate={navigate} onNext={() => setConfirmMode(currentRound(state).order.length!==words.length?'semantic':'random')}/>}
+    {view === 'study' && <StudyPage state={state} now={now} session={session} word={studyWord} flipped={flipped} grading={grading} flip={() => setFlipped(true)} grade={submitGrade} begin={begin} onWord={setDrawer} play={play} playing={playing} onBookmark={id => act(s => toggleBookmark(s,id))} undo={undo} home={() => navigate('today')} onNext={() => setConfirmMode(currentRound(state).order.length!==words.length?'semantic':'random')}/>}
     {view === 'library' && <LibraryPage state={state} onWord={setDrawer} play={play} onBookmark={id => act(s => toggleBookmark(s,id))}/>}
     {view === 'roots' && <RootsPage onWord={setDrawer}/>}
     {view === 'archive' && <ArchivePage state={state} now={now} onWord={setDrawer} exportProgress={exportProgress} importProgress={() => file.current?.click()} begin={begin}/>}
     {view === 'settings' && <SettingsPage state={state} onSettings={settings => act(s => updateSettings(s,settings))} onMode={setConfirmMode} exportProgress={exportProgress} importProgress={() => file.current?.click()} hasRecovery={hasRecovery} recover={() => setRecoveryDialog(true)} about={() => setAbout(true)}/>}
-    <footer className="paper-footer"><span>词汇日报 <span lang="en">The Daily Lexicon</span></span><span className="footer-motto">让积累，有迹可循。</span><button onClick={() => setAbout(true)}>关于本刊 · v0.1</button></footer>
+    <footer className="paper-footer"><span>词汇日报 <span lang="en">The Daily Lexicon</span></span><span className="footer-motto">让积累，有迹可循。</span><button onClick={() => setAbout(true)}>关于本刊 · v{content.version.replace(/\.0$/,'')}</button></footer>
     <input ref={file} type="file" accept="application/json,.json" hidden onChange={e => { const chosen = e.target.files?.[0]; e.target.value = ''; if (!chosen) return; if (chosen.size > 15*1024*1024) { setToast('备份超过15MB，请检查文件是否正确。'); return; } void chosen.text().then(text => setPendingBackup(parseBackup(text))).catch(e => setToast(message(e))); }}/>
     {drawer && <Dialog title="词条详页" wide onClose={() => setDrawer(null)}><div className="word-drawer"><div className="drawer-word"><h2 lang="en">{drawer.word}</h2><button className="icon-button" aria-label="收藏当前词条" aria-pressed={state.bookmarks.includes(drawer.id)} onClick={() => act(s => toggleBookmark(s,drawer.id))}><Icon name="bookmark"/></button></div><div className="pronunciation"><span>{drawer.ipa}</span><button className="sound-button" onClick={() => play(drawer.audio)}><Icon name="sound" size={18}/> 美音</button></div><WordBody word={drawer} onWord={setDrawer} play={play}/><section className="personal-note"><label htmlFor="personal-note">我的笔记</label><textarea id="personal-note" value={note} maxLength={5000} onChange={e => setNoteText(e.target.value)} placeholder="记下一次联想，或一个自己的例句。"/><button className="secondary" onClick={() => act(s => setNote(s,drawer.id,note),'笔记已保存。')}>保存笔记</button></section></div></Dialog>}
-    {confirmMode && <Dialog title="开始新一轮学习" onClose={() => setConfirmMode(null)}><p>按「{MODE_NAMES[confirmMode]}」重新排好全部 120 个词，开始一轮完整学习。</p><p className="muted">当前未完成的轮次会标为提前切换。已有学习记录、复习安排和笔记会继续保留。</p><div className="dialog-actions"><button className="secondary" onClick={() => setConfirmMode(null)}>继续当前轮次</button><button className="primary" onClick={() => { const mode=confirmMode; void commit(s => startRound(s,mode)).then(() => { setConfirmMode(null); setSession(null); navigate('today'); }).catch(e => setToast(message(e))); }}>开始新一轮</button></div></Dialog>}
+    {confirmMode && <Dialog title="开始新一轮学习" onClose={() => setConfirmMode(null)}><p>按「{MODE_NAMES[confirmMode]}」重新排好全部 {words.length} 个词，开始一轮完整学习。</p><p className="muted">当前未完成的轮次会标为提前切换。已有学习记录、复习安排和笔记会继续保留。</p><div className="dialog-actions"><button className="secondary" onClick={() => setConfirmMode(null)}>继续当前轮次</button><button className="primary" onClick={() => { const mode=confirmMode; void commit(s => startRound(s,mode)).then(() => { setConfirmMode(null); setSession(null); navigate('today'); }).catch(e => setToast(message(e))); }}>开始新一轮</button></div></Dialog>}
     {pendingBackup && <Dialog title="导入学习备份" onClose={() => setPendingBackup(null)}><p>这份备份包含 {pendingBackup.events.length} 条学习记录、{pendingBackup.rounds.length} 轮课程和 {pendingBackup.bookmarks.length} 个收藏词。</p><p className="muted">{pendingBackup.profileId === state.profileId ? '同一档案的记录会按标识合并，重复导入不会增加学习次数。' : '这份备份属于另一个学习档案。导入后将使用该档案，当前档案会先保存恢复副本。'} 两台设备请先导入同一份备份，再交替学习与导出。</p><div className="dialog-actions"><button className="secondary" onClick={() => setPendingBackup(null)}>取消</button><button className="primary" onClick={() => void importProgress()}>确认导入</button></div></Dialog>}
-    {recoveryDialog && <Dialog title="恢复导入前的档案" onClose={() => setRecoveryDialog(false)}><p>将恢复最近一次导入之前保留的档案。若需要保留当前进度，请先导出备份。</p><div className="dialog-actions"><button className="secondary" onClick={() => void exportProgress()}>先导出当前档案</button><button className="primary" onClick={() => void recover()}>恢复旧档案</button></div></Dialog>}
-    {about && <Dialog title="关于词汇日报" onClose={() => setAbout(false)}><div className="about-copy"><p className="serif">每天三十词，慢慢读出自己的词汇地图。</p><p>本刊免费、开源，无广告、无账户。所有词卡、音频与学习记录都可以离线使用。</p><p>这是 120 词初版：4 个语义主题，46 组词根、词族及独立词条。基础、四级、六级标签仅供参考，尚未对照正式词表逐条审核。</p><p>释义、搭配和双语例句为原创试编内容（CC BY-SA 4.0）。美音由 Piper / LJSpeech 在本地合成；音标、重音与内容仍待完整人工校审。词根与现代词族分开标注，无法可靠拆分的词保留为独立词条。</p><p>学习安排采用 FSRS-6。程序以 GPL-3.0 开源，字体采用 OFL。初版支持文件备份互通，完整六级词库与自动同步将后续加入。</p><p><a href="https://github.com/OHF-Voice/piper1-gpl" target="_blank" rel="noreferrer">Piper 项目</a><a href="https://en.wiktionary.org/" target="_blank" rel="noreferrer">构词参考：Wiktionary</a></p></div></Dialog>}
+    {recoveryDialog && <Dialog title="恢复保留的档案" onClose={() => setRecoveryDialog(false)}><p>将恢复最近一次导入或词包升级之前保留的档案，并匹配当前词包。若需要保留当前进度，请先导出备份。</p><div className="dialog-actions"><button className="secondary" onClick={() => void exportProgress()}>先导出当前档案</button><button className="primary" onClick={() => void recover()}>恢复旧档案</button></div></Dialog>}
+    {about && <Dialog title="关于词汇日报" onClose={() => setAbout(false)}><div className="about-copy"><p className="serif">每天三十词，慢慢读出自己的词汇地图。</p><p>本刊免费、开源，无广告、无账户。所有词卡、音频与学习记录都可以离线使用。</p><p>当前为 {words.length} 词试用包：{topics.length} 个语义主题，{families.length} 组构词线索。语义目录按主题、场景和概念分为三层。基础、四级、六级标签仅供参考，尚未对照正式词表逐条审核。</p><p>释义、搭配和双语例句为原创试编内容（CC BY-SA 4.0）。美音由 Piper / LJSpeech 在本地合成；音标、重音与内容仍待完整人工校审。词根与现代词族分开标注，独立词的语境分组不表示共同词源。</p><p>学习安排采用 FSRS-6。程序以 GPL-3.0 开源，字体采用 OFL。支持旧版档案升级和文件备份互通；完整六级词库与自动同步仍在后续任务中。</p><p><a href="https://github.com/OHF-Voice/piper1-gpl" target="_blank" rel="noreferrer">Piper 项目</a><a href="https://en.wiktionary.org/" target="_blank" rel="noreferrer">构词参考：Wiktionary</a></p></div></Dialog>}
     {toast && <div className="toast" role="status" aria-live="polite">{toast}</div>}
   </div>;
 }

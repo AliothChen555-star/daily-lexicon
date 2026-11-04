@@ -1,6 +1,6 @@
 import { DefaultScheduler, Rating } from 'ts-fsrs';
 import { z } from 'zod';
-import { content, wordIds, wordById, families } from './content';
+import { content, wordIds, wordById, families, acceptedPackIds, catalogVersion, legacyCatalog } from './content';
 
 const createScheduler = () => DefaultScheduler({
   version: 'FSRS-6', desiredRetention: 0.9, enableFuzz: false,
@@ -25,6 +25,7 @@ export interface ReviewEvent {
 export interface Round {
   id: string; index: number; mode: OrderMode; order: string[]; startedAt: string;
   status: 'active' | 'complete' | 'skipped'; finishedDay?: string;
+  contentVersion?: string;
 }
 export interface DailyPlan { day: string; roundId: string; words: string[] }
 export interface Settings { dailyTarget: number; autoAudio: boolean; showIpa: boolean; largeText: boolean }
@@ -33,6 +34,8 @@ export interface AppState {
   settings: Settings; rounds: Round[]; plans: Record<string, DailyPlan>;
   events: ReviewEvent[]; revoked: string[]; memory: Record<string, StoredCard>;
   notes: Record<string, string>; bookmarks: string[];
+  contentVersion?: string;
+  contentUpdate?: { fromVersion: string; toVersion: string; addedWords: number; policy: 'extended-semantic' | 'finish-legacy'; dismissed: boolean };
 }
 export const MODE_NAMES: Record<OrderMode, string> = { semantic: '语义分块', roots: '词根与词族', random: '全量乱序' };
 const iso = (date: Date) => date.toISOString();
@@ -52,11 +55,34 @@ export function shuffle<T>(input: T[], seed: string) {
 export function makeRound(profileId: string, index: number, mode: OrderMode, now: Date): Round {
   const id = `${profileId}:${index}:${mode}:${content.id}`;
   const order = mode === 'semantic' ? [...wordIds] : mode === 'roots' ? families.flatMap(f => f.words) : shuffle(wordIds, id);
-  return { id, index, mode, order, startedAt: iso(now), status: 'active' };
+  return { id, index, mode, order, startedAt: iso(now), status: 'active', contentVersion:content.version };
 }
+function upgradeContent(input: AppState): AppState {
+  if(input.schema!==1 || !acceptedPackIds.includes(input.packId)) throw new Error('本地档案与当前词包不兼容，请保留数据并联系维护者。');
+  if(input.packId===content.id && input.contentVersion===content.version) return input;
+  if(!input.rounds?.length || input.rounds.some(r=>!catalogVersion(r.order))) throw new Error('旧档案的课程词目无法核对，已保留原档案。');
+  if(input.events.some(e=>!knownWords.has(e.wordId))) throw new Error('旧档案含有本词包不支持的词条，已保留原档案。');
+  const state=clone(input);
+  state.packId=content.id; state.contentVersion=content.version;
+  for(const round of state.rounds) round.contentVersion=catalogVersion(round.order);
+  const round=currentRound(state);
+  const oldVersion=round.contentVersion ?? legacyCatalog.version;
+  let policy:'extended-semantic'|'finish-legacy'='finish-legacy';
+  if(round.mode==='semantic' && round.contentVersion!==content.version) {
+    const existing=new Set(round.order);
+    round.order=[...round.order,...wordIds.filter(id=>!existing.has(id))];
+    round.contentVersion=content.version;
+    round.status=coveredWords(state).size===round.order.length ? 'complete' : 'active';
+    if(round.status!=='complete') delete round.finishedDay;
+    policy='extended-semantic';
+  }
+  state.contentUpdate={fromVersion:oldVersion,toVersion:content.version,addedWords:wordIds.length-legacyCatalog.wordIds.length,policy,dismissed:false};
+  return state;
+}
+export function migrateState(input: AppState, now=new Date()) { return ensureDaily(input,now); }
 export function createState(now = new Date(), profileId: string = crypto.randomUUID(), deviceId: string = crypto.randomUUID()): AppState {
   const s: AppState = {
-    schema: 1, packId: content.id, profileId, deviceId, createdAt: iso(now),
+    schema: 1, packId: content.id, contentVersion:content.version, profileId, deviceId, createdAt: iso(now),
     settings: { dailyTarget: 30, autoAudio: false, showIpa: true, largeText: false },
     rounds: [makeRound(profileId, 0, 'semantic', now)], plans: {}, events: [], revoked: [], memory: {}, notes: {}, bookmarks: [],
   };
@@ -76,12 +102,13 @@ export function getPlan(state: AppState, now = new Date()): DailyPlan {
   return state.plans[planKey(state, now)] ?? { day: studyDay(now), roundId: currentRound(state).id, words: [] };
 }
 export function ensureDaily(input: AppState, now = new Date()) {
-  let state = input;
+  let state = upgradeContent(input);
   let round = currentRound(state);
   const day = studyDay(now);
-  if (round.status === 'complete' && round.finishedDay! < day && round.mode !== 'random') {
+  const legacyRound=(round.contentVersion ?? catalogVersion(round.order))!==content.version;
+  if (round.status === 'complete' && round.finishedDay! < day && (round.mode !== 'random' || legacyRound)) {
     state = clone(state);
-    const mode = round.mode === 'semantic' ? 'roots' : 'random';
+    const mode = legacyRound ? 'semantic' : round.mode === 'semantic' ? 'roots' : 'random';
     state.rounds.push(makeRound(state.profileId, round.index + 1, mode, now));
     round = currentRound(state);
   }
@@ -211,23 +238,27 @@ const eventSchema = z.object({
   id: idSchema, wordId: wordIdSchema, grade: z.union([z.literal(1), z.literal(2), z.literal(3), z.literal(4)]),
   occurredAt: dateSchema, day: daySchema, roundId: idSchema.nullable(), role: z.enum(['course','review','free']), deviceId: idSchema, sequence: z.number().int().positive(),
 });
-const roundSchema = z.object({ id: idSchema, index: z.number().int().nonnegative(), mode: z.enum(['semantic','roots','random']), order: z.array(wordIdSchema).length(wordIds.length).refine(x => new Set(x).size === wordIds.length), startedAt: dateSchema, status: z.enum(['active','complete','skipped']), finishedDay: daySchema.optional() });
+const roundSchema = z.object({ id: idSchema, index: z.number().int().nonnegative(), mode: z.enum(['semantic','roots','random']), order: z.array(wordIdSchema).max(wordIds.length).refine(x => !!catalogVersion(x)), startedAt: dateSchema, status: z.enum(['active','complete','skipped']), finishedDay: daySchema.optional(),contentVersion:z.string().max(30).optional() });
 const settingsSchema = z.object({ dailyTarget: z.number().int().min(5).max(100), autoAudio: z.boolean(), showIpa: z.boolean(), largeText: z.boolean() });
 const backupSchema = z.object({
-  format: z.literal('daily-lexicon-backup'), version: z.literal(1), packId: z.literal(content.id), exportedAt: dateSchema,
+  format: z.literal('daily-lexicon-backup'), version: z.union([z.literal(1),z.literal(2)]), packId: z.string().refine(id=>acceptedPackIds.includes(id)), exportedAt: dateSchema,
+  contentVersion:z.string().max(30).optional(),
   profileId: idSchema, createdAt: dateSchema, settings: settingsSchema,
   rounds: z.array(roundSchema).min(1).max(1000), events: z.array(eventSchema).max(100000), revoked: z.array(idSchema).max(100000),
   notes: z.record(wordIdSchema, z.string().max(5000)), bookmarks: z.array(wordIdSchema).max(wordIds.length),
 });
 export type Backup = z.infer<typeof backupSchema>;
 export function exportBackup(state: AppState, now = new Date()) {
-  return JSON.stringify({ format: 'daily-lexicon-backup', version: 1, packId: state.packId, exportedAt: iso(now), profileId: state.profileId, createdAt: state.createdAt,
+  return JSON.stringify({ format: 'daily-lexicon-backup', version: 2, packId: content.id, contentVersion:content.version, exportedAt: iso(now), profileId: state.profileId, createdAt: state.createdAt,
     settings: state.settings, rounds: state.rounds, events: state.events, revoked: state.revoked, notes: state.notes, bookmarks: state.bookmarks }, null, 2);
 }
 export function parseBackup(text: string): Backup {
   if (text.length > 15 * 1024 * 1024) throw new Error('备份超过15MB，请检查文件是否正确。');
   let parsed: Backup;
   try { parsed = backupSchema.parse(JSON.parse(text)); } catch { throw new Error('这不是兼容的词汇日报备份，或文件已损坏。'); }
+  if((parsed.version===1 && parsed.packId!==legacyCatalog.id) || (parsed.version===2 && parsed.packId!==content.id)) throw new Error('备份格式与词包版本不匹配。');
+  if(parsed.rounds.some(r=>r.contentVersion && r.contentVersion!==catalogVersion(r.order))) throw new Error('备份中的课程词包版本与词目不一致。');
+  if(parsed.version===1 && parsed.rounds.some(r=>catalogVersion(r.order)!==legacyCatalog.version)) throw new Error('旧版备份含有不兼容的课程词目。');
   if (new Set(parsed.events.map(e => e.id)).size !== parsed.events.length) throw new Error('备份中含有重复的学习记录标识。');
   const rounds = new Set(parsed.rounds.map(r => r.id));
   if (rounds.size !== parsed.rounds.length || new Set(parsed.rounds.map(r=>r.index)).size !== parsed.rounds.length) throw new Error('备份中含有重复或分叉的课程轮次。');
@@ -237,12 +268,17 @@ export function parseBackup(text: string): Backup {
   return parsed;
 }
 export function restoreBackup(input: AppState, backup: Backup, now = new Date()) {
+  input=upgradeContent(input);
+  const incoming=upgradeContent({schema:1,packId:backup.packId,contentVersion:backup.contentVersion,profileId:backup.profileId,deviceId:input.deviceId,createdAt:backup.createdAt,
+    settings:clone(backup.settings),rounds:clone(backup.rounds),events:clone(backup.events),revoked:[...backup.revoked],memory:{},plans:{},notes:{...backup.notes},bookmarks:[...backup.bookmarks]});
+  backup={...backup,packId:content.id,contentVersion:content.version,rounds:incoming.rounds};
   const same = input.profileId === backup.profileId;
   const state = clone(input);
   if (!same) {
     state.profileId = backup.profileId; state.createdAt = backup.createdAt;
     state.rounds = clone(backup.rounds); state.events = clone(backup.events); state.revoked = [...backup.revoked];
     state.notes = { ...backup.notes }; state.bookmarks = [...backup.bookmarks]; state.settings = { ...backup.settings };
+    state.contentUpdate=incoming.contentUpdate;
   } else {
     const events = new Map(state.events.map(e => [e.id, e]));
     for (const e of backup.events) {

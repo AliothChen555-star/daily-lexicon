@@ -15,6 +15,7 @@
 | en_US-ljspeech-medium | 美音合成模型 | 模型说明见随附model card；https://huggingface.co/rhasspy/piper-voices/tree/main/en/en_US/ljspeech/medium |
 | LJSpeech数据 | 语音模型训练来源 | Public domain；https://keithito.com/LJ-Speech-Dataset/ |
 | Wiktionary | 构词校对参考链接 | 项目未批量复制其释义；https://en.wiktionary.org/ |
+| ECDICT | 仅用于候选范围的拼写和分级标签 | MIT；固定提交、原始SHA-256与采用字段见content/scope/source.json，原许可见content/scope/ECDICT-LICENSE；https://github.com/skywind3000/ECDICT |
 
 词卡中文释义、搭配、英汉例句和构词提示均为本项目试编内容，不包含从商业词典抓取的正文。音频为本地生成。模型、Piper引擎与语音工具链不随运行时打包；已附生成脚本和来源记录。
 

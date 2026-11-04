@@ -1,5 +1,5 @@
 import { useEffect, useRef, type ReactNode } from 'react';
-import { familyById, wordById, type Bilingual, type Word } from './content';
+import { familyById, wordById, topicById, sceneById, conceptById, type Bilingual, type Word } from './content';
 import { activeEvents, studyDay, type AppState } from './engine';
 
 export function Icon({ name, size = 20 }: { name: string; size?: number }) {
@@ -32,10 +32,11 @@ export function Highlight({ text, word }: { text: string; word: string }) {
 export function WordBody({ word, play, onWord }: { word: Word; play: (path: string) => void; onWord: (word: Word) => void }) {
   const family = familyById.get(word.family)!;
   return <div className="word-body">
+    <p className="word-location" aria-label="单词的语义位置">{topicById.get(word.topic)?.label}<span> / </span>{sceneById.get(word.scene)?.label}<span> / </span>{conceptById.get(word.concept)?.label}</p>
     <div className="definition"><span className="part-of-speech">{word.pos}</span><p>{word.meaning}</p></div>
     <section><h3>常用搭配</h3><ul className="phrase-list">{word.phrases.map((p: Bilingual) => <li key={p.en}><span lang="en">{p.en}</span><span>{p.zh}</span></li>)}</ul></section>
     <section><h3>在句子里认识它</h3>{word.examples.map((example: Bilingual) => <div className="example" key={example.en}><div className="example-en"><p lang="en"><Highlight text={example.en} word={word.word}/></p>{example.audio && <button className="icon-button small" aria-label={`朗读例句：${example.en}`} onClick={() => play(example.audio!)}><Icon name="sound" size={18}/></button>}</div><p className="translation">{example.zh}</p></div>)}</section>
-    <section className="family-note"><h3>{family.kind === 'root' ? '词根线索' : family.kind === 'family' ? '词族线索' : '词源提示'}<span lang="en">{family.label}</span></h3><p>{family.note}</p><div className="related-words">{family.words.filter(id => id !== word.id).map(id => <button key={id} onClick={() => onWord(wordById.get(id)!)}>{wordById.get(id)!.word}</button>)}</div></section>
+    <section className="family-note"><h3>{family.kind === 'root' ? '词根线索' : family.kind === 'family' ? '词族线索' : '独立词说明'}<span>{family.label}</span></h3><p>{family.note}</p>{family.kind!=='independent' && <div className="related-words">{family.words.filter(id => id !== word.id).map(id => <button key={id} onClick={() => onWord(wordById.get(id)!)}>{wordById.get(id)!.word}</button>)}</div>}</section>
     {word.forms.length > 0 && <section className="word-forms"><h3>词形参考</h3><p>{word.forms.join('　 /　 ')}</p></section>}
   </div>;
 }

@@ -1,0 +1,91 @@
+{
+  "id": "ecdict-scope",
+  "title": "ECDICT spellings and level labels",
+  "repository": "https://github.com/skywind3000/ECDICT",
+  "revision": "39cfb9672c0906b63569e0453c2e6abfb9ab182a",
+  "url": "https://raw.githubusercontent.com/skywind3000/ECDICT/39cfb9672c0906b63569e0453c2e6abfb9ab182a/ecdict.csv",
+  "fetchedAt": "2026-11-04T07:24:27.518202+00:00",
+  "rawSha256": "d1ecbdf9ee2b920afb6f430ca6b6bb9f559588cf0dff86e04bd255f9390843cc",
+  "license": "MIT",
+  "licenseFile": "ECDICT-LICENSE",
+  "adoptedFields": [
+    "word",
+    "tag"
+  ],
+  "omittedFields": [
+    "definition",
+    "translation",
+    "phonetic",
+    "pos",
+    "collins",
+    "oxford",
+    "bnc",
+    "frq",
+    "exchange",
+    "detail",
+    "audio"
+  ],
+  "rawRows": 770611,
+  "candidateWords": 7109,
+  "deferredEntries": [
+    {
+      "word": "b.c.",
+      "tags": [
+        "cet4"
+      ],
+      "reason": "requires-entry-type-review"
+    },
+    {
+      "word": "i.e.",
+      "tags": [
+        "cet4",
+        "cet6"
+      ],
+      "reason": "requires-entry-type-review"
+    },
+    {
+      "word": "ice cream",
+      "tags": [
+        "zk"
+      ],
+      "reason": "requires-entry-type-review"
+    },
+    {
+      "word": "mr.",
+      "tags": [
+        "gk",
+        "zk"
+      ],
+      "reason": "requires-entry-type-review"
+    },
+    {
+      "word": "ms.",
+      "tags": [
+        "gk",
+        "zk"
+      ],
+      "reason": "requires-entry-type-review"
+    },
+    {
+      "word": "no.",
+      "tags": [
+        "gk"
+      ],
+      "reason": "requires-entry-type-review"
+    },
+    {
+      "word": "p.m.",
+      "tags": [
+        "cet4"
+      ],
+      "reason": "requires-entry-type-review"
+    }
+  ],
+  "normalization": "NFKC、去除首尾空白、小写作为去重键。源大小写拼写保存在spelling-variants.json，制作词卡时按原拼写人工裁定。",
+  "caseVariantWords": 116,
+  "caseVariantsFile": "spelling-variants.json",
+  "officialVerification": "pending",
+  "notes": "仅用于候选范围清点；不复制上游释义、例句或发音，不声称已与正式大纲逐条核对。保留所有级别标签，基础、四级、六级取并集。",
+  "adoptedSha256": "4fc7efd006d8b0ac1c370e9a92d848d36aa4a2495e563f8032673c28b3f4321a",
+  "licenseSha256": "f8552dd246f61a4e064569eae6194a01c6b3d63b03bf27c6ca863593c549ed0f"
+}

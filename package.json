@@ -1,6 +1,6 @@
 {
   "name": "daily-lexicon",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "description": "词汇日报 — 每日三十词的离线英语词卡应用",
   "license": "GPL-3.0-only",

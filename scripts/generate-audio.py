@@ -12,6 +12,12 @@ OUT.mkdir(parents=True,exist_ok=True)
 content=json.loads((ROOT/'src/data/content.json').read_text(encoding='utf-8'))
 voice=PiperVoice.load(str(VOICE/'en_US-ljspeech-medium.onnx'))
 config=SynthesisConfig(length_scale=1.04,noise_scale=0.5,noise_w_scale=0.65)
+overrides={
+    'suspect.wav':'səspˈɛkt.','transport.wav':'tɹˈænspɔːɹt.','dictate.wav':'dˈɪkteɪt.',
+    'live.wav':'lˈɪv.','use.wav':'jˈuːz.','house.wav':'hˈaʊs.',
+    'frequent.wav':'fɹˈiːkwənt.','coordinate.wav':'koʊˈɔːɹdɪneɪt.',
+    'legitimate.wav':'lɪdʒˈɪtəmət.','replicate.wav':'ɹˈɛplɪkeɪt.',
+}
 manifest=[]
 for index,word in enumerate(content['words']):
     pieces=[(word['word']+'.', word['word']+'.wav')]+[(x['en'],word['word']+'--'+str(n+1)+'.wav') for n,x in enumerate(word['examples'])]
@@ -19,11 +25,10 @@ for index,word in enumerate(content['words']):
         target=OUT/filename
         generated_text='reed.' if filename=='read.wav' else text
         phonemes=voice.phonemize(generated_text)
-        if filename in ['suspect.wav','transport.wav','dictate.wav']:
-            override={'suspect.wav':'səspˈɛkt.','transport.wav':'tɹˈænspɔːɹt.','dictate.wav':'dˈɪkteɪt.'}[filename]
-            phonemes=[list(override)]
+        if filename in overrides:
+            phonemes=[list(overrides[filename])]
         if not target.exists():
-            if filename in ['suspect.wav','transport.wav','dictate.wav']:
+            if filename in overrides:
                 array=voice.phoneme_ids_to_audio(voice.phonemes_to_ids(phonemes[0]),config)
                 peak=float(np.max(np.abs(array)))
                 if peak>0: array=array/peak
