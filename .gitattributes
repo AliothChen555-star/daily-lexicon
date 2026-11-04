@@ -1,0 +1,10 @@
+* text=auto eol=lf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.wav binary
+*.woff2 binary
+*.png binary
+*.ico binary
+*.jar binary
+public/licenses/** -whitespace
+LICENSE -whitespace

@@ -1,0 +1,198 @@
+[
+  {
+    "name": "@capacitor/android",
+    "version": "8.6.0",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ionic-team/capacitor.git"
+    },
+    "files": [
+      "capacitor_android-8.6.0-LICENSE"
+    ]
+  },
+  {
+    "name": "@capacitor/app",
+    "version": "8.1.2",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ionic-team/capacitor-plugins.git"
+    },
+    "files": [
+      "capacitor_app-8.1.2-LICENSE"
+    ]
+  },
+  {
+    "name": "@capacitor/core",
+    "version": "8.6.0",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ionic-team/capacitor.git"
+    },
+    "files": [
+      "capacitor_core-8.6.0-LICENSE"
+    ]
+  },
+  {
+    "name": "tslib",
+    "version": "2.9.1",
+    "license": "0BSD",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Microsoft/tslib.git"
+    },
+    "files": [
+      "tslib-2.9.1-LICENSE.txt"
+    ]
+  },
+  {
+    "name": "@capacitor/filesystem",
+    "version": "8.1.5",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/ionic-team/capacitor-filesystem.git"
+    },
+    "files": [
+      "capacitor_filesystem-8.1.5-LICENSE"
+    ]
+  },
+  {
+    "name": "@capacitor/synapse",
+    "version": "1.0.4",
+    "license": "ISC",
+    "files": [
+      "capacitor_synapse-1.0.4-LICENSE.md"
+    ]
+  },
+  {
+    "name": "@capacitor/share",
+    "version": "8.0.3",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ionic-team/capacitor-plugins.git"
+    },
+    "files": [
+      "capacitor_share-8.0.3-LICENSE"
+    ]
+  },
+  {
+    "name": "@fontsource-variable/newsreader",
+    "version": "5.3.0",
+    "license": "OFL-1.1",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/fontsource/font-files.git",
+      "directory": "fonts/variable/newsreader"
+    },
+    "files": [
+      "fontsource-variable_newsreader-5.3.0-LICENSE"
+    ]
+  },
+  {
+    "name": "@fontsource-variable/noto-serif-sc",
+    "version": "5.3.1",
+    "license": "OFL-1.1",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/fontsource/font-files.git",
+      "directory": "fonts/variable/noto-serif-sc"
+    },
+    "files": [
+      "fontsource-variable_noto-serif-sc-5.3.1-LICENSE"
+    ]
+  },
+  {
+    "name": "dexie",
+    "version": "4.4.7",
+    "license": "Apache-2.0",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/dexie/Dexie.js.git"
+    },
+    "files": [
+      "dexie-4.4.7-LICENSE",
+      "dexie-4.4.7-NOTICE"
+    ]
+  },
+  {
+    "name": "react",
+    "version": "19.3.1",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/react/react.git",
+      "directory": "packages/react"
+    },
+    "files": [
+      "react-19.3.1-LICENSE"
+    ]
+  },
+  {
+    "name": "react-dom",
+    "version": "19.3.1",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/react/react.git",
+      "directory": "packages/react-dom"
+    },
+    "files": [
+      "react-dom-19.3.1-LICENSE"
+    ]
+  },
+  {
+    "name": "scheduler",
+    "version": "0.28.0",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/react/react.git",
+      "directory": "packages/scheduler"
+    },
+    "files": [
+      "scheduler-0.28.0-LICENSE"
+    ]
+  },
+  {
+    "name": "ts-fsrs",
+    "version": "6.0.0",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/open-spaced-repetition/ts-fsrs.git",
+      "directory": "packages/fsrs"
+    },
+    "files": [
+      "ts-fsrs-6.0.0-LICENSE"
+    ]
+  },
+  {
+    "name": "@open-spaced-repetition/srs-kit",
+    "version": "1.0.0",
+    "license": "BSD-3-Clause",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/open-spaced-repetition/ts-fsrs.git",
+      "directory": "packages/srs-kit"
+    },
+    "files": [
+      "open-spaced-repetition_srs-kit-1.0.0-LICENSE"
+    ]
+  },
+  {
+    "name": "zod",
+    "version": "4.6.7",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/colinhacks/zod.git"
+    },
+    "files": [
+      "zod-4.6.7-LICENSE"
+    ]
+  }
+]

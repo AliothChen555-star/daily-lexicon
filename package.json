@@ -1,0 +1,47 @@
+{
+  "name": "daily-lexicon",
+  "version": "0.1.0",
+  "private": true,
+  "description": "词汇日报 — 每日三十词的离线英语词卡应用",
+  "license": "GPL-3.0-only",
+  "type": "module",
+  "main": "electron/main.cjs",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 4173 --strictPort",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4173 --strictPort",
+    "test": "vitest run",
+    "test:ui": "playwright test",
+    "desktop": "electron .",
+    "package:windows": "node scripts/package-windows.mjs",
+    "android:sync": "cap sync android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.6.0",
+    "@capacitor/app": "^8.1.2",
+    "@capacitor/core": "^8.6.0",
+    "@capacitor/filesystem": "^8.1.5",
+    "@capacitor/share": "^8.0.3",
+    "@fontsource-variable/newsreader": "^5.3.0",
+    "@fontsource-variable/noto-serif-sc": "^5.3.1",
+    "dexie": "^4.4.7",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "ts-fsrs": "^6.0.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.6.0",
+    "@electron/packager": "^20.3.0",
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.2.1",
+    "electron": "^45.2.2",
+    "sharp": "^0.35.5",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.5",
+    "vitest": "^5.1.0"
+  }
+}

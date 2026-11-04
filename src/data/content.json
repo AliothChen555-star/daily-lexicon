@@ -1,0 +1,5110 @@
+{
+  "version": "0.1.0",
+  "id": "daily-lexicon-editorial-120",
+  "title": "基础与四六级试用词包",
+  "license": "CC-BY-SA-4.0",
+  "words": [
+    {
+      "id": "dl-see",
+      "word": "see",
+      "ipa": "/siː/",
+      "pos": "v.",
+      "meaning": "看见；理解",
+      "level": "基础",
+      "topic": "mind",
+      "family": "see",
+      "phrases": [
+        {
+          "en": "see the difference",
+          "zh": "看出区别"
+        },
+        {
+          "en": "see clearly",
+          "zh": "看清楚"
+        }
+      ],
+      "examples": [
+        {
+          "en": "I can see a small boat on the lake.",
+          "zh": "我能看见湖上有一条小船。",
+          "audio": "audio/see--1.wav"
+        },
+        {
+          "en": "Now I see why you made that choice.",
+          "zh": "现在我明白你为什么做出那个选择。",
+          "audio": "audio/see--2.wav"
+        }
+      ],
+      "forms": [
+        "过去式 saw",
+        "过去分词 seen",
+        "第三人称 sees"
+      ],
+      "audio": "audio/see.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-look",
+      "word": "look",
+      "ipa": "/lʊk/",
+      "pos": "v.",
+      "meaning": "看；看起来",
+      "level": "基础",
+      "topic": "mind",
+      "family": "look",
+      "phrases": [
+        {
+          "en": "look at",
+          "zh": "看"
+        },
+        {
+          "en": "look for",
+          "zh": "寻找"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Look at the clouds above the mountain.",
+          "zh": "看看山上方的云。",
+          "audio": "audio/look--1.wav"
+        },
+        {
+          "en": "You look much more relaxed today.",
+          "zh": "你今天看起来放松多了。",
+          "audio": "audio/look--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/look.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-notice",
+      "word": "notice",
+      "ipa": "/ˈnoʊtɪs/",
+      "pos": "v.",
+      "meaning": "注意到；察觉",
+      "level": "四级",
+      "topic": "mind",
+      "family": "notice",
+      "phrases": [
+        {
+          "en": "notice a change",
+          "zh": "注意到变化"
+        },
+        {
+          "en": "take notice of",
+          "zh": "留意"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Did you notice the new sign by the door?",
+          "zh": "你注意到门旁的新标志了吗？",
+          "audio": "audio/notice--1.wav"
+        },
+        {
+          "en": "I noticed that the room had become quiet.",
+          "zh": "我察觉到房间已经安静下来。",
+          "audio": "audio/notice--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/notice.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-observe",
+      "word": "observe",
+      "ipa": "/əbˈzɜːrv/",
+      "pos": "v.",
+      "meaning": "观察；注意到；遵守",
+      "level": "四级",
+      "topic": "mind",
+      "family": "observe",
+      "phrases": [
+        {
+          "en": "observe a change",
+          "zh": "观察变化"
+        },
+        {
+          "en": "observe the rules",
+          "zh": "遵守规则"
+        }
+      ],
+      "examples": [
+        {
+          "en": "We observe the birds without getting too close.",
+          "zh": "我们在不过分靠近的情况下观察鸟类。",
+          "audio": "audio/observe--1.wav"
+        },
+        {
+          "en": "All visitors must observe the safety rules.",
+          "zh": "所有访客都必须遵守安全规则。",
+          "audio": "audio/observe--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/observe.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-observation",
+      "word": "observation",
+      "ipa": "/ˌɑːbzərˈveɪʃən/",
+      "pos": "n.",
+      "meaning": "观察；观察结果",
+      "level": "四级",
+      "topic": "mind",
+      "family": "observe",
+      "phrases": [
+        {
+          "en": "careful observation",
+          "zh": "仔细观察"
+        },
+        {
+          "en": "make an observation",
+          "zh": "作出观察"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Careful observation helped her identify the problem.",
+          "zh": "仔细观察帮助她发现了问题。",
+          "audio": "audio/observation--1.wav"
+        },
+        {
+          "en": "His observation about the pattern was useful.",
+          "zh": "他对这一规律的观察结果很有用。",
+          "audio": "audio/observation--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/observation.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-observer",
+      "word": "observer",
+      "ipa": "/əbˈzɜːrvər/",
+      "pos": "n.",
+      "meaning": "观察者；旁观者",
+      "level": "六级",
+      "topic": "mind",
+      "family": "observe",
+      "phrases": [
+        {
+          "en": "an independent observer",
+          "zh": "独立观察员"
+        },
+        {
+          "en": "a careful observer",
+          "zh": "细心的观察者"
+        }
+      ],
+      "examples": [
+        {
+          "en": "An independent observer attended the public meeting.",
+          "zh": "一位独立观察员出席了公开会议。",
+          "audio": "audio/observer--1.wav"
+        },
+        {
+          "en": "A careful observer can spot small differences.",
+          "zh": "细心的观察者能够发现细微差别。",
+          "audio": "audio/observer--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/observer.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-inspect",
+      "word": "inspect",
+      "ipa": "/ɪnˈspekt/",
+      "pos": "v.",
+      "meaning": "检查；检验",
+      "level": "四级",
+      "topic": "mind",
+      "family": "spect",
+      "phrases": [
+        {
+          "en": "inspect the equipment",
+          "zh": "检查设备"
+        },
+        {
+          "en": "inspect closely",
+          "zh": "仔细检查"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The engineer came to inspect the bridge.",
+          "zh": "工程师来检查这座桥。",
+          "audio": "audio/inspect--1.wav"
+        },
+        {
+          "en": "Please inspect the package before accepting it.",
+          "zh": "请在签收前检查包裹。",
+          "audio": "audio/inspect--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/inspect.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-inspection",
+      "word": "inspection",
+      "ipa": "/ɪnˈspekʃən/",
+      "pos": "n.",
+      "meaning": "检查；检验",
+      "level": "六级",
+      "topic": "mind",
+      "family": "spect",
+      "phrases": [
+        {
+          "en": "a safety inspection",
+          "zh": "安全检查"
+        },
+        {
+          "en": "regular inspection",
+          "zh": "定期检查"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The building passed its annual safety inspection.",
+          "zh": "这栋建筑通过了年度安全检查。",
+          "audio": "audio/inspection--1.wav"
+        },
+        {
+          "en": "Regular inspection can prevent expensive repairs.",
+          "zh": "定期检查可以避免昂贵的维修。",
+          "audio": "audio/inspection--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/inspection.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-perceive",
+      "word": "perceive",
+      "ipa": "/pərˈsiːv/",
+      "pos": "v.",
+      "meaning": "察觉；将某事看作",
+      "level": "六级",
+      "topic": "mind",
+      "family": "perceive",
+      "phrases": [
+        {
+          "en": "perceive a difference",
+          "zh": "察觉差别"
+        },
+        {
+          "en": "perceive something as",
+          "zh": "将某事看作"
+        }
+      ],
+      "examples": [
+        {
+          "en": "She could perceive a slight change in his voice.",
+          "zh": "她能察觉到他声音中的细微变化。",
+          "audio": "audio/perceive--1.wav"
+        },
+        {
+          "en": "People may perceive the same event differently.",
+          "zh": "人们可能以不同方式看待同一事件。",
+          "audio": "audio/perceive--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/perceive.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-perception",
+      "word": "perception",
+      "ipa": "/pərˈsepʃən/",
+      "pos": "n.",
+      "meaning": "感知；看法；认识",
+      "level": "六级",
+      "topic": "mind",
+      "family": "perceive",
+      "phrases": [
+        {
+          "en": "public perception",
+          "zh": "公众看法"
+        },
+        {
+          "en": "change one's perception",
+          "zh": "改变某人的看法"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Travel can change our perception of other cultures.",
+          "zh": "旅行可以改变我们对其他文化的看法。",
+          "audio": "audio/perception--1.wav"
+        },
+        {
+          "en": "Our perception of time varies with the situation.",
+          "zh": "我们对时间的感知会随情境变化。",
+          "audio": "audio/perception--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/perception.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-perspective",
+      "word": "perspective",
+      "ipa": "/pərˈspektɪv/",
+      "pos": "n.",
+      "meaning": "视角；观点",
+      "level": "六级",
+      "topic": "mind",
+      "family": "spect",
+      "phrases": [
+        {
+          "en": "a different perspective",
+          "zh": "不同的视角"
+        },
+        {
+          "en": "from my perspective",
+          "zh": "在我看来"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Try to see the problem from her perspective.",
+          "zh": "试着从她的视角看待这个问题。",
+          "audio": "audio/perspective--1.wav"
+        },
+        {
+          "en": "The discussion gave us a different perspective.",
+          "zh": "这次讨论给了我们不同的视角。",
+          "audio": "audio/perspective--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/perspective.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-aspect",
+      "word": "aspect",
+      "ipa": "/ˈæspekt/",
+      "pos": "n.",
+      "meaning": "方面；层面",
+      "level": "四级",
+      "topic": "mind",
+      "family": "spect",
+      "phrases": [
+        {
+          "en": "an important aspect",
+          "zh": "重要方面"
+        },
+        {
+          "en": "every aspect of",
+          "zh": "各个方面"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Cost is only one aspect of the decision.",
+          "zh": "成本只是这一决策的一个方面。",
+          "audio": "audio/aspect--1.wav"
+        },
+        {
+          "en": "We discussed every aspect of the new plan.",
+          "zh": "我们讨论了新计划的各个方面。",
+          "audio": "audio/aspect--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/aspect.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-prospect",
+      "word": "prospect",
+      "ipa": "/ˈprɑːspekt/",
+      "pos": "n.",
+      "meaning": "前景；可能性",
+      "level": "六级",
+      "topic": "mind",
+      "family": "spect",
+      "phrases": [
+        {
+          "en": "career prospects",
+          "zh": "职业前景"
+        },
+        {
+          "en": "the prospect of",
+          "zh": "某事发生的可能性"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The course may improve your career prospects.",
+          "zh": "这门课程可能改善你的职业前景。",
+          "audio": "audio/prospect--1.wav"
+        },
+        {
+          "en": "We were excited by the prospect of working together.",
+          "zh": "想到有望一起工作，我们很兴奋。",
+          "audio": "audio/prospect--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/prospect.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-suspect",
+      "word": "suspect",
+      "ipa": "/səˈspekt/",
+      "pos": "v.",
+      "meaning": "怀疑；猜想",
+      "level": "四级",
+      "topic": "mind",
+      "family": "spect",
+      "phrases": [
+        {
+          "en": "suspect that",
+          "zh": "怀疑"
+        },
+        {
+          "en": "suspect a problem",
+          "zh": "怀疑有问题"
+        }
+      ],
+      "examples": [
+        {
+          "en": "I suspect that the answer is simpler than we think.",
+          "zh": "我猜答案比我们想的更简单。",
+          "audio": "audio/suspect--1.wav"
+        },
+        {
+          "en": "The team began to suspect a technical problem.",
+          "zh": "团队开始怀疑存在技术问题。",
+          "audio": "audio/suspect--2.wav"
+        }
+      ],
+      "forms": [
+        "本卡重点为动词",
+        "名词 suspect 的重音不同"
+      ],
+      "audio": "audio/suspect.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-respect",
+      "word": "respect",
+      "ipa": "/rɪˈspekt/",
+      "pos": "n. v.",
+      "meaning": "尊重；敬重",
+      "level": "四级",
+      "topic": "mind",
+      "family": "spect",
+      "phrases": [
+        {
+          "en": "show respect for",
+          "zh": "表示尊重"
+        },
+        {
+          "en": "respect a decision",
+          "zh": "尊重决定"
+        }
+      ],
+      "examples": [
+        {
+          "en": "We should show respect for different opinions.",
+          "zh": "我们应该尊重不同意见。",
+          "audio": "audio/respect--1.wav"
+        },
+        {
+          "en": "I respect your decision even though I disagree.",
+          "zh": "即使我不赞同，我也尊重你的决定。",
+          "audio": "audio/respect--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/respect.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-think",
+      "word": "think",
+      "ipa": "/θɪŋk/",
+      "pos": "v.",
+      "meaning": "思考；认为",
+      "level": "基础",
+      "topic": "mind",
+      "family": "think",
+      "phrases": [
+        {
+          "en": "think about",
+          "zh": "思考"
+        },
+        {
+          "en": "think carefully",
+          "zh": "仔细想"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Take a moment to think about your answer.",
+          "zh": "花一点时间思考你的答案。",
+          "audio": "audio/think--1.wav"
+        },
+        {
+          "en": "I think we should try a different approach.",
+          "zh": "我认为我们应该尝试另一种方法。",
+          "audio": "audio/think--2.wav"
+        }
+      ],
+      "forms": [
+        "过去式与过去分词 thought"
+      ],
+      "audio": "audio/think.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-thought",
+      "word": "thought",
+      "ipa": "/θɔːt/",
+      "pos": "n.",
+      "meaning": "想法；思考",
+      "level": "基础",
+      "topic": "mind",
+      "family": "think",
+      "phrases": [
+        {
+          "en": "give thought to",
+          "zh": "考虑"
+        },
+        {
+          "en": "after some thought",
+          "zh": "经过一番思考"
+        }
+      ],
+      "examples": [
+        {
+          "en": "A new thought came to me on the train.",
+          "zh": "在火车上，我想到了一个新点子。",
+          "audio": "audio/thought--1.wav"
+        },
+        {
+          "en": "We need to give more thought to the details.",
+          "zh": "我们需要对细节作更多考虑。",
+          "audio": "audio/thought--2.wav"
+        }
+      ],
+      "forms": [
+        "复数 thoughts",
+        "也是think的过去式与过去分词"
+      ],
+      "audio": "audio/thought.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-consider",
+      "word": "consider",
+      "ipa": "/kənˈsɪdər/",
+      "pos": "v.",
+      "meaning": "考虑；认为",
+      "level": "四级",
+      "topic": "mind",
+      "family": "consider",
+      "phrases": [
+        {
+          "en": "consider an option",
+          "zh": "考虑一种选择"
+        },
+        {
+          "en": "consider carefully",
+          "zh": "仔细考虑"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Please consider all the options before deciding.",
+          "zh": "请在决定之前考虑所有选项。",
+          "audio": "audio/consider--1.wav"
+        },
+        {
+          "en": "We consider her a reliable member of the team.",
+          "zh": "我们认为她是团队中可靠的一员。",
+          "audio": "audio/consider--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/consider.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-reconsider",
+      "word": "reconsider",
+      "ipa": "/ˌriːkənˈsɪdər/",
+      "pos": "v.",
+      "meaning": "重新考虑",
+      "level": "六级",
+      "topic": "mind",
+      "family": "consider",
+      "phrases": [
+        {
+          "en": "reconsider a decision",
+          "zh": "重新考虑决定"
+        },
+        {
+          "en": "reconsider a plan",
+          "zh": "重新考虑计划"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The new evidence made us reconsider our decision.",
+          "zh": "新证据让我们重新考虑了决定。",
+          "audio": "audio/reconsider--1.wav"
+        },
+        {
+          "en": "You may want to reconsider the timing.",
+          "zh": "你可能需要重新考虑时机。",
+          "audio": "audio/reconsider--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/reconsider.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-reflect",
+      "word": "reflect",
+      "ipa": "/rɪˈflekt/",
+      "pos": "v.",
+      "meaning": "反映；反射；认真思考",
+      "level": "四级",
+      "topic": "mind",
+      "family": "reflect",
+      "phrases": [
+        {
+          "en": "reflect on",
+          "zh": "认真思考"
+        },
+        {
+          "en": "reflect a change",
+          "zh": "反映变化"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The calm water reflects the evening sky.",
+          "zh": "平静的水面映着傍晚的天空。",
+          "audio": "audio/reflect--1.wav"
+        },
+        {
+          "en": "Take some time to reflect on what you learned.",
+          "zh": "花些时间认真想想你学到的东西。",
+          "audio": "audio/reflect--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/reflect.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-reflection",
+      "word": "reflection",
+      "ipa": "/rɪˈflekʃən/",
+      "pos": "n.",
+      "meaning": "映像；反映；深思",
+      "level": "四级",
+      "topic": "mind",
+      "family": "reflect",
+      "phrases": [
+        {
+          "en": "a reflection of",
+          "zh": "某事的反映"
+        },
+        {
+          "en": "on reflection",
+          "zh": "经过考虑"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The report is a reflection of the team's efforts.",
+          "zh": "这份报告反映了团队的努力。",
+          "audio": "audio/reflection--1.wav"
+        },
+        {
+          "en": "On reflection, I decided to accept the offer.",
+          "zh": "经过考虑，我决定接受这一提议。",
+          "audio": "audio/reflection--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/reflection.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-analyze",
+      "word": "analyze",
+      "ipa": "/ˈænəlaɪz/",
+      "pos": "v.",
+      "meaning": "分析；研究",
+      "level": "六级",
+      "topic": "mind",
+      "family": "analyze",
+      "phrases": [
+        {
+          "en": "analyze the data",
+          "zh": "分析数据"
+        },
+        {
+          "en": "analyze a problem",
+          "zh": "分析问题"
+        }
+      ],
+      "examples": [
+        {
+          "en": "We need to analyze the data before drawing conclusions.",
+          "zh": "我们需要先分析数据，再下结论。",
+          "audio": "audio/analyze--1.wav"
+        },
+        {
+          "en": "The students learned to analyze a short poem.",
+          "zh": "学生们学习了如何分析一首短诗。",
+          "audio": "audio/analyze--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/analyze.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-analysis",
+      "word": "analysis",
+      "ipa": "/əˈnæləsɪs/",
+      "pos": "n.",
+      "meaning": "分析；分析结果",
+      "level": "四级",
+      "topic": "mind",
+      "family": "analyze",
+      "phrases": [
+        {
+          "en": "data analysis",
+          "zh": "数据分析"
+        },
+        {
+          "en": "an analysis of",
+          "zh": "对某事的分析"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Her analysis revealed an unexpected pattern.",
+          "zh": "她的分析揭示了一种意想不到的规律。",
+          "audio": "audio/analysis--1.wav"
+        },
+        {
+          "en": "The report includes an analysis of the main risks.",
+          "zh": "报告包含对主要风险的分析。",
+          "audio": "audio/analysis--2.wav"
+        }
+      ],
+      "forms": [
+        "复数 analyses /əˈnæləsiːz/"
+      ],
+      "audio": "audio/analysis.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-assume",
+      "word": "assume",
+      "ipa": "/əˈsuːm/",
+      "pos": "v.",
+      "meaning": "假定；以为；承担",
+      "level": "四级",
+      "topic": "mind",
+      "family": "assume",
+      "phrases": [
+        {
+          "en": "assume that",
+          "zh": "假定"
+        },
+        {
+          "en": "assume responsibility",
+          "zh": "承担责任"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Do not assume that everyone knows the rules.",
+          "zh": "不要以为所有人都知道规则。",
+          "audio": "audio/assume--1.wav"
+        },
+        {
+          "en": "She will assume responsibility for the new project.",
+          "zh": "她将承担新项目的责任。",
+          "audio": "audio/assume--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/assume.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-assumption",
+      "word": "assumption",
+      "ipa": "/əˈsʌmpʃən/",
+      "pos": "n.",
+      "meaning": "假定；假设",
+      "level": "六级",
+      "topic": "mind",
+      "family": "assume",
+      "phrases": [
+        {
+          "en": "a basic assumption",
+          "zh": "基本假设"
+        },
+        {
+          "en": "question an assumption",
+          "zh": "质疑假设"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The plan is based on a reasonable assumption.",
+          "zh": "这个计划基于一个合理假设。",
+          "audio": "audio/assumption--1.wav"
+        },
+        {
+          "en": "Good research often begins by questioning an assumption.",
+          "zh": "好的研究常从质疑一个假设开始。",
+          "audio": "audio/assumption--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/assumption.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-infer",
+      "word": "infer",
+      "ipa": "/ɪnˈfɜːr/",
+      "pos": "v.",
+      "meaning": "推断；推论",
+      "level": "六级",
+      "topic": "mind",
+      "family": "infer",
+      "phrases": [
+        {
+          "en": "infer from",
+          "zh": "从某事推断"
+        },
+        {
+          "en": "infer a meaning",
+          "zh": "推断含义"
+        }
+      ],
+      "examples": [
+        {
+          "en": "We can infer the meaning from the context.",
+          "zh": "我们可以根据上下文推断含义。",
+          "audio": "audio/infer--1.wav"
+        },
+        {
+          "en": "What can you infer from these results?",
+          "zh": "你能从这些结果中推断出什么？",
+          "audio": "audio/infer--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/infer.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-inference",
+      "word": "inference",
+      "ipa": "/ˈɪnfərəns/",
+      "pos": "n.",
+      "meaning": "推断；推论",
+      "level": "六级",
+      "topic": "mind",
+      "family": "infer",
+      "phrases": [
+        {
+          "en": "draw an inference",
+          "zh": "作出推断"
+        },
+        {
+          "en": "a logical inference",
+          "zh": "合乎逻辑的推论"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The evidence supports a different inference.",
+          "zh": "这些证据支持另一种推论。",
+          "audio": "audio/inference--1.wav"
+        },
+        {
+          "en": "You should explain how you reached that inference.",
+          "zh": "你应该解释自己如何得出那一推论。",
+          "audio": "audio/inference--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/inference.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-reason",
+      "word": "reason",
+      "ipa": "/ˈriːzən/",
+      "pos": "n. v.",
+      "meaning": "原因；理由；推理",
+      "level": "四级",
+      "topic": "mind",
+      "family": "reason",
+      "phrases": [
+        {
+          "en": "a reason for",
+          "zh": "某事的原因"
+        },
+        {
+          "en": "reason carefully",
+          "zh": "认真推理"
+        }
+      ],
+      "examples": [
+        {
+          "en": "There is a good reason for the delay.",
+          "zh": "这次延迟有充分的原因。",
+          "audio": "audio/reason--1.wav"
+        },
+        {
+          "en": "We must reason carefully from the available facts.",
+          "zh": "我们必须根据现有事实认真推理。",
+          "audio": "audio/reason--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/reason.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-reasonable",
+      "word": "reasonable",
+      "ipa": "/ˈriːzənəbəl/",
+      "pos": "adj.",
+      "meaning": "合理的；通情达理的",
+      "level": "四级",
+      "topic": "mind",
+      "family": "reason",
+      "phrases": [
+        {
+          "en": "a reasonable price",
+          "zh": "合理的价格"
+        },
+        {
+          "en": "a reasonable explanation",
+          "zh": "合理的解释"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The hotel offers clean rooms at a reasonable price.",
+          "zh": "这家酒店以合理价格提供干净的房间。",
+          "audio": "audio/reasonable--1.wav"
+        },
+        {
+          "en": "That seems like a reasonable explanation.",
+          "zh": "那似乎是一个合理的解释。",
+          "audio": "audio/reasonable--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/reasonable.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-evidence",
+      "word": "evidence",
+      "ipa": "/ˈevɪdəns/",
+      "pos": "n.",
+      "meaning": "证据；根据",
+      "level": "四级",
+      "topic": "mind",
+      "family": "independent",
+      "phrases": [
+        {
+          "en": "clear evidence",
+          "zh": "明确的证据"
+        },
+        {
+          "en": "evidence of",
+          "zh": "某事的证据"
+        }
+      ],
+      "examples": [
+        {
+          "en": "We need clear evidence to support the claim.",
+          "zh": "我们需要明确的证据来支持这一说法。",
+          "audio": "audio/evidence--1.wav"
+        },
+        {
+          "en": "There is little evidence of a lasting change.",
+          "zh": "几乎没有证据表明发生了持久的变化。",
+          "audio": "audio/evidence--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/evidence.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-learn",
+      "word": "learn",
+      "ipa": "/lɜːrn/",
+      "pos": "v.",
+      "meaning": "学习；得知",
+      "level": "基础",
+      "topic": "learning",
+      "family": "learn",
+      "phrases": [
+        {
+          "en": "learn from",
+          "zh": "向某人学习；从某事中学习"
+        },
+        {
+          "en": "learn about",
+          "zh": "了解"
+        }
+      ],
+      "examples": [
+        {
+          "en": "We can learn a lot from our mistakes.",
+          "zh": "我们可以从错误中学到很多。",
+          "audio": "audio/learn--1.wav"
+        },
+        {
+          "en": "I learned about the event from a friend.",
+          "zh": "我从一位朋友那里得知了这件事。",
+          "audio": "audio/learn--2.wav"
+        }
+      ],
+      "forms": [
+        "过去式 learned 或 learnt",
+        "过去分词 learned 或 learnt"
+      ],
+      "audio": "audio/learn.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-learning",
+      "word": "learning",
+      "ipa": "/ˈlɜːrnɪŋ/",
+      "pos": "n.",
+      "meaning": "学习；学问",
+      "level": "基础",
+      "topic": "learning",
+      "family": "learn",
+      "phrases": [
+        {
+          "en": "lifelong learning",
+          "zh": "终身学习"
+        },
+        {
+          "en": "language learning",
+          "zh": "语言学习"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Language learning takes time and regular practice.",
+          "zh": "语言学习需要时间和经常练习。",
+          "audio": "audio/learning--1.wav"
+        },
+        {
+          "en": "The library supports learning at every age.",
+          "zh": "图书馆支持各个年龄段的学习。",
+          "audio": "audio/learning--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/learning.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-teach",
+      "word": "teach",
+      "ipa": "/tiːtʃ/",
+      "pos": "v.",
+      "meaning": "教；讲授",
+      "level": "基础",
+      "topic": "learning",
+      "family": "teach",
+      "phrases": [
+        {
+          "en": "teach someone to do",
+          "zh": "教某人做某事"
+        },
+        {
+          "en": "teach a lesson",
+          "zh": "授课；给人教训"
+        }
+      ],
+      "examples": [
+        {
+          "en": "My grandfather taught me to ride a bicycle.",
+          "zh": "我的祖父教我骑自行车。",
+          "audio": "audio/teach--1.wav"
+        },
+        {
+          "en": "She teaches science at a local school.",
+          "zh": "她在当地一所学校教科学。",
+          "audio": "audio/teach--2.wav"
+        }
+      ],
+      "forms": [
+        "过去式与过去分词 taught"
+      ],
+      "audio": "audio/teach.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-teacher",
+      "word": "teacher",
+      "ipa": "/ˈtiːtʃər/",
+      "pos": "n.",
+      "meaning": "教师；老师",
+      "level": "基础",
+      "topic": "learning",
+      "family": "teach",
+      "phrases": [
+        {
+          "en": "a language teacher",
+          "zh": "语言教师"
+        },
+        {
+          "en": "learn from a teacher",
+          "zh": "向老师学习"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Our teacher encouraged us to ask more questions.",
+          "zh": "我们的老师鼓励我们多提问。",
+          "audio": "audio/teacher--1.wav"
+        },
+        {
+          "en": "A good teacher makes difficult ideas easier to understand.",
+          "zh": "好老师能让难懂的观念更容易理解。",
+          "audio": "audio/teacher--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/teacher.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-read",
+      "word": "read",
+      "ipa": "/riːd/",
+      "pos": "v.",
+      "meaning": "阅读；读懂",
+      "level": "基础",
+      "topic": "learning",
+      "family": "read",
+      "phrases": [
+        {
+          "en": "read aloud",
+          "zh": "朗读"
+        },
+        {
+          "en": "read carefully",
+          "zh": "仔细阅读"
+        }
+      ],
+      "examples": [
+        {
+          "en": "I read a few pages before going to sleep.",
+          "zh": "我睡前会读几页书。",
+          "audio": "audio/read--1.wav"
+        },
+        {
+          "en": "Please read the instructions carefully before you begin.",
+          "zh": "开始前请仔细阅读说明。",
+          "audio": "audio/read--2.wav"
+        }
+      ],
+      "forms": [
+        "过去式 read /red/",
+        "过去分词 read /red/",
+        "本卡主读音为原形 /riːd/"
+      ],
+      "audio": "audio/read.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-reader",
+      "word": "reader",
+      "ipa": "/ˈriːdər/",
+      "pos": "n.",
+      "meaning": "读者；阅读器",
+      "level": "四级",
+      "topic": "learning",
+      "family": "read",
+      "phrases": [
+        {
+          "en": "a regular reader",
+          "zh": "经常阅读的人"
+        },
+        {
+          "en": "an electronic reader",
+          "zh": "电子阅读器"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The newspaper invites readers to share their views.",
+          "zh": "这家报纸邀请读者分享观点。",
+          "audio": "audio/reader--1.wav"
+        },
+        {
+          "en": "This book is suitable for young readers.",
+          "zh": "这本书适合年轻读者。",
+          "audio": "audio/reader--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/reader.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-write",
+      "word": "write",
+      "ipa": "/raɪt/",
+      "pos": "v.",
+      "meaning": "写；写作",
+      "level": "基础",
+      "topic": "learning",
+      "family": "write",
+      "phrases": [
+        {
+          "en": "write down",
+          "zh": "写下"
+        },
+        {
+          "en": "write to someone",
+          "zh": "给某人写信"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Write down any new words you want to remember.",
+          "zh": "写下你想记住的所有新词。",
+          "audio": "audio/write--1.wav"
+        },
+        {
+          "en": "She writes to her sister every month.",
+          "zh": "她每个月都给姐姐写信。",
+          "audio": "audio/write--2.wav"
+        }
+      ],
+      "forms": [
+        "过去式 wrote",
+        "过去分词 written",
+        "现在分词 writing"
+      ],
+      "audio": "audio/write.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-writer",
+      "word": "writer",
+      "ipa": "/ˈraɪtər/",
+      "pos": "n.",
+      "meaning": "作者；作家",
+      "level": "基础",
+      "topic": "learning",
+      "family": "write",
+      "phrases": [
+        {
+          "en": "a young writer",
+          "zh": "年轻作家"
+        },
+        {
+          "en": "a talented writer",
+          "zh": "有才华的作家"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The writer spent years researching the story.",
+          "zh": "这位作家花了多年研究这个故事。",
+          "audio": "audio/writer--1.wav"
+        },
+        {
+          "en": "A talented writer can make ordinary things interesting.",
+          "zh": "有才华的作家能把平常事物写得有趣。",
+          "audio": "audio/writer--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/writer.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-describe",
+      "word": "describe",
+      "ipa": "/dɪˈskraɪb/",
+      "pos": "v.",
+      "meaning": "描述；形容",
+      "level": "四级",
+      "topic": "learning",
+      "family": "scrib",
+      "phrases": [
+        {
+          "en": "describe something as",
+          "zh": "将某物描述为"
+        },
+        {
+          "en": "describe in detail",
+          "zh": "详细描述"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Can you describe the place you visited?",
+          "zh": "你能描述一下你去过的地方吗？",
+          "audio": "audio/describe--1.wav"
+        },
+        {
+          "en": "She described the experience in great detail.",
+          "zh": "她非常详细地描述了这段经历。",
+          "audio": "audio/describe--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/describe.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-description",
+      "word": "description",
+      "ipa": "/dɪˈskrɪpʃən/",
+      "pos": "n.",
+      "meaning": "描述；说明",
+      "level": "四级",
+      "topic": "learning",
+      "family": "scrib",
+      "phrases": [
+        {
+          "en": "a brief description",
+          "zh": "简短描述"
+        },
+        {
+          "en": "a detailed description",
+          "zh": "详细描述"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The website provides a brief description of each course.",
+          "zh": "网站对每门课程都有简短说明。",
+          "audio": "audio/description--1.wav"
+        },
+        {
+          "en": "His description helped us find the right building.",
+          "zh": "他的描述帮助我们找到了正确的建筑。",
+          "audio": "audio/description--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/description.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-prescribe",
+      "word": "prescribe",
+      "ipa": "/prɪˈskraɪb/",
+      "pos": "v.",
+      "meaning": "开处方；规定",
+      "level": "六级",
+      "topic": "learning",
+      "family": "scrib",
+      "phrases": [
+        {
+          "en": "prescribe medicine",
+          "zh": "开药"
+        },
+        {
+          "en": "prescribe a procedure",
+          "zh": "规定程序"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Only a qualified professional should prescribe this medicine.",
+          "zh": "只有具备资格的专业人员才应开这种药。",
+          "audio": "audio/prescribe--1.wav"
+        },
+        {
+          "en": "The regulations prescribe how the records must be kept.",
+          "zh": "规章规定了必须如何保存记录。",
+          "audio": "audio/prescribe--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/prescribe.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-prescription",
+      "word": "prescription",
+      "ipa": "/prɪˈskrɪpʃən/",
+      "pos": "n.",
+      "meaning": "处方；规定的方法",
+      "level": "六级",
+      "topic": "learning",
+      "family": "scrib",
+      "phrases": [
+        {
+          "en": "a doctor's prescription",
+          "zh": "医生的处方"
+        },
+        {
+          "en": "on prescription",
+          "zh": "凭处方"
+        }
+      ],
+      "examples": [
+        {
+          "en": "You need a prescription to buy this medicine.",
+          "zh": "购买这种药需要处方。",
+          "audio": "audio/prescription--1.wav"
+        },
+        {
+          "en": "There is no simple prescription for a successful career.",
+          "zh": "事业成功没有简单的万能方法。",
+          "audio": "audio/prescription--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/prescription.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-manuscript",
+      "word": "manuscript",
+      "ipa": "/ˈmænjuskrɪpt/",
+      "pos": "n.",
+      "meaning": "手稿；原稿",
+      "level": "六级",
+      "topic": "learning",
+      "family": "scrib",
+      "phrases": [
+        {
+          "en": "an original manuscript",
+          "zh": "原始手稿"
+        },
+        {
+          "en": "submit a manuscript",
+          "zh": "提交原稿"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The museum displayed the poet's original manuscript.",
+          "zh": "博物馆展出了这位诗人的原始手稿。",
+          "audio": "audio/manuscript--1.wav"
+        },
+        {
+          "en": "She submitted the manuscript to a small publisher.",
+          "zh": "她将原稿提交给了一家小型出版社。",
+          "audio": "audio/manuscript--2.wav"
+        }
+      ],
+      "forms": [
+        "复数 manuscripts"
+      ],
+      "audio": "audio/manuscript.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-dictate",
+      "word": "dictate",
+      "ipa": "/ˈdɪkteɪt/",
+      "pos": "v.",
+      "meaning": "口述；支配；决定",
+      "level": "六级",
+      "topic": "learning",
+      "family": "dict",
+      "phrases": [
+        {
+          "en": "dictate a letter",
+          "zh": "口述一封信"
+        },
+        {
+          "en": "dictate the terms",
+          "zh": "决定条件"
+        }
+      ],
+      "examples": [
+        {
+          "en": "He dictated a short letter to his assistant.",
+          "zh": "他向助手口述了一封短信。",
+          "audio": "audio/dictate--1.wav"
+        },
+        {
+          "en": "The weather will dictate when we can leave.",
+          "zh": "天气将决定我们什么时候能出发。",
+          "audio": "audio/dictate--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/dictate.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-dictation",
+      "word": "dictation",
+      "ipa": "/dɪkˈteɪʃən/",
+      "pos": "n.",
+      "meaning": "听写；口述",
+      "level": "四级",
+      "topic": "learning",
+      "family": "dict",
+      "phrases": [
+        {
+          "en": "take dictation",
+          "zh": "记录口述"
+        },
+        {
+          "en": "do a dictation",
+          "zh": "做听写"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The class began with a short dictation.",
+          "zh": "这节课以一段简短听写开始。",
+          "audio": "audio/dictation--1.wav"
+        },
+        {
+          "en": "The assistant took dictation during the meeting.",
+          "zh": "助手在会议期间记录了口述内容。",
+          "audio": "audio/dictation--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/dictation.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-predict",
+      "word": "predict",
+      "ipa": "/prɪˈdɪkt/",
+      "pos": "v.",
+      "meaning": "预测；预言",
+      "level": "四级",
+      "topic": "learning",
+      "family": "dict",
+      "phrases": [
+        {
+          "en": "predict the outcome",
+          "zh": "预测结果"
+        },
+        {
+          "en": "predict a change",
+          "zh": "预测变化"
+        }
+      ],
+      "examples": [
+        {
+          "en": "It is difficult to predict the final result.",
+          "zh": "最终结果很难预测。",
+          "audio": "audio/predict--1.wav"
+        },
+        {
+          "en": "The model can predict changes in temperature.",
+          "zh": "这个模型能够预测温度变化。",
+          "audio": "audio/predict--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/predict.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-prediction",
+      "word": "prediction",
+      "ipa": "/prɪˈdɪkʃən/",
+      "pos": "n.",
+      "meaning": "预测；预言",
+      "level": "六级",
+      "topic": "learning",
+      "family": "dict",
+      "phrases": [
+        {
+          "en": "make a prediction",
+          "zh": "作出预测"
+        },
+        {
+          "en": "an accurate prediction",
+          "zh": "准确的预测"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Her prediction turned out to be accurate.",
+          "zh": "她的预测结果很准确。",
+          "audio": "audio/prediction--1.wav"
+        },
+        {
+          "en": "The report makes no prediction about next year.",
+          "zh": "这份报告没有对明年作出预测。",
+          "audio": "audio/prediction--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/prediction.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-contradict",
+      "word": "contradict",
+      "ipa": "/ˌkɑːntrəˈdɪkt/",
+      "pos": "v.",
+      "meaning": "反驳；与某事矛盾",
+      "level": "六级",
+      "topic": "learning",
+      "family": "dict",
+      "phrases": [
+        {
+          "en": "contradict a statement",
+          "zh": "反驳一项陈述"
+        },
+        {
+          "en": "contradict the evidence",
+          "zh": "与证据相矛盾"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The new results contradict the earlier findings.",
+          "zh": "新结果与此前的发现相矛盾。",
+          "audio": "audio/contradict--1.wav"
+        },
+        {
+          "en": "She did not hesitate to contradict his claim.",
+          "zh": "她毫不犹豫地反驳了他的说法。",
+          "audio": "audio/contradict--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/contradict.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-contradiction",
+      "word": "contradiction",
+      "ipa": "/ˌkɑːntrəˈdɪkʃən/",
+      "pos": "n.",
+      "meaning": "矛盾；反驳",
+      "level": "六级",
+      "topic": "learning",
+      "family": "dict",
+      "phrases": [
+        {
+          "en": "a clear contradiction",
+          "zh": "明显的矛盾"
+        },
+        {
+          "en": "in contradiction to",
+          "zh": "与某事相矛盾"
+        }
+      ],
+      "examples": [
+        {
+          "en": "There is a contradiction between his words and actions.",
+          "zh": "他的言语和行动之间存在矛盾。",
+          "audio": "audio/contradiction--1.wav"
+        },
+        {
+          "en": "These facts are in contradiction to the official account.",
+          "zh": "这些事实与官方叙述相矛盾。",
+          "audio": "audio/contradiction--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/contradiction.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-explain",
+      "word": "explain",
+      "ipa": "/ɪkˈspleɪn/",
+      "pos": "v.",
+      "meaning": "解释；说明",
+      "level": "基础",
+      "topic": "learning",
+      "family": "explain",
+      "phrases": [
+        {
+          "en": "explain a reason",
+          "zh": "解释原因"
+        },
+        {
+          "en": "explain to someone",
+          "zh": "向某人解释"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Could you explain this idea in simpler words?",
+          "zh": "你能用更简单的词解释这个想法吗？",
+          "audio": "audio/explain--1.wav"
+        },
+        {
+          "en": "She explained the new rule to the team.",
+          "zh": "她向团队说明了新规则。",
+          "audio": "audio/explain--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/explain.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-explanation",
+      "word": "explanation",
+      "ipa": "/ˌekspləˈneɪʃən/",
+      "pos": "n.",
+      "meaning": "解释；说明",
+      "level": "四级",
+      "topic": "learning",
+      "family": "explain",
+      "phrases": [
+        {
+          "en": "a clear explanation",
+          "zh": "清楚的解释"
+        },
+        {
+          "en": "offer an explanation",
+          "zh": "作出解释"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Thank you for your clear explanation.",
+          "zh": "谢谢你清楚的解释。",
+          "audio": "audio/explanation--1.wav"
+        },
+        {
+          "en": "The company offered an explanation for the delay.",
+          "zh": "公司就延迟给出了解释。",
+          "audio": "audio/explanation--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/explanation.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-express",
+      "word": "express",
+      "ipa": "/ɪkˈspres/",
+      "pos": "v.",
+      "meaning": "表达；表示",
+      "level": "四级",
+      "topic": "learning",
+      "family": "express",
+      "phrases": [
+        {
+          "en": "express an opinion",
+          "zh": "表达意见"
+        },
+        {
+          "en": "express gratitude",
+          "zh": "表达感激"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Everyone should have a chance to express an opinion.",
+          "zh": "每个人都应该有机会表达意见。",
+          "audio": "audio/express--1.wav"
+        },
+        {
+          "en": "I wrote a letter to express my gratitude.",
+          "zh": "我写了一封信表达感激之情。",
+          "audio": "audio/express--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/express.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-expression",
+      "word": "expression",
+      "ipa": "/ɪkˈspreʃən/",
+      "pos": "n.",
+      "meaning": "表达；表情；词语",
+      "level": "四级",
+      "topic": "learning",
+      "family": "express",
+      "phrases": [
+        {
+          "en": "a facial expression",
+          "zh": "面部表情"
+        },
+        {
+          "en": "freedom of expression",
+          "zh": "表达自由"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Her facial expression showed that she was surprised.",
+          "zh": "她的面部表情表明她很惊讶。",
+          "audio": "audio/expression--1.wav"
+        },
+        {
+          "en": "We learned several useful expressions in class.",
+          "zh": "我们在课上学了几个有用的表达。",
+          "audio": "audio/expression--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/expression.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-communicate",
+      "word": "communicate",
+      "ipa": "/kəˈmjuːnɪkeɪt/",
+      "pos": "v.",
+      "meaning": "交流；传达",
+      "level": "四级",
+      "topic": "learning",
+      "family": "communicate",
+      "phrases": [
+        {
+          "en": "communicate with",
+          "zh": "与某人交流"
+        },
+        {
+          "en": "communicate clearly",
+          "zh": "清楚地传达"
+        }
+      ],
+      "examples": [
+        {
+          "en": "We communicate with our partners every week.",
+          "zh": "我们每周都与合作伙伴交流。",
+          "audio": "audio/communicate--1.wav"
+        },
+        {
+          "en": "A good diagram can communicate a complex idea clearly.",
+          "zh": "一张好的图可以清楚地传达复杂想法。",
+          "audio": "audio/communicate--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/communicate.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-communication",
+      "word": "communication",
+      "ipa": "/kəˌmjuːnɪˈkeɪʃən/",
+      "pos": "n.",
+      "meaning": "交流；沟通；通信",
+      "level": "四级",
+      "topic": "learning",
+      "family": "communicate",
+      "phrases": [
+        {
+          "en": "effective communication",
+          "zh": "有效沟通"
+        },
+        {
+          "en": "communication skills",
+          "zh": "沟通能力"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Effective communication helps a team work well together.",
+          "zh": "有效沟通有助于团队良好协作。",
+          "audio": "audio/communication--1.wav"
+        },
+        {
+          "en": "The storm damaged the island's communication system.",
+          "zh": "暴风雨破坏了岛上的通信系统。",
+          "audio": "audio/communication--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/communication.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-discuss",
+      "word": "discuss",
+      "ipa": "/dɪˈskʌs/",
+      "pos": "v.",
+      "meaning": "讨论；商议",
+      "level": "基础",
+      "topic": "learning",
+      "family": "discuss",
+      "phrases": [
+        {
+          "en": "discuss a problem",
+          "zh": "讨论问题"
+        },
+        {
+          "en": "discuss in detail",
+          "zh": "详细讨论"
+        }
+      ],
+      "examples": [
+        {
+          "en": "We will discuss the problem after lunch.",
+          "zh": "午餐后我们会讨论这个问题。",
+          "audio": "audio/discuss--1.wav"
+        },
+        {
+          "en": "The article discusses how cities can save energy.",
+          "zh": "这篇文章讨论了城市如何节约能源。",
+          "audio": "audio/discuss--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/discuss.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-discussion",
+      "word": "discussion",
+      "ipa": "/dɪˈskʌʃən/",
+      "pos": "n.",
+      "meaning": "讨论；商议",
+      "level": "四级",
+      "topic": "learning",
+      "family": "discuss",
+      "phrases": [
+        {
+          "en": "have a discussion",
+          "zh": "进行讨论"
+        },
+        {
+          "en": "under discussion",
+          "zh": "正在讨论中"
+        }
+      ],
+      "examples": [
+        {
+          "en": "We had a useful discussion about the proposal.",
+          "zh": "我们就这项提议进行了有益讨论。",
+          "audio": "audio/discussion--1.wav"
+        },
+        {
+          "en": "The details are still under discussion.",
+          "zh": "细节仍在讨论中。",
+          "audio": "audio/discussion--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/discussion.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-conclude",
+      "word": "conclude",
+      "ipa": "/kənˈkluːd/",
+      "pos": "v.",
+      "meaning": "得出结论；结束",
+      "level": "四级",
+      "topic": "learning",
+      "family": "conclude",
+      "phrases": [
+        {
+          "en": "conclude that",
+          "zh": "得出结论"
+        },
+        {
+          "en": "conclude a meeting",
+          "zh": "结束会议"
+        }
+      ],
+      "examples": [
+        {
+          "en": "We concluded that more evidence was needed.",
+          "zh": "我们得出结论，认为还需要更多证据。",
+          "audio": "audio/conclude--1.wav"
+        },
+        {
+          "en": "The speaker concluded with a question for the audience.",
+          "zh": "演讲者以一个面向听众的问题结束了发言。",
+          "audio": "audio/conclude--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/conclude.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-conclusion",
+      "word": "conclusion",
+      "ipa": "/kənˈkluːʒən/",
+      "pos": "n.",
+      "meaning": "结论；结束",
+      "level": "四级",
+      "topic": "learning",
+      "family": "conclude",
+      "phrases": [
+        {
+          "en": "draw a conclusion",
+          "zh": "得出结论"
+        },
+        {
+          "en": "in conclusion",
+          "zh": "最后；总之"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Do not draw a conclusion from one example.",
+          "zh": "不要仅凭一个例子就下结论。",
+          "audio": "audio/conclusion--1.wav"
+        },
+        {
+          "en": "The conclusion of the report summarizes the main findings.",
+          "zh": "报告的结尾概括了主要发现。",
+          "audio": "audio/conclusion--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/conclusion.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-vocabulary",
+      "word": "vocabulary",
+      "ipa": "/voʊˈkæbjəleri/",
+      "pos": "n.",
+      "meaning": "词汇；词汇量",
+      "level": "四级",
+      "topic": "learning",
+      "family": "independent",
+      "phrases": [
+        {
+          "en": "build vocabulary",
+          "zh": "积累词汇"
+        },
+        {
+          "en": "a wide vocabulary",
+          "zh": "丰富的词汇量"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Reading regularly helps you build your vocabulary.",
+          "zh": "经常阅读有助于积累词汇。",
+          "audio": "audio/vocabulary--1.wav"
+        },
+        {
+          "en": "This book introduces the vocabulary of everyday life.",
+          "zh": "这本书介绍日常生活中的词汇。",
+          "audio": "audio/vocabulary--2.wav"
+        }
+      ],
+      "forms": [
+        "复数 vocabularies（表示多套词汇时）"
+      ],
+      "audio": "audio/vocabulary.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-home",
+      "word": "home",
+      "ipa": "/hoʊm/",
+      "pos": "n. adv.",
+      "meaning": "家；在家；回家",
+      "level": "基础",
+      "topic": "living",
+      "family": "independent",
+      "phrases": [
+        {
+          "en": "at home",
+          "zh": "在家"
+        },
+        {
+          "en": "go home",
+          "zh": "回家"
+        }
+      ],
+      "examples": [
+        {
+          "en": "We usually have dinner together at home.",
+          "zh": "我们通常一起在家吃晚饭。",
+          "audio": "audio/home--1.wav"
+        },
+        {
+          "en": "She felt at home in the quiet village.",
+          "zh": "她在这个安静的村庄里感到自在。",
+          "audio": "audio/home--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/home.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-family",
+      "word": "family",
+      "ipa": "/ˈfæməli/",
+      "pos": "n.",
+      "meaning": "家庭；家人",
+      "level": "基础",
+      "topic": "living",
+      "family": "independent",
+      "phrases": [
+        {
+          "en": "a family member",
+          "zh": "家庭成员"
+        },
+        {
+          "en": "family life",
+          "zh": "家庭生活"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Every family member helped prepare the meal.",
+          "zh": "每位家庭成员都帮忙准备了饭菜。",
+          "audio": "audio/family--1.wav"
+        },
+        {
+          "en": "The new schedule gives him more time for family life.",
+          "zh": "新的日程让他有更多时间陪伴家人。",
+          "audio": "audio/family--2.wav"
+        }
+      ],
+      "forms": [
+        "复数 families"
+      ],
+      "audio": "audio/family.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-friend",
+      "word": "friend",
+      "ipa": "/frend/",
+      "pos": "n.",
+      "meaning": "朋友；友人",
+      "level": "基础",
+      "topic": "living",
+      "family": "friend",
+      "phrases": [
+        {
+          "en": "make friends",
+          "zh": "交朋友"
+        },
+        {
+          "en": "a close friend",
+          "zh": "亲密的朋友"
+        }
+      ],
+      "examples": [
+        {
+          "en": "I made a new friend on the journey.",
+          "zh": "我在旅途中交了一位新朋友。",
+          "audio": "audio/friend--1.wav"
+        },
+        {
+          "en": "A close friend can help you through difficult times.",
+          "zh": "亲密的朋友可以帮助你度过困难时光。",
+          "audio": "audio/friend--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/friend.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-friendship",
+      "word": "friendship",
+      "ipa": "/ˈfrendʃɪp/",
+      "pos": "n.",
+      "meaning": "友谊；友情",
+      "level": "四级",
+      "topic": "living",
+      "family": "friend",
+      "phrases": [
+        {
+          "en": "build a friendship",
+          "zh": "建立友谊"
+        },
+        {
+          "en": "a lasting friendship",
+          "zh": "长久的友谊"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Their friendship began when they were children.",
+          "zh": "他们的友谊始于童年。",
+          "audio": "audio/friendship--1.wav"
+        },
+        {
+          "en": "Honesty is important in a lasting friendship.",
+          "zh": "诚实对长久的友谊很重要。",
+          "audio": "audio/friendship--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/friendship.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-help",
+      "word": "help",
+      "ipa": "/help/",
+      "pos": "v. n.",
+      "meaning": "帮助；援助",
+      "level": "基础",
+      "topic": "living",
+      "family": "help",
+      "phrases": [
+        {
+          "en": "help someone with",
+          "zh": "在某方面帮助某人"
+        },
+        {
+          "en": "ask for help",
+          "zh": "寻求帮助"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Could you help me with this heavy box?",
+          "zh": "你能帮我搬一下这个重箱子吗？",
+          "audio": "audio/help--1.wav"
+        },
+        {
+          "en": "There is nothing wrong with asking for help.",
+          "zh": "寻求帮助没有什么不妥。",
+          "audio": "audio/help--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/help.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-helpful",
+      "word": "helpful",
+      "ipa": "/ˈhelpfəl/",
+      "pos": "adj.",
+      "meaning": "有帮助的；乐于助人的",
+      "level": "基础",
+      "topic": "living",
+      "family": "help",
+      "phrases": [
+        {
+          "en": "helpful advice",
+          "zh": "有用的建议"
+        },
+        {
+          "en": "be helpful to",
+          "zh": "对某人有帮助"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The librarian gave us some helpful advice.",
+          "zh": "图书管理员给了我们一些有用的建议。",
+          "audio": "audio/helpful--1.wav"
+        },
+        {
+          "en": "A simple map would be helpful to new visitors.",
+          "zh": "一张简单的地图会对初次来访者有帮助。",
+          "audio": "audio/helpful--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/helpful.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-care",
+      "word": "care",
+      "ipa": "/ker/",
+      "pos": "n. v.",
+      "meaning": "照料；关心；在意",
+      "level": "基础",
+      "topic": "living",
+      "family": "care",
+      "phrases": [
+        {
+          "en": "take care of",
+          "zh": "照顾"
+        },
+        {
+          "en": "care about",
+          "zh": "关心"
+        }
+      ],
+      "examples": [
+        {
+          "en": "She takes care of her younger brother after school.",
+          "zh": "放学后她照顾弟弟。",
+          "audio": "audio/care--1.wav"
+        },
+        {
+          "en": "We care about the quality of our work.",
+          "zh": "我们在意自己工作的质量。",
+          "audio": "audio/care--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/care.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-careful",
+      "word": "careful",
+      "ipa": "/ˈkerfəl/",
+      "pos": "adj.",
+      "meaning": "小心的；认真的",
+      "level": "基础",
+      "topic": "living",
+      "family": "care",
+      "phrases": [
+        {
+          "en": "be careful with",
+          "zh": "小心处理"
+        },
+        {
+          "en": "careful planning",
+          "zh": "周密计划"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Be careful with the glass near the edge.",
+          "zh": "小心桌边的玻璃杯。",
+          "audio": "audio/careful--1.wav"
+        },
+        {
+          "en": "Careful planning helped us finish on time.",
+          "zh": "周密的计划帮助我们按时完成任务。",
+          "audio": "audio/careful--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/careful.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-trust",
+      "word": "trust",
+      "ipa": "/trʌst/",
+      "pos": "n. v.",
+      "meaning": "信任；相信",
+      "level": "四级",
+      "topic": "living",
+      "family": "trust",
+      "phrases": [
+        {
+          "en": "build trust",
+          "zh": "建立信任"
+        },
+        {
+          "en": "trust someone to do",
+          "zh": "相信某人会做某事"
+        }
+      ],
+      "examples": [
+        {
+          "en": "It takes time to build trust in a team.",
+          "zh": "在团队中建立信任需要时间。",
+          "audio": "audio/trust--1.wav"
+        },
+        {
+          "en": "I trust her to make a fair decision.",
+          "zh": "我相信她会作出公正的决定。",
+          "audio": "audio/trust--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/trust.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-trustworthy",
+      "word": "trustworthy",
+      "ipa": "/ˈtrʌstwɜːrði/",
+      "pos": "adj.",
+      "meaning": "值得信赖的；可靠的",
+      "level": "六级",
+      "topic": "living",
+      "family": "trust",
+      "phrases": [
+        {
+          "en": "a trustworthy person",
+          "zh": "值得信赖的人"
+        },
+        {
+          "en": "a trustworthy source",
+          "zh": "可靠的来源"
+        }
+      ],
+      "examples": [
+        {
+          "en": "We need information from a trustworthy source.",
+          "zh": "我们需要来自可靠来源的信息。",
+          "audio": "audio/trustworthy--1.wav"
+        },
+        {
+          "en": "She proved to be a trustworthy partner.",
+          "zh": "事实证明她是一位值得信赖的合作伙伴。",
+          "audio": "audio/trustworthy--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/trustworthy.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-believe",
+      "word": "believe",
+      "ipa": "/bɪˈliːv/",
+      "pos": "v.",
+      "meaning": "相信；认为",
+      "level": "基础",
+      "topic": "living",
+      "family": "believe",
+      "phrases": [
+        {
+          "en": "believe in",
+          "zh": "信任；相信某种价值"
+        },
+        {
+          "en": "believe that",
+          "zh": "相信"
+        }
+      ],
+      "examples": [
+        {
+          "en": "I believe that we can find a solution.",
+          "zh": "我相信我们能找到解决办法。",
+          "audio": "audio/believe--1.wav"
+        },
+        {
+          "en": "Her parents always believed in her ability.",
+          "zh": "她的父母一直相信她的能力。",
+          "audio": "audio/believe--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/believe.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-belief",
+      "word": "belief",
+      "ipa": "/bɪˈliːf/",
+      "pos": "n.",
+      "meaning": "信念；看法",
+      "level": "四级",
+      "topic": "living",
+      "family": "believe",
+      "phrases": [
+        {
+          "en": "a strong belief",
+          "zh": "坚定的信念"
+        },
+        {
+          "en": "the belief that",
+          "zh": "某种看法"
+        }
+      ],
+      "examples": [
+        {
+          "en": "His belief in the project never changed.",
+          "zh": "他对这个项目的信念从未改变。",
+          "audio": "audio/belief--1.wav"
+        },
+        {
+          "en": "We should respect people with different beliefs.",
+          "zh": "我们应该尊重持有不同信念的人。",
+          "audio": "audio/belief--2.wav"
+        }
+      ],
+      "forms": [
+        "复数 beliefs"
+      ],
+      "audio": "audio/belief.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-credible",
+      "word": "credible",
+      "ipa": "/ˈkredəbəl/",
+      "pos": "adj.",
+      "meaning": "可信的；可靠的",
+      "level": "六级",
+      "topic": "living",
+      "family": "cred",
+      "phrases": [
+        {
+          "en": "a credible explanation",
+          "zh": "可信的解释"
+        },
+        {
+          "en": "credible evidence",
+          "zh": "可靠的证据"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The report needs more credible evidence.",
+          "zh": "这份报告需要更多可靠的证据。",
+          "audio": "audio/credible--1.wav"
+        },
+        {
+          "en": "Her account of the event seems credible.",
+          "zh": "她对这件事的叙述似乎可信。",
+          "audio": "audio/credible--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/credible.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-incredible",
+      "word": "incredible",
+      "ipa": "/ɪnˈkredəbəl/",
+      "pos": "adj.",
+      "meaning": "难以置信的；极好的",
+      "level": "四级",
+      "topic": "living",
+      "family": "cred",
+      "phrases": [
+        {
+          "en": "an incredible story",
+          "zh": "难以置信的故事"
+        },
+        {
+          "en": "an incredible view",
+          "zh": "极美的景色"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The view from the mountain was incredible.",
+          "zh": "山顶的景色美得令人惊叹。",
+          "audio": "audio/incredible--1.wav"
+        },
+        {
+          "en": "He told us an incredible story about his journey.",
+          "zh": "他给我们讲了一个难以置信的旅行故事。",
+          "audio": "audio/incredible--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/incredible.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-credit",
+      "word": "credit",
+      "ipa": "/ˈkredɪt/",
+      "pos": "n. v.",
+      "meaning": "信用；功劳；学分；归功于",
+      "level": "四级",
+      "topic": "living",
+      "family": "cred",
+      "phrases": [
+        {
+          "en": "give credit to",
+          "zh": "将功劳归于"
+        },
+        {
+          "en": "earn credits",
+          "zh": "修得学分"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Give credit to everyone who helped the project.",
+          "zh": "应该肯定所有帮助过这个项目的人。",
+          "audio": "audio/credit--1.wav"
+        },
+        {
+          "en": "Students can earn credits through practical training.",
+          "zh": "学生可以通过实践培训获得学分。",
+          "audio": "audio/credit--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/credit.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-create",
+      "word": "create",
+      "ipa": "/kriˈeɪt/",
+      "pos": "v.",
+      "meaning": "创造；创建；引起",
+      "level": "四级",
+      "topic": "living",
+      "family": "create",
+      "phrases": [
+        {
+          "en": "create an opportunity",
+          "zh": "创造机会"
+        },
+        {
+          "en": "create a space",
+          "zh": "创造空间"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The new park will create a space for everyone.",
+          "zh": "新公园将为所有人创造一个公共空间。",
+          "audio": "audio/create--1.wav"
+        },
+        {
+          "en": "Small changes can create new opportunities.",
+          "zh": "小改变能够创造新机会。",
+          "audio": "audio/create--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/create.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-creative",
+      "word": "creative",
+      "ipa": "/kriˈeɪtɪv/",
+      "pos": "adj.",
+      "meaning": "有创造力的；创造性的",
+      "level": "四级",
+      "topic": "living",
+      "family": "create",
+      "phrases": [
+        {
+          "en": "creative thinking",
+          "zh": "创造性思维"
+        },
+        {
+          "en": "a creative solution",
+          "zh": "有创意的解决办法"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The task encourages creative thinking.",
+          "zh": "这项任务鼓励创造性思维。",
+          "audio": "audio/creative--1.wav"
+        },
+        {
+          "en": "We need a creative solution to this problem.",
+          "zh": "我们需要一个有创意的办法来解决这个问题。",
+          "audio": "audio/creative--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/creative.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-creativity",
+      "word": "creativity",
+      "ipa": "/ˌkriːeɪˈtɪvəti/",
+      "pos": "n.",
+      "meaning": "创造力；创造性",
+      "level": "六级",
+      "topic": "living",
+      "family": "create",
+      "phrases": [
+        {
+          "en": "encourage creativity",
+          "zh": "鼓励创造力"
+        },
+        {
+          "en": "artistic creativity",
+          "zh": "艺术创造力"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The workshop gives children room for creativity.",
+          "zh": "这个工作坊给孩子们发挥创造力的空间。",
+          "audio": "audio/creativity--1.wav"
+        },
+        {
+          "en": "Creativity often grows through curiosity and practice.",
+          "zh": "创造力常在好奇与实践中发展。",
+          "audio": "audio/creativity--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/creativity.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-connect",
+      "word": "connect",
+      "ipa": "/kəˈnekt/",
+      "pos": "v.",
+      "meaning": "连接；联系",
+      "level": "四级",
+      "topic": "living",
+      "family": "connect",
+      "phrases": [
+        {
+          "en": "connect with",
+          "zh": "与某人建立联系"
+        },
+        {
+          "en": "connect to",
+          "zh": "连接到"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The new bridge connects the two villages.",
+          "zh": "这座新桥连接了两个村庄。",
+          "audio": "audio/connect--1.wav"
+        },
+        {
+          "en": "Reading helps us connect with other people's experiences.",
+          "zh": "阅读帮助我们理解和联结他人的经历。",
+          "audio": "audio/connect--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/connect.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-connection",
+      "word": "connection",
+      "ipa": "/kəˈnekʃən/",
+      "pos": "n.",
+      "meaning": "连接；联系；关联",
+      "level": "四级",
+      "topic": "living",
+      "family": "connect",
+      "phrases": [
+        {
+          "en": "a close connection",
+          "zh": "密切联系"
+        },
+        {
+          "en": "an internet connection",
+          "zh": "互联网连接"
+        }
+      ],
+      "examples": [
+        {
+          "en": "There is a close connection between sleep and memory.",
+          "zh": "睡眠与记忆之间有密切联系。",
+          "audio": "audio/connection--1.wav"
+        },
+        {
+          "en": "Our internet connection was interrupted by the storm.",
+          "zh": "我们的网络连接被暴风雨中断了。",
+          "audio": "audio/connection--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/connection.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-support",
+      "word": "support",
+      "ipa": "/səˈpɔːrt/",
+      "pos": "v. n.",
+      "meaning": "支持；支撑；援助",
+      "level": "四级",
+      "topic": "living",
+      "family": "port",
+      "phrases": [
+        {
+          "en": "support a decision",
+          "zh": "支持决定"
+        },
+        {
+          "en": "give support",
+          "zh": "提供支持"
+        }
+      ],
+      "examples": [
+        {
+          "en": "My family supported my decision to study abroad.",
+          "zh": "我的家人支持我出国学习的决定。",
+          "audio": "audio/support--1.wav"
+        },
+        {
+          "en": "The old bridge can no longer support heavy vehicles.",
+          "zh": "这座旧桥已无法承受重型车辆。",
+          "audio": "audio/support--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/support.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-comfort",
+      "word": "comfort",
+      "ipa": "/ˈkʌmfərt/",
+      "pos": "n. v.",
+      "meaning": "安慰；舒适；使宽慰",
+      "level": "四级",
+      "topic": "living",
+      "family": "comfort",
+      "phrases": [
+        {
+          "en": "offer comfort",
+          "zh": "给予安慰"
+        },
+        {
+          "en": "in comfort",
+          "zh": "舒适地"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Her kind words gave me great comfort.",
+          "zh": "她亲切的话语给了我很大安慰。",
+          "audio": "audio/comfort--1.wav"
+        },
+        {
+          "en": "They traveled in comfort on the new train.",
+          "zh": "他们乘坐新列车舒适地旅行。",
+          "audio": "audio/comfort--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/comfort.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-comfortable",
+      "word": "comfortable",
+      "ipa": "/ˈkʌmftərbəl/",
+      "pos": "adj.",
+      "meaning": "舒适的；自在的",
+      "level": "四级",
+      "topic": "living",
+      "family": "comfort",
+      "phrases": [
+        {
+          "en": "feel comfortable",
+          "zh": "感到自在"
+        },
+        {
+          "en": "a comfortable chair",
+          "zh": "舒适的椅子"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Please choose a chair that feels comfortable.",
+          "zh": "请选一把坐着舒适的椅子。",
+          "audio": "audio/comfortable--1.wav"
+        },
+        {
+          "en": "She soon felt comfortable in the new class.",
+          "zh": "她很快在新班级里感到自在了。",
+          "audio": "audio/comfortable--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/comfortable.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-patient",
+      "word": "patient",
+      "ipa": "/ˈpeɪʃənt/",
+      "pos": "adj. n.",
+      "meaning": "有耐心的；病人",
+      "level": "四级",
+      "topic": "living",
+      "family": "patient",
+      "phrases": [
+        {
+          "en": "be patient with",
+          "zh": "对某人有耐心"
+        },
+        {
+          "en": "a hospital patient",
+          "zh": "住院病人"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Please be patient with people who are still learning.",
+          "zh": "请对仍在学习的人多些耐心。",
+          "audio": "audio/patient--1.wav"
+        },
+        {
+          "en": "The patient was able to return home on Friday.",
+          "zh": "这位病人周五得以回家。",
+          "audio": "audio/patient--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/patient.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-patience",
+      "word": "patience",
+      "ipa": "/ˈpeɪʃəns/",
+      "pos": "n.",
+      "meaning": "耐心；耐性",
+      "level": "四级",
+      "topic": "living",
+      "family": "patient",
+      "phrases": [
+        {
+          "en": "have patience",
+          "zh": "有耐心"
+        },
+        {
+          "en": "lose patience",
+          "zh": "失去耐心"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Learning a new skill requires patience.",
+          "zh": "学习一项新技能需要耐心。",
+          "audio": "audio/patience--1.wav"
+        },
+        {
+          "en": "Thank you for your patience during the delay.",
+          "zh": "谢谢你在延迟期间耐心等待。",
+          "audio": "audio/patience--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/patience.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-adapt",
+      "word": "adapt",
+      "ipa": "/əˈdæpt/",
+      "pos": "v.",
+      "meaning": "适应；改编；调整",
+      "level": "四级",
+      "topic": "living",
+      "family": "adapt",
+      "phrases": [
+        {
+          "en": "adapt to",
+          "zh": "适应"
+        },
+        {
+          "en": "adapt a story",
+          "zh": "改编故事"
+        }
+      ],
+      "examples": [
+        {
+          "en": "It took time to adapt to the new schedule.",
+          "zh": "适应新的日程安排花了一些时间。",
+          "audio": "audio/adapt--1.wav"
+        },
+        {
+          "en": "The director adapted the story for the stage.",
+          "zh": "导演把这个故事改编成了舞台剧。",
+          "audio": "audio/adapt--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/adapt.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-adaptation",
+      "word": "adaptation",
+      "ipa": "/ˌædæpˈteɪʃən/",
+      "pos": "n.",
+      "meaning": "适应；改编作品",
+      "level": "六级",
+      "topic": "living",
+      "family": "adapt",
+      "phrases": [
+        {
+          "en": "adaptation to",
+          "zh": "对某事的适应"
+        },
+        {
+          "en": "a film adaptation",
+          "zh": "电影改编作品"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Adaptation to a new environment can be gradual.",
+          "zh": "适应新环境可能是一个渐进过程。",
+          "audio": "audio/adaptation--1.wav"
+        },
+        {
+          "en": "We watched a film adaptation of the novel.",
+          "zh": "我们观看了这部小说的电影改编版。",
+          "audio": "audio/adaptation--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/adaptation.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-flexible",
+      "word": "flexible",
+      "ipa": "/ˈfleksəbəl/",
+      "pos": "adj.",
+      "meaning": "灵活的；可弯曲的",
+      "level": "六级",
+      "topic": "living",
+      "family": "flex",
+      "phrases": [
+        {
+          "en": "flexible working hours",
+          "zh": "弹性工作时间"
+        },
+        {
+          "en": "a flexible approach",
+          "zh": "灵活的方法"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The company offers flexible working hours.",
+          "zh": "这家公司提供弹性工作时间。",
+          "audio": "audio/flexible--1.wav"
+        },
+        {
+          "en": "A flexible approach helps us respond to change.",
+          "zh": "灵活的方法有助于我们应对变化。",
+          "audio": "audio/flexible--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/flexible.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-flexibility",
+      "word": "flexibility",
+      "ipa": "/ˌfleksəˈbɪləti/",
+      "pos": "n.",
+      "meaning": "灵活性；柔韧性",
+      "level": "六级",
+      "topic": "living",
+      "family": "flex",
+      "phrases": [
+        {
+          "en": "greater flexibility",
+          "zh": "更大的灵活性"
+        },
+        {
+          "en": "improve flexibility",
+          "zh": "改善柔韧性"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The plan allows greater flexibility in choosing courses.",
+          "zh": "这个计划让选课有更大的灵活性。",
+          "audio": "audio/flexibility--1.wav"
+        },
+        {
+          "en": "Regular stretching may improve your flexibility.",
+          "zh": "经常拉伸可能改善身体柔韧性。",
+          "audio": "audio/flexibility--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/flexibility.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-balance",
+      "word": "balance",
+      "ipa": "/ˈbæləns/",
+      "pos": "n. v.",
+      "meaning": "平衡；使均衡；余额",
+      "level": "四级",
+      "topic": "living",
+      "family": "independent",
+      "phrases": [
+        {
+          "en": "keep one's balance",
+          "zh": "保持平衡"
+        },
+        {
+          "en": "balance work and life",
+          "zh": "平衡工作与生活"
+        }
+      ],
+      "examples": [
+        {
+          "en": "She held the rail to keep her balance.",
+          "zh": "她扶住栏杆来保持平衡。",
+          "audio": "audio/balance--1.wav"
+        },
+        {
+          "en": "We are trying to balance work and family life.",
+          "zh": "我们正在努力平衡工作与家庭生活。",
+          "audio": "audio/balance--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/balance.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-work",
+      "word": "work",
+      "ipa": "/wɜːrk/",
+      "pos": "n. v.",
+      "meaning": "工作；劳动；起作用",
+      "level": "基础",
+      "topic": "society",
+      "family": "work",
+      "phrases": [
+        {
+          "en": "work together",
+          "zh": "一起工作"
+        },
+        {
+          "en": "at work",
+          "zh": "在工作中"
+        }
+      ],
+      "examples": [
+        {
+          "en": "We work together to keep the garden clean.",
+          "zh": "我们一起劳动，让花园保持整洁。",
+          "audio": "audio/work--1.wav"
+        },
+        {
+          "en": "The new method seems to work quite well.",
+          "zh": "新方法似乎很有效。",
+          "audio": "audio/work--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/work.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-worker",
+      "word": "worker",
+      "ipa": "/ˈwɜːrkər/",
+      "pos": "n.",
+      "meaning": "工人；工作人员",
+      "level": "基础",
+      "topic": "society",
+      "family": "work",
+      "phrases": [
+        {
+          "en": "a skilled worker",
+          "zh": "熟练工人"
+        },
+        {
+          "en": "a social worker",
+          "zh": "社会工作者"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The factory needs more skilled workers.",
+          "zh": "这家工厂需要更多熟练工人。",
+          "audio": "audio/worker--1.wav"
+        },
+        {
+          "en": "A social worker helped the family find support.",
+          "zh": "一位社会工作者帮助这个家庭获得了支持。",
+          "audio": "audio/worker--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/worker.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-build",
+      "word": "build",
+      "ipa": "/bɪld/",
+      "pos": "v.",
+      "meaning": "建造；建立；逐步增强",
+      "level": "基础",
+      "topic": "society",
+      "family": "build",
+      "phrases": [
+        {
+          "en": "build a bridge",
+          "zh": "建桥"
+        },
+        {
+          "en": "build confidence",
+          "zh": "建立信心"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The village plans to build a new library.",
+          "zh": "村里计划建一座新图书馆。",
+          "audio": "audio/build--1.wav"
+        },
+        {
+          "en": "Small successes can help you build confidence.",
+          "zh": "小小的成功可以帮助你建立信心。",
+          "audio": "audio/build--2.wav"
+        }
+      ],
+      "forms": [
+        "过去式与过去分词 built"
+      ],
+      "audio": "audio/build.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-building",
+      "word": "building",
+      "ipa": "/ˈbɪldɪŋ/",
+      "pos": "n.",
+      "meaning": "建筑物；建筑活动",
+      "level": "基础",
+      "topic": "society",
+      "family": "build",
+      "phrases": [
+        {
+          "en": "a public building",
+          "zh": "公共建筑"
+        },
+        {
+          "en": "building materials",
+          "zh": "建筑材料"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The old building has been turned into a museum.",
+          "zh": "这栋旧建筑已被改造成博物馆。",
+          "audio": "audio/building--1.wav"
+        },
+        {
+          "en": "The team is testing new building materials.",
+          "zh": "团队正在测试新的建筑材料。",
+          "audio": "audio/building--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/building.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-construct",
+      "word": "construct",
+      "ipa": "/kənˈstrʌkt/",
+      "pos": "v.",
+      "meaning": "建造；构建",
+      "level": "四级",
+      "topic": "society",
+      "family": "struct",
+      "phrases": [
+        {
+          "en": "construct a bridge",
+          "zh": "建造桥梁"
+        },
+        {
+          "en": "construct an argument",
+          "zh": "构建论证"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Engineers constructed the bridge in two years.",
+          "zh": "工程师们用两年建成了这座桥。",
+          "audio": "audio/construct--1.wav"
+        },
+        {
+          "en": "The essay shows how to construct a clear argument.",
+          "zh": "这篇文章展示了如何构建清晰的论证。",
+          "audio": "audio/construct--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/construct.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-construction",
+      "word": "construction",
+      "ipa": "/kənˈstrʌkʃən/",
+      "pos": "n.",
+      "meaning": "建造；建筑；构造",
+      "level": "四级",
+      "topic": "society",
+      "family": "struct",
+      "phrases": [
+        {
+          "en": "under construction",
+          "zh": "正在建设中"
+        },
+        {
+          "en": "a construction site",
+          "zh": "建筑工地"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The new station is still under construction.",
+          "zh": "新车站仍在建设中。",
+          "audio": "audio/construction--1.wav"
+        },
+        {
+          "en": "Visitors must wear a helmet at the construction site.",
+          "zh": "访客在建筑工地必须佩戴安全帽。",
+          "audio": "audio/construction--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/construction.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-structure",
+      "word": "structure",
+      "ipa": "/ˈstrʌktʃər/",
+      "pos": "n. v.",
+      "meaning": "结构；构造；组织安排",
+      "level": "四级",
+      "topic": "society",
+      "family": "struct",
+      "phrases": [
+        {
+          "en": "the structure of",
+          "zh": "某事物的结构"
+        },
+        {
+          "en": "sentence structure",
+          "zh": "句子结构"
+        }
+      ],
+      "examples": [
+        {
+          "en": "We studied the structure of the human heart.",
+          "zh": "我们学习了人类心脏的结构。",
+          "audio": "audio/structure--1.wav"
+        },
+        {
+          "en": "Try to structure your report around three main ideas.",
+          "zh": "试着围绕三个主要观点组织报告。",
+          "audio": "audio/structure--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/structure.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-reconstruct",
+      "word": "reconstruct",
+      "ipa": "/ˌriːkənˈstrʌkt/",
+      "pos": "v.",
+      "meaning": "重建；重现",
+      "level": "六级",
+      "topic": "society",
+      "family": "struct",
+      "phrases": [
+        {
+          "en": "reconstruct a building",
+          "zh": "重建建筑"
+        },
+        {
+          "en": "reconstruct events",
+          "zh": "重现事件经过"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The town plans to reconstruct the damaged bridge.",
+          "zh": "镇上计划重建受损的桥梁。",
+          "audio": "audio/reconstruct--1.wav"
+        },
+        {
+          "en": "Researchers used old photographs to reconstruct the street.",
+          "zh": "研究者利用旧照片重现了这条街道。",
+          "audio": "audio/reconstruct--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/reconstruct.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-infrastructure",
+      "word": "infrastructure",
+      "ipa": "/ˈɪnfrəstrʌktʃər/",
+      "pos": "n.",
+      "meaning": "基础设施",
+      "level": "六级",
+      "topic": "society",
+      "family": "struct",
+      "phrases": [
+        {
+          "en": "public infrastructure",
+          "zh": "公共基础设施"
+        },
+        {
+          "en": "transport infrastructure",
+          "zh": "交通基础设施"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The city is investing in public infrastructure.",
+          "zh": "这座城市正在投资公共基础设施。",
+          "audio": "audio/infrastructure--1.wav"
+        },
+        {
+          "en": "Reliable infrastructure supports everyday life and business.",
+          "zh": "可靠的基础设施支撑日常生活和商业活动。",
+          "audio": "audio/infrastructure--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/infrastructure.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-transport",
+      "word": "transport",
+      "ipa": "/ˈtrænspɔːrt/",
+      "pos": "n.",
+      "meaning": "交通运输；运输系统",
+      "level": "四级",
+      "topic": "society",
+      "family": "port",
+      "phrases": [
+        {
+          "en": "public transport",
+          "zh": "公共交通"
+        },
+        {
+          "en": "rail transport",
+          "zh": "铁路运输"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Public transport makes the city easier to explore.",
+          "zh": "公共交通让游览这座城市更方便。",
+          "audio": "audio/transport--1.wav"
+        },
+        {
+          "en": "Rail transport connects the factory with the port.",
+          "zh": "铁路运输将工厂与港口连接起来。",
+          "audio": "audio/transport--2.wav"
+        }
+      ],
+      "forms": [
+        "本卡重点为名词",
+        "动词读音的重音可能不同"
+      ],
+      "audio": "audio/transport.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-portable",
+      "word": "portable",
+      "ipa": "/ˈpɔːrtəbəl/",
+      "pos": "adj.",
+      "meaning": "便携的；轻便的",
+      "level": "六级",
+      "topic": "society",
+      "family": "port",
+      "phrases": [
+        {
+          "en": "a portable computer",
+          "zh": "便携式电脑"
+        },
+        {
+          "en": "a portable speaker",
+          "zh": "便携式音箱"
+        }
+      ],
+      "examples": [
+        {
+          "en": "She carries a portable charger in her bag.",
+          "zh": "她在包里带着一个便携式充电器。",
+          "audio": "audio/portable--1.wav"
+        },
+        {
+          "en": "The device is small, light, and easily portable.",
+          "zh": "这个设备体积小、重量轻，方便携带。",
+          "audio": "audio/portable--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/portable.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-report",
+      "word": "report",
+      "ipa": "/rɪˈpɔːrt/",
+      "pos": "n. v.",
+      "meaning": "报告；报道；汇报",
+      "level": "四级",
+      "topic": "society",
+      "family": "port",
+      "phrases": [
+        {
+          "en": "write a report",
+          "zh": "写报告"
+        },
+        {
+          "en": "report a problem",
+          "zh": "报告问题"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The report explains why the river has changed.",
+          "zh": "这份报告解释了河流为何发生变化。",
+          "audio": "audio/report--1.wav"
+        },
+        {
+          "en": "Please report any problems to the office.",
+          "zh": "请将任何问题报告给办公室。",
+          "audio": "audio/report--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/report.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-transfer",
+      "word": "transfer",
+      "ipa": "/trænsˈfɜːr/",
+      "pos": "v.",
+      "meaning": "转移；转学；调动",
+      "level": "四级",
+      "topic": "society",
+      "family": "independent",
+      "phrases": [
+        {
+          "en": "transfer money",
+          "zh": "转账"
+        },
+        {
+          "en": "transfer to",
+          "zh": "转移到"
+        }
+      ],
+      "examples": [
+        {
+          "en": "You can transfer the file to another computer.",
+          "zh": "你可以将文件转移到另一台电脑。",
+          "audio": "audio/transfer--1.wav"
+        },
+        {
+          "en": "She decided to transfer to a different university.",
+          "zh": "她决定转学到另一所大学。",
+          "audio": "audio/transfer--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/transfer.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-transformation",
+      "word": "transformation",
+      "ipa": "/ˌtrænsfərˈmeɪʃən/",
+      "pos": "n.",
+      "meaning": "转变；改造",
+      "level": "六级",
+      "topic": "society",
+      "family": "form",
+      "phrases": [
+        {
+          "en": "a major transformation",
+          "zh": "重大转变"
+        },
+        {
+          "en": "digital transformation",
+          "zh": "数字化转型"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The town has undergone a major transformation.",
+          "zh": "这个城镇经历了重大变化。",
+          "audio": "audio/transformation--1.wav"
+        },
+        {
+          "en": "Education can bring about a lasting transformation.",
+          "zh": "教育能够带来持久的转变。",
+          "audio": "audio/transformation--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/transformation.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-transform",
+      "word": "transform",
+      "ipa": "/trænsˈfɔːrm/",
+      "pos": "v.",
+      "meaning": "改变；使转变",
+      "level": "四级",
+      "topic": "society",
+      "family": "form",
+      "phrases": [
+        {
+          "en": "transform into",
+          "zh": "转变成"
+        },
+        {
+          "en": "transform a place",
+          "zh": "改变一个地方"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The empty room was transformed into a reading space.",
+          "zh": "空房间被改造成了阅读空间。",
+          "audio": "audio/transform--1.wav"
+        },
+        {
+          "en": "New technology can transform the way we work.",
+          "zh": "新技术可以改变我们的工作方式。",
+          "audio": "audio/transform--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/transform.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-reform",
+      "word": "reform",
+      "ipa": "/rɪˈfɔːrm/",
+      "pos": "n. v.",
+      "meaning": "改革；改进",
+      "level": "四级",
+      "topic": "society",
+      "family": "form",
+      "phrases": [
+        {
+          "en": "education reform",
+          "zh": "教育改革"
+        },
+        {
+          "en": "reform a system",
+          "zh": "改革制度"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The proposal calls for reform of the examination system.",
+          "zh": "这项提议呼吁改革考试制度。",
+          "audio": "audio/reform--1.wav"
+        },
+        {
+          "en": "The school introduced several reforms last year.",
+          "zh": "这所学校去年推行了几项改革。",
+          "audio": "audio/reform--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/reform.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-contribute",
+      "word": "contribute",
+      "ipa": "/kənˈtrɪbjuːt/",
+      "pos": "v.",
+      "meaning": "贡献；捐助；促成",
+      "level": "四级",
+      "topic": "society",
+      "family": "tribut",
+      "phrases": [
+        {
+          "en": "contribute to",
+          "zh": "有助于；向某事贡献"
+        },
+        {
+          "en": "contribute ideas",
+          "zh": "贡献想法"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Everyone can contribute ideas to the discussion.",
+          "zh": "每个人都可以在讨论中贡献想法。",
+          "audio": "audio/contribute--1.wav"
+        },
+        {
+          "en": "Regular exercise contributes to better health.",
+          "zh": "经常锻炼有助于改善健康。",
+          "audio": "audio/contribute--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/contribute.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-contribution",
+      "word": "contribution",
+      "ipa": "/ˌkɑːntrɪˈbjuːʃən/",
+      "pos": "n.",
+      "meaning": "贡献；捐款；投稿",
+      "level": "四级",
+      "topic": "society",
+      "family": "tribut",
+      "phrases": [
+        {
+          "en": "make a contribution",
+          "zh": "作出贡献"
+        },
+        {
+          "en": "a valuable contribution",
+          "zh": "有价值的贡献"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Her research made a valuable contribution to the field.",
+          "zh": "她的研究为这个领域作出了宝贵贡献。",
+          "audio": "audio/contribution--1.wav"
+        },
+        {
+          "en": "We thanked everyone for their contribution.",
+          "zh": "我们感谢每个人作出的贡献。",
+          "audio": "audio/contribution--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/contribution.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-distribute",
+      "word": "distribute",
+      "ipa": "/dɪˈstrɪbjuːt/",
+      "pos": "v.",
+      "meaning": "分发；分配；使分布",
+      "level": "四级",
+      "topic": "society",
+      "family": "tribut",
+      "phrases": [
+        {
+          "en": "distribute food",
+          "zh": "分发食物"
+        },
+        {
+          "en": "distribute evenly",
+          "zh": "均匀分配"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Volunteers helped distribute food to local families.",
+          "zh": "志愿者帮助向当地家庭分发食物。",
+          "audio": "audio/distribute--1.wav"
+        },
+        {
+          "en": "The weight should be distributed evenly across the surface.",
+          "zh": "重量应均匀分布在表面上。",
+          "audio": "audio/distribute--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/distribute.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-distribution",
+      "word": "distribution",
+      "ipa": "/ˌdɪstrɪˈbjuːʃən/",
+      "pos": "n.",
+      "meaning": "分发；分配；分布",
+      "level": "六级",
+      "topic": "society",
+      "family": "tribut",
+      "phrases": [
+        {
+          "en": "the distribution of",
+          "zh": "某事物的分布"
+        },
+        {
+          "en": "fair distribution",
+          "zh": "公平分配"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The map shows the distribution of schools in the area.",
+          "zh": "地图显示了该地区学校的分布。",
+          "audio": "audio/distribution--1.wav"
+        },
+        {
+          "en": "The project aims to improve the distribution of resources.",
+          "zh": "这个项目旨在改善资源分配。",
+          "audio": "audio/distribution--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/distribution.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-reject",
+      "word": "reject",
+      "ipa": "/rɪˈdʒekt/",
+      "pos": "v.",
+      "meaning": "拒绝；否决；不接受",
+      "level": "四级",
+      "topic": "society",
+      "family": "ject",
+      "phrases": [
+        {
+          "en": "reject an offer",
+          "zh": "拒绝提议"
+        },
+        {
+          "en": "reject a proposal",
+          "zh": "否决方案"
+        }
+      ],
+      "examples": [
+        {
+          "en": "They rejected the offer because the timing was wrong.",
+          "zh": "他们因时机不合适而拒绝了提议。",
+          "audio": "audio/reject--1.wav"
+        },
+        {
+          "en": "The committee rejected the proposal after a long discussion.",
+          "zh": "委员会经过长时间讨论后否决了方案。",
+          "audio": "audio/reject--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/reject.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-rejection",
+      "word": "rejection",
+      "ipa": "/rɪˈdʒekʃən/",
+      "pos": "n.",
+      "meaning": "拒绝；否决",
+      "level": "六级",
+      "topic": "society",
+      "family": "ject",
+      "phrases": [
+        {
+          "en": "fear of rejection",
+          "zh": "害怕被拒绝"
+        },
+        {
+          "en": "the rejection of",
+          "zh": "对某事的拒绝"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Fear of rejection can stop people from trying.",
+          "zh": "害怕被拒绝可能让人不敢尝试。",
+          "audio": "audio/rejection--1.wav"
+        },
+        {
+          "en": "The rejection of the plan led to further discussion.",
+          "zh": "计划遭否决后引发了进一步讨论。",
+          "audio": "audio/rejection--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/rejection.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-inject",
+      "word": "inject",
+      "ipa": "/ɪnˈdʒekt/",
+      "pos": "v.",
+      "meaning": "注射；注入",
+      "level": "六级",
+      "topic": "society",
+      "family": "ject",
+      "phrases": [
+        {
+          "en": "inject money into",
+          "zh": "向某事注入资金"
+        },
+        {
+          "en": "inject new energy",
+          "zh": "注入新活力"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The grant will inject new energy into the project.",
+          "zh": "这笔资助将为项目注入新活力。",
+          "audio": "audio/inject--1.wav"
+        },
+        {
+          "en": "Only trained staff should inject the medicine.",
+          "zh": "只有受过培训的人员才应注射这种药物。",
+          "audio": "audio/inject--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/inject.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-injection",
+      "word": "injection",
+      "ipa": "/ɪnˈdʒekʃən/",
+      "pos": "n.",
+      "meaning": "注射；注入",
+      "level": "六级",
+      "topic": "society",
+      "family": "ject",
+      "phrases": [
+        {
+          "en": "a cash injection",
+          "zh": "资金注入"
+        },
+        {
+          "en": "give an injection",
+          "zh": "注射"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The business received a much-needed cash injection.",
+          "zh": "这家企业获得了急需的资金注入。",
+          "audio": "audio/injection--1.wav"
+        },
+        {
+          "en": "The nurse prepared the patient for an injection.",
+          "zh": "护士让病人为注射作好准备。",
+          "audio": "audio/injection--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/injection.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-attract",
+      "word": "attract",
+      "ipa": "/əˈtrækt/",
+      "pos": "v.",
+      "meaning": "吸引；引起",
+      "level": "四级",
+      "topic": "society",
+      "family": "tract",
+      "phrases": [
+        {
+          "en": "attract attention",
+          "zh": "吸引注意"
+        },
+        {
+          "en": "attract visitors",
+          "zh": "吸引游客"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The exhibition attracted visitors from many countries.",
+          "zh": "展览吸引了来自许多国家的游客。",
+          "audio": "audio/attract--1.wav"
+        },
+        {
+          "en": "The bright cover is designed to attract attention.",
+          "zh": "鲜艳的封面是为了吸引注意。",
+          "audio": "audio/attract--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/attract.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-attraction",
+      "word": "attraction",
+      "ipa": "/əˈtrækʃən/",
+      "pos": "n.",
+      "meaning": "吸引力；有吸引力的事物",
+      "level": "四级",
+      "topic": "society",
+      "family": "tract",
+      "phrases": [
+        {
+          "en": "a tourist attraction",
+          "zh": "旅游景点"
+        },
+        {
+          "en": "the main attraction",
+          "zh": "最吸引人的部分"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The old castle is the town's main attraction.",
+          "zh": "这座古堡是镇上最吸引人的景点。",
+          "audio": "audio/attraction--1.wav"
+        },
+        {
+          "en": "The job's main attraction is the chance to learn.",
+          "zh": "这份工作最吸引人的地方是学习机会。",
+          "audio": "audio/attraction--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/attraction.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-distract",
+      "word": "distract",
+      "ipa": "/dɪˈstrækt/",
+      "pos": "v.",
+      "meaning": "使分心；转移注意",
+      "level": "六级",
+      "topic": "society",
+      "family": "tract",
+      "phrases": [
+        {
+          "en": "distract someone from",
+          "zh": "使某人从某事上分心"
+        },
+        {
+          "en": "easily distracted",
+          "zh": "容易分心的"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The noise distracted me from my reading.",
+          "zh": "噪声让我无法专心阅读。",
+          "audio": "audio/distract--1.wav"
+        },
+        {
+          "en": "Put your phone away if it distracts you.",
+          "zh": "如果手机让你分心，就把它收起来。",
+          "audio": "audio/distract--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/distract.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-distraction",
+      "word": "distraction",
+      "ipa": "/dɪˈstrækʃən/",
+      "pos": "n.",
+      "meaning": "使人分心的事物；分心",
+      "level": "六级",
+      "topic": "society",
+      "family": "tract",
+      "phrases": [
+        {
+          "en": "avoid distractions",
+          "zh": "避免干扰"
+        },
+        {
+          "en": "a welcome distraction",
+          "zh": "令人愉快的消遣"
+        }
+      ],
+      "examples": [
+        {
+          "en": "A quiet room helps me avoid distractions.",
+          "zh": "安静的房间帮助我避免干扰。",
+          "audio": "audio/distraction--1.wav"
+        },
+        {
+          "en": "The walk was a welcome distraction from work.",
+          "zh": "这次散步是工作之余令人愉快的放松。",
+          "audio": "audio/distraction--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/distraction.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-sustainable",
+      "word": "sustainable",
+      "ipa": "/səˈsteɪnəbəl/",
+      "pos": "adj.",
+      "meaning": "可持续的；能长期维持的",
+      "level": "六级",
+      "topic": "society",
+      "family": "sustain",
+      "phrases": [
+        {
+          "en": "sustainable development",
+          "zh": "可持续发展"
+        },
+        {
+          "en": "a sustainable solution",
+          "zh": "可持续的解决办法"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The town is looking for a sustainable energy source.",
+          "zh": "这个城镇正在寻找可持续的能源。",
+          "audio": "audio/sustainable--1.wav"
+        },
+        {
+          "en": "We need a solution that is sustainable in the long term.",
+          "zh": "我们需要一个能长期维持的解决办法。",
+          "audio": "audio/sustainable--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/sustainable.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    },
+    {
+      "id": "dl-sustainability",
+      "word": "sustainability",
+      "ipa": "/səˌsteɪnəˈbɪləti/",
+      "pos": "n.",
+      "meaning": "可持续性；持续维持的能力",
+      "level": "六级",
+      "topic": "society",
+      "family": "sustain",
+      "phrases": [
+        {
+          "en": "environmental sustainability",
+          "zh": "环境可持续性"
+        },
+        {
+          "en": "long-term sustainability",
+          "zh": "长期可持续性"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The course explores the idea of environmental sustainability.",
+          "zh": "这门课程探讨环境可持续性的理念。",
+          "audio": "audio/sustainability--1.wav"
+        },
+        {
+          "en": "The report questions the long-term sustainability of the plan.",
+          "zh": "这份报告对计划的长期可持续性提出了疑问。",
+          "audio": "audio/sustainability--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/sustainability.wav",
+      "source": "daily-lexicon-editorial-0.1",
+      "reviewStatus": "initial-editorial"
+    }
+  ],
+  "topics": [
+    {
+      "id": "mind",
+      "label": "观察与思考",
+      "subtitle": "从看见到理解",
+      "description": "把观察、感知与判断放在同一条线索里。",
+      "column": "认识世界",
+      "words": [
+        "dl-see",
+        "dl-look",
+        "dl-notice",
+        "dl-observe",
+        "dl-observation",
+        "dl-observer",
+        "dl-inspect",
+        "dl-inspection",
+        "dl-perceive",
+        "dl-perception",
+        "dl-perspective",
+        "dl-aspect",
+        "dl-prospect",
+        "dl-suspect",
+        "dl-respect",
+        "dl-think",
+        "dl-thought",
+        "dl-consider",
+        "dl-reconsider",
+        "dl-reflect",
+        "dl-reflection",
+        "dl-analyze",
+        "dl-analysis",
+        "dl-assume",
+        "dl-assumption",
+        "dl-infer",
+        "dl-inference",
+        "dl-reason",
+        "dl-reasonable",
+        "dl-evidence"
+      ]
+    },
+    {
+      "id": "learning",
+      "label": "学习与表达",
+      "subtitle": "把想法说清楚",
+      "description": "沿着阅读、书写与交流，积累表达的词汇。",
+      "column": "理解与交流",
+      "words": [
+        "dl-learn",
+        "dl-learning",
+        "dl-teach",
+        "dl-teacher",
+        "dl-read",
+        "dl-reader",
+        "dl-write",
+        "dl-writer",
+        "dl-describe",
+        "dl-description",
+        "dl-prescribe",
+        "dl-prescription",
+        "dl-manuscript",
+        "dl-dictate",
+        "dl-dictation",
+        "dl-predict",
+        "dl-prediction",
+        "dl-contradict",
+        "dl-contradiction",
+        "dl-explain",
+        "dl-explanation",
+        "dl-express",
+        "dl-expression",
+        "dl-communicate",
+        "dl-communication",
+        "dl-discuss",
+        "dl-discussion",
+        "dl-conclude",
+        "dl-conclusion",
+        "dl-vocabulary"
+      ]
+    },
+    {
+      "id": "living",
+      "label": "生活与关系",
+      "subtitle": "与日常重新相遇",
+      "description": "认识身边的人，也学会描述关系与感受。",
+      "column": "人与生活",
+      "words": [
+        "dl-home",
+        "dl-family",
+        "dl-friend",
+        "dl-friendship",
+        "dl-help",
+        "dl-helpful",
+        "dl-care",
+        "dl-careful",
+        "dl-trust",
+        "dl-trustworthy",
+        "dl-believe",
+        "dl-belief",
+        "dl-credible",
+        "dl-incredible",
+        "dl-credit",
+        "dl-create",
+        "dl-creative",
+        "dl-creativity",
+        "dl-connect",
+        "dl-connection",
+        "dl-support",
+        "dl-comfort",
+        "dl-comfortable",
+        "dl-patient",
+        "dl-patience",
+        "dl-adapt",
+        "dl-adaptation",
+        "dl-flexible",
+        "dl-flexibility",
+        "dl-balance"
+      ]
+    },
+    {
+      "id": "society",
+      "label": "社会与发展",
+      "subtitle": "看见变化的力量",
+      "description": "从建造与运输，读到社会的发展和转变。",
+      "column": "社会观察",
+      "words": [
+        "dl-work",
+        "dl-worker",
+        "dl-build",
+        "dl-building",
+        "dl-construct",
+        "dl-construction",
+        "dl-structure",
+        "dl-reconstruct",
+        "dl-infrastructure",
+        "dl-transport",
+        "dl-portable",
+        "dl-report",
+        "dl-transfer",
+        "dl-transformation",
+        "dl-transform",
+        "dl-reform",
+        "dl-contribute",
+        "dl-contribution",
+        "dl-distribute",
+        "dl-distribution",
+        "dl-reject",
+        "dl-rejection",
+        "dl-inject",
+        "dl-injection",
+        "dl-attract",
+        "dl-attraction",
+        "dl-distract",
+        "dl-distraction",
+        "dl-sustainable",
+        "dl-sustainability"
+      ]
+    }
+  ],
+  "families": [
+    {
+      "id": "spect",
+      "label": "spec / spect",
+      "meaning": "看，观察",
+      "kind": "root",
+      "note": "inspect、aspect、perspective等词的词源与拉丁语“看”的构词形式有关。词形有变化，不按字母相同判断词根。",
+      "words": [
+        "dl-inspect",
+        "dl-inspection",
+        "dl-perspective",
+        "dl-aspect",
+        "dl-prospect",
+        "dl-suspect",
+        "dl-respect"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/inspect"
+    },
+    {
+      "id": "dict",
+      "label": "dict",
+      "meaning": "说，表达",
+      "kind": "root",
+      "note": "与拉丁语“说”有关。predict可用“提前说出”辅助理解，contradict可用“反着说”辅助理解。",
+      "words": [
+        "dl-dictate",
+        "dl-dictation",
+        "dl-predict",
+        "dl-prediction",
+        "dl-contradict",
+        "dl-contradiction"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/dictate"
+    },
+    {
+      "id": "scrib",
+      "label": "scrib / script",
+      "meaning": "写",
+      "kind": "root",
+      "note": "scrib与script是“写”的常见构词形式，可联系describe、prescribe与manuscript。",
+      "words": [
+        "dl-describe",
+        "dl-description",
+        "dl-prescribe",
+        "dl-prescription",
+        "dl-manuscript"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/describe"
+    },
+    {
+      "id": "struct",
+      "label": "struct",
+      "meaning": "建造，排列",
+      "kind": "root",
+      "note": "construct、structure、reconstruct与infrastructure可联系“建造、组织”的构词线索。",
+      "words": [
+        "dl-construct",
+        "dl-construction",
+        "dl-structure",
+        "dl-reconstruct",
+        "dl-infrastructure"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/construct"
+    },
+    {
+      "id": "ject",
+      "label": "ject",
+      "meaning": "投，掷",
+      "kind": "root",
+      "note": "reject可联系“往回投”，inject可联系“向内注入”。这是简化的构词记忆线索。",
+      "words": [
+        "dl-reject",
+        "dl-rejection",
+        "dl-inject",
+        "dl-injection"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/reject"
+    },
+    {
+      "id": "port",
+      "label": "port",
+      "meaning": "携带，运送",
+      "kind": "root",
+      "note": "transport、portable、support与report的词源中包含“携带、运送”的线索；现代含义结合例句记忆。",
+      "words": [
+        "dl-support",
+        "dl-transport",
+        "dl-portable",
+        "dl-report"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/support"
+    },
+    {
+      "id": "tract",
+      "label": "tract",
+      "meaning": "拉，引",
+      "kind": "root",
+      "note": "attract可联系“拉向”，distract可联系“拉开注意力”。注意搭配中介词的使用。",
+      "words": [
+        "dl-attract",
+        "dl-attraction",
+        "dl-distract",
+        "dl-distraction"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/attract"
+    },
+    {
+      "id": "tribut",
+      "label": "tribut",
+      "meaning": "分配，给予",
+      "kind": "root",
+      "note": "contribute与distribute具有共同的历史构词线索，分别联系“贡献”与“分配”。",
+      "words": [
+        "dl-contribute",
+        "dl-contribution",
+        "dl-distribute",
+        "dl-distribution"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/contribute"
+    },
+    {
+      "id": "cred",
+      "label": "cred",
+      "meaning": "相信",
+      "kind": "root",
+      "note": "credible是“可信的”，incredible引申为“难以置信的、极好的”。credit的多个现代义项需结合语境理解。",
+      "words": [
+        "dl-credible",
+        "dl-incredible",
+        "dl-credit"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/credible"
+    },
+    {
+      "id": "form",
+      "label": "form",
+      "meaning": "形状，形成",
+      "kind": "root",
+      "note": "transform、transformation与reform可联系形式或状态的改变。",
+      "words": [
+        "dl-transformation",
+        "dl-transform",
+        "dl-reform"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/transformation"
+    },
+    {
+      "id": "flex",
+      "label": "flex",
+      "meaning": "弯曲",
+      "kind": "root",
+      "note": "flexible从“可弯曲”发展出“灵活”的含义，flexibility是相应名词。",
+      "words": [
+        "dl-flexible",
+        "dl-flexibility"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/flexible"
+    },
+    {
+      "id": "create",
+      "label": "create 词族",
+      "meaning": "创造",
+      "kind": "family",
+      "note": "按现代派生或相关词形联系记忆。这是词族分组，不将整个英语单词强行称为古典词根。",
+      "words": [
+        "dl-create",
+        "dl-creative",
+        "dl-creativity"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/create"
+    },
+    {
+      "id": "observe",
+      "label": "observe 词族",
+      "meaning": "观察与观察者",
+      "kind": "family",
+      "note": "按现代派生或相关词形联系记忆。这是词族分组，不将整个英语单词强行称为古典词根。",
+      "words": [
+        "dl-observe",
+        "dl-observation",
+        "dl-observer"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/observe"
+    },
+    {
+      "id": "adapt",
+      "label": "adapt 词族",
+      "meaning": "适应",
+      "kind": "family",
+      "note": "按现代派生或相关词形联系记忆。这是词族分组，不将整个英语单词强行称为古典词根。",
+      "words": [
+        "dl-adapt",
+        "dl-adaptation"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/adapt"
+    },
+    {
+      "id": "analyze",
+      "label": "analyze 词族",
+      "meaning": "分析与分析结果",
+      "kind": "family",
+      "note": "按现代派生或相关词形联系记忆。这是词族分组，不将整个英语单词强行称为古典词根。",
+      "words": [
+        "dl-analyze",
+        "dl-analysis"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/analyze"
+    },
+    {
+      "id": "assume",
+      "label": "assume 词族",
+      "meaning": "假定与假设",
+      "kind": "family",
+      "note": "按现代派生或相关词形联系记忆。这是词族分组，不将整个英语单词强行称为古典词根。",
+      "words": [
+        "dl-assume",
+        "dl-assumption"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/assume"
+    },
+    {
+      "id": "believe",
+      "label": "believe 词族",
+      "meaning": "相信与信念",
+      "kind": "family",
+      "note": "按现代派生或相关词形联系记忆。这是词族分组，不将整个英语单词强行称为古典词根。",
+      "words": [
+        "dl-believe",
+        "dl-belief"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/believe"
+    },
+    {
+      "id": "build",
+      "label": "build 词族",
+      "meaning": "建造",
+      "kind": "family",
+      "note": "按现代派生或相关词形联系记忆。这是词族分组，不将整个英语单词强行称为古典词根。",
+      "words": [
+        "dl-build",
+        "dl-building"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/build"
+    },
+    {
+      "id": "care",
+      "label": "care 词族",
+      "meaning": "关心与小心",
+      "kind": "family",
+      "note": "按现代派生或相关词形联系记忆。这是词族分组，不将整个英语单词强行称为古典词根。",
+      "words": [
+        "dl-care",
+        "dl-careful"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/care"
+    },
+    {
+      "id": "comfort",
+      "label": "comfort 词族",
+      "meaning": "舒适与安慰",
+      "kind": "family",
+      "note": "按现代派生或相关词形联系记忆。这是词族分组，不将整个英语单词强行称为古典词根。",
+      "words": [
+        "dl-comfort",
+        "dl-comfortable"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/comfort"
+    },
+    {
+      "id": "communicate",
+      "label": "communicate 词族",
+      "meaning": "交流",
+      "kind": "family",
+      "note": "按现代派生或相关词形联系记忆。这是词族分组，不将整个英语单词强行称为古典词根。",
+      "words": [
+        "dl-communicate",
+        "dl-communication"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/communicate"
+    },
+    {
+      "id": "conclude",
+      "label": "conclude 词族",
+      "meaning": "结论",
+      "kind": "family",
+      "note": "按现代派生或相关词形联系记忆。这是词族分组，不将整个英语单词强行称为古典词根。",
+      "words": [
+        "dl-conclude",
+        "dl-conclusion"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/conclude"
+    },
+    {
+      "id": "connect",
+      "label": "connect 词族",
+      "meaning": "联系",
+      "kind": "family",
+      "note": "按现代派生或相关词形联系记忆。这是词族分组，不将整个英语单词强行称为古典词根。",
+      "words": [
+        "dl-connect",
+        "dl-connection"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/connect"
+    },
+    {
+      "id": "consider",
+      "label": "consider 词族",
+      "meaning": "考虑与重新考虑",
+      "kind": "family",
+      "note": "按现代派生或相关词形联系记忆。这是词族分组，不将整个英语单词强行称为古典词根。",
+      "words": [
+        "dl-consider",
+        "dl-reconsider"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/consider"
+    },
+    {
+      "id": "discuss",
+      "label": "discuss 词族",
+      "meaning": "讨论",
+      "kind": "family",
+      "note": "按现代派生或相关词形联系记忆。这是词族分组，不将整个英语单词强行称为古典词根。",
+      "words": [
+        "dl-discuss",
+        "dl-discussion"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/discuss"
+    },
+    {
+      "id": "explain",
+      "label": "explain 词族",
+      "meaning": "解释",
+      "kind": "family",
+      "note": "按现代派生或相关词形联系记忆。这是词族分组，不将整个英语单词强行称为古典词根。",
+      "words": [
+        "dl-explain",
+        "dl-explanation"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/explain"
+    },
+    {
+      "id": "express",
+      "label": "express 词族",
+      "meaning": "表达",
+      "kind": "family",
+      "note": "按现代派生或相关词形联系记忆。这是词族分组，不将整个英语单词强行称为古典词根。",
+      "words": [
+        "dl-express",
+        "dl-expression"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/express"
+    },
+    {
+      "id": "friend",
+      "label": "friend 词族",
+      "meaning": "朋友与友谊",
+      "kind": "family",
+      "note": "按现代派生或相关词形联系记忆。这是词族分组，不将整个英语单词强行称为古典词根。",
+      "words": [
+        "dl-friend",
+        "dl-friendship"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/friend"
+    },
+    {
+      "id": "help",
+      "label": "help 词族",
+      "meaning": "帮助",
+      "kind": "family",
+      "note": "按现代派生或相关词形联系记忆。这是词族分组，不将整个英语单词强行称为古典词根。",
+      "words": [
+        "dl-help",
+        "dl-helpful"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/help"
+    },
+    {
+      "id": "infer",
+      "label": "infer 词族",
+      "meaning": "推断与推论",
+      "kind": "family",
+      "note": "按现代派生或相关词形联系记忆。这是词族分组，不将整个英语单词强行称为古典词根。",
+      "words": [
+        "dl-infer",
+        "dl-inference"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/infer"
+    },
+    {
+      "id": "learn",
+      "label": "learn 词族",
+      "meaning": "学习",
+      "kind": "family",
+      "note": "按现代派生或相关词形联系记忆。这是词族分组，不将整个英语单词强行称为古典词根。",
+      "words": [
+        "dl-learn",
+        "dl-learning"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/learn"
+    },
+    {
+      "id": "patient",
+      "label": "patient 词族",
+      "meaning": "耐心",
+      "kind": "family",
+      "note": "按现代派生或相关词形联系记忆。这是词族分组，不将整个英语单词强行称为古典词根。",
+      "words": [
+        "dl-patient",
+        "dl-patience"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/patient"
+    },
+    {
+      "id": "perceive",
+      "label": "perceive 词族",
+      "meaning": "感知与看法",
+      "kind": "family",
+      "note": "按现代派生或相关词形联系记忆。这是词族分组，不将整个英语单词强行称为古典词根。",
+      "words": [
+        "dl-perceive",
+        "dl-perception"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/perceive"
+    },
+    {
+      "id": "read",
+      "label": "read 词族",
+      "meaning": "阅读",
+      "kind": "family",
+      "note": "按现代派生或相关词形联系记忆。这是词族分组，不将整个英语单词强行称为古典词根。",
+      "words": [
+        "dl-read",
+        "dl-reader"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/read"
+    },
+    {
+      "id": "reason",
+      "label": "reason 词族",
+      "meaning": "理由与合理性",
+      "kind": "family",
+      "note": "按现代派生或相关词形联系记忆。这是词族分组，不将整个英语单词强行称为古典词根。",
+      "words": [
+        "dl-reason",
+        "dl-reasonable"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/reason"
+    },
+    {
+      "id": "reflect",
+      "label": "reflect 词族",
+      "meaning": "反映与深思",
+      "kind": "family",
+      "note": "按现代派生或相关词形联系记忆。这是词族分组，不将整个英语单词强行称为古典词根。",
+      "words": [
+        "dl-reflect",
+        "dl-reflection"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/reflect"
+    },
+    {
+      "id": "sustain",
+      "label": "sustain 词族",
+      "meaning": "持续与可持续性",
+      "kind": "family",
+      "note": "按现代派生或相关词形联系记忆。这是词族分组，不将整个英语单词强行称为古典词根。",
+      "words": [
+        "dl-sustainable",
+        "dl-sustainability"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/sustainable"
+    },
+    {
+      "id": "teach",
+      "label": "teach 词族",
+      "meaning": "教学",
+      "kind": "family",
+      "note": "按现代派生或相关词形联系记忆。这是词族分组，不将整个英语单词强行称为古典词根。",
+      "words": [
+        "dl-teach",
+        "dl-teacher"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/teach"
+    },
+    {
+      "id": "think",
+      "label": "think 词族",
+      "meaning": "思考与想法",
+      "kind": "family",
+      "note": "按现代派生或相关词形联系记忆。这是词族分组，不将整个英语单词强行称为古典词根。",
+      "words": [
+        "dl-think",
+        "dl-thought"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/think"
+    },
+    {
+      "id": "trust",
+      "label": "trust 词族",
+      "meaning": "信任",
+      "kind": "family",
+      "note": "按现代派生或相关词形联系记忆。这是词族分组，不将整个英语单词强行称为古典词根。",
+      "words": [
+        "dl-trust",
+        "dl-trustworthy"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/trust"
+    },
+    {
+      "id": "work",
+      "label": "work 词族",
+      "meaning": "工作",
+      "kind": "family",
+      "note": "按现代派生或相关词形联系记忆。这是词族分组，不将整个英语单词强行称为古典词根。",
+      "words": [
+        "dl-work",
+        "dl-worker"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/work"
+    },
+    {
+      "id": "write",
+      "label": "write 词族",
+      "meaning": "写作",
+      "kind": "family",
+      "note": "按现代派生或相关词形联系记忆。这是词族分组，不将整个英语单词强行称为古典词根。",
+      "words": [
+        "dl-write",
+        "dl-writer"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/write"
+    },
+    {
+      "id": "look",
+      "label": "look 词族",
+      "meaning": "看与寻找",
+      "kind": "family",
+      "note": "按现代派生或相关词形联系记忆。这是词族分组，不将整个英语单词强行称为古典词根。",
+      "words": [
+        "dl-look"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/look"
+    },
+    {
+      "id": "notice",
+      "label": "notice 词族",
+      "meaning": "察觉变化",
+      "kind": "family",
+      "note": "按现代派生或相关词形联系记忆。这是词族分组，不将整个英语单词强行称为古典词根。",
+      "words": [
+        "dl-notice"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/notice"
+    },
+    {
+      "id": "see",
+      "label": "see 词族",
+      "meaning": "看见与理解",
+      "kind": "family",
+      "note": "按现代派生或相关词形联系记忆。这是词族分组，不将整个英语单词强行称为古典词根。",
+      "words": [
+        "dl-see"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/see"
+    },
+    {
+      "id": "independent",
+      "label": "独立词",
+      "meaning": "按用法理解",
+      "kind": "independent",
+      "note": "这些词本版不作词根拆解，仍完整参加词根轮。使用搭配与例句建立联系。",
+      "words": [
+        "dl-evidence",
+        "dl-vocabulary",
+        "dl-home",
+        "dl-family",
+        "dl-balance",
+        "dl-transfer"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/evidence"
+    }
+  ],
+  "notice": "120词试用包。释义、搭配与例句为本项目编写；分层为学习参考，完整大纲核对和人工复核仍在后续任务中。词根与现代词族分别标注。",
+  "hash": "c3f2f8f689cc5cd11f495d72d98c1599ed3d11a68f736f1dc5677105132e5991"
+}
