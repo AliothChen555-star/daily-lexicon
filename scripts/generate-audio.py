@@ -18,6 +18,8 @@ overrides={
     'frequent.wav':'fɹˈiːkwənt.','coordinate.wav':'koʊˈɔːɹdɪneɪt.',
     'legitimate.wav':'lɪdʒˈɪtəmət.','replicate.wav':'ɹˈɛplɪkeɪt.',
     'graduate.wav':'ɡɹˈædʒuˌeɪt.','route.wav':'ɹˈuːt.',
+    'download.wav':'dˈaʊnloʊd.','upload.wav':'ʌplˈoʊd.','update.wav':'ʌpdˈeɪt.',
+    'online.wav':'ˌɑːnlˈaɪn.',
 }
 manifest=[]
 for index,word in enumerate(content['words']):

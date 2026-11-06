@@ -18,11 +18,22 @@ const cast=(value:unknown)=>structuredClone(value) as AppState;
 beforeAll(initializeEngine);
 
 describe('应用、内容修订与课程范围分别版本化',()=>{
-  it('0.3完整600词档案进入1.0开发版时保留原轮次、配额、记忆，不显示零词增补',()=>{
+  it('相同课程范围仅修订正文时，原档案对象与当天配额保持不变',()=>{
+    const now=new Date('2026-11-06T02:00:00Z'),state=createState(now),revision=content.version;
+    try {
+      content.version=revision+'-editorial-fix';
+      expect(migrateState(state,now)).toBe(state);
+      const backup=parseBackup(exportBackup(state,now));
+      expect(backup.contentVersion).toBe(courseVersion);expect(backup.contentRevision).toBe(content.version);
+    } finally { content.version=revision; }
+  });
+  it('0.3完整600词档案追加新增词，保留原轮次、配额与记忆',()=>{
     const prior=cast(lastState),now=new Date('2026-11-06T02:00:00Z');
     const next=migrateState(prior,now);
-    expect(next).toBe(prior);expect(next.contentUpdate).toBeUndefined();
-    expect(next.contentVersion).toBe(courseVersion);expect(content.version).not.toBe(courseVersion);
+    expect(currentRound(next).order.slice(0,currentRound(prior).order.length)).toEqual(currentRound(prior).order);
+    expect(next.contentUpdate?.addedWords).toBe(wordIds.length-currentRound(prior).order.length);
+    expect(next.memory).toEqual(prior.memory);expect(getPlan(next,now)).toEqual(getPlan(prior,now));
+    expect(next.contentVersion).toBe(courseVersion);
     expect(currentRound(next).order).toEqual(wordIds);expect(courseQueue(next,now)).toHaveLength(18);
     const imported=restoreBackup(createState(now),parseBackup(JSON.stringify(lastBackup)),now);
     expect(imported.memory).toEqual(prior.memory);expect(imported.notes).toEqual(prior.notes);
@@ -91,11 +102,11 @@ describe('真实v0.1档案升级到当前词包',()=>{
 
 describe('真实v0.2的300词档案与v2备份升级',()=>{
   const now=new Date('2026-11-06T02:00:00Z');
-  it('追加300词，旧300词顺序、12条记忆、当天计划与个人内容保持一致',()=>{
+  it('追加缺词，旧300词顺序、12条记忆、当天计划与个人内容保持一致',()=>{
     const prior=cast(recentState),next=migrateState(prior,now);
     expect(currentRound(next).order.slice(0,300)).toEqual(currentRound(prior).order);
     expect(currentRound(next).order).toHaveLength(wordIds.length);
-    expect(next.contentUpdate).toMatchObject({fromVersion:'0.2.0',toVersion:courseVersion,addedWords:300,policy:'extended-semantic'});
+    expect(next.contentUpdate).toMatchObject({fromVersion:'0.2.0',toVersion:courseVersion,addedWords:wordIds.length-300,policy:'extended-semantic'});
     expect(next.events).toEqual(prior.events);expect(next.memory).toEqual(prior.memory);
     expect(next.notes).toEqual(prior.notes);expect(next.bookmarks).toEqual(prior.bookmarks);
     expect(next.deviceId).toBe(prior.deviceId);expect(next.profileId).toBe(prior.profileId);

@@ -3,6 +3,7 @@ from pathlib import Path
 import csv, hashlib, json, re, sqlite3, tempfile, os, threading, wave
 from datetime import datetime, timezone
 from contextlib import closing
+from study_scope import load_scope
 
 ROOT = Path(__file__).resolve().parents[1]
 REVIEW_AXES = {
@@ -46,6 +47,10 @@ def workspace(root=ROOT):
         candidates = {r['word']:r['tags'].split() for r in csv.DictReader(stream, delimiter='\t')}
     if len(candidates) != source['candidateWords']:
         raise ValueError('候选词数量与固定来源记录不一致。')
+    scope=load_scope(root)
+    if data.get('scopeId') and not scope['study']:
+        raise ValueError('当前词包需要正式范围索引，请先生成学习范围。')
+    candidates={w:e['tags'] for w,e in scope['entries'].items()}
     groups = {g['id']:g for g in data['families']}
     locations = {g['id']:g for name in ('topics','scenes','concepts') for g in data[name]}
     manifest = read_json(root/'public/audio/manifest.json')
@@ -84,13 +89,13 @@ def workspace(root=ROOT):
             'word':{k:v for k,v in word.items() if k != 'reviewStatus'},
             'family':groups[word['family']],
             'location':[locations[word[k]] for k in ('topic','scene','concept')],
-            'source':source, 'license':data['license'], 'audio':assets, 'editorialLine':original,
+            'source':{'reference':source,'official':scope['official'],'study':scope['study']}, 'license':data['license'], 'audio':assets, 'editorialLine':original,
         })
     reviews = read_json(root/'content/reviews.json')
     if reviews.get('schemaVersion') != 1 or not isinstance(reviews.get('records'), list):
         raise ValueError('校审记录格式不兼容。')
     return {'root':root,'data':data,'source':source,'candidates':candidates,
-            'fingerprints':fingerprints,'reviews':reviews,'audioIssues':issues,'sourceIssues':source_issues}
+            'fingerprints':fingerprints,'reviews':reviews,'audioIssues':issues,'sourceIssues':source_issues,'scope':scope}
 
 def valid_approval(record):
     return (record.get('decision') == 'approved' and
@@ -118,27 +123,31 @@ def release_report(ws):
     app_version = read_json(root/'package.json')['version']
     cards = {w['word'].lower():w for w in data['words']}
     decisions = {d['word']:d for d in policy['scopeDecisions'] if d.get('reviewer','').strip() and len(d.get('evidence','').strip()) >= 10 and d.get('decision') in ('include','exclude')}
-    expected = {w for w in ws['candidates'] if decisions.get(w,{}).get('decision') != 'exclude'}
+    expected = {w for w,e in ws['scope']['entries'].items() if e['required'] and decisions.get(w,{}).get('decision') != 'exclude'}
     expected.update(w for w,d in decisions.items() if d['decision'] == 'include')
     missing = sorted(expected-set(cards))
-    outside = sorted(set(cards)-set(ws['candidates']))
+    outside = sorted(set(cards)-{w for w,e in ws['scope']['entries'].items() if e['required']})
     unresolved = [w for w in outside if w not in decisions]
     invalid_included = [w for w in cards if decisions.get(w,{}).get('decision') == 'exclude']
-    level_issues = [w for w,card in cards.items() if w in ws['candidates'] and card['level'] != reference_level(ws['candidates'][w])]
+    level_issues = [w for w,card in cards.items() if card['level'] != ws['scope']['entries'].get(w,{}).get('level','扩展')]
     approved = sum(review_status(ws,w['id']) == 'approved' for w in data['words'])
     stale = sum(review_status(ws,w['id']) == 'stale' for w in data['words'])
     scope = policy['officialScope']
+    scope_hash=ws['scope']['study']['adoptedSha256'] if ws['scope']['study'] else ws['source']['adoptedSha256']
     def check(key, label, ok, detail): return {'id':key,'label':label,'passed':bool(ok),'detail':detail}
     checks = [
         check('version','正式发行版本',app_version==policy['targetVersion'],f'当前为{app_version}，目标为{policy["targetVersion"]}'),
-        check('official-scope','正式词表逐词核对',scope['status']=='approved' and scope.get('adoptedSha256')==ws['source']['adoptedSha256'] and scope.get('reviewer','').strip() and len(scope.get('evidence','').strip())>=10,scope.get('note','')),
-        check('coverage','必学词卡覆盖',not missing,f'{len(expected)}个当前候选，{len(missing)}个尚未成卡'),
+        check('official-scope','正式范围裁定与验收',scope['status']=='approved' and scope.get('adoptedSha256')==scope_hash and scope.get('reviewer','').strip() and len(scope.get('evidence','').strip())>=10,scope.get('note','')),
+        check('coverage','目标词卡覆盖',not missing,f'{len(expected)}个当前目标拼写，{len(missing)}个尚未成卡'),
         check('scope-decisions','差异词裁定',not unresolved and not invalid_included,f'{len(unresolved)}个扩展词未裁定，{len(invalid_included)}个已排除词仍在课程中'),
-        check('levels','参考层级核对',not level_issues,f'{len(level_issues)}张卡与固定来源最低标签不一致，需逐词裁定'),
+        check('levels','参考层级核对',not level_issues,f'{len(level_issues)}张卡与当前范围参考层级不一致'),
         check('reviews','词卡逐项人工校审',approved==len(cards),f'{approved}/{len(cards)}张有效通过，{stale}张因内容变更待重审'),
         check('source-snapshot','原稿与词包一致',not ws['sourceIssues'],f'{len(ws["sourceIssues"])}张卡与原稿不同，需重新生成内容'),
         check('audio','离线音频完整且匹配正文',not ws['audioIssues'],f'{len(ws["audioIssues"])}项缺失、文本或校验值问题'),
     ]
+    if ws['scope']['official']:
+        official=ws['scope']['official']
+        checks.insert(1,check('official-extraction','官方词表提取校验',official['crossCheckedPages']==129 and official['crossCheckMismatches']==0,'129页文字序列交叉核对通过；变体、同形异义及公布计数口径待裁定'))
     audit_path = root/'content/reports/scope.json'
     audit = read_json(audit_path) if audit_path.exists() else {}
     checks.append(check('structure','词卡结构校验',audit.get('contentHash')==data['hash'] and audit.get('structuralIssues')==[], '要求当前词包的结构报告，无旧报告替代'))
@@ -153,16 +162,18 @@ def release_report(ws):
     checks.append(check('distribution','正式签名与开源分发',distribution['status']=='approved' and len(distribution.get('evidence','').strip())>=10,distribution.get('evidence') or '待正式签名、许可与下载产物核验'))
     return {'schemaVersion':1,'appVersion':app_version,'contentVersion':data['version'],
             'catalogVersion':data.get('catalogVersion',data['version']),'contentHash':data['hash'],
-            'candidateWords':len(ws['candidates']),'cards':len(cards),'missingCards':len(missing),
+            'candidateWords':len(ws['candidates']),'targetWords':len(expected),'referenceWords':len(ws['scope']['reference']),
+            'officialScope':ws['scope']['official'],'studyScope':ws['scope']['study'],
+            'cards':len(cards),'targetCards':len(set(cards)&expected),'nonTargetCards':len(set(cards)-expected),'missingCards':len(missing),
             'approvedCards':approved,'staleCards':stale,'levelIssues':level_issues,
             'unresolvedScopeWords':unresolved,'ready':all(c['passed'] for c in checks),'checks':checks}
 
 SCHEMA = '''
 PRAGMA foreign_keys=ON;
-PRAGMA user_version=1;
+PRAGMA user_version=2;
 CREATE TABLE metadata(key TEXT PRIMARY KEY, value TEXT NOT NULL);
 CREATE TABLE sources(id TEXT PRIMARY KEY, license TEXT NOT NULL, revision TEXT NOT NULL, data TEXT NOT NULL);
-CREATE TABLE candidates(word TEXT PRIMARY KEY, display TEXT NOT NULL, level TEXT NOT NULL, tags TEXT NOT NULL, source_id TEXT NOT NULL REFERENCES sources(id));
+CREATE TABLE candidates(word TEXT PRIMARY KEY, display TEXT NOT NULL, level TEXT NOT NULL, tags TEXT NOT NULL, source_id TEXT NOT NULL REFERENCES sources(id),required INTEGER NOT NULL CHECK(required IN (0,1)),evidence TEXT NOT NULL);
 CREATE TABLE topics(id TEXT PRIMARY KEY,label TEXT NOT NULL,ordinal INTEGER NOT NULL);
 CREATE TABLE scenes(id TEXT PRIMARY KEY,label TEXT NOT NULL,topic_id TEXT NOT NULL REFERENCES topics(id));
 CREATE TABLE concepts(id TEXT PRIMARY KEY,label TEXT NOT NULL,scene_id TEXT NOT NULL REFERENCES scenes(id));
@@ -187,14 +198,17 @@ def build_database(root=ROOT):
         with closing(sqlite3.connect(name)) as db:
             db.executescript(SCHEMA)
             report = release_report(ws)
-            metadata = {'schemaVersion':1,'packId':data['id'],'contentVersion':data['version'],'catalogVersion':data.get('catalogVersion',data['version']),'contentHash':data['hash'],'releaseReport':report}
+            metadata = {'schemaVersion':2,'packId':data['id'],'contentVersion':data['version'],'catalogVersion':data.get('catalogVersion',data['version']),'contentHash':data['hash'],'releaseReport':report}
             db.executemany('INSERT INTO metadata VALUES (?,?)',[(k,json.dumps(v,ensure_ascii=False)) for k,v in metadata.items()])
             source = ws['source']
             db.execute('INSERT INTO sources VALUES (?,?,?,?)',(source['id'],source['license'],source['revision'],json.dumps(source,ensure_ascii=False)))
+            official=ws['scope']['official']
+            if official:
+                db.execute('INSERT INTO sources VALUES (?,?,?,?)',(official['id'],'spelling-and-grade-facts',official['rawSha256'],json.dumps(official,ensure_ascii=False)))
             for source_id in sorted({w['source'] for w in data['words']}):
                 origin={'id':source_id,'kind':'original-editorial','license':data['license'],'attribution':'Daily Lexicon contributors','provenance':'content/editorial/README.md'}
                 db.execute('INSERT INTO sources VALUES (?,?,?,?)',(source_id,data['license'],source_id,json.dumps(origin,ensure_ascii=False)))
-            db.executemany('INSERT INTO candidates VALUES (?,?,?,?,?)',[(w,'I' if w=='i' else w,reference_level(tags),' '.join(tags),source['id']) for w,tags in sorted(ws['candidates'].items())])
+            db.executemany('INSERT INTO candidates VALUES (?,?,?,?,?,?,?)',[(w,e['display'],e['level'],' '.join(e['tags']),official['id'] if official and 'official' in e['origins'] else source['id'],int(e['required']),json.dumps(e['evidence'],ensure_ascii=False)) for w,e in sorted(ws['scope']['entries'].items())])
             db.executemany('INSERT INTO topics VALUES (?,?,?)',[(t['id'],t['label'],i) for i,t in enumerate(data['topics'])])
             db.executemany('INSERT INTO scenes VALUES (?,?,?)',[(s['id'],s['label'],s['topic']) for s in data['scenes']])
             db.executemany('INSERT INTO concepts VALUES (?,?,?)',[(c['id'],c['label'],c['scene']) for c in data['concepts']])

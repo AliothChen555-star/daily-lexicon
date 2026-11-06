@@ -3,9 +3,9 @@ import path from 'node:path';
 const root=path.resolve(import.meta.dirname,'..');
 const python=process.env.PYTHON ?? (process.platform==='win32'?'python':'python3');
 const commands={
-  build:[['scripts/build-content.py'],['scripts/audit-content.py'],['scripts/production.py','database']],
+  build:[['scripts/study_scope.py'],['scripts/build-content.py'],['scripts/audit-content.py'],['scripts/production.py','database']],
   database:[['scripts/production.py','database']],
-  release:[['scripts/build-content.py'],['scripts/audit-content.py'],['scripts/production.py','database'],['scripts/production.py','check','--require-ready']],
+  release:[['scripts/study_scope.py'],['scripts/build-content.py'],['scripts/audit-content.py'],['scripts/production.py','database'],['scripts/production.py','check','--require-ready']],
   editorial:[['scripts/editorial-server.py',...process.argv.slice(3)]],
   'editorial-test':[['scripts/editorial-server.py','--test-fixture','--port','4176']],
   test:[['-m','unittest','discover','-s','tests/editorial','-p','test_*.py']],

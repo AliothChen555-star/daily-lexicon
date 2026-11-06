@@ -1,10 +1,11 @@
 {
   "id": "daily-lexicon-editorial",
-  "version": "0.3.1",
-  "catalogVersion": "0.3.0",
+  "version": "0.4.0",
+  "catalogVersion": "0.4.0",
   "title": "基础与四六级词库",
   "channel": "development",
-  "expectedWords": 600,
+  "expectedWords": 630,
   "license": "CC-BY-SA-4.0",
-  "notice": "当前已收录600词，按主题、场景和概念分块。基础、四级、六级为参考层级；完整范围核对和内容校审正在进行。"
+  "notice": "当前已收录630词。目标范围结合官方词表与基础词，保留词目、附列形式、变体与页码依据；范围裁定、全量成卡与内容校审正在进行。",
+  "scopeId": "cet2016-basic-scope-v1"
 }

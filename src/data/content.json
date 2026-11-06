@@ -1,10 +1,11 @@
 {
-  "version": "0.3.1",
-  "catalogVersion": "0.3.0",
+  "version": "0.4.0",
+  "catalogVersion": "0.4.0",
   "id": "daily-lexicon-editorial",
   "title": "基础与四六级词库",
   "license": "CC-BY-SA-4.0",
   "channel": "development",
+  "scopeId": "cet2016-basic-scope-v1",
   "words": [
     {
       "id": "dl-see",
@@ -358,7 +359,7 @@
       "ipa": "/pərˈsepʃən/",
       "pos": "n.",
       "meaning": "感知；看法；认识",
-      "level": "六级",
+      "level": "四级",
       "topic": "mind",
       "family": "perceive",
       "phrases": [
@@ -1014,7 +1015,7 @@
       "ipa": "/ˈɪnfərəns/",
       "pos": "n.",
       "meaning": "推断；推论",
-      "level": "六级",
+      "level": "四级",
       "topic": "mind",
       "family": "infer",
       "phrases": [
@@ -1789,7 +1790,7 @@
       "ipa": "/prɪˈdɪkʃən/",
       "pos": "n.",
       "meaning": "预测；预言",
-      "level": "六级",
+      "level": "四级",
       "topic": "learning",
       "family": "dict",
       "phrases": [
@@ -2783,7 +2784,7 @@
       "ipa": "/ˈkredəbəl/",
       "pos": "adj.",
       "meaning": "可信的；可靠的",
-      "level": "扩展",
+      "level": "六级",
       "topic": "living",
       "family": "cred",
       "phrases": [
@@ -2821,7 +2822,7 @@
       "ipa": "/ɪnˈkredəbəl/",
       "pos": "adj.",
       "meaning": "难以置信的；极好的",
-      "level": "六级",
+      "level": "四级",
       "topic": "living",
       "family": "cred",
       "phrases": [
@@ -3391,7 +3392,7 @@
       "ipa": "/ˌfleksəˈbɪləti/",
       "pos": "n.",
       "meaning": "灵活性；柔韧性",
-      "level": "扩展",
+      "level": "四级",
       "topic": "living",
       "family": "flex",
       "phrases": [
@@ -3773,7 +3774,7 @@
       "ipa": "/ˈɪnfrəstrʌktʃər/",
       "pos": "n.",
       "meaning": "基础设施",
-      "level": "六级",
+      "level": "四级",
       "topic": "society",
       "family": "struct",
       "phrases": [
@@ -4270,7 +4271,7 @@
       "ipa": "/rɪˈdʒekʃən/",
       "pos": "n.",
       "meaning": "拒绝；否决",
-      "level": "六级",
+      "level": "四级",
       "topic": "society",
       "family": "ject",
       "phrases": [
@@ -4346,7 +4347,7 @@
       "ipa": "/ɪnˈdʒekʃən/",
       "pos": "n.",
       "meaning": "注射；注入",
-      "level": "四级",
+      "level": "六级",
       "topic": "society",
       "family": "ject",
       "phrases": [
@@ -4460,7 +4461,7 @@
       "ipa": "/dɪˈstrækt/",
       "pos": "v.",
       "meaning": "使分心；转移注意",
-      "level": "六级",
+      "level": "四级",
       "topic": "society",
       "family": "tract",
       "phrases": [
@@ -4498,7 +4499,7 @@
       "ipa": "/dɪˈstrækʃən/",
       "pos": "n.",
       "meaning": "使人分心的事物；分心",
-      "level": "扩展",
+      "level": "四级",
       "topic": "society",
       "family": "tract",
       "phrases": [
@@ -4536,7 +4537,7 @@
       "ipa": "/səˈsteɪnəbəl/",
       "pos": "adj.",
       "meaning": "可持续的；能长期维持的",
-      "level": "扩展",
+      "level": "四级",
       "topic": "society",
       "family": "sustain",
       "phrases": [
@@ -4574,7 +4575,7 @@
       "ipa": "/səˌsteɪnəˈbɪləti/",
       "pos": "n.",
       "meaning": "可持续性；持续维持的能力",
-      "level": "扩展",
+      "level": "四级",
       "topic": "society",
       "family": "sustain",
       "phrases": [
@@ -7931,7 +7932,7 @@
       "ipa": "/ˈfriːkwəntli/",
       "pos": "adv.",
       "meaning": "频繁地；经常",
-      "level": "四级",
+      "level": "扩展",
       "topic": "time",
       "family": "frequent",
       "phrases": [
@@ -8352,7 +8353,7 @@
       "ipa": "/ˈnuːtriənt/",
       "pos": "n.",
       "meaning": "营养物质；养分",
-      "level": "六级",
+      "level": "四级",
       "topic": "nature",
       "family": "nutrition",
       "phrases": [
@@ -8390,7 +8391,7 @@
       "ipa": "/məˈtæbəlɪzəm/",
       "pos": "n.",
       "meaning": "新陈代谢",
-      "level": "扩展",
+      "level": "六级",
       "topic": "nature",
       "family": "health",
       "phrases": [
@@ -8428,7 +8429,7 @@
       "ipa": "/ɪˈmjuːn/",
       "pos": "adj.",
       "meaning": "免疫的；不受影响的",
-      "level": "六级",
+      "level": "四级",
       "topic": "nature",
       "family": "immune",
       "phrases": [
@@ -8466,7 +8467,7 @@
       "ipa": "/ɪˈmjuːnəti/",
       "pos": "n.",
       "meaning": "免疫力；豁免",
-      "level": "六级",
+      "level": "四级",
       "topic": "nature",
       "family": "immune",
       "phrases": [
@@ -8504,7 +8505,7 @@
       "ipa": "/ˌdaɪəɡˈnoʊs/",
       "pos": "v.",
       "meaning": "诊断；判断问题所在",
-      "level": "六级",
+      "level": "四级",
       "topic": "nature",
       "family": "diagnose",
       "phrases": [
@@ -8542,7 +8543,7 @@
       "ipa": "/ˌdaɪəɡˈnoʊsɪs/",
       "pos": "n.",
       "meaning": "诊断；诊断结果",
-      "level": "扩展",
+      "level": "四级",
       "topic": "nature",
       "family": "diagnose",
       "phrases": [
@@ -8734,7 +8735,7 @@
       "ipa": "/ɪnˌvaɪrənˈmentəl/",
       "pos": "adj.",
       "meaning": "环境的；与自然环境有关的",
-      "level": "六级",
+      "level": "四级",
       "topic": "nature",
       "family": "environment",
       "phrases": [
@@ -9000,7 +9001,7 @@
       "ipa": "/ˌiːkəˈlɑːdʒɪkəl/",
       "pos": "adj.",
       "meaning": "生态的；生态学的",
-      "level": "扩展",
+      "level": "四级",
       "topic": "nature",
       "family": "ecology",
       "phrases": [
@@ -9114,7 +9115,7 @@
       "ipa": "/kənˈsɜːrv/",
       "pos": "v.",
       "meaning": "保护；节约使用",
-      "level": "四级",
+      "level": "六级",
       "topic": "nature",
       "family": "conserve",
       "phrases": [
@@ -9190,7 +9191,7 @@
       "ipa": "/rɪˈnuːəbəl/",
       "pos": "adj.",
       "meaning": "可再生的；可续期的",
-      "level": "扩展",
+      "level": "四级",
       "topic": "nature",
       "family": "nature-resources",
       "phrases": [
@@ -9228,7 +9229,7 @@
       "ipa": "/kənˈtæmɪneɪt/",
       "pos": "v.",
       "meaning": "污染；使受污染",
-      "level": "六级",
+      "level": "四级",
       "topic": "nature",
       "family": "nature-resources",
       "phrases": [
@@ -9494,7 +9495,7 @@
       "ipa": "/ˌmeθəˈdɑːlədʒi/",
       "pos": "n.",
       "meaning": "方法论；一套研究方法",
-      "level": "扩展",
+      "level": "四级",
       "topic": "science",
       "family": "method",
       "phrases": [
@@ -9914,7 +9915,7 @@
       "ipa": "/ˈkwɑːntəteɪtɪv/",
       "pos": "adj.",
       "meaning": "数量的；定量的",
-      "level": "六级",
+      "level": "四级",
       "topic": "science",
       "family": "measurement",
       "phrases": [
@@ -9952,7 +9953,7 @@
       "ipa": "/ˈkwɑːləteɪtɪv/",
       "pos": "adj.",
       "meaning": "性质的；定性的",
-      "level": "六级",
+      "level": "四级",
       "topic": "science",
       "family": "measurement",
       "phrases": [
@@ -10142,7 +10143,7 @@
       "ipa": "/ˈkɔːzəl/",
       "pos": "adj.",
       "meaning": "原因的；因果关系的",
-      "level": "六级",
+      "level": "扩展",
       "topic": "science",
       "family": "cause",
       "phrases": [
@@ -10256,7 +10257,7 @@
       "ipa": "/ˌverɪfɪˈkeɪʃən/",
       "pos": "n.",
       "meaning": "核实；验证过程",
-      "level": "扩展",
+      "level": "四级",
       "topic": "science",
       "family": "verify",
       "phrases": [
@@ -10410,7 +10411,7 @@
       "ipa": "/ˈledʒɪsleɪt/",
       "pos": "v.",
       "meaning": "立法；通过法律规定",
-      "level": "扩展",
+      "level": "四级",
       "topic": "civic",
       "family": "legislate",
       "phrases": [
@@ -10486,7 +10487,7 @@
       "ipa": "/ˈledʒɪsleɪtɪv/",
       "pos": "adj.",
       "meaning": "立法的；立法机关的",
-      "level": "扩展",
+      "level": "四级",
       "topic": "civic",
       "family": "legislate",
       "phrases": [
@@ -10600,7 +10601,7 @@
       "ipa": "/ɔːˈtɑːnəmi/",
       "pos": "n.",
       "meaning": "自主权；自治",
-      "level": "扩展",
+      "level": "六级",
       "topic": "civic",
       "family": "autonomy",
       "phrases": [
@@ -10752,7 +10753,7 @@
       "ipa": "/kəˌlæbəˈreɪʃən/",
       "pos": "n.",
       "meaning": "合作；协作成果",
-      "level": "六级",
+      "level": "四级",
       "topic": "civic",
       "family": "collaborate",
       "phrases": [
@@ -10831,7 +10832,7 @@
       "ipa": "/koʊˌɔːrdɪˈneɪʃən/",
       "pos": "n.",
       "meaning": "协调；配合；协调能力",
-      "level": "扩展",
+      "level": "四级",
       "topic": "civic",
       "family": "coordinate",
       "phrases": [
@@ -10907,7 +10908,7 @@
       "ipa": "/ˌɪntɪˈɡreɪʃən/",
       "pos": "n.",
       "meaning": "整合；融合；融入",
-      "level": "扩展",
+      "level": "四级",
       "topic": "civic",
       "family": "integrate",
       "phrases": [
@@ -10945,7 +10946,7 @@
       "ipa": "/ɪnˈkluːʒən/",
       "pos": "n.",
       "meaning": "包括；纳入；包容",
-      "level": "扩展",
+      "level": "四级",
       "topic": "civic",
       "family": "civic-practices",
       "phrases": [
@@ -10983,7 +10984,7 @@
       "ipa": "/ɪkˈskluːʒən/",
       "pos": "n.",
       "meaning": "排除；不包括；排斥",
-      "level": "扩展",
+      "level": "四级",
       "topic": "civic",
       "family": "civic-practices",
       "phrases": [
@@ -11059,7 +11060,7 @@
       "ipa": "/daɪˈvɜːrsəti/",
       "pos": "n.",
       "meaning": "多样性；差异",
-      "level": "扩展",
+      "level": "四级",
       "topic": "civic",
       "family": "diverse",
       "phrases": [
@@ -11097,7 +11098,7 @@
       "ipa": "/ˈekwəti/",
       "pos": "n.",
       "meaning": "公平；权益；股权",
-      "level": "扩展",
+      "level": "六级",
       "topic": "civic",
       "family": "civic-practices",
       "phrases": [
@@ -11211,7 +11212,7 @@
       "ipa": "/ˌæləˈkeɪʃən/",
       "pos": "n.",
       "meaning": "分配；分配额",
-      "level": "扩展",
+      "level": "六级",
       "topic": "civic",
       "family": "allocate",
       "phrases": [
@@ -11287,7 +11288,7 @@
       "ipa": "/ˌɪmplɪmenˈteɪʃən/",
       "pos": "n.",
       "meaning": "实施；执行；落实",
-      "level": "扩展",
+      "level": "四级",
       "topic": "civic",
       "family": "implement",
       "phrases": [
@@ -11325,7 +11326,7 @@
       "ipa": "/əˌkaʊntəˈbɪləti/",
       "pos": "n.",
       "meaning": "责任；问责；说明和负责的义务",
-      "level": "扩展",
+      "level": "四级",
       "topic": "civic",
       "family": "civic-practices",
       "phrases": [
@@ -11401,7 +11402,7 @@
       "ipa": "/trænsˈperənsi/",
       "pos": "n.",
       "meaning": "透明；公开透明",
-      "level": "扩展",
+      "level": "四级",
       "topic": "civic",
       "family": "transparent",
       "phrases": [
@@ -11518,7 +11519,7 @@
       "ipa": "/lɪˈdʒɪtəməsi/",
       "pos": "n.",
       "meaning": "正当性；合法性",
-      "level": "扩展",
+      "level": "六级",
       "topic": "civic",
       "family": "legitimate",
       "phrases": [
@@ -15762,7 +15763,7 @@
       "ipa": "/æmˈbɪʃəs/",
       "pos": "adj.",
       "meaning": "有抱负的；雄心勃勃的",
-      "level": "六级",
+      "level": "四级",
       "topic": "emotion",
       "family": "ambition",
       "phrases": [
@@ -16028,7 +16029,7 @@
       "ipa": "/ˈmɑːdɪsti/",
       "pos": "n.",
       "meaning": "谦虚；谦逊",
-      "level": "六级",
+      "level": "四级",
       "topic": "emotion",
       "family": "modest",
       "phrases": [
@@ -19435,7 +19436,7 @@
       "ipa": "/ɪnˈfleɪʃən/",
       "pos": "n.",
       "meaning": "通货膨胀；膨胀",
-      "level": "六级",
+      "level": "四级",
       "topic": "economy",
       "family": "economy-finance",
       "phrases": [
@@ -19549,7 +19550,7 @@
       "ipa": "/trænˈzækʃən/",
       "pos": "n.",
       "meaning": "交易；业务办理",
-      "level": "六级",
+      "level": "四级",
       "topic": "economy",
       "family": "economy-finance",
       "phrases": [
@@ -20278,7 +20279,7 @@
       "ipa": "/ˈpraɪvəsi/",
       "pos": "n.",
       "meaning": "隐私；不受打扰的状态",
-      "level": "六级",
+      "level": "四级",
       "topic": "technology",
       "family": "private",
       "phrases": [
@@ -20658,7 +20659,7 @@
       "ipa": "/ˌɪnəˈveɪʃən/",
       "pos": "n.",
       "meaning": "创新；新方法",
-      "level": "六级",
+      "level": "四级",
       "topic": "technology",
       "family": "technology-ideas",
       "phrases": [
@@ -21534,7 +21535,7 @@
       "ipa": "/ˈherɪtɪdʒ/",
       "pos": "n.",
       "meaning": "遗产；传统",
-      "level": "六级",
+      "level": "四级",
       "topic": "culture",
       "family": "culture-independent",
       "phrases": [
@@ -21648,7 +21649,7 @@
       "ipa": "/ˈeθnɪk/",
       "pos": "adj.",
       "meaning": "民族的；族群的",
-      "level": "六级",
+      "level": "四级",
       "topic": "culture",
       "family": "culture-independent",
       "phrases": [
@@ -21724,7 +21725,7 @@
       "ipa": "/ˈmaɪɡreɪt/",
       "pos": "v.",
       "meaning": "迁移；迁徙",
-      "level": "六级",
+      "level": "四级",
       "topic": "culture",
       "family": "migrate",
       "phrases": [
@@ -22715,7 +22716,7 @@
       "ipa": "/pərˈsɪstəns/",
       "pos": "n.",
       "meaning": "坚持；持续存在",
-      "level": "六级",
+      "level": "四级",
       "topic": "decisions",
       "family": "persist",
       "phrases": [
@@ -22943,7 +22944,7 @@
       "ipa": "/nɪˌɡoʊʃiˈeɪʃən/",
       "pos": "n.",
       "meaning": "谈判；协商",
-      "level": "六级",
+      "level": "四级",
       "topic": "decisions",
       "family": "negotiate",
       "phrases": [
@@ -23012,6 +23013,1164 @@
       "reviewStatus": "editorial-draft",
       "scene": "decisions-action",
       "concept": "decisions-agreement"
+    },
+    {
+      "id": "dl-smartphone",
+      "word": "smartphone",
+      "ipa": "/ˈsmɑːrtfoʊn/",
+      "pos": "n.",
+      "meaning": "智能手机",
+      "level": "四级",
+      "topic": "digital",
+      "family": "technology-devices",
+      "phrases": [
+        {
+          "en": "use a smartphone",
+          "zh": "使用智能手机"
+        },
+        {
+          "en": "a smartphone camera",
+          "zh": "智能手机摄像头"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Her smartphone can display the map without a network connection.",
+          "zh": "她的智能手机没有网络连接也能显示地图。",
+          "audio": "audio/smartphone--1.wav"
+        },
+        {
+          "en": "We used a smartphone camera to record the experiment.",
+          "zh": "我们用智能手机摄像头记录了实验。",
+          "audio": "audio/smartphone--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/smartphone.wav",
+      "source": "daily-lexicon-editorial-0.4",
+      "reviewStatus": "editorial-draft",
+      "scene": "digital-devices",
+      "concept": "digital-equipment"
+    },
+    {
+      "id": "dl-laptop",
+      "word": "laptop",
+      "ipa": "/ˈlæptɑːp/",
+      "pos": "n.",
+      "meaning": "笔记本电脑",
+      "level": "四级",
+      "topic": "digital",
+      "family": "technology-devices",
+      "phrases": [
+        {
+          "en": "a laptop computer",
+          "zh": "笔记本电脑"
+        },
+        {
+          "en": "charge a laptop",
+          "zh": "给笔记本电脑充电"
+        }
+      ],
+      "examples": [
+        {
+          "en": "She carries a light laptop to every class.",
+          "zh": "她每次上课都带着一台轻便的笔记本电脑。",
+          "audio": "audio/laptop--1.wav"
+        },
+        {
+          "en": "My laptop can work for several hours without charging.",
+          "zh": "我的笔记本电脑不充电也能工作数小时。",
+          "audio": "audio/laptop--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/laptop.wav",
+      "source": "daily-lexicon-editorial-0.4",
+      "reviewStatus": "editorial-draft",
+      "scene": "digital-devices",
+      "concept": "digital-equipment"
+    },
+    {
+      "id": "dl-desktop",
+      "word": "desktop",
+      "ipa": "/ˈdesktɑːp/",
+      "pos": "n.; adj.",
+      "meaning": "台式电脑；桌面；台式的",
+      "level": "四级",
+      "topic": "digital",
+      "family": "technology-devices",
+      "phrases": [
+        {
+          "en": "a desktop computer",
+          "zh": "台式电脑"
+        },
+        {
+          "en": "the desktop screen",
+          "zh": "桌面画面"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The office provides a desktop computer for each employee.",
+          "zh": "办公室为每位员工提供一台台式电脑。",
+          "audio": "audio/desktop--1.wav"
+        },
+        {
+          "en": "A copy of the file appeared on the desktop.",
+          "zh": "文件的一份副本出现在桌面上。",
+          "audio": "audio/desktop--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/desktop.wav",
+      "source": "daily-lexicon-editorial-0.4",
+      "reviewStatus": "editorial-draft",
+      "scene": "digital-devices",
+      "concept": "digital-equipment"
+    },
+    {
+      "id": "dl-keyboard",
+      "word": "keyboard",
+      "ipa": "/ˈkiːbɔːrd/",
+      "pos": "n.",
+      "meaning": "键盘；键盘乐器",
+      "level": "基础",
+      "topic": "digital",
+      "family": "technology-devices",
+      "phrases": [
+        {
+          "en": "a computer keyboard",
+          "zh": "电脑键盘"
+        },
+        {
+          "en": "use a keyboard",
+          "zh": "使用键盘"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The keyboard has a separate key for each letter.",
+          "zh": "这个键盘为每个字母设有独立的按键。",
+          "audio": "audio/keyboard--1.wav"
+        },
+        {
+          "en": "He used a small keyboard to write the message.",
+          "zh": "他用一个小键盘写下了这条消息。",
+          "audio": "audio/keyboard--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/keyboard.wav",
+      "source": "daily-lexicon-editorial-0.4",
+      "reviewStatus": "editorial-draft",
+      "scene": "digital-devices",
+      "concept": "digital-equipment"
+    },
+    {
+      "id": "dl-mouse",
+      "word": "mouse",
+      "ipa": "/maʊs/",
+      "pos": "n.",
+      "meaning": "鼠标；老鼠",
+      "level": "基础",
+      "topic": "digital",
+      "family": "technology-devices",
+      "phrases": [
+        {
+          "en": "a wireless mouse",
+          "zh": "无线鼠标"
+        },
+        {
+          "en": "move the mouse",
+          "zh": "移动鼠标"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Move the mouse to place the pointer over the word.",
+          "zh": "移动鼠标，把指针放在单词上方。",
+          "audio": "audio/mouse--1.wav"
+        },
+        {
+          "en": "A small mouse ran behind the cupboard.",
+          "zh": "一只小老鼠跑到了橱柜后面。",
+          "audio": "audio/mouse--2.wav"
+        }
+      ],
+      "forms": [
+        "动物义复数 mice",
+        "鼠标义复数常用 mice，也可见 mouses"
+      ],
+      "audio": "audio/mouse.wav",
+      "source": "daily-lexicon-editorial-0.4",
+      "reviewStatus": "editorial-draft",
+      "scene": "digital-devices",
+      "concept": "digital-equipment"
+    },
+    {
+      "id": "dl-button",
+      "word": "button",
+      "ipa": "/ˈbʌtən/",
+      "pos": "n.",
+      "meaning": "按钮；纽扣",
+      "level": "基础",
+      "topic": "digital",
+      "family": "digital-navigation",
+      "phrases": [
+        {
+          "en": "press a button",
+          "zh": "按按钮"
+        },
+        {
+          "en": "a shirt button",
+          "zh": "衬衫纽扣"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Press the green button to save your work.",
+          "zh": "按绿色按钮保存你的工作。",
+          "audio": "audio/button--1.wav"
+        },
+        {
+          "en": "A button fell off his coat during the walk.",
+          "zh": "散步时，他外套上的一颗纽扣掉了。",
+          "audio": "audio/button--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/button.wav",
+      "source": "daily-lexicon-editorial-0.4",
+      "reviewStatus": "editorial-draft",
+      "scene": "digital-devices",
+      "concept": "digital-interaction"
+    },
+    {
+      "id": "dl-click",
+      "word": "click",
+      "ipa": "/klɪk/",
+      "pos": "v.; n.",
+      "meaning": "点击；发出咔嗒声；咔嗒声",
+      "level": "基础",
+      "topic": "digital",
+      "family": "digital-navigation",
+      "phrases": [
+        {
+          "en": "click on",
+          "zh": "点击"
+        },
+        {
+          "en": "at the click of a button",
+          "zh": "按一下按钮即可"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Click on a word to see its meaning.",
+          "zh": "点击一个单词即可查看其含义。",
+          "audio": "audio/click--1.wav"
+        },
+        {
+          "en": "The door closed with a quiet click.",
+          "zh": "门轻轻咔嗒一声关上了。",
+          "audio": "audio/click--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/click.wav",
+      "source": "daily-lexicon-editorial-0.4",
+      "reviewStatus": "editorial-draft",
+      "scene": "digital-devices",
+      "concept": "digital-interaction"
+    },
+    {
+      "id": "dl-swipe",
+      "word": "swipe",
+      "ipa": "/swaɪp/",
+      "pos": "v.; n.",
+      "meaning": "滑动；刷卡；快速挥击",
+      "level": "四级",
+      "topic": "digital",
+      "family": "digital-navigation",
+      "phrases": [
+        {
+          "en": "swipe left",
+          "zh": "向左滑动"
+        },
+        {
+          "en": "swipe a card",
+          "zh": "刷卡"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Swipe left to see the next photograph.",
+          "zh": "向左滑动以查看下一张照片。",
+          "audio": "audio/swipe--1.wav"
+        },
+        {
+          "en": "Please swipe your card at the entrance.",
+          "zh": "请在入口处刷卡。",
+          "audio": "audio/swipe--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/swipe.wav",
+      "source": "daily-lexicon-editorial-0.4",
+      "reviewStatus": "editorial-draft",
+      "scene": "digital-devices",
+      "concept": "digital-interaction"
+    },
+    {
+      "id": "dl-password",
+      "word": "password",
+      "ipa": "/ˈpæswɜːrd/",
+      "pos": "n.",
+      "meaning": "密码；口令",
+      "level": "四级",
+      "topic": "digital",
+      "family": "digital-navigation",
+      "phrases": [
+        {
+          "en": "enter a password",
+          "zh": "输入密码"
+        },
+        {
+          "en": "change a password",
+          "zh": "修改密码"
+        }
+      ],
+      "examples": [
+        {
+          "en": "You need a password to open the shared folder.",
+          "zh": "打开这个共享文件夹需要密码。",
+          "audio": "audio/password--1.wav"
+        },
+        {
+          "en": "She changed her password after replacing her phone.",
+          "zh": "她更换手机后修改了密码。",
+          "audio": "audio/password--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/password.wav",
+      "source": "daily-lexicon-editorial-0.4",
+      "reviewStatus": "editorial-draft",
+      "scene": "digital-devices",
+      "concept": "digital-interaction"
+    },
+    {
+      "id": "dl-browse",
+      "word": "browse",
+      "ipa": "/braʊz/",
+      "pos": "v.",
+      "meaning": "浏览；随意翻阅",
+      "level": "四级",
+      "topic": "digital",
+      "family": "browse",
+      "phrases": [
+        {
+          "en": "browse the web",
+          "zh": "浏览网页"
+        },
+        {
+          "en": "browse through",
+          "zh": "随意翻看"
+        }
+      ],
+      "examples": [
+        {
+          "en": "You can browse the collection without creating an account.",
+          "zh": "你无需创建账户就可以浏览馆藏。",
+          "audio": "audio/browse--1.wav"
+        },
+        {
+          "en": "She likes to browse through old travel books.",
+          "zh": "她喜欢随意翻阅旧旅行书。",
+          "audio": "audio/browse--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/browse.wav",
+      "source": "daily-lexicon-editorial-0.4",
+      "reviewStatus": "editorial-draft",
+      "scene": "digital-content",
+      "concept": "digital-browsing"
+    },
+    {
+      "id": "dl-browser",
+      "word": "browser",
+      "ipa": "/ˈbraʊzər/",
+      "pos": "n.",
+      "meaning": "浏览器；浏览者",
+      "level": "四级",
+      "topic": "digital",
+      "family": "browse",
+      "phrases": [
+        {
+          "en": "a web browser",
+          "zh": "网页浏览器"
+        },
+        {
+          "en": "open a browser",
+          "zh": "打开浏览器"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Open a browser and enter the address.",
+          "zh": "打开浏览器并输入地址。",
+          "audio": "audio/browser--1.wav"
+        },
+        {
+          "en": "The browser remembers the pages you visited.",
+          "zh": "这个浏览器会记住你访问过的网页。",
+          "audio": "audio/browser--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/browser.wav",
+      "source": "daily-lexicon-editorial-0.4",
+      "reviewStatus": "editorial-draft",
+      "scene": "digital-content",
+      "concept": "digital-browsing"
+    },
+    {
+      "id": "dl-website",
+      "word": "website",
+      "ipa": "/ˈwebsaɪt/",
+      "pos": "n.",
+      "meaning": "网站",
+      "level": "基础",
+      "topic": "digital",
+      "family": "technology-communication",
+      "phrases": [
+        {
+          "en": "visit a website",
+          "zh": "访问网站"
+        },
+        {
+          "en": "an official website",
+          "zh": "官方网站"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The website lists the opening times of the museum.",
+          "zh": "这个网站列出了博物馆的开放时间。",
+          "audio": "audio/website--1.wav"
+        },
+        {
+          "en": "Check the official website before you travel.",
+          "zh": "出行前请查看官方网站。",
+          "audio": "audio/website--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/website.wav",
+      "source": "daily-lexicon-editorial-0.4",
+      "reviewStatus": "editorial-draft",
+      "scene": "digital-content",
+      "concept": "digital-browsing"
+    },
+    {
+      "id": "dl-link",
+      "word": "link",
+      "ipa": "/lɪŋk/",
+      "pos": "n.; v.",
+      "meaning": "链接；联系；连接",
+      "level": "基础",
+      "topic": "digital",
+      "family": "digital-navigation",
+      "phrases": [
+        {
+          "en": "follow a link",
+          "zh": "打开链接"
+        },
+        {
+          "en": "a link between",
+          "zh": "……之间的联系"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Follow the link to read the full report.",
+          "zh": "打开链接即可阅读完整报告。",
+          "audio": "audio/link--1.wav"
+        },
+        {
+          "en": "The study found a link between sleep and memory.",
+          "zh": "这项研究发现了睡眠与记忆之间的联系。",
+          "audio": "audio/link--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/link.wav",
+      "source": "daily-lexicon-editorial-0.4",
+      "reviewStatus": "editorial-draft",
+      "scene": "digital-content",
+      "concept": "digital-browsing"
+    },
+    {
+      "id": "dl-search",
+      "word": "search",
+      "ipa": "/sɜːrtʃ/",
+      "pos": "v.; n.",
+      "meaning": "搜索；搜查；寻找",
+      "level": "基础",
+      "topic": "digital",
+      "family": "digital-navigation",
+      "phrases": [
+        {
+          "en": "search for",
+          "zh": "寻找"
+        },
+        {
+          "en": "in search of",
+          "zh": "为了寻找"
+        }
+      ],
+      "examples": [
+        {
+          "en": "We searched for the missing file by its name.",
+          "zh": "我们通过文件名寻找丢失的文件。",
+          "audio": "audio/search--1.wav"
+        },
+        {
+          "en": "The travelers went inland in search of fresh water.",
+          "zh": "旅行者为寻找淡水而走向内陆。",
+          "audio": "audio/search--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/search.wav",
+      "source": "daily-lexicon-editorial-0.4",
+      "reviewStatus": "editorial-draft",
+      "scene": "digital-content",
+      "concept": "digital-browsing"
+    },
+    {
+      "id": "dl-file",
+      "word": "file",
+      "ipa": "/faɪl/",
+      "pos": "n.; v.",
+      "meaning": "文件；档案；归档；提交",
+      "level": "基础",
+      "topic": "digital",
+      "family": "digital-files",
+      "phrases": [
+        {
+          "en": "open a file",
+          "zh": "打开文件"
+        },
+        {
+          "en": "file a report",
+          "zh": "提交报告"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Save the file before you close the program.",
+          "zh": "关闭程序之前，请保存文件。",
+          "audio": "audio/file--1.wav"
+        },
+        {
+          "en": "The officer must file a report after the inspection.",
+          "zh": "检查结束后，这名工作人员必须提交报告。",
+          "audio": "audio/file--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/file.wav",
+      "source": "daily-lexicon-editorial-0.4",
+      "reviewStatus": "editorial-draft",
+      "scene": "digital-content",
+      "concept": "digital-files"
+    },
+    {
+      "id": "dl-database",
+      "word": "database",
+      "ipa": "/ˈdeɪtəbeɪs/",
+      "pos": "n.",
+      "meaning": "数据库",
+      "level": "基础",
+      "topic": "digital",
+      "family": "digital-files",
+      "phrases": [
+        {
+          "en": "search a database",
+          "zh": "检索数据库"
+        },
+        {
+          "en": "an online database",
+          "zh": "在线数据库"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The database contains records of local weather.",
+          "zh": "这个数据库保存着当地的天气记录。",
+          "audio": "audio/database--1.wav"
+        },
+        {
+          "en": "We search the database by name or date.",
+          "zh": "我们按姓名或日期检索数据库。",
+          "audio": "audio/database--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/database.wav",
+      "source": "daily-lexicon-editorial-0.4",
+      "reviewStatus": "editorial-draft",
+      "scene": "digital-content",
+      "concept": "digital-files"
+    },
+    {
+      "id": "dl-download",
+      "word": "download",
+      "ipa": "/ˈdaʊnloʊd/",
+      "pos": "n.; v.",
+      "meaning": "下载；下载的文件或内容",
+      "level": "基础",
+      "topic": "digital",
+      "family": "digital-files",
+      "phrases": [
+        {
+          "en": "a free download",
+          "zh": "免费下载的内容"
+        },
+        {
+          "en": "a large download",
+          "zh": "较大的下载文件"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The guide is available as a free download.",
+          "zh": "这份指南可以免费下载。",
+          "audio": "audio/download--1.wav"
+        },
+        {
+          "en": "The download includes all the maps for the trip.",
+          "zh": "下载内容包括此次旅行所需的全部地图。",
+          "audio": "audio/download--2.wav"
+        }
+      ],
+      "forms": [
+        "本卡主读音为名词 /ˈdaʊnloʊd/",
+        "动词的重音可因口音而异"
+      ],
+      "audio": "audio/download.wav",
+      "source": "daily-lexicon-editorial-0.4",
+      "reviewStatus": "editorial-draft",
+      "scene": "digital-content",
+      "concept": "digital-files"
+    },
+    {
+      "id": "dl-upload",
+      "word": "upload",
+      "ipa": "/ˌʌpˈloʊd/",
+      "pos": "v.",
+      "meaning": "上传",
+      "level": "四级",
+      "topic": "digital",
+      "family": "digital-files",
+      "phrases": [
+        {
+          "en": "upload a file",
+          "zh": "上传文件"
+        },
+        {
+          "en": "upload to",
+          "zh": "上传至"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Please upload the completed form before Friday.",
+          "zh": "请在周五之前上传填好的表格。",
+          "audio": "audio/upload--1.wav"
+        },
+        {
+          "en": "She uploaded the photographs to the shared library.",
+          "zh": "她把照片上传到了共享图库。",
+          "audio": "audio/upload--2.wav"
+        }
+      ],
+      "forms": [
+        "本卡主读音为动词 /ˌʌpˈloʊd/",
+        "名词的重音常在首音节"
+      ],
+      "audio": "audio/upload.wav",
+      "source": "daily-lexicon-editorial-0.4",
+      "reviewStatus": "editorial-draft",
+      "scene": "digital-content",
+      "concept": "digital-files"
+    },
+    {
+      "id": "dl-update",
+      "word": "update",
+      "ipa": "/ʌpˈdeɪt/",
+      "pos": "v.",
+      "meaning": "更新；向……提供最新情况",
+      "level": "四级",
+      "topic": "digital",
+      "family": "digital-files",
+      "phrases": [
+        {
+          "en": "update a record",
+          "zh": "更新记录"
+        },
+        {
+          "en": "update someone on",
+          "zh": "向某人提供……的最新情况"
+        }
+      ],
+      "examples": [
+        {
+          "en": "We update the timetable whenever a class changes.",
+          "zh": "课程有变动时，我们就更新课表。",
+          "audio": "audio/update--1.wav"
+        },
+        {
+          "en": "Please update the team on your progress tomorrow.",
+          "zh": "请明天向团队介绍你的最新进展。",
+          "audio": "audio/update--2.wav"
+        }
+      ],
+      "forms": [
+        "本卡主读音为动词 /ʌpˈdeɪt/",
+        "名词update常读 /ˈʌpdeɪt/"
+      ],
+      "audio": "audio/update.wav",
+      "source": "daily-lexicon-editorial-0.4",
+      "reviewStatus": "editorial-draft",
+      "scene": "digital-content",
+      "concept": "digital-files"
+    },
+    {
+      "id": "dl-backup",
+      "word": "backup",
+      "ipa": "/ˈbækʌp/",
+      "pos": "n.; adj.",
+      "meaning": "备份；后备的；备用的",
+      "level": "四级",
+      "topic": "digital",
+      "family": "digital-files",
+      "phrases": [
+        {
+          "en": "make a backup",
+          "zh": "制作备份"
+        },
+        {
+          "en": "a backup copy",
+          "zh": "备份副本"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Make a backup before you change the original file.",
+          "zh": "修改原文件之前，请先备份。",
+          "audio": "audio/backup--1.wav"
+        },
+        {
+          "en": "We keep a backup copy on another device.",
+          "zh": "我们在另一台设备上保存一份备份副本。",
+          "audio": "audio/backup--2.wav"
+        }
+      ],
+      "forms": [
+        "本卡为一个词的名词或形容词",
+        "动词短语写作 back up"
+      ],
+      "audio": "audio/backup.wav",
+      "source": "daily-lexicon-editorial-0.4",
+      "reviewStatus": "editorial-draft",
+      "scene": "digital-content",
+      "concept": "digital-files"
+    },
+    {
+      "id": "dl-delete",
+      "word": "delete",
+      "ipa": "/dɪˈliːt/",
+      "pos": "v.",
+      "meaning": "删除",
+      "level": "基础",
+      "topic": "digital",
+      "family": "digital-files",
+      "phrases": [
+        {
+          "en": "delete a file",
+          "zh": "删除文件"
+        },
+        {
+          "en": "delete from",
+          "zh": "从……中删除"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Please delete the empty rows from the table.",
+          "zh": "请删除表格中的空行。",
+          "audio": "audio/delete--1.wav"
+        },
+        {
+          "en": "She deleted the old address from her notes.",
+          "zh": "她从笔记中删除了旧地址。",
+          "audio": "audio/delete--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/delete.wav",
+      "source": "daily-lexicon-editorial-0.4",
+      "reviewStatus": "editorial-draft",
+      "scene": "digital-content",
+      "concept": "digital-files"
+    },
+    {
+      "id": "dl-app",
+      "word": "app",
+      "ipa": "/æp/",
+      "pos": "n.",
+      "meaning": "应用程序",
+      "level": "四级",
+      "topic": "digital",
+      "family": "technology-computing",
+      "phrases": [
+        {
+          "en": "a mobile app",
+          "zh": "手机应用"
+        },
+        {
+          "en": "open an app",
+          "zh": "打开应用"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The app saves your notes on the device.",
+          "zh": "这个应用把你的笔记保存在设备上。",
+          "audio": "audio/app--1.wav"
+        },
+        {
+          "en": "She uses an app to plan her daily reading.",
+          "zh": "她用一个应用安排每天的阅读。",
+          "audio": "audio/app--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/app.wav",
+      "source": "daily-lexicon-editorial-0.4",
+      "reviewStatus": "editorial-draft",
+      "scene": "digital-conversation",
+      "concept": "digital-publishing"
+    },
+    {
+      "id": "dl-blog",
+      "word": "blog",
+      "ipa": "/blɑːɡ/",
+      "pos": "n.; v.",
+      "meaning": "博客；写博客",
+      "level": "四级",
+      "topic": "digital",
+      "family": "technology-communication",
+      "phrases": [
+        {
+          "en": "write a blog",
+          "zh": "写博客"
+        },
+        {
+          "en": "a travel blog",
+          "zh": "旅行博客"
+        }
+      ],
+      "examples": [
+        {
+          "en": "He writes a blog about life in a small town.",
+          "zh": "他写博客介绍小镇生活。",
+          "audio": "audio/blog--1.wav"
+        },
+        {
+          "en": "The blog includes photographs of local plants.",
+          "zh": "这个博客包含当地植物的照片。",
+          "audio": "audio/blog--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/blog.wav",
+      "source": "daily-lexicon-editorial-0.4",
+      "reviewStatus": "editorial-draft",
+      "scene": "digital-conversation",
+      "concept": "digital-publishing"
+    },
+    {
+      "id": "dl-podcast",
+      "word": "podcast",
+      "ipa": "/ˈpɑːdkæst/",
+      "pos": "n.",
+      "meaning": "播客；可下载的音频节目",
+      "level": "四级",
+      "topic": "digital",
+      "family": "technology-communication",
+      "phrases": [
+        {
+          "en": "listen to a podcast",
+          "zh": "听播客"
+        },
+        {
+          "en": "a weekly podcast",
+          "zh": "每周更新的播客"
+        }
+      ],
+      "examples": [
+        {
+          "en": "I listen to a podcast while walking to work.",
+          "zh": "我步行上班时听播客。",
+          "audio": "audio/podcast--1.wav"
+        },
+        {
+          "en": "The weekly podcast explains a different scientific idea each time.",
+          "zh": "这个每周更新的播客每次讲解一个不同的科学概念。",
+          "audio": "audio/podcast--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/podcast.wav",
+      "source": "daily-lexicon-editorial-0.4",
+      "reviewStatus": "editorial-draft",
+      "scene": "digital-conversation",
+      "concept": "digital-publishing"
+    },
+    {
+      "id": "dl-forum",
+      "word": "forum",
+      "ipa": "/ˈfɔːrəm/",
+      "pos": "n.",
+      "meaning": "论坛；讨论会；交流场所",
+      "level": "四级",
+      "topic": "digital",
+      "family": "technology-communication",
+      "phrases": [
+        {
+          "en": "an online forum",
+          "zh": "网络论坛"
+        },
+        {
+          "en": "a public forum",
+          "zh": "公共讨论会"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The forum gives new students a place to ask questions.",
+          "zh": "这个论坛为新生提供了提问的地方。",
+          "audio": "audio/forum--1.wav"
+        },
+        {
+          "en": "Residents shared their views at a public forum.",
+          "zh": "居民们在一场公共讨论会上分享了看法。",
+          "audio": "audio/forum--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/forum.wav",
+      "source": "daily-lexicon-editorial-0.4",
+      "reviewStatus": "editorial-draft",
+      "scene": "digital-conversation",
+      "concept": "digital-publishing"
+    },
+    {
+      "id": "dl-chat",
+      "word": "chat",
+      "ipa": "/tʃæt/",
+      "pos": "v.; n.",
+      "meaning": "闲聊；聊天",
+      "level": "基础",
+      "topic": "digital",
+      "family": "technology-communication",
+      "phrases": [
+        {
+          "en": "chat with",
+          "zh": "与……聊天"
+        },
+        {
+          "en": "have a chat",
+          "zh": "聊一聊"
+        }
+      ],
+      "examples": [
+        {
+          "en": "We often chat with our neighbors after dinner.",
+          "zh": "晚饭后，我们常和邻居聊天。",
+          "audio": "audio/chat--1.wav"
+        },
+        {
+          "en": "She stayed for a short chat before catching the bus.",
+          "zh": "她在赶公交车之前留下来聊了一小会儿。",
+          "audio": "audio/chat--2.wav"
+        }
+      ],
+      "forms": [
+        "过去式与过去分词 chatted",
+        "现在分词 chatting"
+      ],
+      "audio": "audio/chat.wav",
+      "source": "daily-lexicon-editorial-0.4",
+      "reviewStatus": "editorial-draft",
+      "scene": "digital-conversation",
+      "concept": "digital-messages"
+    },
+    {
+      "id": "dl-email",
+      "word": "email",
+      "ipa": "/ˈiːmeɪl/",
+      "pos": "n.; v.",
+      "meaning": "电子邮件；给……发电子邮件",
+      "level": "基础",
+      "topic": "digital",
+      "family": "technology-communication",
+      "phrases": [
+        {
+          "en": "send an email",
+          "zh": "发送电子邮件"
+        },
+        {
+          "en": "email someone",
+          "zh": "给某人发电子邮件"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Please send an email if your plans change.",
+          "zh": "如果你的计划有变，请发一封电子邮件。",
+          "audio": "audio/email--1.wav"
+        },
+        {
+          "en": "I will email the final timetable to everyone tonight.",
+          "zh": "今晚我会把最终课表通过电子邮件发给所有人。",
+          "audio": "audio/email--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/email.wav",
+      "source": "daily-lexicon-editorial-0.4",
+      "reviewStatus": "editorial-draft",
+      "scene": "digital-conversation",
+      "concept": "digital-messages"
+    },
+    {
+      "id": "dl-text",
+      "word": "text",
+      "ipa": "/tekst/",
+      "pos": "n.; v.",
+      "meaning": "文本；正文；短信；发短信",
+      "level": "基础",
+      "topic": "digital",
+      "family": "technology-communication",
+      "phrases": [
+        {
+          "en": "the original text",
+          "zh": "原文"
+        },
+        {
+          "en": "send a text",
+          "zh": "发短信"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The original text is printed beside the translation.",
+          "zh": "原文印在译文旁边。",
+          "audio": "audio/text--1.wav"
+        },
+        {
+          "en": "Send me a text when you arrive at the station.",
+          "zh": "你到车站时给我发条短信。",
+          "audio": "audio/text--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/text.wav",
+      "source": "daily-lexicon-editorial-0.4",
+      "reviewStatus": "editorial-draft",
+      "scene": "digital-conversation",
+      "concept": "digital-messages"
+    },
+    {
+      "id": "dl-online",
+      "word": "online",
+      "ipa": "/ˌɑːnˈlaɪn/",
+      "pos": "adj.; adv.",
+      "meaning": "在线的；在网上",
+      "level": "四级",
+      "topic": "digital",
+      "family": "technology-communication",
+      "phrases": [
+        {
+          "en": "an online course",
+          "zh": "在线课程"
+        },
+        {
+          "en": "go online",
+          "zh": "上网"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The online course includes short lessons and reading lists.",
+          "zh": "这门在线课程包含简短的课程和阅读书目。",
+          "audio": "audio/online--1.wav"
+        },
+        {
+          "en": "The library lets readers renew books online.",
+          "zh": "图书馆允许读者在网上续借图书。",
+          "audio": "audio/online--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/online.wav",
+      "source": "daily-lexicon-editorial-0.4",
+      "reviewStatus": "editorial-draft",
+      "scene": "digital-conversation",
+      "concept": "digital-messages"
+    },
+    {
+      "id": "dl-wireless",
+      "word": "wireless",
+      "ipa": "/ˈwaɪərləs/",
+      "pos": "adj.",
+      "meaning": "无线的",
+      "level": "四级",
+      "topic": "digital",
+      "family": "technology-communication",
+      "phrases": [
+        {
+          "en": "a wireless connection",
+          "zh": "无线连接"
+        },
+        {
+          "en": "a wireless device",
+          "zh": "无线设备"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The library offers a wireless connection for visitors.",
+          "zh": "图书馆为访客提供无线网络连接。",
+          "audio": "audio/wireless--1.wav"
+        },
+        {
+          "en": "The wireless device sends a signal every minute.",
+          "zh": "这个无线设备每分钟发送一次信号。",
+          "audio": "audio/wireless--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/wireless.wav",
+      "source": "daily-lexicon-editorial-0.4",
+      "reviewStatus": "editorial-draft",
+      "scene": "digital-conversation",
+      "concept": "digital-messages"
     }
   ],
   "topics": [
@@ -23889,6 +25048,50 @@
         "dl-negotiate",
         "dl-negotiation",
         "dl-compromise"
+      ]
+    },
+    {
+      "id": "digital",
+      "label": "数字生活",
+      "subtitle": "从设备操作到在线交流",
+      "description": "从设备操作到在线交流",
+      "column": "数字生活",
+      "scenes": [
+        "digital-devices",
+        "digital-content",
+        "digital-conversation"
+      ],
+      "words": [
+        "dl-smartphone",
+        "dl-laptop",
+        "dl-desktop",
+        "dl-keyboard",
+        "dl-mouse",
+        "dl-button",
+        "dl-click",
+        "dl-swipe",
+        "dl-password",
+        "dl-browse",
+        "dl-browser",
+        "dl-website",
+        "dl-link",
+        "dl-search",
+        "dl-file",
+        "dl-database",
+        "dl-download",
+        "dl-upload",
+        "dl-update",
+        "dl-backup",
+        "dl-delete",
+        "dl-app",
+        "dl-blog",
+        "dl-podcast",
+        "dl-forum",
+        "dl-chat",
+        "dl-email",
+        "dl-text",
+        "dl-online",
+        "dl-wireless"
       ]
     }
   ],
@@ -25119,6 +26322,69 @@
         "dl-negotiate",
         "dl-negotiation",
         "dl-compromise"
+      ]
+    },
+    {
+      "id": "digital-devices",
+      "label": "设备与操作",
+      "topic": "digital",
+      "concepts": [
+        "digital-equipment",
+        "digital-interaction"
+      ],
+      "words": [
+        "dl-smartphone",
+        "dl-laptop",
+        "dl-desktop",
+        "dl-keyboard",
+        "dl-mouse",
+        "dl-button",
+        "dl-click",
+        "dl-swipe",
+        "dl-password"
+      ]
+    },
+    {
+      "id": "digital-content",
+      "label": "内容与文件",
+      "topic": "digital",
+      "concepts": [
+        "digital-browsing",
+        "digital-files"
+      ],
+      "words": [
+        "dl-browse",
+        "dl-browser",
+        "dl-website",
+        "dl-link",
+        "dl-search",
+        "dl-file",
+        "dl-database",
+        "dl-download",
+        "dl-upload",
+        "dl-update",
+        "dl-backup",
+        "dl-delete"
+      ]
+    },
+    {
+      "id": "digital-conversation",
+      "label": "连接与交流",
+      "topic": "digital",
+      "concepts": [
+        "digital-publishing",
+        "digital-messages"
+      ],
+      "words": [
+        "dl-app",
+        "dl-blog",
+        "dl-podcast",
+        "dl-forum",
+        "dl-chat",
+        "dl-email",
+        "dl-text",
+        "dl-online",
+        "dl-wireless"
       ]
     }
   ],
@@ -26714,6 +27980,84 @@
         "dl-negotiation",
         "dl-compromise"
       ]
+    },
+    {
+      "id": "digital-equipment",
+      "label": "手边的设备",
+      "topic": "digital",
+      "scene": "digital-devices",
+      "words": [
+        "dl-smartphone",
+        "dl-laptop",
+        "dl-desktop",
+        "dl-keyboard",
+        "dl-mouse"
+      ]
+    },
+    {
+      "id": "digital-interaction",
+      "label": "操作与访问",
+      "topic": "digital",
+      "scene": "digital-devices",
+      "words": [
+        "dl-button",
+        "dl-click",
+        "dl-swipe",
+        "dl-password"
+      ]
+    },
+    {
+      "id": "digital-browsing",
+      "label": "浏览与查找",
+      "topic": "digital",
+      "scene": "digital-content",
+      "words": [
+        "dl-browse",
+        "dl-browser",
+        "dl-website",
+        "dl-link",
+        "dl-search"
+      ]
+    },
+    {
+      "id": "digital-files",
+      "label": "保存与传输",
+      "topic": "digital",
+      "scene": "digital-content",
+      "words": [
+        "dl-file",
+        "dl-database",
+        "dl-download",
+        "dl-upload",
+        "dl-update",
+        "dl-backup",
+        "dl-delete"
+      ]
+    },
+    {
+      "id": "digital-publishing",
+      "label": "发布与收听",
+      "topic": "digital",
+      "scene": "digital-conversation",
+      "words": [
+        "dl-app",
+        "dl-blog",
+        "dl-podcast",
+        "dl-forum"
+      ]
+    },
+    {
+      "id": "digital-messages",
+      "label": "消息与连接",
+      "topic": "digital",
+      "scene": "digital-conversation",
+      "words": [
+        "dl-chat",
+        "dl-email",
+        "dl-text",
+        "dl-online",
+        "dl-wireless"
+      ]
     }
   ],
   "families": [
@@ -27197,6 +28541,18 @@
         "dl-breath"
       ],
       "reference": "https://en.wiktionary.org/wiki/breathe"
+    },
+    {
+      "id": "browse",
+      "label": "browse 词族",
+      "meaning": "浏览与浏览工具",
+      "kind": "family",
+      "note": "browser由browse加表示人或工具的-er构成，常指浏览器；这里按现代词族联系，不把browse整体当作古典词根。",
+      "words": [
+        "dl-browse",
+        "dl-browser"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/browse"
     },
     {
       "id": "build",
@@ -28396,6 +29752,29 @@
       "reference": "https://en.wiktionary.org/wiki/food"
     },
     {
+      "id": "technology-communication",
+      "label": "信息与连接独立词",
+      "meaning": "按用法理解",
+      "kind": "independent",
+      "note": "本组按学习语境归置，不认定具有共同词根或直接派生关系。第二轮仍覆盖本组全部单词。",
+      "words": [
+        "dl-message",
+        "dl-information",
+        "dl-network",
+        "dl-signal",
+        "dl-website",
+        "dl-blog",
+        "dl-podcast",
+        "dl-forum",
+        "dl-chat",
+        "dl-email",
+        "dl-text",
+        "dl-online",
+        "dl-wireless"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/message"
+    },
+    {
       "id": "study-life",
       "label": "学习生活独立词",
       "meaning": "按用法理解",
@@ -28517,6 +29896,26 @@
       "reference": "https://en.wiktionary.org/wiki/kitchen"
     },
     {
+      "id": "technology-devices",
+      "label": "数字设备独立词",
+      "meaning": "按用法理解",
+      "kind": "independent",
+      "note": "本组按学习语境归置，不认定具有共同词根或直接派生关系。第二轮仍覆盖本组全部单词。",
+      "words": [
+        "dl-computer",
+        "dl-telephone",
+        "dl-digital",
+        "dl-device",
+        "dl-screen",
+        "dl-smartphone",
+        "dl-laptop",
+        "dl-desktop",
+        "dl-keyboard",
+        "dl-mouse"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/computer"
+    },
+    {
       "id": "everyday-places",
       "label": "日常生活独立词",
       "meaning": "按用法理解",
@@ -28569,6 +29968,23 @@
       "reference": "https://en.wiktionary.org/wiki/culture"
     },
     {
+      "id": "digital-files",
+      "label": "文件操作独立词",
+      "meaning": "按数字生活用法理解",
+      "kind": "independent",
+      "note": "本组按文件保存、传输与维护的使用场景归置，不认定具有共同词根或直接派生关系。第二轮仍覆盖每个词。",
+      "words": [
+        "dl-file",
+        "dl-database",
+        "dl-download",
+        "dl-upload",
+        "dl-update",
+        "dl-backup",
+        "dl-delete"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/file"
+    },
+    {
       "id": "health",
       "label": "健康相关独立词",
       "meaning": "按用法理解",
@@ -28601,6 +30017,23 @@
         "dl-phenomenon"
       ],
       "reference": "https://en.wiktionary.org/wiki/research"
+    },
+    {
+      "id": "technology-computing",
+      "label": "计算与技术独立词",
+      "meaning": "按用法理解",
+      "kind": "independent",
+      "note": "本组按学习语境归置，不认定具有共同词根或直接派生关系。第二轮仍覆盖本组全部单词。",
+      "words": [
+        "dl-software",
+        "dl-hardware",
+        "dl-program",
+        "dl-code",
+        "dl-technology",
+        "dl-technique",
+        "dl-app"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/software"
     },
     {
       "id": "time-change",
@@ -28650,6 +30083,22 @@
         "dl-how"
       ],
       "reference": "https://en.wiktionary.org/wiki/who"
+    },
+    {
+      "id": "digital-navigation",
+      "label": "界面操作独立词",
+      "meaning": "按操作与连接用法理解",
+      "kind": "independent",
+      "note": "本组按点击、查找、连接和访问的语境归置，不表示共同词源。通过搭配与例句理解每个词，第二轮仍完整覆盖。",
+      "words": [
+        "dl-button",
+        "dl-click",
+        "dl-swipe",
+        "dl-password",
+        "dl-link",
+        "dl-search"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/button"
     },
     {
       "id": "economy-finance",
@@ -28714,22 +30163,6 @@
         "dl-contaminate"
       ],
       "reference": "https://en.wiktionary.org/wiki/energy"
-    },
-    {
-      "id": "technology-computing",
-      "label": "计算与技术独立词",
-      "meaning": "按用法理解",
-      "kind": "independent",
-      "note": "本组按学习语境归置，不认定具有共同词根或直接派生关系。第二轮仍覆盖本组全部单词。",
-      "words": [
-        "dl-software",
-        "dl-hardware",
-        "dl-program",
-        "dl-code",
-        "dl-technology",
-        "dl-technique"
-      ],
-      "reference": "https://en.wiktionary.org/wiki/software"
     },
     {
       "id": "travel",
@@ -28838,21 +30271,6 @@
       "reference": "https://en.wiktionary.org/wiki/place"
     },
     {
-      "id": "technology-devices",
-      "label": "数字设备独立词",
-      "meaning": "按用法理解",
-      "kind": "independent",
-      "note": "本组按学习语境归置，不认定具有共同词根或直接派生关系。第二轮仍覆盖本组全部单词。",
-      "words": [
-        "dl-computer",
-        "dl-telephone",
-        "dl-digital",
-        "dl-device",
-        "dl-screen"
-      ],
-      "reference": "https://en.wiktionary.org/wiki/computer"
-    },
-    {
       "id": "basic-degree",
       "label": "程度与补充独立词",
       "meaning": "按用法理解",
@@ -28907,20 +30325,6 @@
         "dl-supply"
       ],
       "reference": "https://en.wiktionary.org/wiki/trade"
-    },
-    {
-      "id": "technology-communication",
-      "label": "信息与连接独立词",
-      "meaning": "按用法理解",
-      "kind": "independent",
-      "note": "本组按学习语境归置，不认定具有共同词根或直接派生关系。第二轮仍覆盖本组全部单词。",
-      "words": [
-        "dl-message",
-        "dl-information",
-        "dl-network",
-        "dl-signal"
-      ],
-      "reference": "https://en.wiktionary.org/wiki/message"
     },
     {
       "id": "work-roles",
@@ -29058,6 +30462,6 @@
       "reference": "https://en.wiktionary.org/wiki/use"
     }
   ],
-  "notice": "当前已收录600词，按主题、场景和概念分块。基础、四级、六级为参考层级；完整范围核对和内容校审正在进行。",
-  "hash": "d5a14c82857828274611c2c5974f0a5be6d4344dcde467f58b45978b67c8517e"
+  "notice": "当前已收录630词。目标范围结合官方词表与基础词，保留词目、附列形式、变体与页码依据；范围裁定、全量成卡与内容校审正在进行。",
+  "hash": "3460e102d1aafd1ab758059e7c4a7e70a3957fda19ad7910e14a26093bc24379"
 }

@@ -20,3 +20,8 @@
 词卡中文释义、搭配、英汉例句和构词提示均为本项目试编内容，不包含从商业词典抓取的正文。音频为本地生成。模型、Piper引擎与语音工具链不随运行时打包；已附生成脚本和来源记录。
 
 构建依赖按各自原始许可使用，完整版本锁定于package-lock.json。运行时依赖的许可证、版权声明与清单位于public/licenses/dependencies，构建后也随应用提供。
+
+
+## 可选词表提取工具
+
+pdfplumber 0.11.9（MIT，https://github.com/jsvine/pdfplumber）及pypdf 6.10.0（BSD-3-Clause，https://github.com/py-pdf/pypdf）仅用于开发时读取官方PDF，普通构建与应用运行不需要它们。原始PDF不随应用再分发，来源URL与校验值见content/scope/cet2016-source.json；事实索引不改变原文档的权利归属。

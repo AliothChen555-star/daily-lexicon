@@ -5,6 +5,7 @@ import report from '../content/reports/scope.json';
 import source from '../content/scope/source.json';
 import release from '../content/reports/release.json';
 import reviews from '../content/reviews.json';
+import study from '../content/scope/study-source.json';
 import { words } from '../src/content';
 describe('候选范围与正式内容的边界',()=>{
   it('基础、四级和六级取并集，保留来源标签而不冒充完整正式词库',()=>{
@@ -17,12 +18,15 @@ describe('候选范围与正式内容的边界',()=>{
     expect(rows.some(([,tags])=>tags.split(' ').includes('cet6'))).toBe(true);
     expect(createHash('sha256').update(raw).digest('hex')).toBe(source.adoptedSha256);
     expect(source.adoptedFields).toEqual(['word','tag']);expect(source.omittedFields).toContain('translation');
-    expect(report.cards).toBe(600);expect(report.audioFiles).toBe(1800);
-    for(const word of words.filter(w=>byWord.has(w.word.toLowerCase()))) {
-      const tags=byWord.get(word.word.toLowerCase())!.split(' ');
-      expect(word.level).toBe(tags.some(t=>t==='zk'||t==='gk')?'基础':tags.includes('cet4')?'四级':'六级');
+    expect(report.cards).toBe(630);expect(report.audioFiles).toBe(1890);
+    const scopeRows=readFileSync('content/scope/study-scope.tsv','utf8').trim().split(/\r?\n/).slice(1).map(row=>row.split('\t'));
+    const levels=new Map(scopeRows.map(row=>[row[0],row[2]]));
+    expect(scopeRows).toHaveLength(study.candidateWords);
+    for(const word of words) {
+      expect(word.level).toBe(levels.get(word.word.toLowerCase())??'扩展');
     }
-    expect(report.missingCards+report.candidateMatches).toBe(report.candidateWords);
+    expect(report.missingCards+report.candidateMatches).toBe(report.targetWords);
+    expect(report.targetWords).toBe(study.targetWords);
     expect(report.structuralIssues).toHaveLength(0);
     expect(report.humanApprovedCards).toBeLessThanOrEqual(reviews.records.length);
     expect(release.ready).toBe(release.checks.every(check=>check.passed));

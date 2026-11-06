@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "cet2016-basic-scope-v1",
+  "status": "provisional-pending-adjudication",
+  "referenceSha256": "4fc7efd006d8b0ac1c370e9a92d848d36aa4a2495e563f8032673c28b3f4321a",
+  "officialRecordsSha256": "263f9bf429f0825bed6b5219c0f7c32c1d15b7cfcd9a2578c897a04a0937470f",
+  "file": "study-scope.tsv",
+  "adoptedSha256": "e29d3eb75b021474b68316f8e3e5b8197c364ffc14cdfb49a63ef1a318d6fa75",
+  "candidateWords": 9089,
+  "targetWords": 8375,
+  "referenceWords": 7109,
+  "basicWords": 3722,
+  "officialSpellings": 8014,
+  "officialOnlyWords": 1980,
+  "referenceOnlyWords": 714,
+  "normalizationCells": 212,
+  "homographSpellings": 84,
+  "policy": "基础取固定参考来源的zk/gk；合并官方所有词目、附列形式及显式变体机械展开。参考来源独有的四六级标签不自动进入目标；保留为可检索参考项。此目标待范围裁定，不表示所有义项已成卡。",
+  "countConvention": "官方标示5418词目、2551附列形式；提取的5377物理行、2519附列单元格、展开去重拼写分别计数，尚未将其计数口径视为一致。"
+}

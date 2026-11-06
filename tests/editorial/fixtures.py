@@ -7,6 +7,7 @@ def make_fixture(root):
     root=Path(root)
     data=read_json(ROOT/'src/data/content.json')
     word=next(w for w in data['words'] if w['id']=='dl-see')
+    data.pop('scopeId',None)
     data['words']=[word]
     for table,key in [('topics','topic'),('scenes','scene'),('concepts','concept'),('families','family')]:
         data[table]=[g for g in data[table] if g['id']==word[key]]
@@ -30,4 +31,17 @@ def make_fixture(root):
     manifest=[a for a in read_json(ROOT/'public/audio/manifest.json') if a['file'] in names]
     atomic_json(audio/'manifest.json',manifest)
     atomic_json(root/'content/reports/scope.json',{'contentHash':data['hash'],'structuralIssues':[]})
+    return root
+
+def make_official_fixture(root):
+    from study_scope import build_scope
+    root=make_fixture(root)
+    for name in ('cet2016-source.json','cet2016-records.json'):
+        shutil.copyfile(ROOT/'content/scope'/name,root/'content/scope'/name)
+    raw=(root/'content/scope/ecdict-words.tsv').read_bytes()+b'fauxreferenceword\tcet6\n'
+    (root/'content/scope/ecdict-words.tsv').write_bytes(raw)
+    source=read_json(root/'content/scope/source.json')
+    source.update(candidateWords=3,adoptedSha256=hashlib.sha256(raw).hexdigest())
+    atomic_json(root/'content/scope/source.json',source)
+    build_scope(root)
     return root

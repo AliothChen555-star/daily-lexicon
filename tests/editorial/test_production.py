@@ -2,7 +2,7 @@ import unittest, tempfile, json, sqlite3, threading, urllib.request, urllib.erro
 from pathlib import Path
 from contextlib import closing
 from http.server import ThreadingHTTPServer
-from fixtures import make_fixture
+from fixtures import make_fixture,make_official_fixture
 from content_core import REVIEW_AXES, atomic_json, read_json, workspace, review_status, submit_review, build_database, release_report, digest
 from importlib.util import spec_from_file_location, module_from_spec
 server_spec=spec_from_file_location('editorial_server',Path(__file__).resolve().parents[2]/'scripts/editorial-server.py')
@@ -30,6 +30,7 @@ class ProductionTests(unittest.TestCase):
             saved=json.loads(db.execute("SELECT data FROM words WHERE id='dl-see'").fetchone()[0])
             self.assertEqual(saved,read_json(self.root/'src/data/content.json')['words'][0])
         self.assertEqual(report['missingCards'],1)
+        self.assertEqual(report['targetCards']+report['missingCards'],report['targetWords'])
         self.assertFalse(report['ready'])
 
     def test_approval_requires_signature_evidence_and_all_six_checks(self):
@@ -106,10 +107,12 @@ class BundledDatabaseTests(unittest.TestCase):
     def test_bundled_database_matches_the_current_content_snapshot(self):
         from content_core import ROOT
         data=read_json(ROOT/'src/data/content.json')
+        current=workspace(ROOT)
         with closing(sqlite3.connect(ROOT/'public/lexicon.sqlite')) as db:
             content_hash=json.loads(db.execute("SELECT value FROM metadata WHERE key='contentHash'").fetchone()[0])
             self.assertEqual(content_hash,data['hash'])
             self.assertEqual([json.loads(row[0]) for row in db.execute('SELECT data FROM words ORDER BY ordinal')],data['words'])
+            self.assertEqual(dict(db.execute('SELECT id,fingerprint FROM words')),current['fingerprints'])
             self.assertEqual(db.execute('PRAGMA foreign_key_check').fetchall(),[])
 
 class EditorialAPITests(unittest.TestCase):
@@ -132,6 +135,16 @@ class EditorialAPITests(unittest.TestCase):
         self.assertEqual(result['total'],1);self.assertIsNone(result['entries'][0]['id'])
         self.assertEqual(self.request('/api/entries?q=%27%20OR%201%3D1')['total'],0)
         self.assertEqual(self.request('/api/cards/dl-see')['word']['word'],'see')
+
+    def test_official_evidence_and_reference_only_filter_are_available(self):
+        make_official_fixture(self.root);build_database(self.root)
+        result=self.request('/api/entries?q=smartphone&scope=target')
+        self.assertEqual(result['total'],1)
+        self.assertTrue(result['entries'][0]['required'])
+        self.assertTrue(json.loads(result['entries'][0]['evidence']))
+        self.assertEqual(self.request('/api/entries?q=fauxreferenceword&scope=target')['total'],0)
+        self.assertEqual(self.request('/api/entries?q=fauxreferenceword&scope=reference')['total'],1)
+        self.assertTrue(self.request('/api/cards/dl-see')['scope']['evidence'])
 
     def test_cross_origin_or_missing_token_cannot_write(self):
         for headers in [{'Origin':'http://example.com','X-Lexicon-Token':'test-token'}, {'Origin':self.base}]:

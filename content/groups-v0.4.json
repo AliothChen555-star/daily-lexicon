@@ -1,0 +1,5 @@
+{
+  "browse": { "label": "browse 词族", "meaning": "浏览与浏览工具", "kind": "family", "note": "browser由browse加表示人或工具的-er构成，常指浏览器；这里按现代词族联系，不把browse整体当作古典词根。" },
+  "digital-files": { "label": "文件操作独立词", "meaning": "按数字生活用法理解", "kind": "independent", "note": "本组按文件保存、传输与维护的使用场景归置，不认定具有共同词根或直接派生关系。第二轮仍覆盖每个词。" },
+  "digital-navigation": { "label": "界面操作独立词", "meaning": "按操作与连接用法理解", "kind": "independent", "note": "本组按点击、查找、连接和访问的语境归置，不表示共同词源。通过搭配与例句理解每个词，第二轮仍完整覆盖。" }
+}

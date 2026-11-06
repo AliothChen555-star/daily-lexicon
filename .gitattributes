@@ -7,5 +7,7 @@
 *.ico binary
 *.jar binary
 *.sqlite binary
+# Empty final TSV fields are represented by trailing tabs.
+*.tsv whitespace=-blank-at-eol
 public/licenses/** -whitespace
 LICENSE -whitespace

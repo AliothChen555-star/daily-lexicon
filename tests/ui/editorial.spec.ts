@@ -4,6 +4,16 @@ test.use({baseURL:'http://127.0.0.1:4176'});
 test('校审工作台区分待制词，逐项核对后保存到隔离数据库',async({page})=>{
   await page.goto('/');
   await expect(page.getByRole('heading',{name:'词库校审',exact:true})).toBeVisible();
+  await page.getByText('词表范围与来源依据',{exact:true}).click();
+  await expect(page.locator('#scope-summary')).toContainText('129页');
+  await page.getByLabel('搜索单词或释义').fill('smartphone');
+  await page.getByRole('button',{name:/^smartphone /}).click();
+  await expect(page.locator('.scope-reference a').first()).toHaveAttribute('href',/cet\.neea\.edu\.cn\/res\/Home\/1704\/.*#page=\d+/);
+  await page.getByLabel('词目范围').selectOption('reference');
+  await page.getByLabel('搜索单词或释义').fill('fauxreferenceword');
+  await expect(page.locator('.entry')).toHaveCount(1);
+  await page.getByLabel('词目范围').selectOption('target');
+  await expect(page.locator('.entry')).toHaveCount(0);
   await page.getByLabel('搜索单词或释义').fill('abandon');
   await page.getByRole('button',{name:'abandon 四级 / 待制作'}).click();
   await expect(page.getByText('这个候选词尚待制作词卡。',{exact:true})).toBeVisible();

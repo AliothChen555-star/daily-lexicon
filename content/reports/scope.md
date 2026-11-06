@@ -1,35 +1,39 @@
 # 词库范围与词卡清点
 
-内容版本：0.3.1。范围来源：[ECDICT](https://github.com/skywind3000/ECDICT)，固定提交 `39cfb9672c0906b63569e0453c2e6abfb9ab182a`。保留的字段仅为拼写和级别标签；未复制释义、例句、音标或音频。原始文件SHA-256：`d1ecbdf9ee2b920afb6f430ca6b6bb9f559588cf0dff86e04bd255f9390843cc`。MIT许可见 `../scope/ECDICT-LICENSE`。
+内容版本：0.4.0。范围采用[官方词表](https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf)与[ECDICT基础及参考标签](https://github.com/skywind3000/ECDICT)。ECDICT固定提交 `39cfb9672c0906b63569e0453c2e6abfb9ab182a`。保留的字段仅为拼写和级别标签；未复制释义、例句、音标或音频。原始文件SHA-256：`d1ecbdf9ee2b920afb6f430ca6b6bb9f559588cf0dff86e04bd255f9390843cc`。MIT许可见 `../scope/ECDICT-LICENSE`。
 
 | 项目 | 数量 |
 | --- | ---: |
-| 基础、四级、六级候选拼写并集 | 7109 |
+| 旧参考来源拼写 | 7109 |
+| 官方索引与参考来源拼写并集 | 9089 |
+| 当前待裁定目标拼写 | 8375 |
 | 至少两个级别标签的候选词 | 4819 |
 | 需另行裁定的短语或特殊拼写 | 7 |
-| 本版可学习词卡 | 600 |
-| 已制卡与候选名单相交 | 564 |
-| 候选名单中尚未制作的词卡 | 6545 |
-| 主题 / 场景 / 概念 | 20 / 56 / 124 |
-| 构词归组覆盖 | 600 |
-| 古典词根 / 现代词族 / 独立词组 | 12 / 114 / 48 |
-| 本地音频 | 1800 |
+| 本版可学习词卡 | 630 |
+| 已制卡与候选名单相交 | 617 |
+| 候选名单中尚未制作的词卡 | 7758 |
+| 主题 / 场景 / 概念 | 21 / 59 / 130 |
+| 构词归组覆盖 | 630 |
+| 古典词根 / 现代词族 / 独立词组 | 12 / 115 / 50 |
+| 本地音频 | 1890 |
 | 结构、目标词与音频问题 | 0 |
 | 完整人工审核通过的卡片 | 0 |
 
 ## 分层口径
 
-保留各词所有标签。基础层取 `zk` 或 `gk`，其余有 `cet4` 标签的归四级候选，再将其余 `cet6` 词归六级候选。这是来源标签的合并规则，不能代替官方大纲核对。
+基础层保留固定参考来源的`zk/gk`，再并入官方词目、附列形式与显式变体的机械展开。基础标签优先，其余优先采用官方所在行的四级／六级标记；附列形式的级别按行继承，保留推定依据。同一拼写的多行与多级记录不被丢弃。旧来源独有的四六级标签仅保留为参考，不自动进入目标。
 
-拼写以小写作为去重键；I及专有名词等源大小写保存在`../scope/spelling-variants.json`，未制作词清单也保留源拼写。制作正式卡片时需要裁定显示形式，不把小写去重键直接当作正确显示拼写。
+拼写以小写作为去重键；原始大小写及变体保存在`../scope/cet2016-records.json`和参考来源的`../scope/spelling-variants.json`，未制作词清单也保留源拼写。制作正式卡片时需要裁定显示形式，不把小写去重键直接当作正确显示拼写。
 
 - 来源标签计数（可能重叠）：{'gk': 3674, 'zk': 1600, 'cet4': 3846, 'cet6': 5406}。
-- 最低参考层级去重计数：{'基础': 3722, '六级': 1755, '四级': 1632}。
-- 当前词卡参考层级：{'基础': 452, '四级': 74, '六级': 38, '扩展': 36}。
-- 当前未在本次候选并集出现的词：accountability, allocation, autonomy, biodiversity, causality, coordination, creativity, credible, diagnosis, distraction, diversity, ecological, empirically, equity, exclusion, flexibility, implementation, inclusion, inequality, integration, legislate, legislative, legitimacy, metabolism, methodology, participatory, reconsider, reconstruct, renewable, replicate, replication, sustainability, sustainable, transparency, trustworthy, verification。这些保留为公开标明的扩展词，后续决定是否进入正式必学集合。
+- 目标参考层级去重计数：{'基础': 3722, '六级': 1607, '四级': 3046}。
+- 当前词卡参考层级：{'基础': 466, '四级': 133, '扩展': 13, '六级': 18}。
+- 当前目标范围外保留的词：biodiversity, causal, causality, creativity, empirically, frequently, inequality, participatory, reconsider, reconstruct, replicate, replication, trustworthy。这些保留为公开标明的扩展词，后续决定是否进入正式必学集合。
 
 ## 尚待完成
 
-[考试院大纲页面](https://cet.neea.edu.cn/html1/folder/16113/1588-1.htm)目前列出英语2016年修订版。本报告尚未逐条对照该大纲，因此没有给出官方覆盖率。
+已经从[官方大纲](https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf)提取PDF21至149页（书内16至144页）。129页的两种文字提取序列逐页对齐。索引保留5377个物理词目行和2519个附列单元格；原书公布的5418词目与2551附列计数分别保存，不将它们视为同一计数口径。212个变体单元和计数差异仍待裁定。
 
-600张卡片为原创辅助编写草稿，不能自动标为人工审核通过。`card-audit.tsv`逐卡记录分组、标签与缺项；`missing-cards.tsv`列出全部待制作候选词。音标、词义、搭配、词根证据与每段音频仍需要完整校审。
+完整提取与当前卡片义项覆盖是两回事；630张卡不能据拼写相交就视为覆盖所有官方义项。详见`scope-comparison.tsv`、`../scope/normalization-queue.json`与`../scope/homographs.json`。
+
+630张卡片为原创辅助编写草稿，不能自动标为人工审核通过。`card-audit.tsv`逐卡记录分组、标签与缺项；`missing-cards.tsv`列出全部待制作目标词。音标、词义、搭配、词根证据与每段音频仍需要完整校审。

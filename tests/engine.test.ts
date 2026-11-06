@@ -44,7 +44,7 @@ describe('课程、记忆和备份的实际约束', () => {
     state=gradeWord(state,wordIds[0],3,'review',new Date(+day()+120000));
     expect(todayCourseDone(state,day())).toBe(1); expect(courseQueue(state,day())).toHaveLength(29);
   });
-  it('二十天完成600词，次日自动进入词根轮，保留记忆并完整重读', () => {
+  it('按每日30词完成全量词包，次日自动进入词根轮，保留记忆并完整重读', () => {
     let state=initial(); for(let n=0;n<courseDays;n++) state=completeToday(state,day(n));
     expect(currentRound(state).status).toBe('complete'); expect(coveredWords(state).size).toBe(wordIds.length);
     expect(ensureDaily(state,day(courseDays-1,18)).rounds).toHaveLength(1);

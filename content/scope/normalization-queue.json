@@ -1,0 +1,2336 @@
+[
+  {
+    "recordId": "cet16-021-01",
+    "pdfPage": 21,
+    "slot": 0,
+    "expression": "a/an",
+    "variants": [
+      "a",
+      "an"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-022-26",
+    "pdfPage": 22,
+    "slot": 0,
+    "expression": "administer/administrate",
+    "variants": [
+      "administer",
+      "administrate"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-022-40",
+    "pdfPage": 22,
+    "slot": 1,
+    "expression": "advertisement/ad",
+    "variants": [
+      "advertisement",
+      "ad"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-022-42",
+    "pdfPage": 22,
+    "slot": 1,
+    "expression": "advisor/-er",
+    "variants": [
+      "advisor",
+      "adviser"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-023-17",
+    "pdfPage": 23,
+    "slot": 0,
+    "expression": "afterward(s)",
+    "variants": [
+      "afterward",
+      "afterwards"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-023-20",
+    "pdfPage": 23,
+    "slot": 2,
+    "expression": "ag(e)ing",
+    "variants": [
+      "aging",
+      "ageing"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-023-42",
+    "pdfPage": 23,
+    "slot": 0,
+    "expression": "airplane/aeroplane",
+    "variants": [
+      "airplane",
+      "aeroplane"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-024-34",
+    "pdfPage": 24,
+    "slot": 1,
+    "expression": "alphabetic(al)",
+    "variants": [
+      "alphabetic",
+      "alphabetical"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-025-01",
+    "pdfPage": 25,
+    "slot": 0,
+    "expression": "alumin(i)um",
+    "variants": [
+      "aluminum",
+      "aluminium"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-025-13",
+    "pdfPage": 25,
+    "slot": 0,
+    "expression": "amid(st)",
+    "variants": [
+      "amid",
+      "amidst"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-025-15",
+    "pdfPage": 25,
+    "slot": 0,
+    "expression": "among(st)",
+    "variants": [
+      "among",
+      "amongst"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-025-22",
+    "pdfPage": 25,
+    "slot": 0,
+    "expression": "analyze/-yse",
+    "variants": [
+      "analyze",
+      "analyse"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-025-22",
+    "pdfPage": 25,
+    "slot": 2,
+    "expression": "analytic(al)",
+    "variants": [
+      "analytic",
+      "analytical"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-026-11",
+    "pdfPage": 26,
+    "slot": 0,
+    "expression": "anybody/anyone",
+    "variants": [
+      "anybody",
+      "anyone"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-026-17",
+    "pdfPage": 26,
+    "slot": 0,
+    "expression": "apartment/apt.",
+    "variants": [
+      "apartment",
+      "apt."
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-026-19",
+    "pdfPage": 26,
+    "slot": 1,
+    "expression": "apologize/-ise",
+    "variants": [
+      "apologize",
+      "apologise"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-026-21",
+    "pdfPage": 26,
+    "slot": 0,
+    "expression": "appal(l)",
+    "variants": [
+      "appal",
+      "appall"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-027-19",
+    "pdfPage": 27,
+    "slot": 0,
+    "expression": "armo(u)r",
+    "variants": [
+      "armor",
+      "armour"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-029-13",
+    "pdfPage": 29,
+    "slot": 0,
+    "expression": "authorize/-ise",
+    "variants": [
+      "authorize",
+      "authorise"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-029-13",
+    "pdfPage": 29,
+    "slot": 1,
+    "expression": "authorization/-sation",
+    "variants": [
+      "authorization",
+      "authorisation"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-029-14",
+    "pdfPage": 29,
+    "slot": 0,
+    "expression": "auto(mobile)",
+    "variants": [
+      "auto",
+      "automobile"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-029-15",
+    "pdfPage": 29,
+    "slot": 1,
+    "expression": "autobiographic(al)",
+    "variants": [
+      "autobiographic",
+      "autobiographical"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-029-37",
+    "pdfPage": 29,
+    "slot": 0,
+    "expression": "ax(e)",
+    "variants": [
+      "ax",
+      "axe"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-030-37",
+    "pdfPage": 30,
+    "slot": 0,
+    "expression": "barbecue/BBQ",
+    "variants": [
+      "barbecue",
+      "BBQ"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-032-09",
+    "pdfPage": 32,
+    "slot": 1,
+    "expression": "behavio(u)r",
+    "variants": [
+      "behavior",
+      "behaviour"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-032-09",
+    "pdfPage": 32,
+    "slot": 2,
+    "expression": "behavio(u)ral",
+    "variants": [
+      "behavioral",
+      "behavioural"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-032-42",
+    "pdfPage": 32,
+    "slot": 1,
+    "expression": "Biblical/biblical",
+    "variants": [
+      "Biblical",
+      "biblical"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-033-02",
+    "pdfPage": 33,
+    "slot": 0,
+    "expression": "bicycle/bike",
+    "variants": [
+      "bicycle",
+      "bike"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-034-02",
+    "pdfPage": 34,
+    "slot": 0,
+    "expression": "blond(e)",
+    "variants": [
+      "blond",
+      "blonde"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-039-22",
+    "pdfPage": 39,
+    "slot": 0,
+    "expression": "catalog(ue)",
+    "variants": [
+      "catalog",
+      "catalogue"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-039-42",
+    "pdfPage": 39,
+    "slot": 0,
+    "expression": "Celsius/-cius",
+    "variants": [
+      "Celsius",
+      "Celcius"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-040-06",
+    "pdfPage": 40,
+    "slot": 0,
+    "expression": "center/-tre",
+    "variants": [
+      "center",
+      "centre"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-040-06",
+    "pdfPage": 40,
+    "slot": 2,
+    "expression": "centralize/-ise",
+    "variants": [
+      "centralize",
+      "centralise"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-040-08",
+    "pdfPage": 40,
+    "slot": 0,
+    "expression": "centimeter/-tre",
+    "variants": [
+      "centimeter",
+      "centimetre"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-040-18",
+    "pdfPage": 40,
+    "slot": 0,
+    "expression": "chairman/chairperson",
+    "variants": [
+      "chairman",
+      "chairperson"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-040-32",
+    "pdfPage": 40,
+    "slot": 2,
+    "expression": "characterize/-ise",
+    "variants": [
+      "characterize",
+      "characterise"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-041-01",
+    "pdfPage": 41,
+    "slot": 0,
+    "expression": "check/cheque",
+    "variants": [
+      "check",
+      "cheque"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-041-36",
+    "pdfPage": 41,
+    "slot": 0,
+    "expression": "cigaret(te)",
+    "variants": [
+      "cigaret",
+      "cigarette"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-042-05",
+    "pdfPage": 42,
+    "slot": 1,
+    "expression": "civilize/-ise",
+    "variants": [
+      "civilize",
+      "civilise"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-042-05",
+    "pdfPage": 42,
+    "slot": 2,
+    "expression": "civilization/-sation",
+    "variants": [
+      "civilization",
+      "civilisation"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-044-06",
+    "pdfPage": 44,
+    "slot": 3,
+    "expression": "colonize/-ise",
+    "variants": [
+      "colonize",
+      "colonise"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-044-07",
+    "pdfPage": 44,
+    "slot": 0,
+    "expression": "colo(u)r",
+    "variants": [
+      "color",
+      "colour"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-044-07",
+    "pdfPage": 44,
+    "slot": 1,
+    "expression": "colo(u)rful",
+    "variants": [
+      "colorful",
+      "colourful"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-044-23",
+    "pdfPage": 44,
+    "slot": 2,
+    "expression": "commercialize/-ise",
+    "variants": [
+      "commercialize",
+      "commercialise"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-045-26",
+    "pdfPage": 45,
+    "slot": 2,
+    "expression": "computerize/-ise",
+    "variants": [
+      "computerize",
+      "computerise"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-046-22",
+    "pdfPage": 46,
+    "slot": 1,
+    "expression": "connection/-xion",
+    "variants": [
+      "connection",
+      "connecxion"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-048-41",
+    "pdfPage": 48,
+    "slot": 1,
+    "expression": "council(l)or",
+    "variants": [
+      "councilor",
+      "councillor"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-048-42",
+    "pdfPage": 48,
+    "slot": 1,
+    "expression": "counsel(l)or",
+    "variants": [
+      "counselor",
+      "counsellor"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-049-10",
+    "pdfPage": 49,
+    "slot": 0,
+    "expression": "coup(d'état)",
+    "variants": [
+      "coup",
+      "coup d'état"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-049-24",
+    "pdfPage": 49,
+    "slot": 0,
+    "expression": "cozy/-sy",
+    "variants": [
+      "cozy",
+      "cosy"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-050-10",
+    "pdfPage": 50,
+    "slot": 0,
+    "expression": "criticize/-ise",
+    "variants": [
+      "criticize",
+      "criticise"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-051-22",
+    "pdfPage": 51,
+    "slot": 0,
+    "expression": "dad(dy)",
+    "variants": [
+      "dad",
+      "daddy"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-052-41",
+    "pdfPage": 52,
+    "slot": 1,
+    "expression": "defense/-ce",
+    "variants": [
+      "defense",
+      "defence"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-053-22",
+    "pdfPage": 53,
+    "slot": 1,
+    "expression": "demonstration/demo",
+    "variants": [
+      "demonstration",
+      "demo"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-055-06",
+    "pdfPage": 55,
+    "slot": 0,
+    "expression": "dialog(ue)",
+    "variants": [
+      "dialog",
+      "dialogue"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-056-25",
+    "pdfPage": 56,
+    "slot": 0,
+    "expression": "disk/disc",
+    "variants": [
+      "disk",
+      "disc"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-056-31",
+    "pdfPage": 56,
+    "slot": 0,
+    "expression": "dispatch/despatch",
+    "variants": [
+      "dispatch",
+      "despatch"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-057-04",
+    "pdfPage": 57,
+    "slot": 0,
+    "expression": "distil(l)",
+    "variants": [
+      "distil",
+      "distill"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-057-42",
+    "pdfPage": 57,
+    "slot": 0,
+    "expression": "dormitory/dorm",
+    "variants": [
+      "dormitory",
+      "dorm"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-060-23",
+    "pdfPage": 60,
+    "slot": 1,
+    "expression": "electric(al)",
+    "variants": [
+      "electric",
+      "electrical"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-061-13",
+    "pdfPage": 61,
+    "slot": 1,
+    "expression": "emphasize/-ise",
+    "variants": [
+      "emphasize",
+      "emphasise"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-061-24",
+    "pdfPage": 61,
+    "slot": 0,
+    "expression": "encyclop(a)edia",
+    "variants": [
+      "encyclopedia",
+      "encyclopaedia"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-061-27",
+    "pdfPage": 61,
+    "slot": 0,
+    "expression": "endeavo(u)r",
+    "variants": [
+      "endeavor",
+      "endeavour"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-062-04",
+    "pdfPage": 62,
+    "slot": 0,
+    "expression": "enrol(l)",
+    "variants": [
+      "enrol",
+      "enroll"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-062-04",
+    "pdfPage": 62,
+    "slot": 1,
+    "expression": "enrol(l)ment",
+    "variants": [
+      "enrolment",
+      "enrollment"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-063-08",
+    "pdfPage": 63,
+    "slot": 0,
+    "expression": "esthetic/aesthetic",
+    "variants": [
+      "esthetic",
+      "aesthetic"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-063-08",
+    "pdfPage": 63,
+    "slot": 1,
+    "expression": "esthetics/aesthetics",
+    "variants": [
+      "esthetics",
+      "aesthetics"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-063-37",
+    "pdfPage": 63,
+    "slot": 1,
+    "expression": "exam(ination)",
+    "variants": [
+      "exam",
+      "examination"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-065-39",
+    "pdfPage": 65,
+    "slot": 2,
+    "expression": "familiarize/-ise",
+    "variants": [
+      "familiarize",
+      "familiarise"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-066-19",
+    "pdfPage": 66,
+    "slot": 0,
+    "expression": "favo(u)r",
+    "variants": [
+      "favor",
+      "favour"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-066-19",
+    "pdfPage": 66,
+    "slot": 1,
+    "expression": "favo(u)rable",
+    "variants": [
+      "favorable",
+      "favourable"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-066-19",
+    "pdfPage": 66,
+    "slot": 2,
+    "expression": "favo(u)rite",
+    "variants": [
+      "favorite",
+      "favourite"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-066-40",
+    "pdfPage": 66,
+    "slot": 2,
+    "expression": "fertilizer/-iser",
+    "variants": [
+      "fertilizer",
+      "fertiliser"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-067-03",
+    "pdfPage": 67,
+    "slot": 0,
+    "expression": "fiber/-bre",
+    "variants": [
+      "fiber",
+      "fibre"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-067-16",
+    "pdfPage": 67,
+    "slot": 2,
+    "expression": "finalize/-ise",
+    "variants": [
+      "finalize",
+      "finalise"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-068-05",
+    "pdfPage": 68,
+    "slot": 0,
+    "expression": "flavo(u)r",
+    "variants": [
+      "flavor",
+      "flavour"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-070-36",
+    "pdfPage": 70,
+    "slot": 0,
+    "expression": "fulfil(l)",
+    "variants": [
+      "fulfil",
+      "fulfill"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-070-36",
+    "pdfPage": 70,
+    "slot": 1,
+    "expression": "fulfil(l)ment",
+    "variants": [
+      "fulfilment",
+      "fulfillment"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-071-29",
+    "pdfPage": 71,
+    "slot": 0,
+    "expression": "gasoline/petrol",
+    "variants": [
+      "gasoline",
+      "petrol"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-071-39",
+    "pdfPage": 71,
+    "slot": 2,
+    "expression": "generalize/-ise",
+    "variants": [
+      "generalize",
+      "generalise"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-072-21",
+    "pdfPage": 72,
+    "slot": 0,
+    "expression": "glamo(u)r",
+    "variants": [
+      "glamor",
+      "glamour"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-072-21",
+    "pdfPage": 72,
+    "slot": 1,
+    "expression": "glamo(u)rous",
+    "variants": [
+      "glamorous",
+      "glamourous"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-072-30",
+    "pdfPage": 72,
+    "slot": 2,
+    "expression": "globalize/-ise",
+    "variants": [
+      "globalize",
+      "globalise"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-073-18",
+    "pdfPage": 73,
+    "slot": 0,
+    "expression": "gram(me)",
+    "variants": [
+      "gram",
+      "gramme"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-073-33",
+    "pdfPage": 73,
+    "slot": 0,
+    "expression": "gray/grey",
+    "variants": [
+      "gray",
+      "grey"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-074-27",
+    "pdfPage": 74,
+    "slot": 0,
+    "expression": "gym(nasium)",
+    "variants": [
+      "gym",
+      "gymnasium"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-074-40",
+    "pdfPage": 74,
+    "slot": 0,
+    "expression": "hamburger/burger",
+    "variants": [
+      "hamburger",
+      "burger"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-075-13",
+    "pdfPage": 75,
+    "slot": 0,
+    "expression": "harbo(u)r",
+    "variants": [
+      "harbor",
+      "harbour"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-076-34",
+    "pdfPage": 76,
+    "slot": 0,
+    "expression": "hero/heroine",
+    "variants": [
+      "hero",
+      "heroine"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-077-32",
+    "pdfPage": 77,
+    "slot": 0,
+    "expression": "homosexual/homo",
+    "variants": [
+      "homosexual",
+      "homo"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-077-36",
+    "pdfPage": 77,
+    "slot": 0,
+    "expression": "hono(u)r",
+    "variants": [
+      "honor",
+      "honour"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-077-36",
+    "pdfPage": 77,
+    "slot": 1,
+    "expression": "hono(u)rable",
+    "variants": [
+      "honorable",
+      "honourable"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-077-36",
+    "pdfPage": 77,
+    "slot": 2,
+    "expression": "hono(u)rary",
+    "variants": [
+      "honorary",
+      "honourary"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-078-32",
+    "pdfPage": 78,
+    "slot": 0,
+    "expression": "humo(u)r",
+    "variants": [
+      "humor",
+      "humour"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-078-32",
+    "pdfPage": 78,
+    "slot": 1,
+    "expression": "humo(u)rous",
+    "variants": [
+      "humorous",
+      "humourous"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-079-41",
+    "pdfPage": 79,
+    "slot": 2,
+    "expression": "immunize/-ise",
+    "variants": [
+      "immunize",
+      "immunise"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-081-08",
+    "pdfPage": 81,
+    "slot": 2,
+    "expression": "industrialize/-ise",
+    "variants": [
+      "industrialize",
+      "industrialise"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-081-19",
+    "pdfPage": 81,
+    "slot": 0,
+    "expression": "influenza/flu",
+    "variants": [
+      "influenza",
+      "flu"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-081-42",
+    "pdfPage": 81,
+    "slot": 0,
+    "expression": "inquire/enquire",
+    "variants": [
+      "inquire",
+      "enquire"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-081-42",
+    "pdfPage": 81,
+    "slot": 1,
+    "expression": "inquiry/enquiry",
+    "variants": [
+      "inquiry",
+      "enquiry"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-082-09",
+    "pdfPage": 82,
+    "slot": 0,
+    "expression": "instal(l)",
+    "variants": [
+      "instal",
+      "install"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-082-09",
+    "pdfPage": 82,
+    "slot": 1,
+    "expression": "instal(l)ation",
+    "variants": [
+      "instalation",
+      "installation"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-082-10",
+    "pdfPage": 82,
+    "slot": 0,
+    "expression": "instal(l)ment",
+    "variants": [
+      "instalment",
+      "installment"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-082-21",
+    "pdfPage": 82,
+    "slot": 0,
+    "expression": "insure/ensure",
+    "variants": [
+      "insure",
+      "ensure"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-083-03",
+    "pdfPage": 83,
+    "slot": 0,
+    "expression": "Internet/internet",
+    "variants": [
+      "Internet",
+      "internet"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-083-34",
+    "pdfPage": 83,
+    "slot": 1,
+    "expression": "ironic(al)",
+    "variants": [
+      "ironic",
+      "ironical"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-084-09",
+    "pdfPage": 84,
+    "slot": 0,
+    "expression": "jail/gaol",
+    "variants": [
+      "jail",
+      "gaol"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-084-22",
+    "pdfPage": 84,
+    "slot": 0,
+    "expression": "jeopardize/-ise",
+    "variants": [
+      "jeopardize",
+      "jeopardise"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-084-26",
+    "pdfPage": 84,
+    "slot": 1,
+    "expression": "jewel(l)ery",
+    "variants": [
+      "jewelery",
+      "jewellery"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-084-38",
+    "pdfPage": 84,
+    "slot": 1,
+    "expression": "judg(e)ment",
+    "variants": [
+      "judgment",
+      "judgement"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-085-24",
+    "pdfPage": 85,
+    "slot": 0,
+    "expression": "kilogram(me)/kilo",
+    "variants": [
+      "kilogram",
+      "kilogramme",
+      "kilo"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-085-25",
+    "pdfPage": 85,
+    "slot": 0,
+    "expression": "kilometer/-tre",
+    "variants": [
+      "kilometer",
+      "kilometre"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-086-04",
+    "pdfPage": 86,
+    "slot": 0,
+    "expression": "labo(u)r",
+    "variants": [
+      "labor",
+      "labour"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-086-05",
+    "pdfPage": 86,
+    "slot": 0,
+    "expression": "laboratory/lab",
+    "variants": [
+      "laboratory",
+      "lab"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-086-17",
+    "pdfPage": 86,
+    "slot": 0,
+    "expression": "landlord/landlady",
+    "variants": [
+      "landlord",
+      "landlady"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-087-23",
+    "pdfPage": 87,
+    "slot": 1,
+    "expression": "legalize/-ise",
+    "variants": [
+      "legalize",
+      "legalise"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-088-04",
+    "pdfPage": 88,
+    "slot": 0,
+    "expression": "license/-ce",
+    "variants": [
+      "license",
+      "licence"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-088-37",
+    "pdfPage": 88,
+    "slot": 0,
+    "expression": "liter/-tre",
+    "variants": [
+      "liter",
+      "litre"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-089-19",
+    "pdfPage": 89,
+    "slot": 1,
+    "expression": "logistic(al)",
+    "variants": [
+      "logistic",
+      "logistical"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-091-01",
+    "pdfPage": 91,
+    "slot": 0,
+    "expression": "maneuver/manoeuvre",
+    "variants": [
+      "maneuver",
+      "manoeuvre"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-091-26",
+    "pdfPage": 91,
+    "slot": 1,
+    "expression": "marvel(l)ous",
+    "variants": [
+      "marvelous",
+      "marvellous"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-091-38",
+    "pdfPage": 91,
+    "slot": 3,
+    "expression": "materialize/-ise",
+    "variants": [
+      "materialize",
+      "materialise"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-091-40",
+    "pdfPage": 91,
+    "slot": 0,
+    "expression": "math(ematics)/maths",
+    "variants": [
+      "math",
+      "mathematics",
+      "maths"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-092-01",
+    "pdfPage": 92,
+    "slot": 1,
+    "expression": "maximize/-ise",
+    "variants": [
+      "maximize",
+      "maximise"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-092-18",
+    "pdfPage": 92,
+    "slot": 0,
+    "expression": "mechanize/-ise",
+    "variants": [
+      "mechanize",
+      "mechanise"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-092-18",
+    "pdfPage": 92,
+    "slot": 1,
+    "expression": "mechanization/-sation",
+    "variants": [
+      "mechanization",
+      "mechanisation"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-092-33",
+    "pdfPage": 92,
+    "slot": 0,
+    "expression": "memorandum/memo",
+    "variants": [
+      "memorandum",
+      "memo"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-092-35",
+    "pdfPage": 92,
+    "slot": 1,
+    "expression": "memorize/-ise",
+    "variants": [
+      "memorize",
+      "memorise"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-093-13",
+    "pdfPage": 93,
+    "slot": 0,
+    "expression": "meter/-tre",
+    "variants": [
+      "meter",
+      "metre"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-093-37",
+    "pdfPage": 93,
+    "slot": 0,
+    "expression": "millimeter/-tre",
+    "variants": [
+      "millimeter",
+      "millimetre"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-094-04",
+    "pdfPage": 94,
+    "slot": 2,
+    "expression": "minimize/-ise",
+    "variants": [
+      "minimize",
+      "minimise"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-094-30",
+    "pdfPage": 94,
+    "slot": 0,
+    "expression": "mobilize/-ise",
+    "variants": [
+      "mobilize",
+      "mobilise"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-094-35",
+    "pdfPage": 94,
+    "slot": 1,
+    "expression": "modernize/-ise",
+    "variants": [
+      "modernize",
+      "modernise"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-094-35",
+    "pdfPage": 94,
+    "slot": 2,
+    "expression": "modernization/-sation",
+    "variants": [
+      "modernization",
+      "modernisation"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-094-39",
+    "pdfPage": 94,
+    "slot": 0,
+    "expression": "mo(u)ld",
+    "variants": [
+      "mold",
+      "mould"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-094-39",
+    "pdfPage": 94,
+    "slot": 1,
+    "expression": "mo(u)ldy",
+    "variants": [
+      "moldy",
+      "mouldy"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-094-41",
+    "pdfPage": 94,
+    "slot": 0,
+    "expression": "mom(my)",
+    "variants": [
+      "mom",
+      "mommy"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-095-07",
+    "pdfPage": 95,
+    "slot": 1,
+    "expression": "monopolize/-ise",
+    "variants": [
+      "monopolize",
+      "monopolise"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-097-09",
+    "pdfPage": 97,
+    "slot": 0,
+    "expression": "neighbo(u)r",
+    "variants": [
+      "neighbor",
+      "neighbour"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-097-09",
+    "pdfPage": 97,
+    "slot": 1,
+    "expression": "neighbo(u)rhood",
+    "variants": [
+      "neighborhood",
+      "neighbourhood"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-097-16",
+    "pdfPage": 97,
+    "slot": 2,
+    "expression": "neutralize/-ise",
+    "variants": [
+      "neutralize",
+      "neutralise"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-098-07",
+    "pdfPage": 98,
+    "slot": 2,
+    "expression": "normalize/-ise",
+    "variants": [
+      "normalize",
+      "normalise"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-098-07",
+    "pdfPage": 98,
+    "slot": 3,
+    "expression": "normalization/-sation",
+    "variants": [
+      "normalization",
+      "normalisation"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-099-27",
+    "pdfPage": 99,
+    "slot": 0,
+    "expression": "odo(u)r",
+    "variants": [
+      "odor",
+      "odour"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-099-30",
+    "pdfPage": 99,
+    "slot": 1,
+    "expression": "offense/-ce",
+    "variants": [
+      "offense",
+      "offence"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-099-37",
+    "pdfPage": 99,
+    "slot": 0,
+    "expression": "often/oftentimes",
+    "variants": [
+      "often",
+      "oftentimes"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-100-40",
+    "pdfPage": 100,
+    "slot": 0,
+    "expression": "organize/-ise",
+    "variants": [
+      "organize",
+      "organise"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-100-40",
+    "pdfPage": 100,
+    "slot": 1,
+    "expression": "organization/-sation",
+    "variants": [
+      "organization",
+      "organisation"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-100-40",
+    "pdfPage": 100,
+    "slot": 2,
+    "expression": "organizational/-sational",
+    "variants": [
+      "organizational",
+      "organisational"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-103-11",
+    "pdfPage": 103,
+    "slot": 0,
+    "expression": "paralyze/-yse",
+    "variants": [
+      "paralyze",
+      "paralyse"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-104-13",
+    "pdfPage": 104,
+    "slot": 1,
+    "expression": "patronize/-ise",
+    "variants": [
+      "patronize",
+      "patronise"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-104-38",
+    "pdfPage": 104,
+    "slot": 1,
+    "expression": "penalize/-ise",
+    "variants": [
+      "penalize",
+      "penalise"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-106-01",
+    "pdfPage": 106,
+    "slot": 0,
+    "expression": "photo(graph)",
+    "variants": [
+      "photo",
+      "photograph"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-107-16",
+    "pdfPage": 107,
+    "slot": 0,
+    "expression": "plough/plow",
+    "variants": [
+      "plough",
+      "plow"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-108-34",
+    "pdfPage": 108,
+    "slot": 0,
+    "expression": "practise/-ice",
+    "variants": [
+      "practise",
+      "practice"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-109-30",
+    "pdfPage": 109,
+    "slot": 1,
+    "expression": "pretense/-ce",
+    "variants": [
+      "pretense",
+      "pretence"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-110-02",
+    "pdfPage": 110,
+    "slot": 0,
+    "expression": "prince/princess",
+    "variants": [
+      "prince",
+      "princess"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-110-08",
+    "pdfPage": 110,
+    "slot": 2,
+    "expression": "privatize/-ise",
+    "variants": [
+      "privatize",
+      "privatise"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-110-08",
+    "pdfPage": 110,
+    "slot": 3,
+    "expression": "privatization/-sation",
+    "variants": [
+      "privatization",
+      "privatisation"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-110-27",
+    "pdfPage": 110,
+    "slot": 0,
+    "expression": "program(me)",
+    "variants": [
+      "program",
+      "programme"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-111-27",
+    "pdfPage": 111,
+    "slot": 1,
+    "expression": "publicize/-ise",
+    "variants": [
+      "publicize",
+      "publicise"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-112-40",
+    "pdfPage": 112,
+    "slot": 0,
+    "expression": "railway/railroad",
+    "variants": [
+      "railway",
+      "railroad"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-113-29",
+    "pdfPage": 113,
+    "slot": 0,
+    "expression": "realize/-ise",
+    "variants": [
+      "realize",
+      "realise"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-113-29",
+    "pdfPage": 113,
+    "slot": 1,
+    "expression": "realization/-sation",
+    "variants": [
+      "realization",
+      "realisation"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-114-05",
+    "pdfPage": 114,
+    "slot": 0,
+    "expression": "recognize/-ise",
+    "variants": [
+      "recognize",
+      "recognise"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-114-28",
+    "pdfPage": 114,
+    "slot": 0,
+    "expression": "refrigerator/fridge",
+    "variants": [
+      "refrigerator",
+      "fridge"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-117-35",
+    "pdfPage": 117,
+    "slot": 0,
+    "expression": "rigo(u)r",
+    "variants": [
+      "rigor",
+      "rigour"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-118-38",
+    "pdfPage": 118,
+    "slot": 0,
+    "expression": "rumo(u)r",
+    "variants": [
+      "rumor",
+      "rumour"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-120-29",
+    "pdfPage": 120,
+    "slot": 1,
+    "expression": "scrutinize/-ise",
+    "variants": [
+      "scrutinize",
+      "scrutinise"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-124-18",
+    "pdfPage": 124,
+    "slot": 0,
+    "expression": "skeptical/sceptical",
+    "variants": [
+      "skeptical",
+      "sceptical"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-124-18",
+    "pdfPage": 124,
+    "slot": 1,
+    "expression": "skeptic/sceptic",
+    "variants": [
+      "skeptic",
+      "sceptic"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-124-18",
+    "pdfPage": 124,
+    "slot": 2,
+    "expression": "skepticism/scepticism",
+    "variants": [
+      "skepticism",
+      "scepticism"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-124-21",
+    "pdfPage": 124,
+    "slot": 1,
+    "expression": "skil(l)ful",
+    "variants": [
+      "skilful",
+      "skillful"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-125-32",
+    "pdfPage": 125,
+    "slot": 0,
+    "expression": "sober/-re",
+    "variants": [
+      "sober",
+      "sobre"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-125-35",
+    "pdfPage": 125,
+    "slot": 2,
+    "expression": "socialize/-ise",
+    "variants": [
+      "socialize",
+      "socialise"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-127-03",
+    "pdfPage": 127,
+    "slot": 0,
+    "expression": "spaceship/spacecraft",
+    "variants": [
+      "spaceship",
+      "spacecraft"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-127-12",
+    "pdfPage": 127,
+    "slot": 1,
+    "expression": "specialize/-ise",
+    "variants": [
+      "specialize",
+      "specialise"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-127-12",
+    "pdfPage": 127,
+    "slot": 2,
+    "expression": "specialization/-sation",
+    "variants": [
+      "specialization",
+      "specialisation"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-127-13",
+    "pdfPage": 127,
+    "slot": 0,
+    "expression": "specialty/speciality",
+    "variants": [
+      "specialty",
+      "speciality"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-127-37",
+    "pdfPage": 127,
+    "slot": 1,
+    "expression": "splendo(u)r",
+    "variants": [
+      "splendor",
+      "splendour"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-127-40",
+    "pdfPage": 127,
+    "slot": 0,
+    "expression": "spokesman/spokeswoman",
+    "variants": [
+      "spokesman",
+      "spokeswoman"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-128-04",
+    "pdfPage": 128,
+    "slot": 0,
+    "expression": "sportsman/sportswoman",
+    "variants": [
+      "sportsman",
+      "sportswoman"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-128-19",
+    "pdfPage": 128,
+    "slot": 2,
+    "expression": "stabilize/-ise",
+    "variants": [
+      "stabilize",
+      "stabilise"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-128-38",
+    "pdfPage": 128,
+    "slot": 1,
+    "expression": "standardize/-ise",
+    "variants": [
+      "standardize",
+      "standardise"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-128-38",
+    "pdfPage": 128,
+    "slot": 2,
+    "expression": "standardization/-sation",
+    "variants": [
+      "standardization",
+      "standardisation"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-129-29",
+    "pdfPage": 129,
+    "slot": 0,
+    "expression": "steward(ess)",
+    "variants": [
+      "steward",
+      "stewardess"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-130-11",
+    "pdfPage": 130,
+    "slot": 0,
+    "expression": "stor(e)y",
+    "variants": [
+      "story",
+      "storey"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-131-23",
+    "pdfPage": 131,
+    "slot": 1,
+    "expression": "subsidize/-ise",
+    "variants": [
+      "subsidize",
+      "subsidise"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-132-05",
+    "pdfPage": 132,
+    "slot": 0,
+    "expression": "sulfur/sulphur",
+    "variants": [
+      "sulfur",
+      "sulphur"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-132-07",
+    "pdfPage": 132,
+    "slot": 1,
+    "expression": "summarize/-ise",
+    "variants": [
+      "summarize",
+      "summarise"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-133-25",
+    "pdfPage": 133,
+    "slot": 1,
+    "expression": "symbolic(al)",
+    "variants": [
+      "symbolic",
+      "symbolical"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-133-26",
+    "pdfPage": 133,
+    "slot": 1,
+    "expression": "symmetric(al)",
+    "variants": [
+      "symmetric",
+      "symmetrical"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-133-27",
+    "pdfPage": 133,
+    "slot": 2,
+    "expression": "sympathize/-ise",
+    "variants": [
+      "sympathize",
+      "sympathise"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-133-34",
+    "pdfPage": 133,
+    "slot": 2,
+    "expression": "synthesize/-ise",
+    "variants": [
+      "synthesize",
+      "synthesise"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-134-32",
+    "pdfPage": 134,
+    "slot": 0,
+    "expression": "technology/tech",
+    "variants": [
+      "technology",
+      "tech"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-134-37",
+    "pdfPage": 134,
+    "slot": 0,
+    "expression": "telephone/phone",
+    "variants": [
+      "telephone",
+      "phone"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-134-39",
+    "pdfPage": 134,
+    "slot": 0,
+    "expression": "television/TV",
+    "variants": [
+      "television",
+      "TV"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-135-40",
+    "pdfPage": 135,
+    "slot": 0,
+    "expression": "theater/-tre",
+    "variants": [
+      "theater",
+      "theatre"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-136-07",
+    "pdfPage": 136,
+    "slot": 2,
+    "expression": "therapeutic(al)",
+    "variants": [
+      "therapeutic",
+      "therapeutical"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-138-19",
+    "pdfPage": 138,
+    "slot": 0,
+    "expression": "toward(s)",
+    "variants": [
+      "toward",
+      "towards"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-140-20",
+    "pdfPage": 140,
+    "slot": 0,
+    "expression": "tumo(u)r",
+    "variants": [
+      "tumor",
+      "tumour"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-140-40",
+    "pdfPage": 140,
+    "slot": 0,
+    "expression": "tyre/tire",
+    "variants": [
+      "tyre",
+      "tire"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-142-11",
+    "pdfPage": 142,
+    "slot": 1,
+    "expression": "urbanize/-ise",
+    "variants": [
+      "urbanize",
+      "urbanise"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-142-11",
+    "pdfPage": 142,
+    "slot": 2,
+    "expression": "urbanization/-sation",
+    "variants": [
+      "urbanization",
+      "urbanisation"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-142-21",
+    "pdfPage": 142,
+    "slot": 0,
+    "expression": "utilize/-ise",
+    "variants": [
+      "utilize",
+      "utilise"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-142-21",
+    "pdfPage": 142,
+    "slot": 1,
+    "expression": "utilization/-sation",
+    "variants": [
+      "utilization",
+      "utilisation"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-142-37",
+    "pdfPage": 142,
+    "slot": 0,
+    "expression": "vapo(u)r",
+    "variants": [
+      "vapor",
+      "vapour"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-144-08",
+    "pdfPage": 144,
+    "slot": 1,
+    "expression": "visualize/-ise",
+    "variants": [
+      "visualize",
+      "visualise"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-144-31",
+    "pdfPage": 144,
+    "slot": 0,
+    "expression": "wag(g)on",
+    "variants": [
+      "wagon",
+      "waggon"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-144-33",
+    "pdfPage": 144,
+    "slot": 1,
+    "expression": "waiter/waitress",
+    "variants": [
+      "waiter",
+      "waitress"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-146-21",
+    "pdfPage": 146,
+    "slot": 0,
+    "expression": "while/whilst",
+    "variants": [
+      "while",
+      "whilst"
+    ],
+    "status": "pending-adjudication"
+  },
+  {
+    "recordId": "cet16-147-30",
+    "pdfPage": 147,
+    "slot": 1,
+    "expression": "wool(l)en",
+    "variants": [
+      "woolen",
+      "woollen"
+    ],
+    "status": "pending-adjudication"
+  }
+]

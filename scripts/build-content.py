@@ -1,5 +1,6 @@
 from pathlib import Path
 import json, hashlib, csv, re
+from study_scope import load_scope
 
 ROOT = Path(__file__).resolve().parents[1]
 roots = {
@@ -105,6 +106,12 @@ forms.update({
  'buy':['过去式与过去分词 bought'], 'sell':['过去式与过去分词 sold'],
  'pay':['付钱义的过去式与过去分词 paid'], 'spend':['过去式与过去分词 spent'],
  'choose':['过去式 chose','过去分词 chosen'], 'poetry':['通常为不可数名词，单首诗用 poem'],
+ 'upload':['本卡主读音为动词 /ˌʌpˈloʊd/','名词的重音常在首音节'],
+ 'update':['本卡主读音为动词 /ʌpˈdeɪt/','名词update常读 /ˈʌpdeɪt/'],
+ 'download':['本卡主读音为名词 /ˈdaʊnloʊd/','动词的重音可因口音而异'],
+ 'mouse':['动物义复数 mice','鼠标义复数常用 mice，也可见 mouses'],
+ 'chat':['过去式与过去分词 chatted','现在分词 chatting'],
+ 'backup':['本卡为一个词的名词或形容词','动词短语写作 back up'],
 })
 words=[]
 topics=[]
@@ -126,6 +133,7 @@ for batch_file in sorted((ROOT/'content/batches').glob('*.json'),key=version_key
             origin_versions.setdefault('dl-'+word.lower(),'.'.join(batch['version'].split('.')[:2]))
 with (ROOT/'content/scope/ecdict-words.tsv').open(encoding='utf-8',newline='') as source:
     candidate_tags={row['word']:set(row['tags'].split()) for row in csv.DictReader(source,delimiter='\t')}
+scope=load_scope(ROOT)
 for topic in taxonomy:
     topic_id,label,subtitle=topic['id'],topic['label'],topic['subtitle']
     lines=(ROOT/'content/editorial'/f'{topic_id}.tsv').read_text(encoding='utf-8').splitlines()
@@ -146,11 +154,7 @@ for topic in taxonomy:
         seen.add(stem)
         assert word_id in origin_versions,(word,'missing editorial batch provenance')
         source_version=origin_versions[word_id]
-        if stem in candidate_tags:
-            tags=candidate_tags[stem]
-            level='基础' if tags & {'zk','gk'} else '四级' if 'cet4' in tags else '六级'
-        else:
-            level='扩展'
+        level=scope['entries'].get(stem,{}).get('level','扩展')
         item={'id':word_id,'word':word,'ipa':ipa,'pos':pos,'meaning':meaning,'level':level,'topic':topic_id,'family':family,
               'phrases':[bilingual(x) for x in phrases.split(';')], 'examples':[{**bilingual(example1),'audio':'audio/'+stem+'--1.wav'},{**bilingual(example2),'audio':'audio/'+stem+'--2.wav'}],
               'forms':forms.get(stem,[]),'audio':'audio/'+stem+'.wav', 'source':'daily-lexicon-editorial-'+source_version, 'reviewStatus':'editorial-draft'}
@@ -186,7 +190,7 @@ for key,(label,meaning,kind,note) in roots.items():
     if members:
         families.append({'id':key,'label':label,'meaning':meaning,'kind':kind,'note':note,'words':members,'reference':'https://en.wiktionary.org/wiki/'+next(w['word'] for w in words if w['family']==key)})
 families.sort(key=lambda r:({'root':0,'family':1,'independent':2}[r['kind']],-len(r['words']),r['id']))
-content={**{k:pack[k] for k in ('version','catalogVersion','id','title','license','channel')},'words':words,'topics':topics,'scenes':scenes,'concepts':concepts,'families':families,'notice':pack['notice']}
+content={**{k:pack[k] for k in ('version','catalogVersion','id','title','license','channel','scopeId')},'words':words,'topics':topics,'scenes':scenes,'concepts':concepts,'families':families,'notice':pack['notice']}
 content['hash']=hashlib.sha256(json.dumps(content,sort_keys=True,ensure_ascii=False).encode()).hexdigest()
 target=ROOT/'src/data'
 target.mkdir(parents=True,exist_ok=True)

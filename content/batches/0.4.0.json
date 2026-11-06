@@ -1,0 +1,12 @@
+{
+  "version": "0.4.0",
+  "date": "2026-11-06",
+  "topics": [
+    {
+      "id": "digital",
+      "label": "数字生活",
+      "subtitle": "从设备操作到在线交流",
+      "words": "app blog podcast smartphone swipe website browse browser database download upload update backup button click delete file online password keyboard mouse laptop desktop link search forum chat email text wireless"
+    }
+  ]
+}

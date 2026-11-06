@@ -8,7 +8,7 @@ dl-observer	observer	四级	mind	mind-perception	mind-seeing	observe	pending	cet
 dl-inspect	inspect	基础	mind	mind-perception	mind-seeing	spect	pending	cet4 cet6 gk	none
 dl-inspection	inspection	四级	mind	mind-perception	mind-seeing	spect	pending	cet4 cet6	none
 dl-perceive	perceive	四级	mind	mind-perception	mind-seeing	perceive	pending	cet4 cet6	none
-dl-perception	perception	六级	mind	mind-perception	mind-seeing	perceive	pending	cet6	none
+dl-perception	perception	四级	mind	mind-perception	mind-seeing	perceive	pending	cet6	none
 dl-perspective	perspective	四级	mind	mind-perception	mind-viewpoints	spect	pending	cet4 cet6	none
 dl-aspect	aspect	基础	mind	mind-perception	mind-viewpoints	spect	pending	cet4 cet6 gk	none
 dl-prospect	prospect	四级	mind	mind-perception	mind-viewpoints	spect	pending	cet4 cet6	none
@@ -25,7 +25,7 @@ dl-analysis	analysis	基础	mind	mind-reasoning	mind-thinking	analyze	pending	ce
 dl-assume	assume	基础	mind	mind-reasoning	mind-evidence	assume	pending	cet4 cet6 gk	none
 dl-assumption	assumption	基础	mind	mind-reasoning	mind-evidence	assume	pending	cet4 cet6 gk	none
 dl-infer	infer	四级	mind	mind-reasoning	mind-evidence	infer	pending	cet4 cet6	none
-dl-inference	inference	六级	mind	mind-reasoning	mind-evidence	infer	pending	cet6	none
+dl-inference	inference	四级	mind	mind-reasoning	mind-evidence	infer	pending	cet6	none
 dl-reason	reason	基础	mind	mind-reasoning	mind-evidence	reason	pending	gk zk	none
 dl-reasonable	reasonable	基础	mind	mind-reasoning	mind-evidence	reason	pending	cet4 cet6 gk	none
 dl-evidence	evidence	基础	mind	mind-reasoning	mind-evidence	independent	pending	cet4 cet6 gk	none
@@ -45,7 +45,7 @@ dl-manuscript	manuscript	六级	learning	learning-study	learning-recording	scrib
 dl-dictate	dictate	四级	learning	learning-study	learning-recording	dict	pending	cet4 cet6	none
 dl-dictation	dictation	基础	learning	learning-study	learning-recording	dict	pending	cet4 cet6 gk	none
 dl-predict	predict	基础	learning	learning-expression	learning-claims	dict	pending	cet4 cet6 gk	none
-dl-prediction	prediction	六级	learning	learning-expression	learning-claims	dict	pending	cet6	none
+dl-prediction	prediction	四级	learning	learning-expression	learning-claims	dict	pending	cet6	none
 dl-contradict	contradict	基础	learning	learning-expression	learning-claims	dict	pending	cet6 gk	none
 dl-contradiction	contradiction	四级	learning	learning-expression	learning-claims	dict	pending	cet4 cet6	none
 dl-explain	explain	基础	learning	learning-expression	learning-claims	explain	pending	cet4 cet6 gk zk	none
@@ -71,8 +71,8 @@ dl-trust	trust	基础	living	living-relationships	living-trust	trust	pending	cet
 dl-trustworthy	trustworthy	扩展	living	living-relationships	living-trust	trust	pending		none
 dl-believe	believe	基础	living	living-relationships	living-trust	believe	pending	gk zk	none
 dl-belief	belief	基础	living	living-relationships	living-trust	believe	pending	cet4 gk	none
-dl-credible	credible	扩展	living	living-relationships	living-trust	cred	pending		none
-dl-incredible	incredible	六级	living	living-relationships	living-trust	cred	pending	cet6	none
+dl-credible	credible	六级	living	living-relationships	living-trust	cred	pending		none
+dl-incredible	incredible	四级	living	living-relationships	living-trust	cred	pending	cet6	none
 dl-credit	credit	基础	living	living-relationships	living-trust	cred	pending	gk	none
 dl-create	create	基础	living	living-growth	living-connection	create	pending	cet4 cet6 gk zk	none
 dl-creative	creative	四级	living	living-growth	living-connection	create	pending	cet4 cet6	none
@@ -87,7 +87,7 @@ dl-patience	patience	基础	living	living-growth	living-adapting	patient	pending
 dl-adapt	adapt	基础	living	living-growth	living-adapting	adapt	pending	cet4 cet6 gk	none
 dl-adaptation	adaptation	基础	living	living-growth	living-adapting	adapt	pending	gk	none
 dl-flexible	flexible	基础	living	living-growth	living-adapting	flex	pending	cet4 cet6 gk	none
-dl-flexibility	flexibility	扩展	living	living-growth	living-adapting	flex	pending		none
+dl-flexibility	flexibility	四级	living	living-growth	living-adapting	flex	pending		none
 dl-balance	balance	基础	living	living-growth	living-adapting	independent	pending	cet4 gk	none
 dl-work	work	基础	society	society-building	society-construction	work	pending	gk zk	none
 dl-worker	worker	基础	society	society-building	society-construction	work	pending	gk zk	none
@@ -97,7 +97,7 @@ dl-construct	construct	基础	society	society-building	society-construction	stru
 dl-construction	construction	基础	society	society-building	society-construction	struct	pending	cet4 cet6 gk	none
 dl-structure	structure	四级	society	society-building	society-construction	struct	pending	cet4 cet6	none
 dl-reconstruct	reconstruct	扩展	society	society-building	society-construction	struct	pending		none
-dl-infrastructure	infrastructure	六级	society	society-building	society-construction	struct	pending	cet6	none
+dl-infrastructure	infrastructure	四级	society	society-building	society-construction	struct	pending	cet6	none
 dl-transport	transport	基础	society	society-building	society-transport	port	pending	cet4 cet6 gk	none
 dl-portable	portable	基础	society	society-building	society-transport	port	pending	cet4 cet6 gk	none
 dl-report	report	基础	society	society-building	society-transport	port	pending	gk zk	none
@@ -110,15 +110,15 @@ dl-contribution	contribution	基础	society	society-changes	society-distribution
 dl-distribute	distribute	基础	society	society-changes	society-distribution	tribut	pending	cet4 cet6 gk	none
 dl-distribution	distribution	四级	society	society-changes	society-distribution	tribut	pending	cet4 cet6	none
 dl-reject	reject	基础	society	society-changes	society-influence	ject	pending	cet4 cet6 gk	none
-dl-rejection	rejection	六级	society	society-changes	society-influence	ject	pending	cet6	none
+dl-rejection	rejection	四级	society	society-changes	society-influence	ject	pending	cet6	none
 dl-inject	inject	六级	society	society-changes	society-influence	ject	pending	cet6	none
-dl-injection	injection	四级	society	society-changes	society-influence	ject	pending	cet4 cet6	none
+dl-injection	injection	六级	society	society-changes	society-influence	ject	pending	cet4 cet6	none
 dl-attract	attract	基础	society	society-changes	society-influence	tract	pending	cet4 gk	none
 dl-attraction	attraction	基础	society	society-changes	society-influence	tract	pending	cet4 gk	none
-dl-distract	distract	六级	society	society-changes	society-influence	tract	pending	cet6	none
-dl-distraction	distraction	扩展	society	society-changes	society-influence	tract	pending		none
-dl-sustainable	sustainable	扩展	society	society-changes	society-sustaining	sustain	pending		none
-dl-sustainability	sustainability	扩展	society	society-changes	society-sustaining	sustain	pending		none
+dl-distract	distract	四级	society	society-changes	society-influence	tract	pending	cet6	none
+dl-distraction	distraction	四级	society	society-changes	society-influence	tract	pending		none
+dl-sustainable	sustainable	四级	society	society-changes	society-sustaining	sustain	pending		none
+dl-sustainability	sustainability	四级	society	society-changes	society-sustaining	sustain	pending		none
 dl-a	a	基础	function	function-reference	function-determiners	function-reference	pending	gk zk	none
 dl-the	the	基础	function	function-reference	function-determiners	function-reference	pending	gk zk	none
 dl-this	this	基础	function	function-reference	function-determiners	function-reference	pending	gk zk	none
@@ -204,7 +204,7 @@ dl-permanent	permanent	基础	time	time-process	time-duration	time-change	pendin
 dl-gradual	gradual	四级	time	time-process	time-duration	gradual	pending	cet4 cet6	none
 dl-gradually	gradually	基础	time	time-process	time-duration	gradual	pending	cet4 cet6 gk	none
 dl-frequent	frequent	基础	time	time-patterns	time-frequency	frequent	pending	cet4 cet6 gk	none
-dl-frequently	frequently	四级	time	time-patterns	time-frequency	frequent	pending	cet4 cet6	none
+dl-frequently	frequently	扩展	time	time-patterns	time-frequency	frequent	pending	cet4 cet6	none
 dl-occur	occur	基础	time	time-patterns	time-frequency	occur	pending	cet4 cet6 gk	none
 dl-occurrence	occurrence	四级	time	time-patterns	time-frequency	occur	pending	cet4 cet6	none
 dl-sequence	sequence	四级	time	time-patterns	time-sequence	sequ	pending	cet4 cet6	none
@@ -215,37 +215,37 @@ dl-healthy	healthy	基础	nature	nature-health	nature-breathing	health	pending	g
 dl-illness	illness	基础	nature	nature-health	nature-breathing	health	pending	cet4 gk zk	none
 dl-disease	disease	基础	nature	nature-health	nature-breathing	health	pending	cet4 cet6 gk zk	none
 dl-nutrition	nutrition	基础	nature	nature-health	nature-nutrition	nutrition	pending	cet6 gk	none
-dl-nutrient	nutrient	六级	nature	nature-health	nature-nutrition	nutrition	pending	cet6	none
-dl-metabolism	metabolism	扩展	nature	nature-health	nature-nutrition	health	pending		none
-dl-immune	immune	六级	nature	nature-health	nature-nutrition	immune	pending	cet6	none
-dl-immunity	immunity	六级	nature	nature-health	nature-nutrition	immune	pending	cet6	none
-dl-diagnose	diagnose	六级	nature	nature-health	nature-diagnosis	diagnose	pending	cet6	none
-dl-diagnosis	diagnosis	扩展	nature	nature-health	nature-diagnosis	diagnose	pending		none
+dl-nutrient	nutrient	四级	nature	nature-health	nature-nutrition	nutrition	pending	cet6	none
+dl-metabolism	metabolism	六级	nature	nature-health	nature-nutrition	health	pending		none
+dl-immune	immune	四级	nature	nature-health	nature-nutrition	immune	pending	cet6	none
+dl-immunity	immunity	四级	nature	nature-health	nature-nutrition	immune	pending	cet6	none
+dl-diagnose	diagnose	四级	nature	nature-health	nature-diagnosis	diagnose	pending	cet6	none
+dl-diagnosis	diagnosis	四级	nature	nature-health	nature-diagnosis	diagnose	pending		none
 dl-energy	energy	基础	nature	nature-environment	nature-resources	nature-resources	pending	cet4 cet6 zk	none
 dl-resource	resource	四级	nature	nature-environment	nature-resources	nature-resources	pending	cet4 cet6	none
 dl-climate	climate	基础	nature	nature-environment	nature-resources	nature-resources	pending	cet4 gk	none
 dl-environment	environment	基础	nature	nature-environment	nature-resources	environment	pending	cet4 cet6 gk zk	none
-dl-environmental	environmental	六级	nature	nature-environment	nature-resources	environment	pending	cet6	none
+dl-environmental	environmental	四级	nature	nature-environment	nature-resources	environment	pending	cet6	none
 dl-pollute	pollute	基础	nature	nature-environment	nature-pollution	pollute	pending	cet4 cet6 gk	none
 dl-pollution	pollution	基础	nature	nature-environment	nature-pollution	pollute	pending	cet4 cet6 gk	none
 dl-recycle	recycle	基础	nature	nature-environment	nature-pollution	nature-resources	pending	cet6 gk	none
 dl-protect	protect	基础	nature	nature-environment	nature-pollution	protect	pending	cet4 cet6 gk zk	none
 dl-protection	protection	基础	nature	nature-environment	nature-pollution	protect	pending	cet4 cet6 gk	none
 dl-ecology	ecology	基础	nature	nature-ecology	nature-systems	ecology	pending	cet6 gk	none
-dl-ecological	ecological	扩展	nature	nature-ecology	nature-systems	ecology	pending		none
+dl-ecological	ecological	四级	nature	nature-ecology	nature-systems	ecology	pending		none
 dl-ecosystem	ecosystem	六级	nature	nature-ecology	nature-systems	ecology	pending	cet6	none
 dl-biodiversity	biodiversity	扩展	nature	nature-ecology	nature-systems	diverse	pending		none
-dl-conserve	conserve	四级	nature	nature-ecology	nature-conservation	conserve	pending	cet4 cet6	none
+dl-conserve	conserve	六级	nature	nature-ecology	nature-conservation	conserve	pending	cet4 cet6	none
 dl-conservation	conservation	基础	nature	nature-ecology	nature-conservation	conserve	pending	cet4 cet6 gk	none
-dl-renewable	renewable	扩展	nature	nature-ecology	nature-conservation	nature-resources	pending		none
-dl-contaminate	contaminate	六级	nature	nature-ecology	nature-conservation	nature-resources	pending	cet6	none
+dl-renewable	renewable	四级	nature	nature-ecology	nature-conservation	nature-resources	pending		none
+dl-contaminate	contaminate	四级	nature	nature-ecology	nature-conservation	nature-resources	pending	cet6	none
 dl-science	science	基础	science	science-inquiry	science-methods	science	pending	gk zk	none
 dl-scientific	scientific	基础	science	science-inquiry	science-methods	science	pending	cet4 cet6 gk	none
 dl-research	research	基础	science	science-inquiry	science-methods	scientific-reasoning	pending	cet4 cet6 gk zk	none
 dl-experiment	experiment	基础	science	science-inquiry	science-methods	scientific-reasoning	pending	cet4 cet6 gk zk	none
 dl-theory	theory	基础	science	science-inquiry	science-methods	scientific-reasoning	pending	cet4 cet6 gk	none
 dl-method	method	基础	science	science-inquiry	science-methods	method	pending	cet4 cet6 gk zk	none
-dl-methodology	methodology	扩展	science	science-inquiry	science-methods	method	pending		none
+dl-methodology	methodology	四级	science	science-inquiry	science-methods	method	pending		none
 dl-hypothesis	hypothesis	六级	science	science-inquiry	science-tests	scientific-reasoning	pending	cet6	none
 dl-empirical	empirical	六级	science	science-inquiry	science-tests	empirical	pending	cet6	none
 dl-empirically	empirically	扩展	science	science-inquiry	science-tests	empirical	pending		none
@@ -256,49 +256,49 @@ dl-measure	measure	基础	science	science-measuring	science-data	measure	pending
 dl-measurement	measurement	四级	science	science-measuring	science-data	measure	pending	cet4 cet6	none
 dl-accurate	accurate	四级	science	science-measuring	science-data	accurate	pending	cet4 cet6	none
 dl-accuracy	accuracy	基础	science	science-measuring	science-data	accurate	pending	cet4 cet6 gk	none
-dl-quantitative	quantitative	六级	science	science-measuring	science-variables	measurement	pending	cet6	none
-dl-qualitative	qualitative	六级	science	science-measuring	science-variables	measurement	pending	cet6	none
+dl-quantitative	quantitative	四级	science	science-measuring	science-variables	measurement	pending	cet6	none
+dl-qualitative	qualitative	四级	science	science-measuring	science-variables	measurement	pending	cet6	none
 dl-variable	variable	四级	science	science-measuring	science-variables	vary	pending	cet4 cet6	none
 dl-variation	variation	四级	science	science-measuring	science-variables	vary	pending	cet4 cet6	none
 dl-correlate	correlate	六级	science	science-evidence	science-causes	correlate	pending	cet6	none
 dl-correlation	correlation	六级	science	science-evidence	science-causes	correlate	pending	cet6	none
-dl-causal	causal	六级	science	science-evidence	science-causes	cause	pending	cet6	none
+dl-causal	causal	扩展	science	science-evidence	science-causes	cause	pending	cet6	none
 dl-causality	causality	扩展	science	science-evidence	science-causes	cause	pending		none
 dl-verify	verify	四级	science	science-evidence	science-verifying	verify	pending	cet4 cet6	none
-dl-verification	verification	扩展	science	science-evidence	science-verifying	verify	pending		none
+dl-verification	verification	四级	science	science-evidence	science-verifying	verify	pending		none
 dl-replicate	replicate	扩展	science	science-evidence	science-verifying	replicate	pending		none
 dl-replication	replication	扩展	science	science-evidence	science-verifying	replicate	pending		none
 dl-phenomenon	phenomenon	基础	science	science-evidence	science-verifying	scientific-reasoning	pending	cet4 cet6 gk	none
-dl-legislate	legislate	扩展	civic	civic-governance	civic-legislation	legislate	pending		none
+dl-legislate	legislate	四级	civic	civic-governance	civic-legislation	legislate	pending		none
 dl-legislation	legislation	四级	civic	civic-governance	civic-legislation	legislate	pending	cet4 cet6	none
-dl-legislative	legislative	扩展	civic	civic-governance	civic-legislation	legislate	pending		none
+dl-legislative	legislative	四级	civic	civic-governance	civic-legislation	legislate	pending		none
 dl-democracy	democracy	四级	civic	civic-governance	civic-legislation	democracy	pending	cet4 cet6	none
 dl-democratic	democratic	四级	civic	civic-governance	civic-legislation	democracy	pending	cet4 cet6	none
-dl-autonomy	autonomy	扩展	civic	civic-governance	civic-autonomy	autonomy	pending		none
+dl-autonomy	autonomy	六级	civic	civic-governance	civic-autonomy	autonomy	pending		none
 dl-autonomous	autonomous	基础	civic	civic-governance	civic-autonomy	autonomy	pending	gk	none
 dl-participatory	participatory	扩展	civic	civic-governance	civic-autonomy	civic-practices	pending		none
 dl-collaborate	collaborate	四级	civic	civic-cooperation	civic-working	collaborate	pending	cet4 cet6	none
-dl-collaboration	collaboration	六级	civic	civic-cooperation	civic-working	collaborate	pending	cet6	none
+dl-collaboration	collaboration	四级	civic	civic-cooperation	civic-working	collaborate	pending	cet6	none
 dl-coordinate	coordinate	四级	civic	civic-cooperation	civic-working	coordinate	pending	cet4 cet6	none
-dl-coordination	coordination	扩展	civic	civic-cooperation	civic-working	coordinate	pending		none
+dl-coordination	coordination	四级	civic	civic-cooperation	civic-working	coordinate	pending		none
 dl-integrate	integrate	四级	civic	civic-cooperation	civic-working	integrate	pending	cet4 cet6	none
-dl-integration	integration	扩展	civic	civic-cooperation	civic-working	integrate	pending		none
-dl-inclusion	inclusion	扩展	civic	civic-cooperation	civic-inclusion	civic-practices	pending		none
-dl-exclusion	exclusion	扩展	civic	civic-cooperation	civic-inclusion	civic-practices	pending		none
+dl-integration	integration	四级	civic	civic-cooperation	civic-working	integrate	pending		none
+dl-inclusion	inclusion	四级	civic	civic-cooperation	civic-inclusion	civic-practices	pending		none
+dl-exclusion	exclusion	四级	civic	civic-cooperation	civic-inclusion	civic-practices	pending		none
 dl-diverse	diverse	基础	civic	civic-cooperation	civic-inclusion	diverse	pending	cet4 cet6 gk	none
-dl-diversity	diversity	扩展	civic	civic-cooperation	civic-inclusion	diverse	pending		none
-dl-equity	equity	扩展	civic	civic-cooperation	civic-inclusion	civic-practices	pending		none
+dl-diversity	diversity	四级	civic	civic-cooperation	civic-inclusion	diverse	pending		none
+dl-equity	equity	六级	civic	civic-cooperation	civic-inclusion	civic-practices	pending		none
 dl-inequality	inequality	扩展	civic	civic-cooperation	civic-inclusion	civic-practices	pending		none
 dl-allocate	allocate	基础	civic	civic-responsibility	civic-implementation	allocate	pending	cet6 gk	none
-dl-allocation	allocation	扩展	civic	civic-responsibility	civic-implementation	allocate	pending		none
+dl-allocation	allocation	六级	civic	civic-responsibility	civic-implementation	allocate	pending		none
 dl-implement	implement	四级	civic	civic-responsibility	civic-implementation	implement	pending	cet4 cet6	none
-dl-implementation	implementation	扩展	civic	civic-responsibility	civic-implementation	implement	pending		none
-dl-accountability	accountability	扩展	civic	civic-responsibility	civic-implementation	civic-practices	pending		none
+dl-implementation	implementation	四级	civic	civic-responsibility	civic-implementation	implement	pending		none
+dl-accountability	accountability	四级	civic	civic-responsibility	civic-implementation	civic-practices	pending		none
 dl-transparent	transparent	基础	civic	civic-responsibility	civic-legitimacy	transparent	pending	cet4 cet6 gk	none
-dl-transparency	transparency	扩展	civic	civic-responsibility	civic-legitimacy	transparent	pending		none
+dl-transparency	transparency	四级	civic	civic-responsibility	civic-legitimacy	transparent	pending		none
 dl-consensus	consensus	基础	civic	civic-responsibility	civic-legitimacy	civic-practices	pending	cet6 gk	none
 dl-legitimate	legitimate	六级	civic	civic-responsibility	civic-legitimacy	legitimate	pending	cet6	none
-dl-legitimacy	legitimacy	扩展	civic	civic-responsibility	civic-legitimacy	legitimate	pending		none
+dl-legitimacy	legitimacy	六级	civic	civic-responsibility	civic-legitimacy	legitimate	pending		none
 dl-body	body	基础	body	body-appearance	body-head	body-parts	pending	zk	none
 dl-head	head	基础	body	body-appearance	body-head	body-parts	pending	gk zk	none
 dl-face	face	基础	body	body-appearance	body-head	body-parts	pending	gk zk	none
@@ -409,14 +409,14 @@ dl-hopeful	hopeful	基础	emotion	emotion-outlook	emotion-hope	hope	pending	cet4
 dl-fear	fear	基础	emotion	emotion-outlook	emotion-hope	emotion-basic	pending	cet4 cet6 gk zk	none
 dl-courage	courage	基础	emotion	emotion-outlook	emotion-courage	emotion-basic	pending	cet4 cet6 gk zk	none
 dl-brave	brave	基础	emotion	emotion-outlook	emotion-courage	emotion-basic	pending	cet4 gk zk	none
-dl-ambitious	ambitious	六级	emotion	emotion-outlook	emotion-courage	ambition	pending	cet6	none
+dl-ambitious	ambitious	四级	emotion	emotion-outlook	emotion-courage	ambition	pending	cet6	none
 dl-ambition	ambition	基础	emotion	emotion-outlook	emotion-courage	ambition	pending	cet4 cet6 gk	none
 dl-honest	honest	基础	emotion	emotion-character	emotion-integrity	honest	pending	cet4 gk zk	none
 dl-honesty	honesty	四级	emotion	emotion-character	emotion-integrity	honest	pending	cet4 cet6	none
 dl-polite	polite	基础	emotion	emotion-character	emotion-integrity	character-independent	pending	gk zk	none
 dl-courtesy	courtesy	六级	emotion	emotion-character	emotion-integrity	character-independent	pending	cet6	none
 dl-modest	modest	基础	emotion	emotion-character	emotion-curiosity	modest	pending	cet4 cet6 gk	none
-dl-modesty	modesty	六级	emotion	emotion-character	emotion-curiosity	modest	pending	cet6	none
+dl-modesty	modesty	四级	emotion	emotion-character	emotion-curiosity	modest	pending	cet6	none
 dl-curious	curious	基础	emotion	emotion-character	emotion-curiosity	curious	pending	cet4 cet6 gk	none
 dl-curiosity	curiosity	四级	emotion	emotion-character	emotion-curiosity	curious	pending	cet4 cet6	none
 dl-place	place	基础	space	space-positioning	space-position	space-positions	pending	gk zk	none
@@ -505,10 +505,10 @@ dl-invest	invest	四级	economy	economy-finance	economy-investment	invest	pendin
 dl-investment	investment	四级	economy	economy-finance	economy-investment	invest	pending	cet4 cet6	none
 dl-budget	budget	基础	economy	economy-finance	economy-investment	economy-finance	pending	cet4 cet6 gk	none
 dl-debt	debt	基础	economy	economy-finance	economy-accounts	economy-finance	pending	cet4 cet6 gk	none
-dl-inflation	inflation	六级	economy	economy-finance	economy-accounts	economy-finance	pending	cet6	none
+dl-inflation	inflation	四级	economy	economy-finance	economy-accounts	economy-finance	pending	cet6	none
 dl-revenue	revenue	四级	economy	economy-finance	economy-accounts	economy-finance	pending	cet4 cet6	none
 dl-expenditure	expenditure	四级	economy	economy-finance	economy-accounts	economy-finance	pending	cet4 cet6	none
-dl-transaction	transaction	六级	economy	economy-finance	economy-accounts	economy-finance	pending	cet6	none
+dl-transaction	transaction	四级	economy	economy-finance	economy-accounts	economy-finance	pending	cet6	none
 dl-computer	computer	基础	technology	technology-devices	technology-equipment	technology-devices	pending	gk zk	none
 dl-telephone	telephone	基础	technology	technology-devices	technology-equipment	technology-devices	pending	gk zk	none
 dl-digital	digital	基础	technology	technology-devices	technology-equipment	technology-devices	pending	cet4 cet6 gk	none
@@ -527,7 +527,7 @@ dl-accessible	accessible	基础	technology	technology-access	technology-availabi
 dl-secure	secure	基础	technology	technology-access	technology-privacy	secure	pending	cet4 cet6 gk	none
 dl-security	security	基础	technology	technology-access	technology-privacy	secure	pending	cet4 cet6 gk	none
 dl-private	private	基础	technology	technology-access	technology-privacy	private	pending	cet4 cet6 gk zk	none
-dl-privacy	privacy	六级	technology	technology-access	technology-privacy	private	pending	cet6	none
+dl-privacy	privacy	四级	technology	technology-access	technology-privacy	private	pending	cet6	none
 dl-technology	technology	基础	technology	technology-progress	technology-methods	technology-computing	pending	cet4 cet6 gk zk	none
 dl-technique	technique	基础	technology	technology-progress	technology-methods	technology-computing	pending	cet4 cet6 gk	none
 dl-automatic	automatic	基础	technology	technology-progress	technology-methods	automatic	pending	cet4 cet6 gk	none
@@ -537,7 +537,7 @@ dl-intelligence	intelligence	基础	technology	technology-progress	technology-id
 dl-efficient	efficient	四级	technology	technology-progress	technology-ideas	efficient	pending	cet4 cet6	none
 dl-efficiency	efficiency	四级	technology	technology-progress	technology-ideas	efficient	pending	cet4 cet6	none
 dl-invent	invent	基础	technology	technology-progress	technology-invention	invent	pending	cet4 cet6 gk zk	none
-dl-innovation	innovation	六级	technology	technology-progress	technology-invention	technology-ideas	pending	cet6	none
+dl-innovation	innovation	四级	technology	technology-progress	technology-invention	technology-ideas	pending	cet6	none
 dl-invention	invention	基础	technology	technology-progress	technology-invention	invent	pending	cet4 cet6 gk zk	none
 dl-culture	culture	基础	culture	culture-traditions	culture-civilization	culture-independent	pending	cet4 cet6 gk zk	none
 dl-civilization	civilization	基础	culture	culture-traditions	culture-civilization	culture-independent	pending	cet4 cet6 gk	none
@@ -560,12 +560,12 @@ dl-poet	poet	基础	culture	culture-arts	culture-literature	poetry	pending	cet4 
 dl-poetry	poetry	四级	culture	culture-arts	culture-literature	poetry	pending	cet4 cet6	none
 dl-history	history	基础	culture	culture-identity	culture-heritage	history	pending	cet4 cet6 gk zk	none
 dl-historical	historical	四级	culture	culture-identity	culture-heritage	history	pending	cet4 cet6	none
-dl-heritage	heritage	六级	culture	culture-identity	culture-heritage	culture-independent	pending	cet6	none
+dl-heritage	heritage	四级	culture	culture-identity	culture-heritage	culture-independent	pending	cet6	none
 dl-religion	religion	基础	culture	culture-identity	culture-heritage	religion	pending	cet4 cet6 gk	none
 dl-religious	religious	基础	culture	culture-identity	culture-heritage	religion	pending	cet4 cet6 gk	none
-dl-ethnic	ethnic	六级	culture	culture-identity	culture-community	culture-independent	pending	cet6	none
+dl-ethnic	ethnic	四级	culture	culture-identity	culture-community	culture-independent	pending	cet6	none
 dl-identity	identity	基础	culture	culture-identity	culture-community	culture-independent	pending	cet4 gk	none
-dl-migrate	migrate	六级	culture	culture-identity	culture-community	migrate	pending	cet6	none
+dl-migrate	migrate	四级	culture	culture-identity	culture-community	migrate	pending	cet6	none
 dl-emigrate	emigrate	六级	culture	culture-identity	culture-community	migrate	pending	cet6	none
 dl-immigrant	immigrant	四级	culture	culture-identity	culture-community	migrate	pending	cet4 cet6	none
 dl-community	community	四级	culture	culture-identity	culture-community	culture-independent	pending	cet4 cet6	none
@@ -591,11 +591,41 @@ dl-failure	failure	基础	decisions	decisions-preparation	decisions-outcomes	fai
 dl-attempt	attempt	基础	decisions	decisions-action	decisions-effort	action-effort	pending	cet4 cet6 gk	none
 dl-effort	effort	基础	decisions	decisions-action	decisions-effort	action-effort	pending	cet4 cet6 gk zk	none
 dl-persist	persist	四级	decisions	decisions-action	decisions-effort	persist	pending	cet4 cet6	none
-dl-persistence	persistence	六级	decisions	decisions-action	decisions-effort	persist	pending	cet6	none
+dl-persistence	persistence	四级	decisions	decisions-action	decisions-effort	persist	pending	cet6	none
 dl-determine	determine	基础	decisions	decisions-action	decisions-determination	determine	pending	cet4 cet6 gk	none
 dl-determination	determination	基础	decisions	decisions-action	decisions-determination	determine	pending	cet4 cet6 gk	none
 dl-resolve	resolve	四级	decisions	decisions-action	decisions-determination	resolve	pending	cet4 cet6	none
 dl-resolution	resolution	四级	decisions	decisions-action	decisions-determination	resolve	pending	cet4 cet6	none
 dl-negotiate	negotiate	基础	decisions	decisions-action	decisions-agreement	negotiate	pending	cet6 gk	none
-dl-negotiation	negotiation	六级	decisions	decisions-action	decisions-agreement	negotiate	pending	cet6	none
+dl-negotiation	negotiation	四级	decisions	decisions-action	decisions-agreement	negotiate	pending	cet6	none
 dl-compromise	compromise	基础	decisions	decisions-action	decisions-agreement	action-planning	pending	cet4 cet6 gk	none
+dl-smartphone	smartphone	四级	digital	digital-devices	digital-equipment	technology-devices	pending		none
+dl-laptop	laptop	四级	digital	digital-devices	digital-equipment	technology-devices	pending		none
+dl-desktop	desktop	四级	digital	digital-devices	digital-equipment	technology-devices	pending		none
+dl-keyboard	keyboard	基础	digital	digital-devices	digital-equipment	technology-devices	pending	cet4 cet6 gk zk	none
+dl-mouse	mouse	基础	digital	digital-devices	digital-equipment	technology-devices	pending	cet4 cet6 gk zk	none
+dl-button	button	基础	digital	digital-devices	digital-interaction	digital-navigation	pending	cet4 cet6 gk	none
+dl-click	click	基础	digital	digital-devices	digital-interaction	digital-navigation	pending	gk	none
+dl-swipe	swipe	四级	digital	digital-devices	digital-interaction	digital-navigation	pending		none
+dl-password	password	四级	digital	digital-devices	digital-interaction	digital-navigation	pending		none
+dl-browse	browse	四级	digital	digital-content	digital-browsing	browse	pending	cet6	none
+dl-browser	browser	四级	digital	digital-content	digital-browsing	browse	pending		none
+dl-website	website	基础	digital	digital-content	digital-browsing	technology-communication	pending	gk zk	none
+dl-link	link	基础	digital	digital-content	digital-browsing	digital-navigation	pending	cet4 cet6 gk	none
+dl-search	search	基础	digital	digital-content	digital-browsing	digital-navigation	pending	cet4 cet6 gk zk	none
+dl-file	file	基础	digital	digital-content	digital-files	digital-files	pending	cet4 gk	none
+dl-database	database	基础	digital	digital-content	digital-files	digital-files	pending	gk	none
+dl-download	download	基础	digital	digital-content	digital-files	digital-files	pending	gk	none
+dl-upload	upload	四级	digital	digital-content	digital-files	digital-files	pending		none
+dl-update	update	四级	digital	digital-content	digital-files	digital-files	pending	cet6	none
+dl-backup	backup	四级	digital	digital-content	digital-files	digital-files	pending		none
+dl-delete	delete	基础	digital	digital-content	digital-files	digital-files	pending	cet4 gk	none
+dl-app	app	四级	digital	digital-conversation	digital-publishing	technology-computing	pending		none
+dl-blog	blog	四级	digital	digital-conversation	digital-publishing	technology-communication	pending		none
+dl-podcast	podcast	四级	digital	digital-conversation	digital-publishing	technology-communication	pending		none
+dl-forum	forum	四级	digital	digital-conversation	digital-publishing	technology-communication	pending	cet6	none
+dl-chat	chat	基础	digital	digital-conversation	digital-messages	technology-communication	pending	gk	none
+dl-email	email	基础	digital	digital-conversation	digital-messages	technology-communication	pending	zk	none
+dl-text	text	基础	digital	digital-conversation	digital-messages	technology-communication	pending	gk zk	none
+dl-online	online	四级	digital	digital-conversation	digital-messages	technology-communication	pending		none
+dl-wireless	wireless	四级	digital	digital-conversation	digital-messages	technology-communication	pending	cet4 cet6	none

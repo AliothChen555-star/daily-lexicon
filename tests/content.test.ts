@@ -4,9 +4,9 @@ import { createHash } from 'node:crypto';
 import path from 'node:path';
 import { content, families, topics, scenes, concepts, words, wordIds, historicalCatalogs, sceneById, conceptById } from '../src/content';
 describe('随包内容完整性',()=>{
-  it('600词覆盖20个主题和三级目录，旧词标识和语义顺序保留，每卡应用完整',()=>{
-    expect(words).toHaveLength(600); expect(new Set(wordIds).size).toBe(600);
-    expect(topics).toHaveLength(20); expect(families.length).toBeGreaterThan(96);
+  it('630词覆盖21个主题和三级目录，旧词标识和语义顺序保留，每卡应用完整',()=>{
+    expect(words).toHaveLength(630); expect(new Set(wordIds).size).toBe(630);
+    expect(topics).toHaveLength(21); expect(families.length).toBeGreaterThan(96);
     expect(topics.flatMap(t=>t.words).sort()).toEqual([...wordIds].sort());
     expect(families.flatMap(f=>f.words).sort()).toEqual([...wordIds].sort());
     expect(scenes.flatMap(s=>s.words).sort()).toEqual([...wordIds].sort());
@@ -25,7 +25,7 @@ describe('随包内容完整性',()=>{
     }
     expect(content.license).toBe('CC-BY-SA-4.0');
   });
-  it('1800段本地音频存在，WAV头、时长与SHA-256清单匹配',()=>{
+  it('1890段本地音频存在，WAV头、时长与SHA-256清单匹配',()=>{
     const root=path.resolve('public/audio');
     const manifest=JSON.parse(readFileSync(path.join(root,'manifest.json'),'utf8')) as {file:string;seconds:number;sha256:string}[];
     expect(manifest).toHaveLength(words.length*3); expect(new Set(manifest.map(x=>x.file)).size).toBe(words.length*3);

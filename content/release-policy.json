@@ -5,10 +5,13 @@
     "reference": "https://cet.neea.edu.cn/html1/folder/16113/1588-1.htm",
     "outline": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
     "checkedDate": "2026-11-06",
-    "note": "已核实官方入口仍列2016年修订版；尚未逐词核对附录，不据此宣称范围已验收。",
+    "note": "129页官方词表的两种文字提取已对齐；同形异义、212个变体单元及公布计数口径仍待裁定。",
     "reviewer": "",
     "evidence": "",
-    "adoptedSha256": ""
+    "adoptedSha256": "",
+    "extractionStatus": "mechanically-verified",
+    "sourceIndex": "content/scope/cet2016-source.json",
+    "studyIndex": "content/scope/study-source.json"
   },
   "scopeDecisions": [],
   "platforms": {

@@ -21,8 +21,8 @@
   "datasetLicense": "Public domain, per bundled model card",
   "audioLicense": "CC-BY-SA-4.0",
   "generatedDate": "2026-11-06",
-  "contentVersion": "0.3.1",
-  "audioFiles": 1800,
+  "contentVersion": "0.4.0",
+  "audioFiles": 1890,
   "synthesisParameters": {
     "lengthScale": 1.04,
     "noiseScale": 0.5,
@@ -39,7 +39,12 @@
       "contentVersion": "0.3.0",
       "date": "2026-11-06",
       "audioFiles": 900
+    },
+    {
+      "contentVersion": "0.4.0",
+      "date": "2026-11-06",
+      "audioFiles": 90
     }
   ],
-  "note": "本次内容修订统一参考层级，1800段音频及其原始生成日期不变。"
+  "note": "本批新增数字生活30词的90段音频，既有1800段沿用原文件。"
 }

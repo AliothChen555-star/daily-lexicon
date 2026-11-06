@@ -1,0 +1,63 @@
+{
+  "id": "cet-2016-official",
+  "title": "全国大学英语四、六级考试大纲（2016年修订版）词表",
+  "reference": "https://cet.neea.edu.cn/html1/folder/16113/1588-1.htm",
+  "url": "https://cet.neea.edu.cn/res/Home/1704/55b02330ac17274664f06d9d3db8249d.pdf",
+  "rawSha256": "9166d3c03b7bc43abd9d9df91bd2ef8085b4419286f1e5ca100dea68f3cfd1f1",
+  "retrievedDate": "2026-11-06",
+  "pdfPages": 215,
+  "vocabularyPdfPages": [
+    21,
+    149
+  ],
+  "printedPages": [
+    16,
+    144
+  ],
+  "parserVersion": "cet-layout-v1",
+  "tools": {
+    "pdfplumber": "0.11.9",
+    "pypdf": "6.10.0"
+  },
+  "declaredHeadwords": 5418,
+  "declaredListedForms": 2551,
+  "extractedPhysicalRows": 5377,
+  "extractedListedCells": 2519,
+  "starredRows": 1263,
+  "crossCheckedPages": 129,
+  "crossCheckMismatches": 0,
+  "recordsFile": "cet2016-records.json",
+  "adoptedSha256": "263f9bf429f0825bed6b5219c0f7c32c1d15b7cfcd9a2578c897a04a0937470f",
+  "adoptedFields": [
+    "spelling",
+    "printed-star",
+    "head-or-listed-form",
+    "page",
+    "row"
+  ],
+  "scopeStatus": "mechanically-extracted-pending-adjudication",
+  "notes": [
+    "原PDF不随项目再分发；只保存词形、级别符号及定位事实，不引入其他正文。",
+    "星号直接标记词目；附列形式的六级归属是按所在行继承的编排推定，保留继承依据。",
+    "不把作者公布的词目/附列计数与物理行/单元格数等同；所有计数分别保存，差异尚待裁定。",
+    "斜线、括号及缩写式替换的展开是机械建议；同形异义多行不会被丢弃，不据此宣称完成所有义项。"
+  ],
+  "sourceObservations": [
+    {
+      "recordId": "cet16-039-42",
+      "pdfPage": 39,
+      "expression": "Celsius/-cius",
+      "note": "原文的缩写式展开得到Celcius；已查看原页，原文确为该形式，另行核对后再裁定。",
+      "status": "pending-adjudication",
+      "observationBy": "Codex visual inspection; not human approval"
+    },
+    {
+      "recordId": "cet16-125-32",
+      "pdfPage": 125,
+      "expression": "sober/-re",
+      "note": "原文展开得到sobre；已查看原页，原文确为该形式，保留可疑拼写观察，不自动改写为其他词。",
+      "status": "pending-adjudication",
+      "observationBy": "Codex visual inspection; not human approval"
+    }
+  ]
+}
