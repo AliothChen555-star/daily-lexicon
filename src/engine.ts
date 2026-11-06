@@ -1,6 +1,6 @@
 import { DefaultScheduler, Rating } from 'ts-fsrs';
 import { z } from 'zod';
-import { content, wordIds, wordById, families, acceptedPackIds, catalogVersion, legacyCatalog } from './content';
+import { content, wordIds, wordById, families, acceptedPackIds, catalogVersion, legacyCatalog, courseVersion } from './content';
 
 const createScheduler = () => DefaultScheduler({
   version: 'FSRS-6', desiredRetention: 0.9, enableFuzz: false,
@@ -55,35 +55,35 @@ export function shuffle<T>(input: T[], seed: string) {
 export function makeRound(profileId: string, index: number, mode: OrderMode, now: Date): Round {
   const id = `${profileId}:${index}:${mode}:${content.id}`;
   const order = mode === 'semantic' ? [...wordIds] : mode === 'roots' ? families.flatMap(f => f.words) : shuffle(wordIds, id);
-  return { id, index, mode, order, startedAt: iso(now), status: 'active', contentVersion:content.version };
+  return { id, index, mode, order, startedAt: iso(now), status: 'active', contentVersion:courseVersion };
 }
 function upgradeContent(input: AppState): AppState {
   if(input.schema!==1 || !acceptedPackIds.includes(input.packId)) throw new Error('本地档案与当前词包不兼容，请保留数据并联系维护者。');
-  if(input.packId===content.id && input.contentVersion===content.version) return input;
+  if(input.packId===content.id && input.contentVersion===courseVersion) return input;
   if(!input.rounds?.length || input.rounds.some(r=>!catalogVersion(r.order))) throw new Error('旧档案的课程词目无法核对，已保留原档案。');
   if(input.events.some(e=>!knownWords.has(e.wordId))) throw new Error('旧档案含有本词包不支持的词条，已保留原档案。');
   const state=clone(input);
-  state.packId=content.id; state.contentVersion=content.version;
+  state.packId=content.id; state.contentVersion=courseVersion;
   for(const round of state.rounds) round.contentVersion=catalogVersion(round.order);
   const round=currentRound(state);
   const oldVersion=round.contentVersion ?? legacyCatalog.version;
   const previousCount=round.order.length;
   let policy:'extended-semantic'|'finish-legacy'='finish-legacy';
-  if(round.mode==='semantic' && round.contentVersion!==content.version) {
+  if(round.mode==='semantic' && round.contentVersion!==courseVersion) {
     const existing=new Set(round.order);
     round.order=[...round.order,...wordIds.filter(id=>!existing.has(id))];
-    round.contentVersion=content.version;
+    round.contentVersion=courseVersion;
     round.status=coveredWords(state).size===round.order.length ? 'complete' : 'active';
     if(round.status!=='complete') delete round.finishedDay;
     policy='extended-semantic';
   }
-  state.contentUpdate={fromVersion:oldVersion,toVersion:content.version,addedWords:wordIds.length-previousCount,policy,dismissed:false};
+  state.contentUpdate={fromVersion:oldVersion,toVersion:courseVersion,addedWords:wordIds.length-previousCount,policy,dismissed:false};
   return state;
 }
 export function migrateState(input: AppState, now=new Date()) { return ensureDaily(input,now); }
 export function createState(now = new Date(), profileId: string = crypto.randomUUID(), deviceId: string = crypto.randomUUID()): AppState {
   const s: AppState = {
-    schema: 1, packId: content.id, contentVersion:content.version, profileId, deviceId, createdAt: iso(now),
+    schema: 1, packId: content.id, contentVersion:courseVersion, profileId, deviceId, createdAt: iso(now),
     settings: { dailyTarget: 30, autoAudio: false, showIpa: true, largeText: false },
     rounds: [makeRound(profileId, 0, 'semantic', now)], plans: {}, events: [], revoked: [], memory: {}, notes: {}, bookmarks: [],
   };
@@ -106,7 +106,7 @@ export function ensureDaily(input: AppState, now = new Date()) {
   let state = upgradeContent(input);
   let round = currentRound(state);
   const day = studyDay(now);
-  const legacyRound=(round.contentVersion ?? catalogVersion(round.order))!==content.version;
+  const legacyRound=(round.contentVersion ?? catalogVersion(round.order))!==courseVersion;
   if (round.status === 'complete' && round.finishedDay! < day && (round.mode !== 'random' || legacyRound)) {
     state = clone(state);
     const mode = legacyRound ? 'semantic' : round.mode === 'semantic' ? 'roots' : 'random';
@@ -243,14 +243,14 @@ const roundSchema = z.object({ id: idSchema, index: z.number().int().nonnegative
 const settingsSchema = z.object({ dailyTarget: z.number().int().min(5).max(100), autoAudio: z.boolean(), showIpa: z.boolean(), largeText: z.boolean() });
 const backupSchema = z.object({
   format: z.literal('daily-lexicon-backup'), version: z.union([z.literal(1),z.literal(2)]), packId: z.string().refine(id=>acceptedPackIds.includes(id)), exportedAt: dateSchema,
-  contentVersion:z.string().max(30).optional(),
+  contentVersion:z.string().max(30).optional(), contentRevision:z.string().max(30).optional(),
   profileId: idSchema, createdAt: dateSchema, settings: settingsSchema,
   rounds: z.array(roundSchema).min(1).max(1000), events: z.array(eventSchema).max(100000), revoked: z.array(idSchema).max(100000),
   notes: z.record(wordIdSchema, z.string().max(5000)), bookmarks: z.array(wordIdSchema).max(wordIds.length),
 });
 export type Backup = z.infer<typeof backupSchema>;
 export function exportBackup(state: AppState, now = new Date()) {
-  return JSON.stringify({ format: 'daily-lexicon-backup', version: 2, packId: content.id, contentVersion:content.version, exportedAt: iso(now), profileId: state.profileId, createdAt: state.createdAt,
+  return JSON.stringify({ format: 'daily-lexicon-backup', version: 2, packId: content.id, contentVersion:courseVersion, contentRevision:content.version, exportedAt: iso(now), profileId: state.profileId, createdAt: state.createdAt,
     settings: state.settings, rounds: state.rounds, events: state.events, revoked: state.revoked, notes: state.notes, bookmarks: state.bookmarks }, null, 2);
 }
 export function parseBackup(text: string): Backup {
@@ -272,7 +272,7 @@ export function restoreBackup(input: AppState, backup: Backup, now = new Date())
   input=upgradeContent(input);
   const incoming=upgradeContent({schema:1,packId:backup.packId,contentVersion:backup.contentVersion,profileId:backup.profileId,deviceId:input.deviceId,createdAt:backup.createdAt,
     settings:clone(backup.settings),rounds:clone(backup.rounds),events:clone(backup.events),revoked:[...backup.revoked],memory:{},plans:{},notes:{...backup.notes},bookmarks:[...backup.bookmarks]});
-  backup={...backup,packId:content.id,contentVersion:content.version,rounds:incoming.rounds};
+  backup={...backup,packId:content.id,contentVersion:courseVersion,rounds:incoming.rounds};
   const same = input.profileId === backup.profileId;
   const state = clone(input);
   if (!same) {

@@ -1,5 +1,7 @@
 {
-  "version": "0.3.0",
+  "version": "0.3.1",
+  "catalogVersion": "0.3.0",
+  "contentHash": "d5a14c82857828274611c2c5974f0a5be6d4344dcde467f58b45978b67c8517e",
   "sourceId": "ecdict-scope",
   "sourceRevision": "39cfb9672c0906b63569e0453c2e6abfb9ab182a",
   "sourceRawSha256": "d1ecbdf9ee2b920afb6f430ca6b6bb9f559588cf0dff86e04bd255f9390843cc",
@@ -17,15 +19,16 @@
   },
   "multiTagWords": 4819,
   "deferredEntries": 7,
-  "trialCards": 600,
-  "trialLevels": {
-    "基础": 352,
-    "四级": 135,
-    "六级": 113
+  "cards": 600,
+  "levels": {
+    "基础": 452,
+    "四级": 74,
+    "六级": 38,
+    "扩展": 36
   },
-  "trialMatches": 564,
+  "candidateMatches": 564,
   "missingCards": 6545,
-  "trialOutsideCandidateScope": [
+  "outsideCandidateScope": [
     "accountability",
     "allocation",
     "autonomy",
@@ -75,6 +78,5 @@
   "structuralIssues": [],
   "humanApprovedCards": 0,
   "officialScopeVerification": "pending",
-  "formalReleaseReady": false,
-  "notice": "候选拼写并集与可学习试用词卡分开计数；待大纲核对、人工校听与内容审核。不能将候选名单或结构检查通过当作正式六级词库完成。"
+  "notice": "候选拼写并集与已制作词卡分别统计；正式范围、逐卡校审和发行验证由release.json记录。"
 }

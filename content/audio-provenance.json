@@ -21,7 +21,7 @@
   "datasetLicense": "Public domain, per bundled model card",
   "audioLicense": "CC-BY-SA-4.0",
   "generatedDate": "2026-11-06",
-  "contentVersion": "0.3.0",
+  "contentVersion": "0.3.1",
   "audioFiles": 1800,
   "synthesisParameters": {
     "lengthScale": 1.04,
@@ -40,5 +40,6 @@
       "date": "2026-11-06",
       "audioFiles": 900
     }
-  ]
+  ],
+  "note": "本次内容修订统一参考层级，1800段音频及其原始生成日期不变。"
 }

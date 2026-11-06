@@ -1,6 +1,5 @@
 import data from './data/content.json';
 import legacy from '../content/catalogs/0.1.0.json';
-import previous from '../content/catalogs/0.2.0.json';
 
 export interface Bilingual { en: string; zh: string; audio?: string }
 export interface Word {
@@ -26,12 +25,16 @@ export const familyById = new Map(families.map(f => [f.id, f]));
 export const sceneById = new Map(scenes.map(s => [s.id, s]));
 export const conceptById = new Map(concepts.map(c => [c.id, c]));
 export const wordIds = words.map(w => w.id);
+// The course range changes only when its word set changes, independently of app and editorial releases.
+export const courseVersion: string = content.catalogVersion;
 export const legacyCatalog = legacy;
-export const historicalCatalogs = [legacy,previous];
+type Catalog = { id:string; version:string; wordIds:string[]; hash:string };
+const snapshots = import.meta.glob('../content/catalogs/*.json',{eager:true,import:'default'}) as Record<string,Catalog>;
+export const historicalCatalogs = Object.values(snapshots).filter(snapshot=>snapshot.version!==courseVersion);
 export const acceptedPackIds: string[] = [content.id,legacy.id];
 export function catalogVersion(order: string[]) {
   if(new Set(order).size!==order.length) return undefined;
-  for(const snapshot of [{version:content.version,wordIds},...historicalCatalogs]) {
+  for(const snapshot of [{version:courseVersion,wordIds},...historicalCatalogs]) {
     const expected=new Set(snapshot.wordIds);
     if(order.length===expected.size && order.every(id=>expected.has(id))) return snapshot.version;
   }

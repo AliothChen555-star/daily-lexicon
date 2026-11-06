@@ -1,8 +1,10 @@
 {
-  "version": "0.3.0",
+  "version": "0.3.1",
+  "catalogVersion": "0.3.0",
   "id": "daily-lexicon-editorial",
-  "title": "基础与四六级600词试用包",
+  "title": "基础与四六级词库",
   "license": "CC-BY-SA-4.0",
+  "channel": "development",
   "words": [
     {
       "id": "dl-see",
@@ -90,7 +92,7 @@
       "ipa": "/ˈnoʊtɪs/",
       "pos": "v.",
       "meaning": "注意到；察觉",
-      "level": "四级",
+      "level": "基础",
       "topic": "mind",
       "family": "notice",
       "phrases": [
@@ -128,7 +130,7 @@
       "ipa": "/əbˈzɜːrv/",
       "pos": "v.",
       "meaning": "观察；注意到；遵守",
-      "level": "四级",
+      "level": "基础",
       "topic": "mind",
       "family": "observe",
       "phrases": [
@@ -204,7 +206,7 @@
       "ipa": "/əbˈzɜːrvər/",
       "pos": "n.",
       "meaning": "观察者；旁观者",
-      "level": "六级",
+      "level": "四级",
       "topic": "mind",
       "family": "observe",
       "phrases": [
@@ -242,7 +244,7 @@
       "ipa": "/ɪnˈspekt/",
       "pos": "v.",
       "meaning": "检查；检验",
-      "level": "四级",
+      "level": "基础",
       "topic": "mind",
       "family": "spect",
       "phrases": [
@@ -280,7 +282,7 @@
       "ipa": "/ɪnˈspekʃən/",
       "pos": "n.",
       "meaning": "检查；检验",
-      "level": "六级",
+      "level": "四级",
       "topic": "mind",
       "family": "spect",
       "phrases": [
@@ -318,7 +320,7 @@
       "ipa": "/pərˈsiːv/",
       "pos": "v.",
       "meaning": "察觉；将某事看作",
-      "level": "六级",
+      "level": "四级",
       "topic": "mind",
       "family": "perceive",
       "phrases": [
@@ -394,7 +396,7 @@
       "ipa": "/pərˈspektɪv/",
       "pos": "n.",
       "meaning": "视角；观点",
-      "level": "六级",
+      "level": "四级",
       "topic": "mind",
       "family": "spect",
       "phrases": [
@@ -432,7 +434,7 @@
       "ipa": "/ˈæspekt/",
       "pos": "n.",
       "meaning": "方面；层面",
-      "level": "四级",
+      "level": "基础",
       "topic": "mind",
       "family": "spect",
       "phrases": [
@@ -470,7 +472,7 @@
       "ipa": "/ˈprɑːspekt/",
       "pos": "n.",
       "meaning": "前景；可能性",
-      "level": "六级",
+      "level": "四级",
       "topic": "mind",
       "family": "spect",
       "phrases": [
@@ -508,7 +510,7 @@
       "ipa": "/səˈspekt/",
       "pos": "v.",
       "meaning": "怀疑；猜想",
-      "level": "四级",
+      "level": "基础",
       "topic": "mind",
       "family": "spect",
       "phrases": [
@@ -549,7 +551,7 @@
       "ipa": "/rɪˈspekt/",
       "pos": "n. v.",
       "meaning": "尊重；敬重",
-      "level": "四级",
+      "level": "基础",
       "topic": "mind",
       "family": "spect",
       "phrases": [
@@ -668,7 +670,7 @@
       "ipa": "/kənˈsɪdər/",
       "pos": "v.",
       "meaning": "考虑；认为",
-      "level": "四级",
+      "level": "基础",
       "topic": "mind",
       "family": "consider",
       "phrases": [
@@ -706,7 +708,7 @@
       "ipa": "/ˌriːkənˈsɪdər/",
       "pos": "v.",
       "meaning": "重新考虑",
-      "level": "六级",
+      "level": "扩展",
       "topic": "mind",
       "family": "consider",
       "phrases": [
@@ -744,7 +746,7 @@
       "ipa": "/rɪˈflekt/",
       "pos": "v.",
       "meaning": "反映；反射；认真思考",
-      "level": "四级",
+      "level": "基础",
       "topic": "mind",
       "family": "reflect",
       "phrases": [
@@ -820,7 +822,7 @@
       "ipa": "/ˈænəlaɪz/",
       "pos": "v.",
       "meaning": "分析；研究",
-      "level": "六级",
+      "level": "基础",
       "topic": "mind",
       "family": "analyze",
       "phrases": [
@@ -858,7 +860,7 @@
       "ipa": "/əˈnæləsɪs/",
       "pos": "n.",
       "meaning": "分析；分析结果",
-      "level": "四级",
+      "level": "基础",
       "topic": "mind",
       "family": "analyze",
       "phrases": [
@@ -898,7 +900,7 @@
       "ipa": "/əˈsuːm/",
       "pos": "v.",
       "meaning": "假定；以为；承担",
-      "level": "四级",
+      "level": "基础",
       "topic": "mind",
       "family": "assume",
       "phrases": [
@@ -936,7 +938,7 @@
       "ipa": "/əˈsʌmpʃən/",
       "pos": "n.",
       "meaning": "假定；假设",
-      "level": "六级",
+      "level": "基础",
       "topic": "mind",
       "family": "assume",
       "phrases": [
@@ -974,7 +976,7 @@
       "ipa": "/ɪnˈfɜːr/",
       "pos": "v.",
       "meaning": "推断；推论",
-      "level": "六级",
+      "level": "四级",
       "topic": "mind",
       "family": "infer",
       "phrases": [
@@ -1050,7 +1052,7 @@
       "ipa": "/ˈriːzən/",
       "pos": "n. v.",
       "meaning": "原因；理由；推理",
-      "level": "四级",
+      "level": "基础",
       "topic": "mind",
       "family": "reason",
       "phrases": [
@@ -1088,7 +1090,7 @@
       "ipa": "/ˈriːzənəbəl/",
       "pos": "adj.",
       "meaning": "合理的；通情达理的",
-      "level": "四级",
+      "level": "基础",
       "topic": "mind",
       "family": "reason",
       "phrases": [
@@ -1126,7 +1128,7 @@
       "ipa": "/ˈevɪdəns/",
       "pos": "n.",
       "meaning": "证据；根据",
-      "level": "四级",
+      "level": "基础",
       "topic": "mind",
       "family": "independent",
       "phrases": [
@@ -1205,7 +1207,7 @@
       "ipa": "/ˈlɜːrnɪŋ/",
       "pos": "n.",
       "meaning": "学习；学问",
-      "level": "基础",
+      "level": "四级",
       "topic": "learning",
       "family": "learn",
       "phrases": [
@@ -1443,7 +1445,7 @@
       "ipa": "/ˈraɪtər/",
       "pos": "n.",
       "meaning": "作者；作家",
-      "level": "基础",
+      "level": "四级",
       "topic": "learning",
       "family": "write",
       "phrases": [
@@ -1481,7 +1483,7 @@
       "ipa": "/dɪˈskraɪb/",
       "pos": "v.",
       "meaning": "描述；形容",
-      "level": "四级",
+      "level": "基础",
       "topic": "learning",
       "family": "scrib",
       "phrases": [
@@ -1519,7 +1521,7 @@
       "ipa": "/dɪˈskrɪpʃən/",
       "pos": "n.",
       "meaning": "描述；说明",
-      "level": "四级",
+      "level": "基础",
       "topic": "learning",
       "family": "scrib",
       "phrases": [
@@ -1557,7 +1559,7 @@
       "ipa": "/prɪˈskraɪb/",
       "pos": "v.",
       "meaning": "开处方；规定",
-      "level": "六级",
+      "level": "四级",
       "topic": "learning",
       "family": "scrib",
       "phrases": [
@@ -1595,7 +1597,7 @@
       "ipa": "/prɪˈskrɪpʃən/",
       "pos": "n.",
       "meaning": "处方；规定的方法",
-      "level": "六级",
+      "level": "基础",
       "topic": "learning",
       "family": "scrib",
       "phrases": [
@@ -1673,7 +1675,7 @@
       "ipa": "/ˈdɪkteɪt/",
       "pos": "v.",
       "meaning": "口述；支配；决定",
-      "level": "六级",
+      "level": "四级",
       "topic": "learning",
       "family": "dict",
       "phrases": [
@@ -1711,7 +1713,7 @@
       "ipa": "/dɪkˈteɪʃən/",
       "pos": "n.",
       "meaning": "听写；口述",
-      "level": "四级",
+      "level": "基础",
       "topic": "learning",
       "family": "dict",
       "phrases": [
@@ -1749,7 +1751,7 @@
       "ipa": "/prɪˈdɪkt/",
       "pos": "v.",
       "meaning": "预测；预言",
-      "level": "四级",
+      "level": "基础",
       "topic": "learning",
       "family": "dict",
       "phrases": [
@@ -1825,7 +1827,7 @@
       "ipa": "/ˌkɑːntrəˈdɪkt/",
       "pos": "v.",
       "meaning": "反驳；与某事矛盾",
-      "level": "六级",
+      "level": "基础",
       "topic": "learning",
       "family": "dict",
       "phrases": [
@@ -1863,7 +1865,7 @@
       "ipa": "/ˌkɑːntrəˈdɪkʃən/",
       "pos": "n.",
       "meaning": "矛盾；反驳",
-      "level": "六级",
+      "level": "四级",
       "topic": "learning",
       "family": "dict",
       "phrases": [
@@ -1939,7 +1941,7 @@
       "ipa": "/ˌekspləˈneɪʃən/",
       "pos": "n.",
       "meaning": "解释；说明",
-      "level": "四级",
+      "level": "基础",
       "topic": "learning",
       "family": "explain",
       "phrases": [
@@ -1977,7 +1979,7 @@
       "ipa": "/ɪkˈspres/",
       "pos": "v.",
       "meaning": "表达；表示",
-      "level": "四级",
+      "level": "基础",
       "topic": "learning",
       "family": "express",
       "phrases": [
@@ -2015,7 +2017,7 @@
       "ipa": "/ɪkˈspreʃən/",
       "pos": "n.",
       "meaning": "表达；表情；词语",
-      "level": "四级",
+      "level": "基础",
       "topic": "learning",
       "family": "express",
       "phrases": [
@@ -2053,7 +2055,7 @@
       "ipa": "/kəˈmjuːnɪkeɪt/",
       "pos": "v.",
       "meaning": "交流；传达",
-      "level": "四级",
+      "level": "基础",
       "topic": "learning",
       "family": "communicate",
       "phrases": [
@@ -2091,7 +2093,7 @@
       "ipa": "/kəˌmjuːnɪˈkeɪʃən/",
       "pos": "n.",
       "meaning": "交流；沟通；通信",
-      "level": "四级",
+      "level": "基础",
       "topic": "learning",
       "family": "communicate",
       "phrases": [
@@ -2167,7 +2169,7 @@
       "ipa": "/dɪˈskʌʃən/",
       "pos": "n.",
       "meaning": "讨论；商议",
-      "level": "四级",
+      "level": "基础",
       "topic": "learning",
       "family": "discuss",
       "phrases": [
@@ -2205,7 +2207,7 @@
       "ipa": "/kənˈkluːd/",
       "pos": "v.",
       "meaning": "得出结论；结束",
-      "level": "四级",
+      "level": "基础",
       "topic": "learning",
       "family": "conclude",
       "phrases": [
@@ -2243,7 +2245,7 @@
       "ipa": "/kənˈkluːʒən/",
       "pos": "n.",
       "meaning": "结论；结束",
-      "level": "四级",
+      "level": "基础",
       "topic": "learning",
       "family": "conclude",
       "phrases": [
@@ -2281,7 +2283,7 @@
       "ipa": "/voʊˈkæbjəleri/",
       "pos": "n.",
       "meaning": "词汇；词汇量",
-      "level": "四级",
+      "level": "基础",
       "topic": "learning",
       "family": "independent",
       "phrases": [
@@ -2437,7 +2439,7 @@
       "ipa": "/ˈfrendʃɪp/",
       "pos": "n.",
       "meaning": "友谊；友情",
-      "level": "四级",
+      "level": "基础",
       "topic": "living",
       "family": "friend",
       "phrases": [
@@ -2627,7 +2629,7 @@
       "ipa": "/trʌst/",
       "pos": "n. v.",
       "meaning": "信任；相信",
-      "level": "四级",
+      "level": "基础",
       "topic": "living",
       "family": "trust",
       "phrases": [
@@ -2665,7 +2667,7 @@
       "ipa": "/ˈtrʌstwɜːrði/",
       "pos": "adj.",
       "meaning": "值得信赖的；可靠的",
-      "level": "六级",
+      "level": "扩展",
       "topic": "living",
       "family": "trust",
       "phrases": [
@@ -2741,7 +2743,7 @@
       "ipa": "/bɪˈliːf/",
       "pos": "n.",
       "meaning": "信念；看法",
-      "level": "四级",
+      "level": "基础",
       "topic": "living",
       "family": "believe",
       "phrases": [
@@ -2781,7 +2783,7 @@
       "ipa": "/ˈkredəbəl/",
       "pos": "adj.",
       "meaning": "可信的；可靠的",
-      "level": "六级",
+      "level": "扩展",
       "topic": "living",
       "family": "cred",
       "phrases": [
@@ -2819,7 +2821,7 @@
       "ipa": "/ɪnˈkredəbəl/",
       "pos": "adj.",
       "meaning": "难以置信的；极好的",
-      "level": "四级",
+      "level": "六级",
       "topic": "living",
       "family": "cred",
       "phrases": [
@@ -2857,7 +2859,7 @@
       "ipa": "/ˈkredɪt/",
       "pos": "n. v.",
       "meaning": "信用；功劳；学分；归功于",
-      "level": "四级",
+      "level": "基础",
       "topic": "living",
       "family": "cred",
       "phrases": [
@@ -2895,7 +2897,7 @@
       "ipa": "/kriˈeɪt/",
       "pos": "v.",
       "meaning": "创造；创建；引起",
-      "level": "四级",
+      "level": "基础",
       "topic": "living",
       "family": "create",
       "phrases": [
@@ -2971,7 +2973,7 @@
       "ipa": "/ˌkriːeɪˈtɪvəti/",
       "pos": "n.",
       "meaning": "创造力；创造性",
-      "level": "六级",
+      "level": "扩展",
       "topic": "living",
       "family": "create",
       "phrases": [
@@ -3009,7 +3011,7 @@
       "ipa": "/kəˈnekt/",
       "pos": "v.",
       "meaning": "连接；联系",
-      "level": "四级",
+      "level": "基础",
       "topic": "living",
       "family": "connect",
       "phrases": [
@@ -3047,7 +3049,7 @@
       "ipa": "/kəˈnekʃən/",
       "pos": "n.",
       "meaning": "连接；联系；关联",
-      "level": "四级",
+      "level": "基础",
       "topic": "living",
       "family": "connect",
       "phrases": [
@@ -3085,7 +3087,7 @@
       "ipa": "/səˈpɔːrt/",
       "pos": "v. n.",
       "meaning": "支持；支撑；援助",
-      "level": "四级",
+      "level": "基础",
       "topic": "living",
       "family": "port",
       "phrases": [
@@ -3123,7 +3125,7 @@
       "ipa": "/ˈkʌmfərt/",
       "pos": "n. v.",
       "meaning": "安慰；舒适；使宽慰",
-      "level": "四级",
+      "level": "基础",
       "topic": "living",
       "family": "comfort",
       "phrases": [
@@ -3161,7 +3163,7 @@
       "ipa": "/ˈkʌmftərbəl/",
       "pos": "adj.",
       "meaning": "舒适的；自在的",
-      "level": "四级",
+      "level": "基础",
       "topic": "living",
       "family": "comfort",
       "phrases": [
@@ -3199,7 +3201,7 @@
       "ipa": "/ˈpeɪʃənt/",
       "pos": "adj. n.",
       "meaning": "有耐心的；病人",
-      "level": "四级",
+      "level": "基础",
       "topic": "living",
       "family": "patient",
       "phrases": [
@@ -3237,7 +3239,7 @@
       "ipa": "/ˈpeɪʃəns/",
       "pos": "n.",
       "meaning": "耐心；耐性",
-      "level": "四级",
+      "level": "基础",
       "topic": "living",
       "family": "patient",
       "phrases": [
@@ -3275,7 +3277,7 @@
       "ipa": "/əˈdæpt/",
       "pos": "v.",
       "meaning": "适应；改编；调整",
-      "level": "四级",
+      "level": "基础",
       "topic": "living",
       "family": "adapt",
       "phrases": [
@@ -3313,7 +3315,7 @@
       "ipa": "/ˌædæpˈteɪʃən/",
       "pos": "n.",
       "meaning": "适应；改编作品",
-      "level": "六级",
+      "level": "基础",
       "topic": "living",
       "family": "adapt",
       "phrases": [
@@ -3351,7 +3353,7 @@
       "ipa": "/ˈfleksəbəl/",
       "pos": "adj.",
       "meaning": "灵活的；可弯曲的",
-      "level": "六级",
+      "level": "基础",
       "topic": "living",
       "family": "flex",
       "phrases": [
@@ -3389,7 +3391,7 @@
       "ipa": "/ˌfleksəˈbɪləti/",
       "pos": "n.",
       "meaning": "灵活性；柔韧性",
-      "level": "六级",
+      "level": "扩展",
       "topic": "living",
       "family": "flex",
       "phrases": [
@@ -3427,7 +3429,7 @@
       "ipa": "/ˈbæləns/",
       "pos": "n. v.",
       "meaning": "平衡；使均衡；余额",
-      "level": "四级",
+      "level": "基础",
       "topic": "living",
       "family": "independent",
       "phrases": [
@@ -3619,7 +3621,7 @@
       "ipa": "/kənˈstrʌkt/",
       "pos": "v.",
       "meaning": "建造；构建",
-      "level": "四级",
+      "level": "基础",
       "topic": "society",
       "family": "struct",
       "phrases": [
@@ -3657,7 +3659,7 @@
       "ipa": "/kənˈstrʌkʃən/",
       "pos": "n.",
       "meaning": "建造；建筑；构造",
-      "level": "四级",
+      "level": "基础",
       "topic": "society",
       "family": "struct",
       "phrases": [
@@ -3733,7 +3735,7 @@
       "ipa": "/ˌriːkənˈstrʌkt/",
       "pos": "v.",
       "meaning": "重建；重现",
-      "level": "六级",
+      "level": "扩展",
       "topic": "society",
       "family": "struct",
       "phrases": [
@@ -3809,7 +3811,7 @@
       "ipa": "/ˈtrænspɔːrt/",
       "pos": "n.",
       "meaning": "交通运输；运输系统",
-      "level": "四级",
+      "level": "基础",
       "topic": "society",
       "family": "port",
       "phrases": [
@@ -3850,7 +3852,7 @@
       "ipa": "/ˈpɔːrtəbəl/",
       "pos": "adj.",
       "meaning": "便携的；轻便的",
-      "level": "六级",
+      "level": "基础",
       "topic": "society",
       "family": "port",
       "phrases": [
@@ -3888,7 +3890,7 @@
       "ipa": "/rɪˈpɔːrt/",
       "pos": "n. v.",
       "meaning": "报告；报道；汇报",
-      "level": "四级",
+      "level": "基础",
       "topic": "society",
       "family": "port",
       "phrases": [
@@ -3964,7 +3966,7 @@
       "ipa": "/ˌtrænsfərˈmeɪʃən/",
       "pos": "n.",
       "meaning": "转变；改造",
-      "level": "六级",
+      "level": "四级",
       "topic": "society",
       "family": "form",
       "phrases": [
@@ -4002,7 +4004,7 @@
       "ipa": "/trænsˈfɔːrm/",
       "pos": "v.",
       "meaning": "改变；使转变",
-      "level": "四级",
+      "level": "基础",
       "topic": "society",
       "family": "form",
       "phrases": [
@@ -4040,7 +4042,7 @@
       "ipa": "/rɪˈfɔːrm/",
       "pos": "n. v.",
       "meaning": "改革；改进",
-      "level": "四级",
+      "level": "基础",
       "topic": "society",
       "family": "form",
       "phrases": [
@@ -4078,7 +4080,7 @@
       "ipa": "/kənˈtrɪbjuːt/",
       "pos": "v.",
       "meaning": "贡献；捐助；促成",
-      "level": "四级",
+      "level": "基础",
       "topic": "society",
       "family": "tribut",
       "phrases": [
@@ -4116,7 +4118,7 @@
       "ipa": "/ˌkɑːntrɪˈbjuːʃən/",
       "pos": "n.",
       "meaning": "贡献；捐款；投稿",
-      "level": "四级",
+      "level": "基础",
       "topic": "society",
       "family": "tribut",
       "phrases": [
@@ -4154,7 +4156,7 @@
       "ipa": "/dɪˈstrɪbjuːt/",
       "pos": "v.",
       "meaning": "分发；分配；使分布",
-      "level": "四级",
+      "level": "基础",
       "topic": "society",
       "family": "tribut",
       "phrases": [
@@ -4192,7 +4194,7 @@
       "ipa": "/ˌdɪstrɪˈbjuːʃən/",
       "pos": "n.",
       "meaning": "分发；分配；分布",
-      "level": "六级",
+      "level": "四级",
       "topic": "society",
       "family": "tribut",
       "phrases": [
@@ -4230,7 +4232,7 @@
       "ipa": "/rɪˈdʒekt/",
       "pos": "v.",
       "meaning": "拒绝；否决；不接受",
-      "level": "四级",
+      "level": "基础",
       "topic": "society",
       "family": "ject",
       "phrases": [
@@ -4344,7 +4346,7 @@
       "ipa": "/ɪnˈdʒekʃən/",
       "pos": "n.",
       "meaning": "注射；注入",
-      "level": "六级",
+      "level": "四级",
       "topic": "society",
       "family": "ject",
       "phrases": [
@@ -4382,7 +4384,7 @@
       "ipa": "/əˈtrækt/",
       "pos": "v.",
       "meaning": "吸引；引起",
-      "level": "四级",
+      "level": "基础",
       "topic": "society",
       "family": "tract",
       "phrases": [
@@ -4420,7 +4422,7 @@
       "ipa": "/əˈtrækʃən/",
       "pos": "n.",
       "meaning": "吸引力；有吸引力的事物",
-      "level": "四级",
+      "level": "基础",
       "topic": "society",
       "family": "tract",
       "phrases": [
@@ -4496,7 +4498,7 @@
       "ipa": "/dɪˈstrækʃən/",
       "pos": "n.",
       "meaning": "使人分心的事物；分心",
-      "level": "六级",
+      "level": "扩展",
       "topic": "society",
       "family": "tract",
       "phrases": [
@@ -4534,7 +4536,7 @@
       "ipa": "/səˈsteɪnəbəl/",
       "pos": "adj.",
       "meaning": "可持续的；能长期维持的",
-      "level": "六级",
+      "level": "扩展",
       "topic": "society",
       "family": "sustain",
       "phrases": [
@@ -4572,7 +4574,7 @@
       "ipa": "/səˌsteɪnəˈbɪləti/",
       "pos": "n.",
       "meaning": "可持续性；持续维持的能力",
-      "level": "六级",
+      "level": "扩展",
       "topic": "society",
       "family": "sustain",
       "phrases": [
@@ -7543,7 +7545,7 @@
       "ipa": "/bɪˈɡɪn/",
       "pos": "v.",
       "meaning": "开始；着手",
-      "level": "四级",
+      "level": "基础",
       "topic": "time",
       "family": "time-change",
       "phrases": [
@@ -7584,7 +7586,7 @@
       "ipa": "/end/",
       "pos": "n.; v.",
       "meaning": "结束；末尾；使终止",
-      "level": "四级",
+      "level": "基础",
       "topic": "time",
       "family": "time-change",
       "phrases": [
@@ -7622,7 +7624,7 @@
       "ipa": "/kənˈtɪnjuː/",
       "pos": "v.",
       "meaning": "继续；持续",
-      "level": "四级",
+      "level": "基础",
       "topic": "time",
       "family": "time-change",
       "phrases": [
@@ -7660,7 +7662,7 @@
       "ipa": "/dɪˈleɪ/",
       "pos": "n.; v.",
       "meaning": "延误；推迟",
-      "level": "四级",
+      "level": "基础",
       "topic": "time",
       "family": "time-change",
       "phrases": [
@@ -7698,7 +7700,7 @@
       "ipa": "/ˈpɪriəd/",
       "pos": "n.",
       "meaning": "一段时间；时期；句号",
-      "level": "四级",
+      "level": "基础",
       "topic": "time",
       "family": "time-change",
       "phrases": [
@@ -7736,7 +7738,7 @@
       "ipa": "/ˈtempəreri/",
       "pos": "adj.",
       "meaning": "暂时的；临时的",
-      "level": "四级",
+      "level": "基础",
       "topic": "time",
       "family": "time-change",
       "phrases": [
@@ -7774,7 +7776,7 @@
       "ipa": "/ˈpɜːrmənənt/",
       "pos": "adj.",
       "meaning": "永久的；长期不变的",
-      "level": "四级",
+      "level": "基础",
       "topic": "time",
       "family": "time-change",
       "phrases": [
@@ -7850,7 +7852,7 @@
       "ipa": "/ˈɡrædʒuəli/",
       "pos": "adv.",
       "meaning": "逐渐地；逐步地",
-      "level": "四级",
+      "level": "基础",
       "topic": "time",
       "family": "gradual",
       "phrases": [
@@ -7888,7 +7890,7 @@
       "ipa": "/ˈfriːkwənt/",
       "pos": "adj.",
       "meaning": "频繁的；经常发生的",
-      "level": "四级",
+      "level": "基础",
       "topic": "time",
       "family": "frequent",
       "phrases": [
@@ -7967,7 +7969,7 @@
       "ipa": "/əˈkɜːr/",
       "pos": "v.",
       "meaning": "发生；出现；被想到",
-      "level": "四级",
+      "level": "基础",
       "topic": "time",
       "family": "occur",
       "phrases": [
@@ -8081,7 +8083,7 @@
       "ipa": "/ˈkɑːnsəkwens/",
       "pos": "n.",
       "meaning": "结果；后果；重要性",
-      "level": "四级",
+      "level": "基础",
       "topic": "time",
       "family": "sequ",
       "phrases": [
@@ -8119,7 +8121,7 @@
       "ipa": "/briːð/",
       "pos": "v.",
       "meaning": "呼吸；吸入",
-      "level": "四级",
+      "level": "基础",
       "topic": "nature",
       "family": "breathe",
       "phrases": [
@@ -8160,7 +8162,7 @@
       "ipa": "/breθ/",
       "pos": "n.",
       "meaning": "呼吸；一口气；气息",
-      "level": "四级",
+      "level": "基础",
       "topic": "nature",
       "family": "breathe",
       "phrases": [
@@ -8198,7 +8200,7 @@
       "ipa": "/ˈhelθi/",
       "pos": "adj.",
       "meaning": "健康的；有益健康的",
-      "level": "四级",
+      "level": "基础",
       "topic": "nature",
       "family": "health",
       "phrases": [
@@ -8236,7 +8238,7 @@
       "ipa": "/ˈɪlnəs/",
       "pos": "n.",
       "meaning": "疾病；生病的状态",
-      "level": "四级",
+      "level": "基础",
       "topic": "nature",
       "family": "health",
       "phrases": [
@@ -8274,7 +8276,7 @@
       "ipa": "/dɪˈziːz/",
       "pos": "n.",
       "meaning": "疾病；病害",
-      "level": "四级",
+      "level": "基础",
       "topic": "nature",
       "family": "health",
       "phrases": [
@@ -8312,7 +8314,7 @@
       "ipa": "/nuːˈtrɪʃən/",
       "pos": "n.",
       "meaning": "营养；营养摄取",
-      "level": "六级",
+      "level": "基础",
       "topic": "nature",
       "family": "nutrition",
       "phrases": [
@@ -8388,7 +8390,7 @@
       "ipa": "/məˈtæbəlɪzəm/",
       "pos": "n.",
       "meaning": "新陈代谢",
-      "level": "六级",
+      "level": "扩展",
       "topic": "nature",
       "family": "health",
       "phrases": [
@@ -8540,7 +8542,7 @@
       "ipa": "/ˌdaɪəɡˈnoʊsɪs/",
       "pos": "n.",
       "meaning": "诊断；诊断结果",
-      "level": "六级",
+      "level": "扩展",
       "topic": "nature",
       "family": "diagnose",
       "phrases": [
@@ -8580,7 +8582,7 @@
       "ipa": "/ˈenərdʒi/",
       "pos": "n.",
       "meaning": "能量；精力；能源",
-      "level": "四级",
+      "level": "基础",
       "topic": "nature",
       "family": "nature-resources",
       "phrases": [
@@ -8656,7 +8658,7 @@
       "ipa": "/ˈklaɪmət/",
       "pos": "n.",
       "meaning": "气候；风气；环境",
-      "level": "四级",
+      "level": "基础",
       "topic": "nature",
       "family": "nature-resources",
       "phrases": [
@@ -8694,7 +8696,7 @@
       "ipa": "/ɪnˈvaɪrənmənt/",
       "pos": "n.",
       "meaning": "环境；周围的条件",
-      "level": "四级",
+      "level": "基础",
       "topic": "nature",
       "family": "environment",
       "phrases": [
@@ -8732,7 +8734,7 @@
       "ipa": "/ɪnˌvaɪrənˈmentəl/",
       "pos": "adj.",
       "meaning": "环境的；与自然环境有关的",
-      "level": "四级",
+      "level": "六级",
       "topic": "nature",
       "family": "environment",
       "phrases": [
@@ -8770,7 +8772,7 @@
       "ipa": "/pəˈluːt/",
       "pos": "v.",
       "meaning": "污染；弄脏",
-      "level": "四级",
+      "level": "基础",
       "topic": "nature",
       "family": "pollute",
       "phrases": [
@@ -8808,7 +8810,7 @@
       "ipa": "/pəˈluːʃən/",
       "pos": "n.",
       "meaning": "污染；污染物造成的影响",
-      "level": "四级",
+      "level": "基础",
       "topic": "nature",
       "family": "pollute",
       "phrases": [
@@ -8846,7 +8848,7 @@
       "ipa": "/ˌriːˈsaɪkəl/",
       "pos": "v.",
       "meaning": "回收利用；再利用",
-      "level": "四级",
+      "level": "基础",
       "topic": "nature",
       "family": "nature-resources",
       "phrases": [
@@ -8884,7 +8886,7 @@
       "ipa": "/prəˈtekt/",
       "pos": "v.",
       "meaning": "保护；防护",
-      "level": "四级",
+      "level": "基础",
       "topic": "nature",
       "family": "protect",
       "phrases": [
@@ -8922,7 +8924,7 @@
       "ipa": "/prəˈtekʃən/",
       "pos": "n.",
       "meaning": "保护；防护措施",
-      "level": "四级",
+      "level": "基础",
       "topic": "nature",
       "family": "protect",
       "phrases": [
@@ -8960,7 +8962,7 @@
       "ipa": "/ɪˈkɑːlədʒi/",
       "pos": "n.",
       "meaning": "生态学；生态关系",
-      "level": "六级",
+      "level": "基础",
       "topic": "nature",
       "family": "ecology",
       "phrases": [
@@ -8998,7 +9000,7 @@
       "ipa": "/ˌiːkəˈlɑːdʒɪkəl/",
       "pos": "adj.",
       "meaning": "生态的；生态学的",
-      "level": "六级",
+      "level": "扩展",
       "topic": "nature",
       "family": "ecology",
       "phrases": [
@@ -9074,7 +9076,7 @@
       "ipa": "/ˌbaɪoʊdaɪˈvɜːrsəti/",
       "pos": "n.",
       "meaning": "生物多样性",
-      "level": "六级",
+      "level": "扩展",
       "topic": "nature",
       "family": "diverse",
       "phrases": [
@@ -9112,7 +9114,7 @@
       "ipa": "/kənˈsɜːrv/",
       "pos": "v.",
       "meaning": "保护；节约使用",
-      "level": "六级",
+      "level": "四级",
       "topic": "nature",
       "family": "conserve",
       "phrases": [
@@ -9150,7 +9152,7 @@
       "ipa": "/ˌkɑːnsərˈveɪʃən/",
       "pos": "n.",
       "meaning": "保护；保存；节约",
-      "level": "六级",
+      "level": "基础",
       "topic": "nature",
       "family": "conserve",
       "phrases": [
@@ -9188,7 +9190,7 @@
       "ipa": "/rɪˈnuːəbəl/",
       "pos": "adj.",
       "meaning": "可再生的；可续期的",
-      "level": "六级",
+      "level": "扩展",
       "topic": "nature",
       "family": "nature-resources",
       "phrases": [
@@ -9264,7 +9266,7 @@
       "ipa": "/ˈsaɪəns/",
       "pos": "n.",
       "meaning": "科学；科学研究",
-      "level": "四级",
+      "level": "基础",
       "topic": "science",
       "family": "science",
       "phrases": [
@@ -9302,7 +9304,7 @@
       "ipa": "/ˌsaɪənˈtɪfɪk/",
       "pos": "adj.",
       "meaning": "科学的；符合科学方法的",
-      "level": "四级",
+      "level": "基础",
       "topic": "science",
       "family": "science",
       "phrases": [
@@ -9340,7 +9342,7 @@
       "ipa": "/ˈriːsɜːrtʃ/",
       "pos": "n.; v.",
       "meaning": "研究；调查",
-      "level": "四级",
+      "level": "基础",
       "topic": "science",
       "family": "scientific-reasoning",
       "phrases": [
@@ -9378,7 +9380,7 @@
       "ipa": "/ɪkˈsperɪmənt/",
       "pos": "n.",
       "meaning": "实验；试验",
-      "level": "四级",
+      "level": "基础",
       "topic": "science",
       "family": "scientific-reasoning",
       "phrases": [
@@ -9416,7 +9418,7 @@
       "ipa": "/ˈθɪri/",
       "pos": "n.",
       "meaning": "理论；学说；解释",
-      "level": "四级",
+      "level": "基础",
       "topic": "science",
       "family": "scientific-reasoning",
       "phrases": [
@@ -9454,7 +9456,7 @@
       "ipa": "/ˈmeθəd/",
       "pos": "n.",
       "meaning": "方法；办法",
-      "level": "四级",
+      "level": "基础",
       "topic": "science",
       "family": "method",
       "phrases": [
@@ -9492,7 +9494,7 @@
       "ipa": "/ˌmeθəˈdɑːlədʒi/",
       "pos": "n.",
       "meaning": "方法论；一套研究方法",
-      "level": "六级",
+      "level": "扩展",
       "topic": "science",
       "family": "method",
       "phrases": [
@@ -9608,7 +9610,7 @@
       "ipa": "/ɪmˈpɪrɪkli/",
       "pos": "adv.",
       "meaning": "通过观察或实验；以实证方式",
-      "level": "六级",
+      "level": "扩展",
       "topic": "science",
       "family": "empirical",
       "phrases": [
@@ -9646,7 +9648,7 @@
       "ipa": "/əbˈdʒektɪv/",
       "pos": "adj.; n.",
       "meaning": "客观的；目标",
-      "level": "六级",
+      "level": "四级",
       "topic": "science",
       "family": "scientific-reasoning",
       "phrases": [
@@ -9684,7 +9686,7 @@
       "ipa": "/səbˈdʒektɪv/",
       "pos": "adj.",
       "meaning": "主观的；受个人感受影响的",
-      "level": "六级",
+      "level": "基础",
       "topic": "science",
       "family": "scientific-reasoning",
       "phrases": [
@@ -9722,7 +9724,7 @@
       "ipa": "/ˈdeɪtə/",
       "pos": "n.",
       "meaning": "数据；资料",
-      "level": "四级",
+      "level": "基础",
       "topic": "science",
       "family": "measurement",
       "phrases": [
@@ -9760,7 +9762,7 @@
       "ipa": "/ˈmeʒər/",
       "pos": "v.; n.",
       "meaning": "测量；评估；措施",
-      "level": "四级",
+      "level": "基础",
       "topic": "science",
       "family": "measure",
       "phrases": [
@@ -9874,7 +9876,7 @@
       "ipa": "/ˈækjərəsi/",
       "pos": "n.",
       "meaning": "准确性；精确程度",
-      "level": "四级",
+      "level": "基础",
       "topic": "science",
       "family": "accurate",
       "phrases": [
@@ -9988,7 +9990,7 @@
       "ipa": "/ˈveriəbəl/",
       "pos": "n.; adj.",
       "meaning": "变量；可变的",
-      "level": "六级",
+      "level": "四级",
       "topic": "science",
       "family": "vary",
       "phrases": [
@@ -10026,7 +10028,7 @@
       "ipa": "/ˌveriˈeɪʃən/",
       "pos": "n.",
       "meaning": "变化；差异；变体",
-      "level": "六级",
+      "level": "四级",
       "topic": "science",
       "family": "vary",
       "phrases": [
@@ -10178,7 +10180,7 @@
       "ipa": "/kɔːˈzæləti/",
       "pos": "n.",
       "meaning": "因果关系；因果性",
-      "level": "六级",
+      "level": "扩展",
       "topic": "science",
       "family": "cause",
       "phrases": [
@@ -10216,7 +10218,7 @@
       "ipa": "/ˈverɪfaɪ/",
       "pos": "v.",
       "meaning": "核实；验证",
-      "level": "六级",
+      "level": "四级",
       "topic": "science",
       "family": "verify",
       "phrases": [
@@ -10254,7 +10256,7 @@
       "ipa": "/ˌverɪfɪˈkeɪʃən/",
       "pos": "n.",
       "meaning": "核实；验证过程",
-      "level": "六级",
+      "level": "扩展",
       "topic": "science",
       "family": "verify",
       "phrases": [
@@ -10292,7 +10294,7 @@
       "ipa": "/ˈreplɪkeɪt/",
       "pos": "v.",
       "meaning": "重复进行；复制；重现",
-      "level": "六级",
+      "level": "扩展",
       "topic": "science",
       "family": "replicate",
       "phrases": [
@@ -10330,7 +10332,7 @@
       "ipa": "/ˌreplɪˈkeɪʃən/",
       "pos": "n.",
       "meaning": "重复实验；复制；重现",
-      "level": "六级",
+      "level": "扩展",
       "topic": "science",
       "family": "replicate",
       "phrases": [
@@ -10368,7 +10370,7 @@
       "ipa": "/fəˈnɑːmɪnɑːn/",
       "pos": "n.",
       "meaning": "现象；引人注目的事物",
-      "level": "六级",
+      "level": "基础",
       "topic": "science",
       "family": "scientific-reasoning",
       "phrases": [
@@ -10408,7 +10410,7 @@
       "ipa": "/ˈledʒɪsleɪt/",
       "pos": "v.",
       "meaning": "立法；通过法律规定",
-      "level": "六级",
+      "level": "扩展",
       "topic": "civic",
       "family": "legislate",
       "phrases": [
@@ -10446,7 +10448,7 @@
       "ipa": "/ˌledʒɪsˈleɪʃən/",
       "pos": "n.",
       "meaning": "法律；立法",
-      "level": "六级",
+      "level": "四级",
       "topic": "civic",
       "family": "legislate",
       "phrases": [
@@ -10484,7 +10486,7 @@
       "ipa": "/ˈledʒɪsleɪtɪv/",
       "pos": "adj.",
       "meaning": "立法的；立法机关的",
-      "level": "六级",
+      "level": "扩展",
       "topic": "civic",
       "family": "legislate",
       "phrases": [
@@ -10522,7 +10524,7 @@
       "ipa": "/dɪˈmɑːkrəsi/",
       "pos": "n.",
       "meaning": "民主；民主制度",
-      "level": "六级",
+      "level": "四级",
       "topic": "civic",
       "family": "democracy",
       "phrases": [
@@ -10560,7 +10562,7 @@
       "ipa": "/ˌdeməˈkrætɪk/",
       "pos": "adj.",
       "meaning": "民主的；按民主方式进行的",
-      "level": "六级",
+      "level": "四级",
       "topic": "civic",
       "family": "democracy",
       "phrases": [
@@ -10598,7 +10600,7 @@
       "ipa": "/ɔːˈtɑːnəmi/",
       "pos": "n.",
       "meaning": "自主权；自治",
-      "level": "六级",
+      "level": "扩展",
       "topic": "civic",
       "family": "autonomy",
       "phrases": [
@@ -10636,7 +10638,7 @@
       "ipa": "/ɔːˈtɑːnəməs/",
       "pos": "adj.",
       "meaning": "自主的；自治的；能自主运行的",
-      "level": "六级",
+      "level": "基础",
       "topic": "civic",
       "family": "autonomy",
       "phrases": [
@@ -10674,7 +10676,7 @@
       "ipa": "/pɑːrˈtɪsəpətɔːri/",
       "pos": "adj.",
       "meaning": "参与式的；鼓励参与的",
-      "level": "六级",
+      "level": "扩展",
       "topic": "civic",
       "family": "civic-practices",
       "phrases": [
@@ -10712,7 +10714,7 @@
       "ipa": "/kəˈlæbəreɪt/",
       "pos": "v.",
       "meaning": "合作；共同开展工作",
-      "level": "六级",
+      "level": "四级",
       "topic": "civic",
       "family": "collaborate",
       "phrases": [
@@ -10788,7 +10790,7 @@
       "ipa": "/koʊˈɔːrdɪneɪt/",
       "pos": "v.",
       "meaning": "协调；组织配合",
-      "level": "六级",
+      "level": "四级",
       "topic": "civic",
       "family": "coordinate",
       "phrases": [
@@ -10829,7 +10831,7 @@
       "ipa": "/koʊˌɔːrdɪˈneɪʃən/",
       "pos": "n.",
       "meaning": "协调；配合；协调能力",
-      "level": "六级",
+      "level": "扩展",
       "topic": "civic",
       "family": "coordinate",
       "phrases": [
@@ -10867,7 +10869,7 @@
       "ipa": "/ˈɪntɪɡreɪt/",
       "pos": "v.",
       "meaning": "整合；使融入；结合",
-      "level": "六级",
+      "level": "四级",
       "topic": "civic",
       "family": "integrate",
       "phrases": [
@@ -10905,7 +10907,7 @@
       "ipa": "/ˌɪntɪˈɡreɪʃən/",
       "pos": "n.",
       "meaning": "整合；融合；融入",
-      "level": "六级",
+      "level": "扩展",
       "topic": "civic",
       "family": "integrate",
       "phrases": [
@@ -10943,7 +10945,7 @@
       "ipa": "/ɪnˈkluːʒən/",
       "pos": "n.",
       "meaning": "包括；纳入；包容",
-      "level": "六级",
+      "level": "扩展",
       "topic": "civic",
       "family": "civic-practices",
       "phrases": [
@@ -10981,7 +10983,7 @@
       "ipa": "/ɪkˈskluːʒən/",
       "pos": "n.",
       "meaning": "排除；不包括；排斥",
-      "level": "六级",
+      "level": "扩展",
       "topic": "civic",
       "family": "civic-practices",
       "phrases": [
@@ -11019,7 +11021,7 @@
       "ipa": "/daɪˈvɜːrs/",
       "pos": "adj.",
       "meaning": "多种多样的；不同的",
-      "level": "六级",
+      "level": "基础",
       "topic": "civic",
       "family": "diverse",
       "phrases": [
@@ -11057,7 +11059,7 @@
       "ipa": "/daɪˈvɜːrsəti/",
       "pos": "n.",
       "meaning": "多样性；差异",
-      "level": "六级",
+      "level": "扩展",
       "topic": "civic",
       "family": "diverse",
       "phrases": [
@@ -11095,7 +11097,7 @@
       "ipa": "/ˈekwəti/",
       "pos": "n.",
       "meaning": "公平；权益；股权",
-      "level": "六级",
+      "level": "扩展",
       "topic": "civic",
       "family": "civic-practices",
       "phrases": [
@@ -11133,7 +11135,7 @@
       "ipa": "/ˌɪnɪˈkwɑːləti/",
       "pos": "n.",
       "meaning": "不平等；不均衡",
-      "level": "六级",
+      "level": "扩展",
       "topic": "civic",
       "family": "civic-practices",
       "phrases": [
@@ -11171,7 +11173,7 @@
       "ipa": "/ˈæləkeɪt/",
       "pos": "v.",
       "meaning": "分配；划拨",
-      "level": "六级",
+      "level": "基础",
       "topic": "civic",
       "family": "allocate",
       "phrases": [
@@ -11209,7 +11211,7 @@
       "ipa": "/ˌæləˈkeɪʃən/",
       "pos": "n.",
       "meaning": "分配；分配额",
-      "level": "六级",
+      "level": "扩展",
       "topic": "civic",
       "family": "allocate",
       "phrases": [
@@ -11247,7 +11249,7 @@
       "ipa": "/ˈɪmplɪment/",
       "pos": "v.",
       "meaning": "实施；执行",
-      "level": "六级",
+      "level": "四级",
       "topic": "civic",
       "family": "implement",
       "phrases": [
@@ -11285,7 +11287,7 @@
       "ipa": "/ˌɪmplɪmenˈteɪʃən/",
       "pos": "n.",
       "meaning": "实施；执行；落实",
-      "level": "六级",
+      "level": "扩展",
       "topic": "civic",
       "family": "implement",
       "phrases": [
@@ -11323,7 +11325,7 @@
       "ipa": "/əˌkaʊntəˈbɪləti/",
       "pos": "n.",
       "meaning": "责任；问责；说明和负责的义务",
-      "level": "六级",
+      "level": "扩展",
       "topic": "civic",
       "family": "civic-practices",
       "phrases": [
@@ -11361,7 +11363,7 @@
       "ipa": "/trænsˈperənt/",
       "pos": "adj.",
       "meaning": "透明的；公开易懂的",
-      "level": "六级",
+      "level": "基础",
       "topic": "civic",
       "family": "transparent",
       "phrases": [
@@ -11399,7 +11401,7 @@
       "ipa": "/trænsˈperənsi/",
       "pos": "n.",
       "meaning": "透明；公开透明",
-      "level": "六级",
+      "level": "扩展",
       "topic": "civic",
       "family": "transparent",
       "phrases": [
@@ -11437,7 +11439,7 @@
       "ipa": "/kənˈsensəs/",
       "pos": "n.",
       "meaning": "共识；一致意见",
-      "level": "六级",
+      "level": "基础",
       "topic": "civic",
       "family": "civic-practices",
       "phrases": [
@@ -11516,7 +11518,7 @@
       "ipa": "/lɪˈdʒɪtəməsi/",
       "pos": "n.",
       "meaning": "正当性；合法性",
-      "level": "六级",
+      "level": "扩展",
       "topic": "civic",
       "family": "legitimate",
       "phrases": [
@@ -29056,6 +29058,6 @@
       "reference": "https://en.wiktionary.org/wiki/use"
     }
   ],
-  "notice": "600词试用包，包含基础、四级和六级参考层级。新增词按固定候选来源的最低层级归类；正式大纲核对和完整人工校审仍在进行，不能视为完整六级词库。词根、现代词族和独立词分别标注。",
-  "hash": "74b5066befa02f3fa808a5b597f6a7b8fe37dfbd9c483bd7240bb631cd7933ef"
+  "notice": "当前已收录600词，按主题、场景和概念分块。基础、四级、六级为参考层级；完整范围核对和内容校审正在进行。",
+  "hash": "d5a14c82857828274611c2c5974f0a5be6d4344dcde467f58b45978b67c8517e"
 }

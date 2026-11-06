@@ -87,6 +87,10 @@ test('新增基础表达和技术词可检索，大写I使用小写稳定音频�
   await expect(page.locator('.dictionary-row')).toHaveCount(30);
   await page.getByRole('textbox',{name:'搜索单词或中文释义'}).fill('innovation');
   await expect(page.locator('.dictionary-row')).toHaveCount(1);
+  await page.getByRole('textbox',{name:'搜索单词或中文释义'}).fill('');
+  await page.getByRole('button',{name:'全部词汇',exact:true}).click();
+  await page.getByRole('combobox',{name:'词汇级别'}).selectOption('扩展');
+  await expect(page.locator('.dictionary-row')).toHaveCount(36);
 });
 
 test('词库搜索、收藏、笔记和备份往返',async ({page},testInfo) => {

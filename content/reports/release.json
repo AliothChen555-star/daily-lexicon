@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "appVersion": "1.0.0-dev.1",
+  "contentVersion": "0.3.1",
+  "catalogVersion": "0.3.0",
+  "contentHash": "d5a14c82857828274611c2c5974f0a5be6d4344dcde467f58b45978b67c8517e",
+  "candidateWords": 7109,
+  "cards": 600,
+  "missingCards": 6545,
+  "approvedCards": 0,
+  "staleCards": 0,
+  "levelIssues": [],
+  "unresolvedScopeWords": [
+    "accountability",
+    "allocation",
+    "autonomy",
+    "biodiversity",
+    "causality",
+    "coordination",
+    "creativity",
+    "credible",
+    "diagnosis",
+    "distraction",
+    "diversity",
+    "ecological",
+    "empirically",
+    "equity",
+    "exclusion",
+    "flexibility",
+    "implementation",
+    "inclusion",
+    "inequality",
+    "integration",
+    "legislate",
+    "legislative",
+    "legitimacy",
+    "metabolism",
+    "methodology",
+    "participatory",
+    "reconsider",
+    "reconstruct",
+    "renewable",
+    "replicate",
+    "replication",
+    "sustainability",
+    "sustainable",
+    "transparency",
+    "trustworthy",
+    "verification"
+  ],
+  "ready": false,
+  "checks": [
+    {
+      "id": "version",
+      "label": "正式发行版本",
+      "passed": false,
+      "detail": "当前为1.0.0-dev.1，目标为1.0.0"
+    },
+    {
+      "id": "official-scope",
+      "label": "正式词表逐词核对",
+      "passed": false,
+      "detail": "已核实官方入口仍列2016年修订版；尚未逐词核对附录，不据此宣称范围已验收。"
+    },
+    {
+      "id": "coverage",
+      "label": "必学词卡覆盖",
+      "passed": false,
+      "detail": "7109个当前候选，6545个尚未成卡"
+    },
+    {
+      "id": "scope-decisions",
+      "label": "差异词裁定",
+      "passed": false,
+      "detail": "36个扩展词未裁定，0个已排除词仍在课程中"
+    },
+    {
+      "id": "levels",
+      "label": "参考层级核对",
+      "passed": true,
+      "detail": "0张卡与固定来源最低标签不一致，需逐词裁定"
+    },
+    {
+      "id": "reviews",
+      "label": "词卡逐项人工校审",
+      "passed": false,
+      "detail": "0/600张有效通过，0张因内容变更待重审"
+    },
+    {
+      "id": "source-snapshot",
+      "label": "原稿与词包一致",
+      "passed": true,
+      "detail": "0张卡与原稿不同，需重新生成内容"
+    },
+    {
+      "id": "audio",
+      "label": "离线音频完整且匹配正文",
+      "passed": true,
+      "detail": "0项缺失、文本或校验值问题"
+    },
+    {
+      "id": "structure",
+      "label": "词卡结构校验",
+      "passed": true,
+      "detail": "要求当前词包的结构报告，无旧报告替代"
+    },
+    {
+      "id": "windows",
+      "label": "Windows安装与升级",
+      "passed": false,
+      "detail": "待本次发行产物的验证记录"
+    },
+    {
+      "id": "android",
+      "label": "安卓真机与升级",
+      "passed": false,
+      "detail": "待本次发行产物的验证记录"
+    },
+    {
+      "id": "distribution",
+      "label": "正式签名与开源分发",
+      "passed": false,
+      "detail": "待正式签名、许可与下载产物核验"
+    }
+  ]
+}

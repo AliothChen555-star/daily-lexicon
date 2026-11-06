@@ -6,5 +6,6 @@
 *.png binary
 *.ico binary
 *.jar binary
+*.sqlite binary
 public/licenses/** -whitespace
 LICENSE -whitespace

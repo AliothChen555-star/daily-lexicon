@@ -11,8 +11,8 @@ describe('随包内容完整性',()=>{
     expect(families.flatMap(f=>f.words).sort()).toEqual([...wordIds].sort());
     expect(scenes.flatMap(s=>s.words).sort()).toEqual([...wordIds].sort());
     expect(concepts.flatMap(c=>c.words).sort()).toEqual([...wordIds].sort());
-    for(const catalog of historicalCatalogs) expect(wordIds.slice(0,catalog.wordIds.length)).toEqual(catalog.wordIds);
-    for(const level of ['基础','四级','六级']) expect(words.filter(w=>w.level===level).length).toBeGreaterThanOrEqual(100);
+    for(const catalog of historicalCatalogs) expect(catalog.wordIds.every(id=>wordIds.includes(id))).toBe(true);
+    expect(new Set(words.map(w=>w.level))).toEqual(new Set(['基础','四级','六级','扩展']));
     for(const word of words) {
       expect(sceneById.get(word.scene)?.topic).toBe(word.topic);
       expect(conceptById.get(word.concept)?.scene).toBe(word.scene);

@@ -5,6 +5,11 @@ ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/'release'
 OUT.mkdir(exist_ok=True)
 VERSION=json.loads((ROOT/'package.json').read_text(encoding='utf-8'))['version']
+if int(VERSION.split('.')[0]) >= 1 and '-' not in VERSION:
+    from content_core import workspace, release_report
+    report=release_report(workspace(ROOT))
+    if not report['ready']:
+        raise SystemExit('Formal release blocked: run npm run release:check and complete the pending items.')
 windows=OUT/'windows'/'词汇日报-win32-x64'
 assert windows.is_dir() and (windows/'词汇日报.exe').is_file()
 for file in ['README.md','LICENSE','THIRD_PARTY_NOTICES.md']:
@@ -35,7 +40,9 @@ for file in [winzip,sourcezip,apk]:
     with zipfile.ZipFile(file) as archive:
         assert archive.testzip() is None, file
 records=[{'file':p.name,'bytes':p.stat().st_size,'sha256':hashlib.sha256(p.read_bytes()).hexdigest()} for p in [winzip,apk,sourcezip]]
-(OUT/'SHA256.json').write_text(json.dumps(records,ensure_ascii=False,indent=2),encoding='utf-8')
+checksums=json.dumps(records,ensure_ascii=False,indent=2)+'\n'
+for checksum_file in ['SHA256.json',f'SHA256-{VERSION}.json']:
+    (OUT/checksum_file).write_text(checksums,encoding='utf-8',newline='\n')
 shutil.copy2(ROOT/'README.md',OUT/'使用说明.md')
 shutil.copy2(ROOT/'docs/验证记录.md',OUT/'验证记录.md')
 for record in records: print(record['file'],round(record['bytes']/1048576,1),'MB',flush=True)

@@ -9,15 +9,32 @@ import recentComplete from './fixtures/v0.2-complete-state.json';
 import recentRoots from './fixtures/v0.2-roots-state.json';
 import recentBackup from './fixtures/v0.2-backup.json';
 import recentRootsBackup from './fixtures/v0.2-roots-backup.json';
-import { content,legacyCatalog,wordIds } from '../src/content';
+import lastState from './fixtures/v0.3-state.json';
+import lastBackup from './fixtures/v0.3-backup.json';
+import { content,courseVersion,legacyCatalog,wordIds } from '../src/content';
 import { initializeEngine,migrateState,createState,courseQueue,coveredWords,currentRound,dayEvents,ensureDaily,exportBackup,getPlan,gradeWord,parseBackup,restoreBackup,todayCourseDone,type AppState } from '../src/engine';
 const date=new Date('2026-11-04T03:00:00Z');
 const cast=(value:unknown)=>structuredClone(value) as AppState;
 beforeAll(initializeEngine);
+
+describe('应用、内容修订与课程范围分别版本化',()=>{
+  it('0.3完整600词档案进入1.0开发版时保留原轮次、配额、记忆，不显示零词增补',()=>{
+    const prior=cast(lastState),now=new Date('2026-11-06T02:00:00Z');
+    const next=migrateState(prior,now);
+    expect(next).toBe(prior);expect(next.contentUpdate).toBeUndefined();
+    expect(next.contentVersion).toBe(courseVersion);expect(content.version).not.toBe(courseVersion);
+    expect(currentRound(next).order).toEqual(wordIds);expect(courseQueue(next,now)).toHaveLength(18);
+    const imported=restoreBackup(createState(now),parseBackup(JSON.stringify(lastBackup)),now);
+    expect(imported.memory).toEqual(prior.memory);expect(imported.notes).toEqual(prior.notes);
+    expect(imported.bookmarks).toEqual(prior.bookmarks);expect(todayCourseDone(imported,now)).toBe(12);
+    const backup=parseBackup(exportBackup(imported,now));
+    expect(backup.contentVersion).toBe(courseVersion);expect(backup.contentRevision).toBe(content.version);
+  });
+});
 describe('真实v0.1档案升级到当前词包',()=>{
   it('原语义轮扩展，12条评分、当天30词、复习记忆和个人内容完整保留',()=>{
     const prior=cast(oldState),next=migrateState(prior,date);
-    expect(next.packId).toBe(content.id);expect(next.contentVersion).toBe(content.version);
+    expect(next.packId).toBe(content.id);expect(next.contentVersion).toBe(courseVersion);
     expect(next.events).toEqual(prior.events);expect(next.memory).toEqual(prior.memory);
     expect(next.notes).toEqual(prior.notes);expect(next.bookmarks).toEqual(prior.bookmarks);
     expect(next.deviceId).toBe(prior.deviceId);expect(next.profileId).toBe(prior.profileId);
@@ -78,7 +95,7 @@ describe('真实v0.2的300词档案与v2备份升级',()=>{
     const prior=cast(recentState),next=migrateState(prior,now);
     expect(currentRound(next).order.slice(0,300)).toEqual(currentRound(prior).order);
     expect(currentRound(next).order).toHaveLength(wordIds.length);
-    expect(next.contentUpdate).toMatchObject({fromVersion:'0.2.0',toVersion:content.version,addedWords:300,policy:'extended-semantic'});
+    expect(next.contentUpdate).toMatchObject({fromVersion:'0.2.0',toVersion:courseVersion,addedWords:300,policy:'extended-semantic'});
     expect(next.events).toEqual(prior.events);expect(next.memory).toEqual(prior.memory);
     expect(next.notes).toEqual(prior.notes);expect(next.bookmarks).toEqual(prior.bookmarks);
     expect(next.deviceId).toBe(prior.deviceId);expect(next.profileId).toBe(prior.profileId);
