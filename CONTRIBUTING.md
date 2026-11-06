@@ -2,9 +2,11 @@
 
 1.0开发优先完善离线背词、词卡质量与跨设备使用，不加入广告、收费接口、语法课程或考试题库。
 
+开发代理接手前请阅读仓库根目录的 [AGENTS.md](AGENTS.md)，其中约定了内容生产、旧档案兼容、界面、验证与发布规则。
+
 ## 开始开发
 
-使用 Node.js 24，运行 `npm ci`、`npm run dev`。提交前执行 `npm test` 与 `npm run build`；界面与学习操作发生变化时，再运行 `npm run test:ui`。详细环境和安卓构建步骤见 README。
+使用 Node.js 24，运行 `npm ci`、`npm run dev`。代码或词包提交前执行 `npm test` 与 `npm run build`；界面与学习操作发生变化时，再运行 `npm run test:ui`。纯文档修改核对链接、命令和事实，并执行 `git diff --check`。详细环境和安卓构建步骤见 README。
 
 ## 修改内容
 

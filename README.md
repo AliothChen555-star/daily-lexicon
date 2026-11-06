@@ -4,7 +4,7 @@
 
 项目已结束试用阶段，进入 **1.0正式版开发**。当前构建为`1.0.0-dev.2`，继续支持已有学习档案。正式发行前的工作与验收条件见[1.0开发任务书](docs/1.0开发任务书.md)。
 
-[源码](https://github.com/AliothChen555-star/daily-lexicon) · [程序许可](LICENSE) · [内容许可](content/LICENSE.md) · [验证记录](docs/验证记录.md)
+[源码](https://github.com/AliothChen555-star/daily-lexicon) · [程序许可](LICENSE) · [内容许可](content/LICENSE.md) · [验证记录](docs/验证记录.md) · [开发代理指南](AGENTS.md)
 
 [![源码与词包检查](https://github.com/AliothChen555-star/daily-lexicon/actions/workflows/ci.yml/badge.svg)](https://github.com/AliothChen555-star/daily-lexicon/actions/workflows/ci.yml)
 
