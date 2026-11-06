@@ -1,5 +1,7 @@
 import { test,expect } from '@playwright/test';
+import content from '../../src/data/content.json' with {type:'json'};
 import legacyState from '../fixtures/v0.1-state.json' with {type:'json'};
+import recentState from '../fixtures/v0.2-state.json' with {type:'json'};
 
 test('翻卡、评分、刷新后续学与撤销',async ({page}) => {
   const errors:string[]=[]; page.on('pageerror',e=>errors.push(e.message));
@@ -37,8 +39,11 @@ test('三级语义筛选能逐层定位，切换主题清除下级选择',async 
   await expect(page.locator('.dictionary-row')).toHaveCount(30);
 });
 
-test('旧版本地档案启动升级后保留12词进度和笔记，刷新不重复配额',async ({page})=>{
-  await page.clock.setFixedTime(new Date('2026-11-04T04:00:00Z'));
+for(const {version,state,now} of [
+  {version:'0.1',state:legacyState,now:'2026-11-04T04:00:00Z'},
+  {version:'0.2',state:recentState,now:'2026-11-06T02:00:00Z'},
+]) test(`${version}本地档案升级后保留12词进度和笔记，刷新不重复配额`,async ({page})=>{
+  await page.clock.setFixedTime(new Date(now));
   await page.goto('/');await expect(page.getByRole('button',{name:'开始今日学习',exact:true})).toBeVisible();
   await page.evaluate(async value=>{
     await new Promise<void>((resolve,reject)=>{
@@ -46,21 +51,42 @@ test('旧版本地档案启动升级后保留12词进度和笔记，刷新不重
       request.onerror=()=>reject(request.error);
       request.onsuccess=()=>{const db=request.result,tx=db.transaction('state','readwrite');tx.objectStore('state').put({key:'main',value});tx.oncomplete=()=>{db.close();resolve();};tx.onerror=()=>reject(tx.error);};
     });
-  },legacyState);
+  },state);
   await page.reload();
-  await expect(page.getByLabel('词包升级说明',{exact:true})).toContainText('增补 180 词');
+  await expect(page.getByLabel('词包升级说明',{exact:true})).toContainText(`增补 ${content.words.length-state.rounds.at(-1)!.order.length} 词`);
   await expect(page.getByRole('progressbar')).toHaveAttribute('aria-valuenow','12');
   await expect(page.getByRole('progressbar')).toHaveAttribute('aria-valuemax','30');
-  await expect(page.getByText('本轮 12 / 300 词',{exact:true})).toBeVisible();
+  await expect(page.getByText(`本轮 12 / ${content.words.length} 词`,{exact:true})).toBeVisible();
   await page.getByRole('button',{name:'继续今日学习'}).click();
   await expect(page.getByRole('heading',{name:'prospect',exact:true})).toBeVisible();
   await page.getByRole('button',{name:'返回今日版'}).click();await page.reload();
   await expect(page.getByRole('progressbar')).toHaveAttribute('aria-valuenow','12');
   await page.getByRole('button',{name:'词库目录',exact:true}).click();
   await page.getByRole('combobox',{name:'学习状态'}).selectOption('saved');
-  await expect(page.locator('.dictionary-row')).toHaveCount(2);
+  await expect(page.locator('.dictionary-row')).toHaveCount(state.bookmarks.length);
   await page.getByRole('textbox',{name:'搜索单词或中文释义'}).fill('see');await page.locator('.dictionary-word').click();
-  await expect(page.getByRole('textbox',{name:'我的笔记'})).toHaveValue(legacyState.notes['dl-see']);
+  await expect(page.getByRole('textbox',{name:'我的笔记'})).toHaveValue(state.notes['dl-see']);
+});
+
+test('新增基础表达和技术词可检索，大写I使用小写稳定音频路径',async ({page})=>{
+  await page.goto('/#library');
+  await page.getByRole('button',{name:'基础表达',exact:true}).click();
+  await page.getByRole('combobox',{name:'学习场景'}).selectOption('basic-expression');
+  await page.getByRole('combobox',{name:'概念分块'}).selectOption('basic-self');
+  await expect(page.locator('.dictionary-row')).toHaveCount(2);
+  await page.getByRole('button',{name:'I /aɪ/',exact:true}).click();
+  await expect(page.getByRole('heading',{name:'I',exact:true})).toBeVisible();
+  await expect(page.getByRole('dialog')).toContainText('第一人称单数主格，始终大写 I');
+  const seconds=await page.evaluate(async()=>{
+    const audio=new Audio(new URL('./audio/i.wav',document.baseURI).href);
+    await audio.play();await new Promise<void>((resolve,reject)=>{audio.onended=()=>resolve();audio.onerror=()=>reject(new Error('new local audio failed'));});return audio.duration;
+  });
+  expect(seconds).toBeGreaterThan(.15);
+  await page.getByRole('button',{name:'关闭弹窗'}).click();
+  await page.getByRole('button',{name:'信息与技术',exact:true}).click();
+  await expect(page.locator('.dictionary-row')).toHaveCount(30);
+  await page.getByRole('textbox',{name:'搜索单词或中文释义'}).fill('innovation');
+  await expect(page.locator('.dictionary-row')).toHaveCount(1);
 });
 
 test('词库搜索、收藏、笔记和备份往返',async ({page},testInfo) => {

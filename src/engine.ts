@@ -67,6 +67,7 @@ function upgradeContent(input: AppState): AppState {
   for(const round of state.rounds) round.contentVersion=catalogVersion(round.order);
   const round=currentRound(state);
   const oldVersion=round.contentVersion ?? legacyCatalog.version;
+  const previousCount=round.order.length;
   let policy:'extended-semantic'|'finish-legacy'='finish-legacy';
   if(round.mode==='semantic' && round.contentVersion!==content.version) {
     const existing=new Set(round.order);
@@ -76,7 +77,7 @@ function upgradeContent(input: AppState): AppState {
     if(round.status!=='complete') delete round.finishedDay;
     policy='extended-semantic';
   }
-  state.contentUpdate={fromVersion:oldVersion,toVersion:content.version,addedWords:wordIds.length-legacyCatalog.wordIds.length,policy,dismissed:false};
+  state.contentUpdate={fromVersion:oldVersion,toVersion:content.version,addedWords:wordIds.length-previousCount,policy,dismissed:false};
   return state;
 }
 export function migrateState(input: AppState, now=new Date()) { return ensureDaily(input,now); }

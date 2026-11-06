@@ -3,6 +3,7 @@ import { content, families, wordIds } from '../src/content';
 import { activeEvents, courseQueue, coveredWords, createState, currentRound, ensureDaily, exportBackup, getPlan, gradeWord, initializeEngine, makeRound, parseBackup, restoreBackup, reviewQueue, startRound, studyDay, todayCourseDone, undoLast, updateSettings, type AppState } from '../src/engine';
 
 const day = (n=0,hour=9) => new Date(Date.UTC(2026,10,4+n,hour-8));
+const courseDays = Math.ceil(wordIds.length / 30);
 const initial = () => createState(day(),'profile-test','device-test');
 function completeToday(input: AppState,date: Date) { let state=ensureDaily(input,date); for (const [i,id] of courseQueue(state,date).entries()) state=gradeWord(state,id,3,'course',new Date(+date+i*1000),`score-${state.rounds.length}-${date.toISOString()}-${i}`); return state; }
 beforeAll(async () => { await initializeEngine(); });
@@ -43,19 +44,19 @@ describe('课程、记忆和备份的实际约束', () => {
     state=gradeWord(state,wordIds[0],3,'review',new Date(+day()+120000));
     expect(todayCourseDone(state,day())).toBe(1); expect(courseQueue(state,day())).toHaveLength(29);
   });
-  it('十天完成300词，次日自动进入词根轮，保留记忆并完整重读', () => {
-    let state=initial(); for(let n=0;n<10;n++) state=completeToday(state,day(n));
-    expect(currentRound(state).status).toBe('complete'); expect(coveredWords(state).size).toBe(300);
-    expect(ensureDaily(state,day(9,18)).rounds).toHaveLength(1);
-    const next=ensureDaily(state,day(10)); expect(currentRound(next).mode).toBe('roots');
-    expect(coveredWords(next).size).toBe(0); expect(Object.keys(next.memory)).toHaveLength(300);
-    expect(courseQueue(next,day(10))).toHaveLength(30);
+  it('二十天完成600词，次日自动进入词根轮，保留记忆并完整重读', () => {
+    let state=initial(); for(let n=0;n<courseDays;n++) state=completeToday(state,day(n));
+    expect(currentRound(state).status).toBe('complete'); expect(coveredWords(state).size).toBe(wordIds.length);
+    expect(ensureDaily(state,day(courseDays-1,18)).rounds).toHaveLength(1);
+    const next=ensureDaily(state,day(courseDays)); expect(currentRound(next).mode).toBe('roots');
+    expect(coveredWords(next).size).toBe(0); expect(Object.keys(next.memory)).toHaveLength(wordIds.length);
+    expect(courseQueue(next,day(courseDays))).toHaveLength(30);
   });
-  it('撤销最后一个词会重新打开已完成轮次，并保留其他299词', () => {
-    let state=initial(); for(let n=0;n<10;n++) state=completeToday(state,day(n));
-    const undone=undoLast(state,day(9,10));
-    expect(currentRound(undone).status).toBe('active'); expect(coveredWords(undone).size).toBe(299);
-    expect(courseQueue(undone,day(9,10))).toEqual([wordIds.at(-1)]); expect(activeEvents(undone)).toHaveLength(299);
+  it('撤销最后一个词会重新打开已完成轮次，并保留其他已读词', () => {
+    let state=initial(); for(let n=0;n<courseDays;n++) state=completeToday(state,day(n));
+    const undone=undoLast(state,day(courseDays-1,10));
+    expect(currentRound(undone).status).toBe('active'); expect(coveredWords(undone).size).toBe(wordIds.length-1);
+    expect(courseQueue(undone,day(courseDays-1,10))).toEqual([wordIds.at(-1)]); expect(activeEvents(undone)).toHaveLength(wordIds.length-1);
   });
   it('调整目标不删除已完成的词，手动换轮不删除复习', () => {
     let state=initial(); for(let i=0;i<8;i++) state=gradeWord(state,wordIds[i],3,'course',new Date(+day()+i*1000));

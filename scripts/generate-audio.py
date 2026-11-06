@@ -17,10 +17,12 @@ overrides={
     'live.wav':'lˈɪv.','use.wav':'jˈuːz.','house.wav':'hˈaʊs.',
     'frequent.wav':'fɹˈiːkwənt.','coordinate.wav':'koʊˈɔːɹdɪneɪt.',
     'legitimate.wav':'lɪdʒˈɪtəmət.','replicate.wav':'ɹˈɛplɪkeɪt.',
+    'graduate.wav':'ɡɹˈædʒuˌeɪt.','route.wav':'ɹˈuːt.',
 }
 manifest=[]
 for index,word in enumerate(content['words']):
-    pieces=[(word['word']+'.', word['word']+'.wav')]+[(x['en'],word['word']+'--'+str(n+1)+'.wav') for n,x in enumerate(word['examples'])]
+    stem=word['id'].removeprefix('dl-')
+    pieces=[(word['word']+'.', stem+'.wav')]+[(x['en'],stem+'--'+str(n+1)+'.wav') for n,x in enumerate(word['examples'])]
     for text,filename in pieces:
         target=OUT/filename
         generated_text='reed.' if filename=='read.wav' else text
@@ -45,5 +47,5 @@ for index,word in enumerate(content['words']):
 outmeta=ROOT/'public/licenses'
 outmeta.mkdir(parents=True,exist_ok=True)
 shutil.copy2(VOICE/'MODEL_CARD',outmeta/'piper-ljspeech-model-card.txt')
-(OUT/'manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2),encoding='utf-8')
+(OUT/'manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2),encoding='utf-8',newline='\n')
 print('Completed',len(manifest),'offline audio files.',flush=True)

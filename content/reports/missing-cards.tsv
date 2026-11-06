@@ -2,14 +2,12 @@ word	sourceSpellings	sourceTags	status
 abandon	abandon	cet4 cet6 gk	candidate-card-needed
 abbreviation	abbreviation	cet6	candidate-card-needed
 abide	abide	cet6	candidate-card-needed
-ability	ability	cet4 gk zk	candidate-card-needed
 able	able	gk zk	candidate-card-needed
 abnormal	abnormal	cet4 cet6 gk	candidate-card-needed
 aboard	aboard	cet4 gk	candidate-card-needed
 abolish	abolish	cet6 gk	candidate-card-needed
 abortion	abortion	gk	candidate-card-needed
 about	about	gk zk	candidate-card-needed
-above	above	gk zk	candidate-card-needed
 abroad	abroad	gk zk	candidate-card-needed
 abrupt	abrupt	cet6 gk	candidate-card-needed
 absence	absence	cet4 cet6 gk	candidate-card-needed
@@ -23,7 +21,6 @@ absurd	absurd	cet6 gk	candidate-card-needed
 abundance	abundance	cet6	candidate-card-needed
 abundant	abundant	cet4 gk	candidate-card-needed
 abuse	abuse	cet4 cet6 gk	candidate-card-needed
-academic	academic	cet4 cet6 gk	candidate-card-needed
 academy	academy	cet4 cet6 gk	candidate-card-needed
 accelerate	accelerate	cet4 cet6 gk	candidate-card-needed
 acceleration	acceleration	cet4	candidate-card-needed
@@ -31,9 +28,7 @@ accent	accent	cet4 gk zk	candidate-card-needed
 accept	accept	cet4 gk zk	candidate-card-needed
 acceptable	acceptable	cet4	candidate-card-needed
 acceptance	acceptance	cet4 cet6	candidate-card-needed
-access	access	cet4 cet6 gk	candidate-card-needed
 accessary	accessary	cet6	candidate-card-needed
-accessible	accessible	cet6 gk	candidate-card-needed
 accessory	accessory	cet4 cet6	candidate-card-needed
 accident	accident	cet4 gk zk	candidate-card-needed
 accidental	accidental	cet4 cet6	candidate-card-needed
@@ -52,8 +47,6 @@ accuse	accuse	cet4 cet6 gk	candidate-card-needed
 accustom	accustom	cet4 cet6	candidate-card-needed
 accustomed	accustomed	cet4 cet6 gk	candidate-card-needed
 ache	ache	cet4 gk zk	candidate-card-needed
-achieve	achieve	cet4 cet6 gk zk	candidate-card-needed
-achievement	achievement	cet4 cet6 gk	candidate-card-needed
 acid	acid	cet4 cet6 gk	candidate-card-needed
 acknowledge	acknowledge	cet4 cet6 gk	candidate-card-needed
 acquaint	acquaint	cet6	candidate-card-needed
@@ -62,7 +55,6 @@ acquire	acquire	cet4 cet6 gk	candidate-card-needed
 acquisition	acquisition	cet4 cet6 gk	candidate-card-needed
 acquisitive	acquisitive	cet6	candidate-card-needed
 acre	acre	cet4 gk	candidate-card-needed
-across	across	gk zk	candidate-card-needed
 act	act	cet4 gk zk	candidate-card-needed
 action	action	cet4 cet6 gk zk	candidate-card-needed
 active	active	cet4 gk zk	candidate-card-needed
@@ -126,12 +118,10 @@ afflict	afflict	cet6	candidate-card-needed
 affluence	affluence	cet6	candidate-card-needed
 affluent	affluent	cet4	candidate-card-needed
 afford	afford	cet4 cet6 gk zk	candidate-card-needed
-afraid	afraid	gk zk	candidate-card-needed
 africa	Africa	cet4 gk	candidate-card-needed
 african	African	cet4 gk	candidate-card-needed
 afternoon	afternoon	gk zk	candidate-card-needed
 afterward	afterward	cet4 cet6 gk	candidate-card-needed
-again	again	gk zk	candidate-card-needed
 against	against	cet4 gk zk	candidate-card-needed
 age	age	gk zk	candidate-card-needed
 agency	agency	cet4 gk	candidate-card-needed
@@ -185,12 +175,10 @@ alloy	alloy	cet4 cet6	candidate-card-needed
 ally	ally	cet6	candidate-card-needed
 almost	almost	gk zk	candidate-card-needed
 alone	alone	cet4 gk zk	candidate-card-needed
-along	along	gk zk	candidate-card-needed
 alongside	alongside	cet6 gk	candidate-card-needed
 aloud	aloud	cet4 gk zk	candidate-card-needed
 alphabet	alphabet	cet4 cet6 gk	candidate-card-needed
 already	already	gk zk	candidate-card-needed
-also	also	gk zk	candidate-card-needed
 alter	alter	cet4 cet6	candidate-card-needed
 alteration	alteration	cet6	candidate-card-needed
 alternate	alternate	cet6	candidate-card-needed
@@ -200,7 +188,6 @@ altitude	altitude	cet4 cet6 gk	candidate-card-needed
 altogether	altogether	cet4 gk	candidate-card-needed
 aluminium	aluminium	cet4 cet6 gk	candidate-card-needed
 aluminum	aluminum	cet4	candidate-card-needed
-always	always	gk zk	candidate-card-needed
 am	AM	gk	candidate-card-needed
 amateur	amateur	cet6 gk	candidate-card-needed
 amaze	amaze	cet4 cet6 gk	candidate-card-needed
@@ -209,8 +196,6 @@ ambassador	ambassador	cet6 gk	candidate-card-needed
 ambient	ambient	cet6	candidate-card-needed
 ambiguity	ambiguity	cet6	candidate-card-needed
 ambiguous	ambiguous	cet6 gk	candidate-card-needed
-ambition	ambition	cet4 cet6 gk	candidate-card-needed
-ambitious	ambitious	cet6	candidate-card-needed
 ambulance	ambulance	cet4 gk	candidate-card-needed
 amends	amends	cet6	candidate-card-needed
 america	America	gk zk	candidate-card-needed
@@ -239,7 +224,6 @@ anecdote	anecdote	gk	candidate-card-needed
 angel	angel	cet4	candidate-card-needed
 anger	anger	cet4 gk	candidate-card-needed
 angle	angle	cet4 gk	candidate-card-needed
-angry	angry	gk zk	candidate-card-needed
 animal	animal	gk zk	candidate-card-needed
 ankle	ankle	cet4 cet6 gk	candidate-card-needed
 anniversary	anniversary	cet6 gk	candidate-card-needed
@@ -251,8 +235,6 @@ annual	annual	cet4 gk	candidate-card-needed
 annually	annually	cet6	candidate-card-needed
 anode	anode	cet6	candidate-card-needed
 anonymous	anonymous	cet6	candidate-card-needed
-another	another	gk zk	candidate-card-needed
-answer	answer	gk zk	candidate-card-needed
 ant	ant	cet4 gk zk	candidate-card-needed
 antarctic	antarctic	cet6 gk	candidate-card-needed
 antarctica	Antarctica	gk	candidate-card-needed
@@ -260,8 +242,6 @@ antenna	antenna	cet6	candidate-card-needed
 anticipate	anticipate	cet4 cet6	candidate-card-needed
 antique	antique	cet6 gk	candidate-card-needed
 antisocial	antisocial	cet6	candidate-card-needed
-anxiety	anxiety	cet4 cet6 gk	candidate-card-needed
-anxious	anxious	cet4 cet6 gk	candidate-card-needed
 any	any	gk zk	candidate-card-needed
 anybody	anybody	gk zk	candidate-card-needed
 anyhow	anyhow	cet4 gk	candidate-card-needed
@@ -320,30 +300,21 @@ argue	argue	cet4 cet6 gk	candidate-card-needed
 argument	argument	cet4 gk	candidate-card-needed
 arise	arise	cet4 cet6 gk	candidate-card-needed
 arithmetic	arithmetic	cet4 cet6 gk	candidate-card-needed
-arm	arm	gk zk	candidate-card-needed
 armchair	armchair	gk	candidate-card-needed
 army	army	cet4 gk zk	candidate-card-needed
-around	around	gk zk	candidate-card-needed
 arouse	arouse	cet4 cet6	candidate-card-needed
 arrange	arrange	cet4 gk	candidate-card-needed
 arrangement	arrangement	cet4 gk	candidate-card-needed
 array	array	cet6	candidate-card-needed
 arrest	arrest	cet4 cet6 gk	candidate-card-needed
-arrival	arrival	cet4 gk	candidate-card-needed
-arrive	arrive	gk zk	candidate-card-needed
 arrogant	arrogant	cet6	candidate-card-needed
 arrow	arrow	cet4 gk	candidate-card-needed
-art	art	cet4 gk zk	candidate-card-needed
 article	article	cet4 gk zk	candidate-card-needed
 articulate	articulate	cet6	candidate-card-needed
-artificial	artificial	cet4 cet6 gk	candidate-card-needed
-artist	artist	cet4 gk	candidate-card-needed
-artistic	artistic	cet4 cet6	candidate-card-needed
 ascend	ascend	cet6	candidate-card-needed
 ascertain	ascertain	cet6	candidate-card-needed
 ascribe	ascribe	cet4 cet6	candidate-card-needed
 ash	ash	cet4 gk	candidate-card-needed
-ashamed	ashamed	cet4 gk	candidate-card-needed
 ashore	ashore	cet6	candidate-card-needed
 asia	Asia	gk zk	candidate-card-needed
 asian	Asian	gk zk	candidate-card-needed
@@ -389,7 +360,6 @@ attach	attach	cet4 cet6 gk	candidate-card-needed
 attachment	attachment	cet6	candidate-card-needed
 attack	attack	cet4 cet6 gk	candidate-card-needed
 attain	attain	cet4 cet6 gk	candidate-card-needed
-attempt	attempt	cet4 cet6 gk	candidate-card-needed
 attend	attend	cet4 gk	candidate-card-needed
 attendance	attendance	cet6	candidate-card-needed
 attendant	attendant	cet6	candidate-card-needed
@@ -415,8 +385,6 @@ authority	authority	cet4 cet6 gk	candidate-card-needed
 auto	auto	cet4	candidate-card-needed
 autobiography	autobiography	cet4	candidate-card-needed
 automate	automate	cet6	candidate-card-needed
-automatic	automatic	cet4 cet6 gk	candidate-card-needed
-automatically	automatically	cet4	candidate-card-needed
 automation	automation	cet4 cet6	candidate-card-needed
 automobile	automobile	cet4 cet6	candidate-card-needed
 autumn	autumn	gk zk	candidate-card-needed
@@ -519,7 +487,6 @@ battle	battle	cet4 cet6 gk	candidate-card-needed
 battleground	battleground	gk	candidate-card-needed
 bay	bay	cet4 cet6 gk	candidate-card-needed
 bazaar	bazaar	cet6	candidate-card-needed
-be	be	gk zk	candidate-card-needed
 beach	beach	cet4 gk zk	candidate-card-needed
 bead	bead	cet6	candidate-card-needed
 beam	beam	cet4 cet6 gk	candidate-card-needed
@@ -533,7 +500,6 @@ beat	beat	gk zk	candidate-card-needed
 beautiful	beautiful	gk zk	candidate-card-needed
 beauty	beauty	cet4 gk	candidate-card-needed
 become	become	gk zk	candidate-card-needed
-bed	bed	gk zk	candidate-card-needed
 bedclothes	bedclothes	gk	candidate-card-needed
 beddings	beddings	gk	candidate-card-needed
 bedroom	bedroom	gk zk	candidate-card-needed
@@ -551,14 +517,12 @@ behalf	behalf	cet4 cet6 gk	candidate-card-needed
 behave	behave	cet4 cet6 gk	candidate-card-needed
 behavior	behavior	cet4 cet6	candidate-card-needed
 behaviour	behaviour	gk zk	candidate-card-needed
-behind	behind	gk zk	candidate-card-needed
 being	being	cet4 gk	candidate-card-needed
 belgium	Belgium	gk	candidate-card-needed
 bell	bell	gk zk	candidate-card-needed
 belly	belly	gk	candidate-card-needed
 belong	belong	cet4 gk	candidate-card-needed
 beloved	beloved	cet4	candidate-card-needed
-below	below	gk zk	candidate-card-needed
 belt	belt	cet4 gk	candidate-card-needed
 bench	bench	cet4 cet6 gk	candidate-card-needed
 bend	bend	cet4 cet6 gk	candidate-card-needed
@@ -575,7 +539,6 @@ bestow	bestow	cet6	candidate-card-needed
 bet	bet	cet4	candidate-card-needed
 betray	betray	cet4 cet6 gk	candidate-card-needed
 better	better	gk	candidate-card-needed
-between	between	gk zk	candidate-card-needed
 beware	beware	cet6	candidate-card-needed
 bewilder	bewilder	cet6	candidate-card-needed
 beyond	beyond	cet4 gk zk	candidate-card-needed
@@ -625,7 +588,6 @@ blind	blind	cet4 cet6 gk zk	candidate-card-needed
 blink	blink	cet6	candidate-card-needed
 block	block	gk	candidate-card-needed
 blond	blond	cet6	candidate-card-needed
-blood	blood	cet4 gk zk	candidate-card-needed
 bloom	bloom	cet4 cet6	candidate-card-needed
 blossom	blossom	cet4 cet6	candidate-card-needed
 blouse	blouse	cet6 gk	candidate-card-needed
@@ -640,14 +602,12 @@ board	board	cet4 cet6 gk zk	candidate-card-needed
 boast	boast	cet4 cet6	candidate-card-needed
 boat	boat	gk zk	candidate-card-needed
 boating	boating	gk	candidate-card-needed
-body	body	zk	candidate-card-needed
 boil	boil	cet4 gk	candidate-card-needed
 boiler	boiler	cet6	candidate-card-needed
 bold	bold	cet4 cet6	candidate-card-needed
 bolt	bolt	cet4 cet6	candidate-card-needed
 bomb	bomb	cet4 cet6 gk	candidate-card-needed
 bond	bond	cet4 cet6 gk	candidate-card-needed
-bone	bone	cet4 gk	candidate-card-needed
 bonus	bonus	cet6 gk	candidate-card-needed
 bookcase	bookcase	gk	candidate-card-needed
 bookmark	bookmark	gk	candidate-card-needed
@@ -684,19 +644,15 @@ boxing	boxing	gk	candidate-card-needed
 boy	boy	gk zk	candidate-card-needed
 boycott	boycott	cet6 gk	candidate-card-needed
 brace	brace	cet6	candidate-card-needed
-brain	brain	cet4 gk zk	candidate-card-needed
 brake	brake	cet4 gk	candidate-card-needed
 branch	branch	cet4 gk	candidate-card-needed
 brand	brand	cet4 cet6 gk	candidate-card-needed
 brandy	brandy	cet4 cet6	candidate-card-needed
 brass	brass	cet4	candidate-card-needed
-brave	brave	cet4 gk zk	candidate-card-needed
 bravery	bravery	gk	candidate-card-needed
-bread	bread	gk zk	candidate-card-needed
 breadth	breadth	cet4 cet6	candidate-card-needed
 break	break	gk zk	candidate-card-needed
 breakdown	breakdown	cet6	candidate-card-needed
-breakfast	breakfast	gk zk	candidate-card-needed
 breakthrough	breakthrough	gk	candidate-card-needed
 breast	breast	cet4 cet6 gk	candidate-card-needed
 breathless	breathless	gk	candidate-card-needed
@@ -744,7 +700,6 @@ bucket	bucket	cet4 cet6 gk	candidate-card-needed
 bud	bud	cet4 cet6	candidate-card-needed
 buddhism	Buddhism	cet6 gk	candidate-card-needed
 buddhist	Buddhist	gk	candidate-card-needed
-budget	budget	cet4 cet6 gk	candidate-card-needed
 buffalo	buffalo	cet6	candidate-card-needed
 buffet	buffet	gk	candidate-card-needed
 bug	bug	cet6	candidate-card-needed
@@ -781,7 +736,6 @@ butt	butt	cet6	candidate-card-needed
 butter	butter	cet4 gk zk	candidate-card-needed
 butterfly	butterfly	cet4 gk zk	candidate-card-needed
 button	button	cet4 cet6 gk	candidate-card-needed
-buy	buy	gk zk	candidate-card-needed
 buzz	buzz	cet6	candidate-card-needed
 by	by	gk zk	candidate-card-needed
 by-product	by-product	cet6	candidate-card-needed
@@ -803,13 +757,11 @@ calculus	calculus	cet6	candidate-card-needed
 calendar	calendar	cet4 cet6	candidate-card-needed
 calibration	calibration	cet6	candidate-card-needed
 call	call	gk zk	candidate-card-needed
-calm	calm	cet4 cet6 gk	candidate-card-needed
 camel	camel	cet4 cet6 gk zk	candidate-card-needed
 camera	camera	cet4 cet6 gk zk	candidate-card-needed
 camp	camp	cet4 cet6 gk zk	candidate-card-needed
 campaign	campaign	cet4 cet6 gk	candidate-card-needed
 campus	campus	cet4 cet6	candidate-card-needed
-can	can	gk zk	candidate-card-needed
 canada	Canada	gk zk	candidate-card-needed
 canadian	Canadian	gk	candidate-card-needed
 canal	canal	cet4 cet6 gk	candidate-card-needed
@@ -840,7 +792,6 @@ capture	capture	cet4 cet6	candidate-card-needed
 car	car	gk zk	candidate-card-needed
 carbon	carbon	cet4 cet6 gk	candidate-card-needed
 card	card	gk zk	candidate-card-needed
-career	career	cet4	candidate-card-needed
 careless	careless	cet4 gk zk	candidate-card-needed
 cargo	cargo	cet4 cet6	candidate-card-needed
 carpenter	carpenter	cet4 cet6 gk	candidate-card-needed
@@ -880,8 +831,6 @@ cd	CD	gk zk	candidate-card-needed
 cd-rom	CD-ROM	zk	candidate-card-needed
 cease	cease	cet4 cet6	candidate-card-needed
 ceiling	ceiling	cet4 cet6 gk zk	candidate-card-needed
-celebrate	celebrate	cet4 cet6 gk zk	candidate-card-needed
-celebration	celebration	gk	candidate-card-needed
 cell	cell	cet4 cet6 gk	candidate-card-needed
 cellar	cellar	cet4 cet6 gk	candidate-card-needed
 cement	cement	cet4 cet6	candidate-card-needed
@@ -895,13 +844,11 @@ centre	centre	cet4 cet6 gk zk	candidate-card-needed
 century	century	cet4 cet6 gk zk	candidate-card-needed
 ceramic	ceramic	cet6	candidate-card-needed
 cereal	cereal	cet6	candidate-card-needed
-ceremony	ceremony	cet4 cet6 gk	candidate-card-needed
 certain	certain	cet4 gk zk	candidate-card-needed
 certainly	certainly	gk	candidate-card-needed
 certainty	certainty	cet4 cet6	candidate-card-needed
 certificate	certificate	cet4 cet6 gk	candidate-card-needed
 chain	chain	cet4 cet6 gk	candidate-card-needed
-chair	chair	gk zk	candidate-card-needed
 chairman	chairman	cet4 cet6 gk zk	candidate-card-needed
 chairwoman	chairwoman	gk	candidate-card-needed
 chalk	chalk	cet4 cet6 gk zk	candidate-card-needed
@@ -962,10 +909,8 @@ chinese	Chinese	gk zk	candidate-card-needed
 chip	chip	cet6	candidate-card-needed
 chips	chips	gk	candidate-card-needed
 chocolate	chocolate	cet4 gk zk	candidate-card-needed
-choice	choice	cet4 cet6 gk zk	candidate-card-needed
 choir	choir	gk	candidate-card-needed
 choke	choke	cet4 cet6 gk	candidate-card-needed
-choose	choose	cet4 gk zk	candidate-card-needed
 chop	chop	cet4 cet6	candidate-card-needed
 chopsticks	chopsticks	gk zk	candidate-card-needed
 chord	chord	cet6	candidate-card-needed
@@ -993,7 +938,6 @@ citizen	citizen	cet4 cet6 gk	candidate-card-needed
 city	city	gk zk	candidate-card-needed
 civil	civil	cet4 cet6 gk	candidate-card-needed
 civilian	civilian	cet4 cet6 gk	candidate-card-needed
-civilization	civilization	cet4 cet6 gk	candidate-card-needed
 civilize	civilize	cet4 cet6	candidate-card-needed
 claim	claim	cet4 cet6	candidate-card-needed
 clamp	clamp	cet6	candidate-card-needed
@@ -1001,7 +945,6 @@ clap	clap	cet4 cet6 gk zk	candidate-card-needed
 clarify	clarify	cet4 cet6 gk	candidate-card-needed
 clash	clash	cet6	candidate-card-needed
 clasp	clasp	cet4 cet6	candidate-card-needed
-class	class	gk zk	candidate-card-needed
 classic	classic	cet4 cet6 gk	candidate-card-needed
 classical	classical	cet4 cet6 gk	candidate-card-needed
 classification	classification	cet4 cet6	candidate-card-needed
@@ -1056,7 +999,6 @@ coastal	coastal	cet6	candidate-card-needed
 coat	coat	cet4 gk zk	candidate-card-needed
 cock	cock	cet4 cet6 gk	candidate-card-needed
 cocoa	cocoa	gk	candidate-card-needed
-code	code	cet4	candidate-card-needed
 coefficient	coefficient	cet6	candidate-card-needed
 coffee	coffee	gk zk	candidate-card-needed
 coffin	coffin	cet6	candidate-card-needed
@@ -1111,7 +1053,6 @@ commonsense	commonsense	cet6	candidate-card-needed
 commonwealth	commonwealth	cet6	candidate-card-needed
 communism	communism	cet4 cet6 gk	candidate-card-needed
 communist	communist	cet4 cet6 gk	candidate-card-needed
-community	community	cet4 cet6	candidate-card-needed
 commute	commute	cet6	candidate-card-needed
 compact	compact	cet6	candidate-card-needed
 companion	companion	cet4 cet6 gk	candidate-card-needed
@@ -1160,10 +1101,8 @@ comprehensive	comprehensive	cet4 cet6	candidate-card-needed
 compress	compress	cet4 cet6	candidate-card-needed
 compression	compression	cet6	candidate-card-needed
 comprise	comprise	cet4 cet6	candidate-card-needed
-compromise	compromise	cet4 cet6 gk	candidate-card-needed
 compulsory	compulsory	cet6 gk	candidate-card-needed
 compute	compute	cet4 cet6	candidate-card-needed
-computer	computer	gk zk	candidate-card-needed
 comrade	comrade	cet4 cet6 gk	candidate-card-needed
 conceal	conceal	cet4 cet6	candidate-card-needed
 concede	concede	cet6	candidate-card-needed
@@ -1188,8 +1127,6 @@ conductor	conductor	cet4 cet6 gk	candidate-card-needed
 confer	confer	cet6	candidate-card-needed
 conference	conference	cet4 cet6 gk zk	candidate-card-needed
 confess	confess	cet4 cet6	candidate-card-needed
-confidence	confidence	cet4 cet6	candidate-card-needed
-confident	confident	cet4 cet6 gk	candidate-card-needed
 confidential	confidential	cet6 gk	candidate-card-needed
 configuration	configuration	cet6	candidate-card-needed
 confine	confine	cet4 cet6	candidate-card-needed
@@ -1237,9 +1174,6 @@ consul	consul	cet6	candidate-card-needed
 consult	consult	cet4 cet6 gk	candidate-card-needed
 consultancy	consultancy	cet6	candidate-card-needed
 consultant	consultant	cet6 gk	candidate-card-needed
-consume	consume	cet4 cet6 gk	candidate-card-needed
-consumer	consumer	cet4 cet6	candidate-card-needed
-consumption	consumption	cet4 cet6	candidate-card-needed
 contact	contact	cet4 cet6	candidate-card-needed
 contain	contain	cet4 cet6 gk	candidate-card-needed
 container	container	cet4 cet6 gk	candidate-card-needed
@@ -1281,7 +1215,6 @@ convict	convict	cet6	candidate-card-needed
 conviction	conviction	cet6	candidate-card-needed
 convince	convince	cet4 cet6 gk	candidate-card-needed
 convincing	convincing	cet6	candidate-card-needed
-cook	cook	gk zk	candidate-card-needed
 cooker	cooker	gk zk	candidate-card-needed
 cookie	cookie	gk	candidate-card-needed
 cool	cool	gk zk	candidate-card-needed
@@ -1313,7 +1246,6 @@ corrosion	corrosion	cet6	candidate-card-needed
 corrupt	corrupt	cet6 gk	candidate-card-needed
 cosmic	cosmic	cet6	candidate-card-needed
 cosmos	cosmos	cet6	candidate-card-needed
-cost	cost	gk zk	candidate-card-needed
 costly	costly	cet4 cet6	candidate-card-needed
 costume	costume	cet6	candidate-card-needed
 cosy	cosy	gk	candidate-card-needed
@@ -1333,12 +1265,9 @@ country	country	gk zk	candidate-card-needed
 countryside	countryside	gk zk	candidate-card-needed
 county	county	cet4 cet6	candidate-card-needed
 couple	couple	cet4 gk zk	candidate-card-needed
-courage	courage	cet4 cet6 gk zk	candidate-card-needed
 courageous	courageous	cet6	candidate-card-needed
-course	course	cet4 cet6 gk zk	candidate-card-needed
 court	court	cet4 cet6 gk	candidate-card-needed
 courteous	courteous	cet6	candidate-card-needed
-courtesy	courtesy	cet6	candidate-card-needed
 courtyard	courtyard	gk	candidate-card-needed
 cousin	cousin	cet4 cet6 gk zk	candidate-card-needed
 cover	cover	gk zk	candidate-card-needed
@@ -1400,7 +1329,6 @@ cue	cue	cet4 cet6	candidate-card-needed
 cuisine	cuisine	gk	candidate-card-needed
 culminate	culminate	cet6	candidate-card-needed
 cultivate	cultivate	cet4 cet6	candidate-card-needed
-culture	culture	cet4 cet6 gk zk	candidate-card-needed
 cumulative	cumulative	cet6	candidate-card-needed
 cunning	cunning	cet4 cet6	candidate-card-needed
 cup	cup	gk zk	candidate-card-needed
@@ -1408,8 +1336,6 @@ cupboard	cupboard	cet4 cet6 gk	candidate-card-needed
 curative	curative	cet6	candidate-card-needed
 curb	curb	cet6	candidate-card-needed
 cure	cure	cet4 cet6 gk	candidate-card-needed
-curiosity	curiosity	cet4 cet6	candidate-card-needed
-curious	curious	cet4 cet6 gk	candidate-card-needed
 curl	curl	cet4 cet6	candidate-card-needed
 curly	curly	cet6	candidate-card-needed
 currency	currency	cet6 gk	candidate-card-needed
@@ -1421,7 +1347,6 @@ curt	curt	cet6	candidate-card-needed
 curtain	curtain	cet4 cet6 gk	candidate-card-needed
 curve	curve	cet4 cet6	candidate-card-needed
 cushion	cushion	cet4 cet6 gk	candidate-card-needed
-custom	custom	cet4 cet6 gk	candidate-card-needed
 customary	customary	cet6	candidate-card-needed
 customer	customer	cet4 cet6 gk	candidate-card-needed
 customs	customs	gk	candidate-card-needed
@@ -1465,7 +1390,6 @@ dean	dean	cet6	candidate-card-needed
 dear	dear	gk zk	candidate-card-needed
 death	death	cet4 gk zk	candidate-card-needed
 debate	debate	cet4 cet6 gk	candidate-card-needed
-debt	debt	cet4 cet6 gk	candidate-card-needed
 decade	decade	cet4 cet6 gk	candidate-card-needed
 decay	decay	cet4 cet6	candidate-card-needed
 deceit	deceit	cet4 cet6	candidate-card-needed
@@ -1473,10 +1397,8 @@ deceive	deceive	cet4 cet6	candidate-card-needed
 december	December	gk zk	candidate-card-needed
 decent	decent	cet4 cet6	candidate-card-needed
 deceptive	deceptive	cet6	candidate-card-needed
-decide	decide	gk zk	candidate-card-needed
 decidedly	decidedly	cet6	candidate-card-needed
 decimal	decimal	cet6	candidate-card-needed
-decision	decision	cet4 cet6 gk zk	candidate-card-needed
 decisive	decisive	cet6	candidate-card-needed
 deck	deck	cet4 cet6	candidate-card-needed
 declaration	declaration	cet6	candidate-card-needed
@@ -1533,7 +1455,6 @@ delighted	delighted	gk	candidate-card-needed
 deliver	deliver	cet4 gk	candidate-card-needed
 delivery	delivery	cet4 cet6	candidate-card-needed
 delusion	delusion	cet6	candidate-card-needed
-demand	demand	cet4 cet6 gk	candidate-card-needed
 demography	demography	cet6	candidate-card-needed
 demonstrate	demonstrate	cet4 cet6	candidate-card-needed
 denial	denial	cet6	candidate-card-needed
@@ -1543,9 +1464,7 @@ dense	dense	cet4 cet6	candidate-card-needed
 density	density	cet4 cet6	candidate-card-needed
 dentist	dentist	cet6 gk zk	candidate-card-needed
 deny	deny	cet4 cet6	candidate-card-needed
-depart	depart	cet4 cet6	candidate-card-needed
 department	department	cet4 cet6 gk	candidate-card-needed
-departure	departure	cet4 cet6 gk	candidate-card-needed
 depend	depend	cet4 cet6 gk zk	candidate-card-needed
 dependant	dependant	cet6	candidate-card-needed
 dependent	dependent	cet4 cet6	candidate-card-needed
@@ -1579,7 +1498,6 @@ desperately	desperately	cet6	candidate-card-needed
 despise	despise	cet4 cet6	candidate-card-needed
 despite	despite	cet4 cet6	candidate-card-needed
 dessert	dessert	cet6 gk	candidate-card-needed
-destination	destination	cet4 cet6 gk	candidate-card-needed
 destine	destine	cet6	candidate-card-needed
 destiny	destiny	cet6	candidate-card-needed
 destroy	destroy	cet4 cet6 gk	candidate-card-needed
@@ -1593,13 +1511,10 @@ detection	detection	cet4 cet6	candidate-card-needed
 detective	detective	cet6 gk	candidate-card-needed
 detector	detector	cet6	candidate-card-needed
 deteriorate	deteriorate	cet6	candidate-card-needed
-determination	determination	cet4 cet6 gk	candidate-card-needed
-determine	determine	cet4 cet6 gk	candidate-card-needed
 develop	develop	gk zk	candidate-card-needed
 development	development	gk zk	candidate-card-needed
 deviate	deviate	cet6	candidate-card-needed
 deviation	deviation	cet6	candidate-card-needed
-device	device	cet4 cet6	candidate-card-needed
 devil	devil	cet4 cet6	candidate-card-needed
 devise	devise	cet4 cet6	candidate-card-needed
 devote	devote	cet4 cet6 gk	candidate-card-needed
@@ -1628,7 +1543,6 @@ difficulty	difficulty	cet4 gk zk	candidate-card-needed
 diffuse	diffuse	cet6	candidate-card-needed
 dig	dig	gk zk	candidate-card-needed
 digest	digest	cet4 cet6 gk	candidate-card-needed
-digital	digital	cet4 cet6 gk	candidate-card-needed
 dignity	dignity	cet6 gk	candidate-card-needed
 dilemma	dilemma	cet6 gk	candidate-card-needed
 diligence	diligence	cet6	candidate-card-needed
@@ -1638,14 +1552,12 @@ dim	dim	cet4 cet6	candidate-card-needed
 dimension	dimension	cet4 cet6 gk	candidate-card-needed
 diminish	diminish	cet6	candidate-card-needed
 dine	dine	cet6 gk	candidate-card-needed
-dinner	dinner	gk zk	candidate-card-needed
 dinosaur	dinosaur	gk	candidate-card-needed
 dioxide	dioxide	cet6 gk	candidate-card-needed
 dip	dip	cet4 cet6 gk	candidate-card-needed
 diploma	diploma	cet6 gk	candidate-card-needed
 diplomatic	diplomatic	cet6	candidate-card-needed
 direct	direct	cet4 cet6 gk zk	candidate-card-needed
-direction	direction	cet4 cet6 gk zk	candidate-card-needed
 directly	directly	cet4 cet6	candidate-card-needed
 director	director	cet4 cet6 gk zk	candidate-card-needed
 directory	directory	cet6 gk	candidate-card-needed
@@ -1715,7 +1627,6 @@ dissatisfy	dissatisfy	cet4 cet6	candidate-card-needed
 disservice	disservice	cet6	candidate-card-needed
 dissipate	dissipate	cet6	candidate-card-needed
 dissolve	dissolve	cet4 cet6	candidate-card-needed
-distance	distance	cet4 cet6 gk	candidate-card-needed
 distant	distant	cet4 cet6 gk	candidate-card-needed
 distil	distil	cet6	candidate-card-needed
 distinct	distinct	cet4 cet6	candidate-card-needed
@@ -1758,7 +1669,6 @@ dominate	dominate	cet4 cet6	candidate-card-needed
 donate	donate	cet6	candidate-card-needed
 donkey	donkey	cet4	candidate-card-needed
 doom	doom	cet6	candidate-card-needed
-door	door	gk zk	candidate-card-needed
 dorm	dorm	cet4 cet6	candidate-card-needed
 dormant	dormant	cet6	candidate-card-needed
 dormitory	dormitory	cet4 cet6 gk	candidate-card-needed
@@ -1837,8 +1747,6 @@ dynasty	dynasty	gk	candidate-card-needed
 each	each	gk zk	candidate-card-needed
 eager	eager	cet4 cet6 gk	candidate-card-needed
 eagle	eagle	cet4 cet6 gk	candidate-card-needed
-ear	ear	gk zk	candidate-card-needed
-earn	earn	cet4 gk	candidate-card-needed
 earnest	earnest	cet4 cet6	candidate-card-needed
 earnings	earnings	cet6	candidate-card-needed
 earth	earth	gk zk	candidate-card-needed
@@ -1866,15 +1774,9 @@ edit	edit	cet6	candidate-card-needed
 edition	edition	cet4 cet6 gk	candidate-card-needed
 editor	editor	cet4 cet6 gk	candidate-card-needed
 editorial	editorial	cet4 cet6	candidate-card-needed
-educate	educate	cet4 gk	candidate-card-needed
-education	education	cet4 gk zk	candidate-card-needed
 educator	educator	gk	candidate-card-needed
 effect	effect	cet4 cet6 gk	candidate-card-needed
 effective	effective	cet4 cet6	candidate-card-needed
-efficiency	efficiency	cet4 cet6	candidate-card-needed
-efficient	efficient	cet4 cet6	candidate-card-needed
-effort	effort	cet4 cet6 gk zk	candidate-card-needed
-egg	egg	gk zk	candidate-card-needed
 eggplant	eggplant	gk	candidate-card-needed
 ego	ego	cet6	candidate-card-needed
 egyptian	Egyptian	cet6 gk	candidate-card-needed
@@ -1928,7 +1830,6 @@ embrace	embrace	cet4 cet6	candidate-card-needed
 embroidery	embroidery	cet6	candidate-card-needed
 emerge	emerge	cet4 cet6	candidate-card-needed
 emergency	emergency	cet4 cet6 gk	candidate-card-needed
-emigrate	emigrate	cet6	candidate-card-needed
 emission	emission	cet6	candidate-card-needed
 emit	emit	cet4 cet6	candidate-card-needed
 emotion	emotion	cet4 cet6	candidate-card-needed
@@ -1937,10 +1838,6 @@ emperor	emperor	cet4 cet6 gk	candidate-card-needed
 emphasis	emphasis	cet4 cet6	candidate-card-needed
 emphasize	emphasize	cet4 cet6	candidate-card-needed
 empire	empire	cet4 cet6 gk	candidate-card-needed
-employ	employ	cet4 cet6 gk	candidate-card-needed
-employee	employee	cet4 cet6	candidate-card-needed
-employer	employer	cet4 cet6	candidate-card-needed
-employment	employment	cet4 cet6	candidate-card-needed
 empty	empty	gk zk	candidate-card-needed
 enable	enable	cet4 cet6	candidate-card-needed
 enchant	enchant	cet6	candidate-card-needed
@@ -2036,7 +1933,6 @@ estimate	estimate	cet4 cet6	candidate-card-needed
 eternal	eternal	cet6	candidate-card-needed
 ethical	ethical	cet6	candidate-card-needed
 ethics	ethics	cet6	candidate-card-needed
-ethnic	ethnic	cet6	candidate-card-needed
 europe	Europe	zk	candidate-card-needed
 european	European	gk zk	candidate-card-needed
 evacuate	evacuate	cet4 cet6	candidate-card-needed
@@ -2083,7 +1979,6 @@ excessive	excessive	cet4 cet6	candidate-card-needed
 excessively	excessively	cet6	candidate-card-needed
 exchange	exchange	cet4 cet6 gk	candidate-card-needed
 excite	excite	cet4 cet6 gk zk	candidate-card-needed
-excitement	excitement	cet4	candidate-card-needed
 exciting	exciting	cet4 cet6	candidate-card-needed
 exclaim	exclaim	cet4 cet6	candidate-card-needed
 exclamation	exclamation	cet6	candidate-card-needed
@@ -2098,7 +1993,6 @@ execution	execution	cet6	candidate-card-needed
 executive	executive	cet4 cet6	candidate-card-needed
 exemplify	exemplify	cet6	candidate-card-needed
 exempt	exempt	cet6	candidate-card-needed
-exercise	exercise	gk zk	candidate-card-needed
 exert	exert	cet4 cet6	candidate-card-needed
 exhaust	exhaust	cet4 cet6	candidate-card-needed
 exhaustion	exhaustion	cet4	candidate-card-needed
@@ -2111,12 +2005,9 @@ exit	exit	cet4 cet6 gk	candidate-card-needed
 exotic	exotic	cet6	candidate-card-needed
 expand	expand	cet4 cet6 gk	candidate-card-needed
 expansion	expansion	cet4 cet6	candidate-card-needed
-expect	expect	gk zk	candidate-card-needed
-expectation	expectation	cet4 cet6 gk	candidate-card-needed
 expedition	expedition	cet6	candidate-card-needed
 expel	expel	cet4 cet6	candidate-card-needed
 expend	expend	cet4	candidate-card-needed
-expenditure	expenditure	cet4 cet6	candidate-card-needed
 expense	expense	cet4 gk	candidate-card-needed
 expensive	expensive	gk zk	candidate-card-needed
 experience	experience	cet4 cet6 gk zk	candidate-card-needed
@@ -2158,7 +2049,6 @@ extraordinary	extraordinary	cet4 cet6 gk	candidate-card-needed
 extravagant	extravagant	cet6	candidate-card-needed
 extreme	extreme	cet4 cet6 gk	candidate-card-needed
 extremely	extremely	cet4 cet6 gk	candidate-card-needed
-eye	eye	gk zk	candidate-card-needed
 eyesight	eyesight	cet4 cet6 gk	candidate-card-needed
 eyewitness	eyewitness	gk	candidate-card-needed
 f	F	gk	candidate-card-needed
@@ -2166,7 +2056,6 @@ fable	fable	cet6	candidate-card-needed
 fabric	fabric	cet4 cet6	candidate-card-needed
 fabricate	fabricate	cet6	candidate-card-needed
 fabrication	fabrication	cet6	candidate-card-needed
-face	face	gk zk	candidate-card-needed
 facet	facet	cet6	candidate-card-needed
 facial	facial	gk	candidate-card-needed
 facilitate	facilitate	cet6	candidate-card-needed
@@ -2178,8 +2067,6 @@ factory	factory	gk zk	candidate-card-needed
 faculty	faculty	cet4 cet6	candidate-card-needed
 fade	fade	cet4 cet6 gk	candidate-card-needed
 fahrenheit	fahrenheit	cet4 cet6	candidate-card-needed
-fail	fail	gk zk	candidate-card-needed
-failure	failure	cet4 gk	candidate-card-needed
 faint	faint	cet4 cet6	candidate-card-needed
 fair	fair	cet4 cet6 gk zk	candidate-card-needed
 fairly	fairly	cet4 cet6 gk	candidate-card-needed
@@ -2197,7 +2084,6 @@ fan	fan	cet4 cet6 gk zk	candidate-card-needed
 fancy	fancy	cet4 cet6 gk	candidate-card-needed
 fantastic	fantastic	cet6 gk zk	candidate-card-needed
 fantasy	fantasy	cet4 gk	candidate-card-needed
-far	far	gk zk	candidate-card-needed
 fare	fare	cet4 cet6 gk	candidate-card-needed
 farewell	farewell	cet4 cet6	candidate-card-needed
 farm	farm	gk zk	candidate-card-needed
@@ -2226,7 +2112,6 @@ favour	favour	cet4 cet6 gk	candidate-card-needed
 favourable	favourable	cet4 cet6	candidate-card-needed
 favourite	favourite	gk zk	candidate-card-needed
 fax	FAX	cet4 gk	candidate-card-needed
-fear	fear	cet4 cet6 gk zk	candidate-card-needed
 fearful	fearful	cet4 cet6	candidate-card-needed
 fearless	fearless	cet6	candidate-card-needed
 feasible	feasible	cet4 cet6	candidate-card-needed
@@ -2251,7 +2136,6 @@ ferrous	ferrous	cet6	candidate-card-needed
 ferry	ferry	cet6 gk	candidate-card-needed
 fertile	fertile	cet4 cet6	candidate-card-needed
 fertilizer	fertilizer	cet4 cet6	candidate-card-needed
-festival	festival	cet4 cet6 gk zk	candidate-card-needed
 fetch	fetch	cet4 cet6 gk zk	candidate-card-needed
 fever	fever	cet4 cet6 gk zk	candidate-card-needed
 few	few	gk zk	candidate-card-needed
@@ -2279,7 +2163,6 @@ financial	financial	cet4 cet6	candidate-card-needed
 finding	finding	cet4 cet6	candidate-card-needed
 fine	fine	gk zk	candidate-card-needed
 finely	finely	cet6	candidate-card-needed
-finger	finger	cet4 cet6 gk zk	candidate-card-needed
 fingernail	fingernail	gk	candidate-card-needed
 finish	finish	gk zk	candidate-card-needed
 finite	finite	cet6	candidate-card-needed
@@ -2293,7 +2176,6 @@ firm	firm	cet4 cet6 gk	candidate-card-needed
 firmly	firmly	gk	candidate-card-needed
 firmness	firmness	cet6	candidate-card-needed
 first-rate	first-rate	cet6	candidate-card-needed
-fish	fish	gk zk	candidate-card-needed
 fisherman	fisherman	cet4 cet6 gk zk	candidate-card-needed
 fission	fission	cet6	candidate-card-needed
 fist	fist	cet4 cet6 gk	candidate-card-needed
@@ -2327,7 +2209,6 @@ fling	fling	cet6	candidate-card-needed
 float	float	cet4 cet6 gk	candidate-card-needed
 flock	flock	cet4 cet6	candidate-card-needed
 flood	flood	cet4 cet6 gk	candidate-card-needed
-floor	floor	gk zk	candidate-card-needed
 flour	flour	cet4 cet6 gk	candidate-card-needed
 flourish	flourish	cet4 cet6	candidate-card-needed
 flow	flow	cet4 gk	candidate-card-needed
@@ -2354,10 +2235,8 @@ follow	follow	cet4 cet6 gk zk	candidate-card-needed
 follower	follower	cet6	candidate-card-needed
 following	following	cet4 cet6 gk	candidate-card-needed
 fond	fond	cet4 cet6 gk	candidate-card-needed
-food	food	gk zk	candidate-card-needed
 fool	fool	cet4 gk	candidate-card-needed
 foolish	foolish	cet4 gk	candidate-card-needed
-foot	foot	gk zk	candidate-card-needed
 football	football	gk zk	candidate-card-needed
 footpath	footpath	cet6	candidate-card-needed
 footstep	footstep	cet4 cet6	candidate-card-needed
@@ -2448,11 +2327,9 @@ fringe	fringe	cet6	candidate-card-needed
 fro	fro	cet6	candidate-card-needed
 frock	frock	cet6	candidate-card-needed
 frog	frog	cet4 cet6 gk zk	candidate-card-needed
-front	front	gk zk	candidate-card-needed
 frontier	frontier	cet4 cet6 gk	candidate-card-needed
 frost	frost	cet4 cet6 gk	candidate-card-needed
 frown	frown	cet4 cet6	candidate-card-needed
-fruit	fruit	gk zk	candidate-card-needed
 fruitful	fruitful	cet4 cet6	candidate-card-needed
 frustrate	frustrate	cet4 cet6	candidate-card-needed
 fry	fry	cet4 cet6 gk	candidate-card-needed
@@ -2472,7 +2349,6 @@ furious	furious	cet4 cet6	candidate-card-needed
 furnace	furnace	cet4 cet6	candidate-card-needed
 furnish	furnish	cet4 cet6	candidate-card-needed
 furnished	furnished	gk	candidate-card-needed
-furniture	furniture	cet4 cet6 gk zk	candidate-card-needed
 further	further	cet4 cet6	candidate-card-needed
 furthermore	furthermore	cet4 cet6	candidate-card-needed
 fury	fury	cet6	candidate-card-needed
@@ -2589,8 +2465,6 @@ graceful	graceful	cet4 cet6	candidate-card-needed
 gracious	gracious	cet4 cet6	candidate-card-needed
 grade	grade	gk zk	candidate-card-needed
 gradient	gradient	cet6	candidate-card-needed
-graduate	graduate	cet4 cet6 gk	candidate-card-needed
-graduation	graduation	gk	candidate-card-needed
 grain	grain	cet4 cet6 gk	candidate-card-needed
 gram	gram	gk	candidate-card-needed
 grammar	grammar	cet4 cet6 gk zk	candidate-card-needed
@@ -2693,7 +2567,6 @@ ham	ham	cet6 gk zk	candidate-card-needed
 hamburger	hamburger	cet4 cet6 gk zk	candidate-card-needed
 hammer	hammer	cet4 cet6 gk	candidate-card-needed
 hamper	hamper	cet6	candidate-card-needed
-hand	hand	gk zk	candidate-card-needed
 handbag	handbag	gk zk	candidate-card-needed
 handbook	handbook	cet6	candidate-card-needed
 handful	handful	cet4 cet6 gk	candidate-card-needed
@@ -2709,14 +2582,12 @@ hang	hang	cet4 cet6 gk zk	candidate-card-needed
 happen	happen	cet4 gk zk	candidate-card-needed
 happily	happily	gk	candidate-card-needed
 happiness	happiness	cet4 gk	candidate-card-needed
-happy	happy	gk zk	candidate-card-needed
 harbor	harbor	cet6	candidate-card-needed
 harbour	harbour	cet4 cet6 gk	candidate-card-needed
 hard	hard	gk zk	candidate-card-needed
 harden	harden	cet4 cet6	candidate-card-needed
 hardly	hardly	cet4 cet6 gk zk	candidate-card-needed
 hardship	hardship	cet4 cet6 gk	candidate-card-needed
-hardware	hardware	cet4 cet6	candidate-card-needed
 hardworking	hardworking	gk	candidate-card-needed
 hardy	hardy	cet6	candidate-card-needed
 hare	hare	cet4 cet6	candidate-card-needed
@@ -2745,7 +2616,6 @@ hawk	hawk	cet4 cet6 gk	candidate-card-needed
 hay	hay	cet4 cet6 gk	candidate-card-needed
 hazard	hazard	cet4 cet6	candidate-card-needed
 hazardous	hazardous	cet6	candidate-card-needed
-head	head	gk zk	candidate-card-needed
 headache	headache	cet4 cet6 gk zk	candidate-card-needed
 heading	heading	cet4 cet6	candidate-card-needed
 headline	headline	cet4 cet6 gk	candidate-card-needed
@@ -2758,8 +2628,6 @@ heal	heal	cet4 cet6	candidate-card-needed
 health	health	gk zk	candidate-card-needed
 heap	heap	cet4 cet6 gk	candidate-card-needed
 hear	hear	gk zk	candidate-card-needed
-hearing	hearing	gk	candidate-card-needed
-heart	heart	gk zk	candidate-card-needed
 hearth	hearth	cet6	candidate-card-needed
 hearty	hearty	cet6	candidate-card-needed
 heat	heat	cet4 cet6 gk zk	candidate-card-needed
@@ -2787,8 +2655,6 @@ her	her	gk zk	candidate-card-needed
 herald	herald	cet6	candidate-card-needed
 herb	herb	cet6 gk	candidate-card-needed
 herd	herd	cet4 cet6	candidate-card-needed
-here	here	gk zk	candidate-card-needed
-heritage	heritage	cet6	candidate-card-needed
 hero	hero	cet4 cet6 gk zk	candidate-card-needed
 heroic	heroic	cet4 cet6	candidate-card-needed
 heroine	heroine	cet4 cet6 gk	candidate-card-needed
@@ -2821,8 +2687,6 @@ his	his	gk zk	candidate-card-needed
 hiss	hiss	cet6	candidate-card-needed
 historian	historian	cet6	candidate-card-needed
 historic	historic	cet6	candidate-card-needed
-historical	historical	cet4 cet6	candidate-card-needed
-history	history	cet4 cet6 gk zk	candidate-card-needed
 hit	hit	cet4 cet6 gk zk	candidate-card-needed
 hitherto	hitherto	cet6	candidate-card-needed
 hive	hive	gk	candidate-card-needed
@@ -2840,8 +2704,6 @@ homely	homely	cet6	candidate-card-needed
 hometown	hometown	gk zk	candidate-card-needed
 homework	homework	gk zk	candidate-card-needed
 homogeneous	homogeneous	cet6	candidate-card-needed
-honest	honest	cet4 gk zk	candidate-card-needed
-honesty	honesty	cet4 cet6	candidate-card-needed
 honey	honey	cet4 gk	candidate-card-needed
 honeymoon	honeymoon	cet4 cet6	candidate-card-needed
 honour	honour	cet4 cet6 gk zk	candidate-card-needed
@@ -2849,8 +2711,6 @@ honourable	honourable	cet4 cet6	candidate-card-needed
 hook	hook	cet4 cet6 gk	candidate-card-needed
 hooray	hooray	gk	candidate-card-needed
 hop	hop	cet6	candidate-card-needed
-hope	hope	gk zk	candidate-card-needed
-hopeful	hopeful	cet4 cet6 gk	candidate-card-needed
 hopeless	hopeless	cet4 cet6 gk	candidate-card-needed
 horizon	horizon	cet4 cet6	candidate-card-needed
 horizontal	horizontal	cet4 cet6	candidate-card-needed
@@ -2875,7 +2735,6 @@ household	household	cet4 cet6	candidate-card-needed
 housewife	housewife	cet4 cet6 gk	candidate-card-needed
 housework	housework	gk zk	candidate-card-needed
 hover	hover	cet6	candidate-card-needed
-how	how	gk zk	candidate-card-needed
 however	however	cet4 gk zk	candidate-card-needed
 howl	howl	cet6 gk	candidate-card-needed
 huddle	huddle	cet6	candidate-card-needed
@@ -2913,7 +2772,6 @@ hymn	hymn	cet6	candidate-card-needed
 hypotheses	hypotheses	cet6	candidate-card-needed
 hysteria	hysteria	cet6	candidate-card-needed
 hysterical	hysterical	cet6	candidate-card-needed
-i	I	gk zk	candidate-card-needed
 ice	ice	gk zk	candidate-card-needed
 ice-cream	ice-cream	cet4	candidate-card-needed
 iceland	Iceland	gk	candidate-card-needed
@@ -2925,7 +2783,6 @@ ideally	ideally	cet6	candidate-card-needed
 identical	identical	cet4 cet6	candidate-card-needed
 identification	identification	cet4 cet6 gk	candidate-card-needed
 identify	identify	cet4 cet6	candidate-card-needed
-identity	identity	cet4 gk	candidate-card-needed
 ideology	ideology	cet6	candidate-card-needed
 idiom	idiom	cet4 cet6 gk	candidate-card-needed
 idiot	idiot	cet6	candidate-card-needed
@@ -2953,7 +2810,6 @@ immediate	immediate	cet4 cet6 gk	candidate-card-needed
 immediately	immediately	cet4 cet6 gk zk	candidate-card-needed
 immense	immense	cet4 cet6	candidate-card-needed
 immerse	immerse	cet6	candidate-card-needed
-immigrant	immigrant	cet4 cet6	candidate-card-needed
 immigrate	immigrate	cet4 cet6	candidate-card-needed
 immigration	immigration	cet6 gk	candidate-card-needed
 immortal	immortal	cet6	candidate-card-needed
@@ -3001,7 +2857,6 @@ inclination	inclination	cet6	candidate-card-needed
 incline	incline	cet4 cet6	candidate-card-needed
 include	include	cet4 cet6 gk zk	candidate-card-needed
 inclusive	inclusive	cet6	candidate-card-needed
-income	income	cet4 cet6 gk	candidate-card-needed
 incompatible	incompatible	cet6	candidate-card-needed
 incomplete	incomplete	cet6	candidate-card-needed
 incorporate	incorporate	cet6	candidate-card-needed
@@ -3052,12 +2907,10 @@ infinite	infinite	cet4 cet6	candidate-card-needed
 infinitely	infinitely	cet6	candidate-card-needed
 infinity	infinity	cet6	candidate-card-needed
 inflate	inflate	cet6	candidate-card-needed
-inflation	inflation	cet6	candidate-card-needed
 inflict	inflict	cet6	candidate-card-needed
 influence	influence	cet4 cet6 gk zk	candidate-card-needed
 influential	influential	cet4 cet6	candidate-card-needed
 inform	inform	cet4 cet6 gk	candidate-card-needed
-information	information	gk zk	candidate-card-needed
 infusion	infusion	cet6	candidate-card-needed
 ingenious	ingenious	cet6	candidate-card-needed
 ingenuity	ingenuity	cet6	candidate-card-needed
@@ -3072,7 +2925,6 @@ initially	initially	cet6	candidate-card-needed
 initiate	initiate	cet6	candidate-card-needed
 initiative	initiative	cet4 cet6	candidate-card-needed
 injure	injure	cet4 cet6 gk	candidate-card-needed
-injury	injury	cet4 cet6 gk	candidate-card-needed
 ink	ink	cet4 cet6 gk zk	candidate-card-needed
 inland	inland	cet6 gk	candidate-card-needed
 inlet	inlet	cet6	candidate-card-needed
@@ -3080,7 +2932,6 @@ inn	inn	cet4 cet6 gk	candidate-card-needed
 innate	innate	cet6	candidate-card-needed
 inner	inner	cet4 cet6	candidate-card-needed
 innocent	innocent	cet4 cet6 gk	candidate-card-needed
-innovation	innovation	cet6	candidate-card-needed
 innumerable	innumerable	cet6	candidate-card-needed
 inorganic	inorganic	cet6	candidate-card-needed
 input	input	cet4 cet6	candidate-card-needed
@@ -3090,7 +2941,6 @@ insane	insane	cet6	candidate-card-needed
 insanity	insanity	cet6	candidate-card-needed
 insect	insect	cet4 cet6 gk	candidate-card-needed
 insert	insert	cet4 cet6 gk	candidate-card-needed
-inside	inside	cet4 cet6 gk zk	candidate-card-needed
 insidious	insidious	cet6	candidate-card-needed
 insight	insight	cet4 cet6	candidate-card-needed
 insignificant	insignificant	cet4 cet6	candidate-card-needed
@@ -3130,7 +2980,6 @@ integrity	integrity	cet6	candidate-card-needed
 intellect	intellect	cet6	candidate-card-needed
 intellectual	intellectual	cet4 cet6	candidate-card-needed
 intellectually	intellectually	cet6	candidate-card-needed
-intelligence	intelligence	cet4 cet6 gk	candidate-card-needed
 intelligent	intelligent	cet4 cet6	candidate-card-needed
 intelligible	intelligible	cet6	candidate-card-needed
 intend	intend	cet4 cet6 gk	candidate-card-needed
@@ -3167,7 +3016,6 @@ intersection	intersection	cet6	candidate-card-needed
 interval	interval	cet4 cet6 gk	candidate-card-needed
 intervene	intervene	cet6	candidate-card-needed
 intervention	intervention	cet6	candidate-card-needed
-interview	interview	cet4 cet6 gk zk	candidate-card-needed
 intimate	intimate	cet4 cet6	candidate-card-needed
 intimidate	intimidate	cet4 cet6	candidate-card-needed
 into	into	gk zk	candidate-card-needed
@@ -3185,17 +3033,13 @@ invalid	invalid	cet6	candidate-card-needed
 invaluable	invaluable	cet6	candidate-card-needed
 invariably	invariably	cet6	candidate-card-needed
 invasion	invasion	cet4 cet6	candidate-card-needed
-invent	invent	cet4 cet6 gk zk	candidate-card-needed
-invention	invention	cet4 cet6 gk zk	candidate-card-needed
 inventor	inventor	cet4 cet6 gk	candidate-card-needed
 inventory	inventory	cet6	candidate-card-needed
 inverse	inverse	cet4	candidate-card-needed
 inversely	inversely	cet6	candidate-card-needed
 invert	invert	cet6	candidate-card-needed
-invest	invest	cet4 cet6	candidate-card-needed
 investigate	investigate	cet4 cet6	candidate-card-needed
 investigation	investigation	cet4 cet6	candidate-card-needed
-investment	investment	cet4 cet6	candidate-card-needed
 invisible	invisible	cet4 cet6	candidate-card-needed
 invitation	invitation	cet4 cet6 gk	candidate-card-needed
 invite	invite	cet4 cet6 gk zk	candidate-card-needed
@@ -3257,7 +3101,6 @@ joke	joke	cet4 gk zk	candidate-card-needed
 jolly	jolly	cet4 cet6	candidate-card-needed
 journal	journal	cet4 cet6	candidate-card-needed
 journalist	journalist	cet4 cet6 gk	candidate-card-needed
-journey	journey	cet4 cet6 gk	candidate-card-needed
 joy	joy	cet4 gk zk	candidate-card-needed
 joyful	joyful	cet4 cet6	candidate-card-needed
 judge	judge	cet4 cet6 gk	candidate-card-needed
@@ -3305,7 +3148,6 @@ king	king	cet4 gk zk	candidate-card-needed
 kingdom	kingdom	cet4 cet6 gk	candidate-card-needed
 kiss	kiss	cet4 gk zk	candidate-card-needed
 kit	kit	cet6	candidate-card-needed
-kitchen	kitchen	gk zk	candidate-card-needed
 kite	kite	cet4 cet6 gk zk	candidate-card-needed
 knee	knee	cet4 cet6 gk zk	candidate-card-needed
 kneel	kneel	cet4 cet6	candidate-card-needed
@@ -3315,7 +3157,6 @@ knit	knit	cet4 cet6	candidate-card-needed
 knob	knob	cet4 cet6	candidate-card-needed
 knock	knock	gk zk	candidate-card-needed
 knot	knot	cet4 cet6	candidate-card-needed
-knowledge	knowledge	cet4 cet6 gk zk	candidate-card-needed
 lab	lab	cet4 cet6 gk zk	candidate-card-needed
 label	label	cet4 cet6	candidate-card-needed
 laboratory	laboratory	cet4 cet6 zk	candidate-card-needed
@@ -3383,9 +3224,7 @@ lease	lease	cet6	candidate-card-needed
 least	least	cet4 cet6 gk zk	candidate-card-needed
 leather	leather	cet4 cet6 gk	candidate-card-needed
 lecture	lecture	cet4 cet6 gk	candidate-card-needed
-left	left	gk zk	candidate-card-needed
 leftover	leftover	gk	candidate-card-needed
-leg	leg	gk zk	candidate-card-needed
 legacy	legacy	cet6	candidate-card-needed
 legal	legal	cet4 cet6 gk	candidate-card-needed
 legend	legend	cet4 cet6	candidate-card-needed
@@ -3399,7 +3238,6 @@ lens	lens	cet4 cet6	candidate-card-needed
 leopard	leopard	cet6	candidate-card-needed
 less	less	cet4 gk	candidate-card-needed
 lessen	lessen	cet4 cet6	candidate-card-needed
-lesson	lesson	gk zk	candidate-card-needed
 lest	lest	cet4 cet6	candidate-card-needed
 let	let	gk zk	candidate-card-needed
 letter	letter	gk zk	candidate-card-needed
@@ -3461,8 +3299,6 @@ liter	liter	cet4 cet6	candidate-card-needed
 literacy	literacy	cet6	candidate-card-needed
 literal	literal	cet6	candidate-card-needed
 literally	literally	cet6	candidate-card-needed
-literary	literary	cet4 cet6 gk	candidate-card-needed
-literature	literature	cet4 cet6 gk	candidate-card-needed
 litre	litre	gk	candidate-card-needed
 litter	litter	cet6 gk zk	candidate-card-needed
 little	little	gk zk	candidate-card-needed
@@ -3478,7 +3314,6 @@ lobby	lobby	cet6	candidate-card-needed
 local	local	cet4 cet6 gk	candidate-card-needed
 locality	locality	cet6	candidate-card-needed
 locate	locate	cet4 cet6	candidate-card-needed
-location	location	cet4 cet6	candidate-card-needed
 lock	lock	cet4 gk zk	candidate-card-needed
 locomotive	locomotive	cet4 cet6	candidate-card-needed
 locust	locust	cet6 gk	candidate-card-needed
@@ -3502,7 +3337,6 @@ loosen	loosen	cet4 cet6	candidate-card-needed
 lord	lord	cet4 cet6	candidate-card-needed
 lorry	lorry	cet4 cet6 gk	candidate-card-needed
 lose	lose	cet4 cet6 gk zk	candidate-card-needed
-loss	loss	cet4 cet6 gk	candidate-card-needed
 lot	lot	gk zk	candidate-card-needed
 loud	loud	cet4 gk zk	candidate-card-needed
 loudly	loudly	gk	candidate-card-needed
@@ -3523,9 +3357,7 @@ lumber	lumber	cet4 cet6	candidate-card-needed
 luminous	luminous	cet6	candidate-card-needed
 lump	lump	cet4 cet6	candidate-card-needed
 lunar	lunar	cet4 cet6	candidate-card-needed
-lunch	lunch	gk zk	candidate-card-needed
 luncheon	luncheon	cet6	candidate-card-needed
-lung	lung	cet4 cet6 gk	candidate-card-needed
 luxurious	luxurious	cet6	candidate-card-needed
 luxury	luxury	cet4 cet6	candidate-card-needed
 machine	machine	gk zk	candidate-card-needed
@@ -3587,7 +3419,6 @@ marginal	marginal	cet6	candidate-card-needed
 marine	marine	cet4 cet6	candidate-card-needed
 maritime	maritime	cet6	candidate-card-needed
 mark	mark	cet4 gk zk	candidate-card-needed
-market	market	gk zk	candidate-card-needed
 marriage	marriage	cet4 cet6 gk zk	candidate-card-needed
 married	married	cet4 cet6 gk	candidate-card-needed
 marry	marry	cet4 gk zk	candidate-card-needed
@@ -3625,12 +3456,10 @@ maturation	maturation	cet6	candidate-card-needed
 mature	mature	cet4 cet6 gk	candidate-card-needed
 maturity	maturity	cet6	candidate-card-needed
 maximum	maximum	cet4 cet6 gk	candidate-card-needed
-may	may	gk zk	candidate-card-needed
 maybe	maybe	gk zk	candidate-card-needed
 mayor	mayor	cet4 cet6	candidate-card-needed
 me	me	gk zk	candidate-card-needed
 meadow	meadow	cet4 cet6	candidate-card-needed
-meal	meal	gk zk	candidate-card-needed
 mean	mean	gk zk	candidate-card-needed
 meaning	meaning	gk zk	candidate-card-needed
 meaningful	meaningful	cet6	candidate-card-needed
@@ -3638,7 +3467,6 @@ means	means	cet4 cet6 gk	candidate-card-needed
 meantime	meantime	cet4 cet6	candidate-card-needed
 meanwhile	meanwhile	cet4 cet6 gk	candidate-card-needed
 measurable	measurable	cet4 cet6	candidate-card-needed
-meat	meat	gk zk	candidate-card-needed
 mechanic	mechanic	cet4 cet6	candidate-card-needed
 mechanical	mechanical	cet4 cet6	candidate-card-needed
 mechanically	mechanically	cet4 cet6	candidate-card-needed
@@ -3682,7 +3510,6 @@ merit	merit	cet4 cet6	candidate-card-needed
 merry	merry	cet4 cet6 gk	candidate-card-needed
 mesh	mesh	cet6	candidate-card-needed
 mess	mess	cet4 cet6 gk	candidate-card-needed
-message	message	cet4 cet6 gk zk	candidate-card-needed
 messenger	messenger	cet4 cet6	candidate-card-needed
 messy	messy	gk	candidate-card-needed
 metabolic	metabolic	cet6	candidate-card-needed
@@ -3708,12 +3535,10 @@ midst	midst	cet4 cet6	candidate-card-needed
 might	might	cet4 gk zk	candidate-card-needed
 mighty	mighty	cet6	candidate-card-needed
 migrant	migrant	cet6	candidate-card-needed
-migrate	migrate	cet6	candidate-card-needed
 mild	mild	cet4 cet6 gk	candidate-card-needed
 mile	mile	cet4 cet6 gk zk	candidate-card-needed
 militant	militant	cet6	candidate-card-needed
 military	military	cet4 cet6	candidate-card-needed
-milk	milk	gk zk	candidate-card-needed
 milky	milky	cet6	candidate-card-needed
 mill	mill	cet4 cet6	candidate-card-needed
 millimetre	millimetre	cet4 cet6	candidate-card-needed
@@ -3773,8 +3598,6 @@ modem	modem	gk	candidate-card-needed
 moderate	moderate	cet4 cet6	candidate-card-needed
 moderately	moderately	cet6	candidate-card-needed
 modern	modern	gk zk	candidate-card-needed
-modest	modest	cet4 cet6 gk	candidate-card-needed
-modesty	modesty	cet6	candidate-card-needed
 modification	modification	cet6	candidate-card-needed
 modify	modify	cet4 cet6	candidate-card-needed
 modulate	modulate	cet6	candidate-card-needed
@@ -3790,7 +3613,6 @@ momentum	momentum	cet6	candidate-card-needed
 monarch	monarch	cet6	candidate-card-needed
 monday	Monday	gk zk	candidate-card-needed
 monetary	monetary	cet6	candidate-card-needed
-money	money	gk zk	candidate-card-needed
 monitor	monitor	cet4 cet6 gk zk	candidate-card-needed
 monk	monk	cet6	candidate-card-needed
 monkey	monkey	cet4 gk zk	candidate-card-needed
@@ -3836,7 +3658,6 @@ mountainous	mountainous	cet6 gk	candidate-card-needed
 mourn	mourn	cet4 cet6 gk	candidate-card-needed
 mouse	mouse	cet4 cet6 gk zk	candidate-card-needed
 moustache	moustache	gk	candidate-card-needed
-mouth	mouth	gk zk	candidate-card-needed
 mouthful	mouthful	cet4 cet6 gk	candidate-card-needed
 move	move	gk zk	candidate-card-needed
 movement	movement	cet4 cet6 gk	candidate-card-needed
@@ -3853,15 +3674,11 @@ municipal	municipal	cet6	candidate-card-needed
 murder	murder	cet4 cet6 gk zk	candidate-card-needed
 murderer	murderer	cet4 cet6	candidate-card-needed
 murmur	murmur	cet6	candidate-card-needed
-muscle	muscle	cet4 cet6	candidate-card-needed
 muscular	muscular	cet6	candidate-card-needed
 muse	muse	cet6	candidate-card-needed
 museum	museum	cet4 cet6 gk zk	candidate-card-needed
 mushroom	mushroom	cet4 cet6 gk	candidate-card-needed
-music	music	gk zk	candidate-card-needed
-musical	musical	cet4 cet6 gk	candidate-card-needed
 musician	musician	cet4 cet6 gk	candidate-card-needed
-must	must	zk	candidate-card-needed
 mustard	mustard	cet6 gk	candidate-card-needed
 mute	mute	cet4 cet6	candidate-card-needed
 mutter	mutter	cet4 cet6	candidate-card-needed
@@ -3896,7 +3713,6 @@ naval	naval	cet4 cet6	candidate-card-needed
 nave	nave	cet6	candidate-card-needed
 navigation	navigation	cet4 cet6	candidate-card-needed
 navy	navy	cet4 cet6 gk	candidate-card-needed
-near	near	gk zk	candidate-card-needed
 nearby	nearby	cet4 cet6 gk	candidate-card-needed
 nearly	nearly	gk zk	candidate-card-needed
 neat	neat	cet4 cet6 gk	candidate-card-needed
@@ -3912,8 +3728,6 @@ needless	needless	cet4 cet6	candidate-card-needed
 negative	negative	cet4 cet6	candidate-card-needed
 neglect	neglect	cet4 cet6	candidate-card-needed
 negligible	negligible	cet6	candidate-card-needed
-negotiate	negotiate	cet6 gk	candidate-card-needed
-negotiation	negotiation	cet6	candidate-card-needed
 negro	negro	cet4 cet6	candidate-card-needed
 neighborhood	neighborhood	cet4	candidate-card-needed
 neighbour	neighbour	cet4 cet6 gk zk	candidate-card-needed
@@ -3925,11 +3739,9 @@ nerve	nerve	cet4 cet6	candidate-card-needed
 nervous	nervous	cet4 cet6 gk zk	candidate-card-needed
 nest	nest	cet4 cet6 gk	candidate-card-needed
 net	net	cet4 cet6 gk	candidate-card-needed
-network	network	cet4 cet6 gk	candidate-card-needed
 neuron	neuron	cet6	candidate-card-needed
 neutral	neutral	cet4 cet6	candidate-card-needed
 neutron	neutron	cet6	candidate-card-needed
-never	never	gk zk	candidate-card-needed
 nevertheless	nevertheless	cet4 cet6	candidate-card-needed
 newly	newly	cet4 cet6	candidate-card-needed
 news	news	gk zk	candidate-card-needed
@@ -3945,7 +3757,6 @@ nineteen	nineteen	cet4 gk zk	candidate-card-needed
 ninety	ninety	gk zk	candidate-card-needed
 ninth	ninth	gk zk	candidate-card-needed
 nitrogen	nitrogen	cet4 cet6	candidate-card-needed
-no	no	gk zk	candidate-card-needed
 noble	noble	cet4 cet6 gk	candidate-card-needed
 nobody	nobody	gk zk	candidate-card-needed
 nod	nod	cet4 cet6 gk zk	candidate-card-needed
@@ -3970,8 +3781,6 @@ northern	northern	cet4 cet6 gk zk	candidate-card-needed
 northward	northward	cet6	candidate-card-needed
 northwards	northwards	cet6 gk	candidate-card-needed
 northwest	northwest	cet4 cet6 gk	candidate-card-needed
-nose	nose	gk zk	candidate-card-needed
-not	not	gk zk	candidate-card-needed
 notable	notable	cet6	candidate-card-needed
 notation	notation	cet6	candidate-card-needed
 note	note	gk zk	candidate-card-needed
@@ -4030,7 +3839,6 @@ obviously	obviously	cet4 cet6	candidate-card-needed
 occasion	occasion	cet4 cet6	candidate-card-needed
 occasional	occasional	cet4 cet6	candidate-card-needed
 occasionally	occasionally	cet4 cet6	candidate-card-needed
-occupation	occupation	cet4 cet6 gk	candidate-card-needed
 occupy	occupy	cet4 cet6	candidate-card-needed
 ocean	ocean	cet4 gk zk	candidate-card-needed
 oceania	Oceania	cet4 cet6 gk	candidate-card-needed
@@ -4052,7 +3860,6 @@ offspring	offspring	cet6	candidate-card-needed
 often	often	gk zk	candidate-card-needed
 oh	oh	gk	candidate-card-needed
 ohm	ohm	cet6	candidate-card-needed
-oil	oil	cet4 gk zk	candidate-card-needed
 oilfield	oilfield	gk	candidate-card-needed
 ok	OK	gk zk	candidate-card-needed
 okay	okay	cet4	candidate-card-needed
@@ -4065,7 +3872,6 @@ once	once	gk zk	candidate-card-needed
 one	one	gk zk	candidate-card-needed
 oneself	oneself	cet4 gk zk	candidate-card-needed
 onion	onion	cet4 cet6 gk	candidate-card-needed
-only	only	gk zk	candidate-card-needed
 onto	onto	cet4 gk	candidate-card-needed
 onward	onward	cet6	candidate-card-needed
 onwards	onwards	cet6	candidate-card-needed
@@ -4120,7 +3926,6 @@ ornament	ornament	cet4 cet6	candidate-card-needed
 ornamental	ornamental	cet6	candidate-card-needed
 orphan	orphan	cet4 cet6	candidate-card-needed
 orthodox	orthodox	cet6	candidate-card-needed
-other	other	gk zk	candidate-card-needed
 otherwise	otherwise	cet4 cet6 gk	candidate-card-needed
 ottawa	Ottawa	gk	candidate-card-needed
 ouch	ouch	gk	candidate-card-needed
@@ -4146,7 +3951,6 @@ outlook	outlook	cet4 cet6	candidate-card-needed
 output	output	cet4 cet6 gk	candidate-card-needed
 outrage	outrage	cet6	candidate-card-needed
 outset	outset	cet4 cet6	candidate-card-needed
-outside	outside	gk zk	candidate-card-needed
 outskirt	outskirt	cet4 cet6	candidate-card-needed
 outspoken	outspoken	gk	candidate-card-needed
 outstanding	outstanding	cet4 cet6 gk	candidate-card-needed
@@ -4196,7 +4000,6 @@ pad	pad	cet4 cet6	candidate-card-needed
 paddle	paddle	gk	candidate-card-needed
 page	page	gk zk	candidate-card-needed
 pail	pail	cet4 cet6	candidate-card-needed
-pain	pain	cet4 cet6 gk	candidate-card-needed
 painful	painful	cet4 cet6 gk	candidate-card-needed
 paint	paint	cet4 gk zk	candidate-card-needed
 painter	painter	cet4 gk	candidate-card-needed
@@ -4275,7 +4078,6 @@ pause	pause	cet4 cet6 gk	candidate-card-needed
 pave	pave	cet4 cet6	candidate-card-needed
 pavement	pavement	cet4 cet6	candidate-card-needed
 paw	paw	cet4 cet6	candidate-card-needed
-pay	pay	gk zk	candidate-card-needed
 payment	payment	cet4 cet6	candidate-card-needed
 payoff	payoff	cet6	candidate-card-needed
 pea	pea	cet4 cet6 gk	candidate-card-needed
@@ -4337,8 +4139,6 @@ perpetual	perpetual	cet6	candidate-card-needed
 perplex	perplex	cet6	candidate-card-needed
 persecute	persecute	cet6	candidate-card-needed
 persevere	persevere	cet6	candidate-card-needed
-persist	persist	cet4 cet6	candidate-card-needed
-persistence	persistence	cet6	candidate-card-needed
 persistent	persistent	cet6	candidate-card-needed
 personal	personal	cet4 cet6 gk zk	candidate-card-needed
 personality	personality	cet4 cet6	candidate-card-needed
@@ -4408,10 +4208,8 @@ piston	piston	cet6	candidate-card-needed
 pit	pit	cet4 cet6	candidate-card-needed
 pitch	pitch	cet4 cet6	candidate-card-needed
 pity	pity	gk zk	candidate-card-needed
-place	place	gk zk	candidate-card-needed
 plague	plague	cet6	candidate-card-needed
 plain	plain	cet4 cet6 gk zk	candidate-card-needed
-plan	plan	gk zk	candidate-card-needed
 plane	plane	gk zk	candidate-card-needed
 planet	planet	cet4 cet6 gk zk	candidate-card-needed
 plant	plant	gk zk	candidate-card-needed
@@ -4448,9 +4246,6 @@ plus	plus	cet4 gk	candidate-card-needed
 plutocrat	plutocrat	cet6	candidate-card-needed
 pneumatic	pneumatic	cet6	candidate-card-needed
 pocket	pocket	cet4 cet6 gk zk	candidate-card-needed
-poem	poem	cet4 cet6 gk zk	candidate-card-needed
-poet	poet	cet4 cet6 gk	candidate-card-needed
-poetry	poetry	cet4 cet6	candidate-card-needed
 point	point	cet4 cet6 gk zk	candidate-card-needed
 poison	poison	cet4 cet6 gk	candidate-card-needed
 poisonous	poisonous	cet4 cet6 gk	candidate-card-needed
@@ -4462,7 +4257,6 @@ police	police	cet4 gk zk	candidate-card-needed
 policeman	policeman	gk zk	candidate-card-needed
 policy	policy	cet4 cet6 gk zk	candidate-card-needed
 polish	Polish	cet4 cet6 gk	candidate-card-needed
-polite	polite	gk zk	candidate-card-needed
 political	political	cet4 cet6 gk	candidate-card-needed
 politician	politician	cet4 cet6 gk	candidate-card-needed
 politics	politics	cet4 cet6 gk	candidate-card-needed
@@ -4490,7 +4284,6 @@ portrait	portrait	cet4 cet6	candidate-card-needed
 portray	portray	cet6	candidate-card-needed
 portuguese	Portuguese	cet4 cet6	candidate-card-needed
 pose	pose	cet4 cet6	candidate-card-needed
-position	position	cet4 cet6 gk zk	candidate-card-needed
 positive	positive	cet4 cet6	candidate-card-needed
 positively	positively	cet6	candidate-card-needed
 possess	possess	cet4 cet6 gk	candidate-card-needed
@@ -4521,7 +4314,6 @@ powerful	powerful	cet4 cet6 gk	candidate-card-needed
 practicable	practicable	cet4 cet6	candidate-card-needed
 practical	practical	cet4 cet6 gk	candidate-card-needed
 practically	practically	cet4 cet6	candidate-card-needed
-practice	practice	gk zk	candidate-card-needed
 practise	practise	cet4 cet6 zk	candidate-card-needed
 prairie	prairie	cet6 gk	candidate-card-needed
 praise	praise	cet4 cet6 gk zk	candidate-card-needed
@@ -4543,9 +4335,7 @@ predominant	predominant	cet6	candidate-card-needed
 predominantly	predominantly	cet6	candidate-card-needed
 predominate	predominate	cet6	candidate-card-needed
 preface	preface	cet4 cet6	candidate-card-needed
-prefer	prefer	cet4 cet6 gk	candidate-card-needed
 preferable	preferable	cet4 cet6	candidate-card-needed
-preference	preference	cet4 cet6 gk	candidate-card-needed
 pregnancy	pregnancy	cet6	candidate-card-needed
 pregnant	pregnant	cet6 gk	candidate-card-needed
 prejudice	prejudice	cet4 cet6 gk	candidate-card-needed
@@ -4554,8 +4344,6 @@ premature	premature	cet6	candidate-card-needed
 premier	premier	cet4 cet6 gk	candidate-card-needed
 premise	premise	cet6	candidate-card-needed
 premium	premium	cet6	candidate-card-needed
-preparation	preparation	cet4 cet6 gk	candidate-card-needed
-prepare	prepare	cet4 cet6 gk zk	candidate-card-needed
 preposition	preposition	cet4 cet6	candidate-card-needed
 prerequisite	prerequisite	cet6	candidate-card-needed
 presence	presence	cet4 cet6	candidate-card-needed
@@ -4586,9 +4374,7 @@ preview	preview	gk	candidate-card-needed
 previous	previous	cet4 cet6	candidate-card-needed
 previously	previously	cet4 cet6	candidate-card-needed
 prey	prey	cet6	candidate-card-needed
-price	price	gk zk	candidate-card-needed
 prick	prick	cet6	candidate-card-needed
-pride	pride	cet4 cet6 gk zk	candidate-card-needed
 priest	priest	cet4 cet6	candidate-card-needed
 primarily	primarily	cet4 cet6	candidate-card-needed
 primary	primary	cet4 cet6 gk zk	candidate-card-needed
@@ -4604,12 +4390,9 @@ print	print	cet4 gk zk	candidate-card-needed
 printer	printer	cet6 gk	candidate-card-needed
 printing	printing	gk	candidate-card-needed
 prior	prior	cet4 cet6	candidate-card-needed
-priority	priority	cet4 cet6	candidate-card-needed
 prism	prism	cet6	candidate-card-needed
 prison	prison	cet4 cet6 gk zk	candidate-card-needed
 prisoner	prisoner	cet4 cet6 gk zk	candidate-card-needed
-privacy	privacy	cet6	candidate-card-needed
-private	private	cet4 cet6 gk zk	candidate-card-needed
 privilege	privilege	cet4 cet6 gk	candidate-card-needed
 prize	prize	cet4 cet6 gk zk	candidate-card-needed
 probability	probability	cet4 cet6	candidate-card-needed
@@ -4629,16 +4412,12 @@ product	product	cet4 cet6 gk	candidate-card-needed
 production	production	cet4 cet6 gk	candidate-card-needed
 productive	productive	cet4 cet6	candidate-card-needed
 productivity	productivity	cet6	candidate-card-needed
-profession	profession	cet4 cet6 gk	candidate-card-needed
-professional	professional	cet4 cet6	candidate-card-needed
 professor	professor	cet4 cet6 gk	candidate-card-needed
 proficiency	proficiency	cet6	candidate-card-needed
 proficient	proficient	cet6	candidate-card-needed
 profile	profile	cet6	candidate-card-needed
-profit	profit	cet4 cet6 gk	candidate-card-needed
 profitable	profitable	cet4 cet6	candidate-card-needed
 profound	profound	cet6	candidate-card-needed
-program	program	cet4 cet6	candidate-card-needed
 programme	programme	gk zk	candidate-card-needed
 progress	progress	cet4 cet6 gk zk	candidate-card-needed
 progressive	progressive	cet4 cet6	candidate-card-needed
@@ -4687,7 +4466,6 @@ protend	protend	cet6	candidate-card-needed
 protest	protest	cet4 cet6	candidate-card-needed
 proton	proton	cet6	candidate-card-needed
 prototype	prototype	cet6	candidate-card-needed
-proud	proud	cet4 cet6 gk zk	candidate-card-needed
 prove	prove	cet4 cet6 gk zk	candidate-card-needed
 proverb	proverb	cet6	candidate-card-needed
 provide	provide	cet4 cet6 gk zk	candidate-card-needed
@@ -4720,7 +4498,6 @@ punctuate	punctuate	gk	candidate-card-needed
 punctuation	punctuation	gk	candidate-card-needed
 punish	punish	cet4 cet6 gk zk	candidate-card-needed
 punishment	punishment	cet4 cet6 gk	candidate-card-needed
-pupil	pupil	gk zk	candidate-card-needed
 puppet	puppet	cet4 cet6	candidate-card-needed
 puppy	puppy	cet6	candidate-card-needed
 purchase	purchase	cet4 cet6 gk	candidate-card-needed
@@ -4739,7 +4516,6 @@ puzzled	puzzled	gk	candidate-card-needed
 pyjamas	pyjamas	cet6	candidate-card-needed
 pyramid	pyramid	gk	candidate-card-needed
 quake	quake	gk	candidate-card-needed
-qualification	qualification	cet6 gk	candidate-card-needed
 qualify	qualify	cet4 cet6	candidate-card-needed
 quality	quality	cet4 cet6 gk	candidate-card-needed
 quantify	quantify	cet6	candidate-card-needed
@@ -4753,7 +4529,6 @@ queen	queen	cet4 cet6 gk zk	candidate-card-needed
 queer	queer	cet4 cet6	candidate-card-needed
 quench	quench	cet6	candidate-card-needed
 quest	quest	cet6	candidate-card-needed
-question	question	gk zk	candidate-card-needed
 questionable	questionable	cet6	candidate-card-needed
 questionnaire	questionnaire	cet6 gk	candidate-card-needed
 queue	queue	cet4 cet6 gk	candidate-card-needed
@@ -4872,7 +4647,6 @@ recommendation	recommendation	cet4 cet6	candidate-card-needed
 reconcile	reconcile	cet6	candidate-card-needed
 record	record	cet4 cet6 gk zk	candidate-card-needed
 recorder	recorder	cet4 cet6 gk zk	candidate-card-needed
-recover	recover	cet4 cet6 gk	candidate-card-needed
 recovery	recovery	cet4 cet6	candidate-card-needed
 recreation	recreation	cet4 cet6 gk	candidate-card-needed
 recruit	recruit	cet4 cet6	candidate-card-needed
@@ -4945,8 +4719,6 @@ reliable	reliable	cet4 cet6 gk	candidate-card-needed
 reliance	reliance	cet4 cet6	candidate-card-needed
 relief	relief	cet4 cet6 gk	candidate-card-needed
 relieve	relieve	cet4 cet6	candidate-card-needed
-religion	religion	cet4 cet6 gk	candidate-card-needed
-religious	religious	cet4 cet6 gk	candidate-card-needed
 reluctant	reluctant	cet4 cet6	candidate-card-needed
 rely	rely	cet4 cet6 gk	candidate-card-needed
 remain	remain	cet4 cet6 gk zk	candidate-card-needed
@@ -4965,8 +4737,6 @@ renaissance	renaissance	cet6	candidate-card-needed
 render	render	cet4 cet6	candidate-card-needed
 renew	renew	cet4 cet6	candidate-card-needed
 renovation	renovation	cet6	candidate-card-needed
-rent	rent	cet4 cet6 gk	candidate-card-needed
-repair	repair	cet4 cet6 gk zk	candidate-card-needed
 repairs	repairs	gk	candidate-card-needed
 repay	repay	cet6	candidate-card-needed
 repeal	repeal	cet6	candidate-card-needed
@@ -5015,8 +4785,6 @@ resist	resist	cet4 cet6 gk	candidate-card-needed
 resistance	resistance	cet4 cet6	candidate-card-needed
 resistant	resistant	cet4 cet6	candidate-card-needed
 resolute	resolute	cet6	candidate-card-needed
-resolution	resolution	cet4 cet6	candidate-card-needed
-resolve	resolve	cet4 cet6	candidate-card-needed
 resonance	resonance	cet6	candidate-card-needed
 resort	resort	cet4 cet6	candidate-card-needed
 respectable	respectable	cet6	candidate-card-needed
@@ -5055,7 +4823,6 @@ reuse	reuse	gk	candidate-card-needed
 reveal	reveal	cet4 cet6	candidate-card-needed
 revelation	revelation	cet6	candidate-card-needed
 revenge	revenge	cet4 cet6	candidate-card-needed
-revenue	revenue	cet4 cet6	candidate-card-needed
 reverse	reverse	cet4 cet6	candidate-card-needed
 review	review	cet4 cet6 gk zk	candidate-card-needed
 reviewer	reviewer	gk	candidate-card-needed
@@ -5073,7 +4840,6 @@ rhyme	rhyme	gk	candidate-card-needed
 rhythm	rhythm	cet4 cet6	candidate-card-needed
 rib	rib	cet4 cet6	candidate-card-needed
 ribbon	ribbon	cet4 cet6	candidate-card-needed
-rice	rice	gk zk	candidate-card-needed
 rich	rich	gk zk	candidate-card-needed
 rid	rid	cet4 cet6 gk	candidate-card-needed
 riddle	riddle	cet4 cet6 gk zk	candidate-card-needed
@@ -5084,7 +4850,6 @@ ridicule	ridicule	cet6	candidate-card-needed
 ridiculous	ridiculous	cet4 cet6 gk	candidate-card-needed
 rifle	rifle	cet4 cet6	candidate-card-needed
 rig	rig	cet6	candidate-card-needed
-right	right	gk zk	candidate-card-needed
 rigid	rigid	cet4 cet6 gk	candidate-card-needed
 rigorous	rigorous	cet6	candidate-card-needed
 rim	rim	cet6	candidate-card-needed
@@ -5119,7 +4884,6 @@ roller	roller	cet4 cet6 gk	candidate-card-needed
 roman	Roman	cet4 cet6	candidate-card-needed
 romance	romance	cet6	candidate-card-needed
 romantic	romantic	cet4 cet6	candidate-card-needed
-roof	roof	cet4 cet6 gk	candidate-card-needed
 rooster	rooster	cet6 gk	candidate-card-needed
 root	root	cet4 cet6 gk	candidate-card-needed
 rope	rope	cet4 cet6 gk zk	candidate-card-needed
@@ -5134,7 +4898,6 @@ roughly	roughly	cet4 cet6	candidate-card-needed
 round	round	gk zk	candidate-card-needed
 roundabout	roundabout	cet6 gk	candidate-card-needed
 rouse	rouse	cet4 cet6	candidate-card-needed
-route	route	cet4 cet6	candidate-card-needed
 routine	routine	cet4 cet6 gk	candidate-card-needed
 row	row	cet4 cet6 gk zk	candidate-card-needed
 royal	royal	cet4 cet6 gk	candidate-card-needed
@@ -5164,7 +4927,6 @@ ruthless	ruthless	cet6	candidate-card-needed
 sack	sack	cet4 cet6	candidate-card-needed
 sacred	sacred	cet4 cet6 gk	candidate-card-needed
 sacrifice	sacrifice	cet4 cet6 gk	candidate-card-needed
-sad	sad	gk zk	candidate-card-needed
 saddle	saddle	cet4 cet6	candidate-card-needed
 sadly	sadly	cet4 cet6	candidate-card-needed
 sadness	sadness	cet4 cet6 gk	candidate-card-needed
@@ -5178,13 +4940,11 @@ sailor	sailor	cet4 cet6 gk	candidate-card-needed
 saint	Saint	cet4 cet6	candidate-card-needed
 sake	sake	cet4 cet6	candidate-card-needed
 salad	salad	cet4 cet6 gk zk	candidate-card-needed
-salary	salary	cet4 cet6 gk	candidate-card-needed
 sale	sale	cet4 cet6 gk zk	candidate-card-needed
 salesgirl	salesgirl	gk	candidate-card-needed
 salesman	salesman	cet4 cet6 gk	candidate-card-needed
 saleswoman	saleswoman	gk	candidate-card-needed
 salmon	salmon	cet6	candidate-card-needed
-salt	salt	cet4 cet6 gk zk	candidate-card-needed
 salty	salty	gk	candidate-card-needed
 salute	salute	cet4 cet6 gk	candidate-card-needed
 salvation	salvation	cet6	candidate-card-needed
@@ -5208,7 +4968,6 @@ sauce	sauce	cet4 cet6 gk	candidate-card-needed
 saucer	saucer	cet4 cet6 gk	candidate-card-needed
 sausage	sausage	cet4 cet6 gk zk	candidate-card-needed
 savage	savage	cet6 gk	candidate-card-needed
-save	save	cet4 cet6 gk zk	candidate-card-needed
 saving	saving	cet4 cet6	candidate-card-needed
 saw	saw	cet4 cet6	candidate-card-needed
 saying	saying	gk	candidate-card-needed
@@ -5250,7 +5009,6 @@ scrap	scrap	cet6	candidate-card-needed
 scrape	scrape	cet4 cet6	candidate-card-needed
 scratch	scratch	cet4 cet6 gk	candidate-card-needed
 scream	scream	cet4 cet6 gk	candidate-card-needed
-screen	screen	cet4 cet6 gk zk	candidate-card-needed
 screw	screw	cet4 cet6	candidate-card-needed
 script	script	cet6	candidate-card-needed
 scripture	scripture	cet6	candidate-card-needed
@@ -5278,8 +5036,6 @@ secret	secret	cet4 cet6 gk zk	candidate-card-needed
 secretary	secretary	gk zk	candidate-card-needed
 section	section	cet4 cet6 gk	candidate-card-needed
 sector	sector	cet6	candidate-card-needed
-secure	secure	cet4 cet6 gk	candidate-card-needed
-security	security	cet4 cet6 gk	candidate-card-needed
 sedentary	sedentary	cet6	candidate-card-needed
 seed	seed	cet4 cet6 gk	candidate-card-needed
 seek	seek	cet4 cet6 gk	candidate-card-needed
@@ -5293,7 +5049,6 @@ select	select	cet4 cet6 gk	candidate-card-needed
 selection	selection	cet4 cet6	candidate-card-needed
 self	self	cet4 cet6 gk	candidate-card-needed
 selfish	selfish	cet4 cet6 gk	candidate-card-needed
-sell	sell	gk zk	candidate-card-needed
 seller	seller	cet4 cet6	candidate-card-needed
 semester	semester	cet4 cet6	candidate-card-needed
 semicircle	semicircle	gk	candidate-card-needed
@@ -5353,7 +5108,6 @@ shaky	shaky	cet6	candidate-card-needed
 shall	shall	gk zk	candidate-card-needed
 shallow	shallow	cet4 cet6 gk	candidate-card-needed
 sham	sham	cet6	candidate-card-needed
-shame	shame	cet4 cet6 gk zk	candidate-card-needed
 shameful	shameful	cet6	candidate-card-needed
 shampoo	shampoo	cet4 cet6	candidate-card-needed
 shanghai	Shanghai	gk	candidate-card-needed
@@ -5405,7 +5159,6 @@ shorthand	shorthand	cet6	candidate-card-needed
 shortly	shortly	cet4 cet6 gk	candidate-card-needed
 shorts	shorts	gk zk	candidate-card-needed
 shot	shot	cet4 cet6 gk	candidate-card-needed
-should	should	gk zk	candidate-card-needed
 shoulder	shoulder	cet4 cet6 gk zk	candidate-card-needed
 shout	shout	gk zk	candidate-card-needed
 shove	shove	cet6	candidate-card-needed
@@ -5432,10 +5185,8 @@ sideways	sideways	cet4 cet6 gk	candidate-card-needed
 siege	siege	cet6	candidate-card-needed
 sift	sift	cet6	candidate-card-needed
 sigh	sigh	cet4 cet6 gk	candidate-card-needed
-sight	sight	cet4 cet6 gk zk	candidate-card-needed
 sightseeing	sightseeing	cet4 cet6 gk	candidate-card-needed
 sign	sign	cet4 cet6 gk	candidate-card-needed
-signal	signal	cet4 cet6 gk	candidate-card-needed
 signature	signature	cet4 cet6 gk	candidate-card-needed
 significance	significance	cet4 cet6 gk	candidate-card-needed
 significant	significant	cet4 cet6	candidate-card-needed
@@ -5486,12 +5237,10 @@ skeleton	skeleton	cet6	candidate-card-needed
 skeptical	skeptical	cet6	candidate-card-needed
 sketch	sketch	cet4 cet6	candidate-card-needed
 ski	ski	cet4 cet6 gk	candidate-card-needed
-skill	skill	cet4 cet6 gk zk	candidate-card-needed
 skilled	skilled	cet4 cet6 gk	candidate-card-needed
 skillful	skillful	cet4 cet6 gk	candidate-card-needed
 skillfully	skillfully	gk	candidate-card-needed
 skim	skim	cet4 cet6	candidate-card-needed
-skin	skin	cet4 cet6 gk	candidate-card-needed
 skip	skip	cet6 gk	candidate-card-needed
 skipping	skipping	gk	candidate-card-needed
 skirt	skirt	gk zk	candidate-card-needed
@@ -5529,7 +5278,6 @@ sly	sly	cet4 cet6	candidate-card-needed
 small	small	gk zk	candidate-card-needed
 smart	smart	cet4 cet6 gk zk	candidate-card-needed
 smash	smash	cet4 cet6	candidate-card-needed
-smell	smell	gk zk	candidate-card-needed
 smelly	smelly	gk	candidate-card-needed
 smile	smile	gk zk	candidate-card-needed
 smog	smog	cet4 cet6 gk	candidate-card-needed
@@ -5581,7 +5329,6 @@ softball	softball	gk	candidate-card-needed
 soften	soften	cet6	candidate-card-needed
 softly	softly	cet4 cet6	candidate-card-needed
 softness	softness	cet6	candidate-card-needed
-software	software	cet4 cet6 gk	candidate-card-needed
 soil	soil	cet4 cet6 gk	candidate-card-needed
 solar	solar	cet4 cet6 gk	candidate-card-needed
 soldier	soldier	gk zk	candidate-card-needed
@@ -5603,7 +5350,6 @@ somehow	somehow	cet4 cet6	candidate-card-needed
 someone	someone	gk zk	candidate-card-needed
 something	something	gk zk	candidate-card-needed
 sometime	sometime	cet4 cet6	candidate-card-needed
-sometimes	sometimes	gk zk	candidate-card-needed
 somewhat	somewhat	cet4 cet6	candidate-card-needed
 somewhere	somewhere	gk zk	candidate-card-needed
 son	son	gk zk	candidate-card-needed
@@ -5667,7 +5413,6 @@ speech	speech	cet4 cet6 gk zk	candidate-card-needed
 speed	speed	cet4 cet6 gk zk	candidate-card-needed
 spell	spell	cet4 cet6 gk zk	candidate-card-needed
 spelling	spelling	cet4 cet6 gk	candidate-card-needed
-spend	spend	gk zk	candidate-card-needed
 sphere	sphere	cet4 cet6	candidate-card-needed
 spherical	spherical	cet6	candidate-card-needed
 spice	spice	cet6	candidate-card-needed
@@ -5784,7 +5529,6 @@ stitch	stitch	cet4 cet6	candidate-card-needed
 stock	stock	cet4 cet6	candidate-card-needed
 stockholder	stockholder	cet6	candidate-card-needed
 stocking	stocking	cet4 cet6 gk	candidate-card-needed
-stomach	stomach	cet4 cet6 gk zk	candidate-card-needed
 stomachache	stomachache	gk	candidate-card-needed
 stone	stone	cet4 cet6 gk zk	candidate-card-needed
 stony	stony	cet4 cet6	candidate-card-needed
@@ -5838,7 +5582,6 @@ strongly	strongly	cet4 cet6	candidate-card-needed
 structural	structural	cet4 cet6	candidate-card-needed
 struggle	struggle	cet4 cet6 gk	candidate-card-needed
 stubborn	stubborn	cet6 gk	candidate-card-needed
-student	student	gk zk	candidate-card-needed
 studio	studio	cet6 gk	candidate-card-needed
 study	study	gk zk	candidate-card-needed
 stuff	stuff	cet4 cet6	candidate-card-needed
@@ -5850,7 +5593,6 @@ sturdy	sturdy	cet6	candidate-card-needed
 style	style	cet4 cet6 gk	candidate-card-needed
 subdivide	subdivide	cet6	candidate-card-needed
 subdue	subdue	cet6	candidate-card-needed
-subject	subject	gk	candidate-card-needed
 submarine	submarine	cet4 cet6	candidate-card-needed
 submerge	submerge	cet4 cet6	candidate-card-needed
 submit	submit	cet4 cet6 gk	candidate-card-needed
@@ -5871,14 +5613,10 @@ subtract	subtract	cet4 cet6	candidate-card-needed
 subtraction	subtraction	gk	candidate-card-needed
 suburb	suburb	cet4 cet6	candidate-card-needed
 subway	subway	cet4 cet6	candidate-card-needed
-succeed	succeed	cet4 cet6 gk zk	candidate-card-needed
-success	success	cet4 cet6 gk zk	candidate-card-needed
-successful	successful	cet4 cet6 gk zk	candidate-card-needed
 successfully	successfully	cet4 cet6	candidate-card-needed
 succession	succession	cet4 cet6	candidate-card-needed
 successive	successive	cet4 cet6	candidate-card-needed
 successor	successor	cet6	candidate-card-needed
-such	such	gk zk	candidate-card-needed
 suck	suck	cet4 cet6 gk	candidate-card-needed
 sudden	sudden	cet4 cet6 gk zk	candidate-card-needed
 suddenly	suddenly	cet4 cet6	candidate-card-needed
@@ -5888,7 +5626,6 @@ suffering	suffering	gk	candidate-card-needed
 suffice	suffice	cet6	candidate-card-needed
 sufficient	sufficient	cet4 cet6	candidate-card-needed
 sufficiently	sufficiently	cet4 cet6	candidate-card-needed
-sugar	sugar	gk zk	candidate-card-needed
 suggest	suggest	gk zk	candidate-card-needed
 suggestion	suggestion	gk zk	candidate-card-needed
 suicide	suicide	cet6	candidate-card-needed
@@ -5928,7 +5665,6 @@ supervision	supervision	cet6	candidate-card-needed
 supper	supper	gk zk	candidate-card-needed
 supplement	supplement	cet4 cet6	candidate-card-needed
 supplementary	supplementary	cet6	candidate-card-needed
-supply	supply	cet4 cet6 gk zk	candidate-card-needed
 suppose	suppose	cet4 cet6 gk zk	candidate-card-needed
 suppress	suppress	cet6	candidate-card-needed
 supreme	supreme	cet4 cet6 gk	candidate-card-needed
@@ -5996,7 +5732,6 @@ systematic	systematic	cet4 cet6 gk	candidate-card-needed
 systematical	systematical	cet4	candidate-card-needed
 systematically	systematically	cet6	candidate-card-needed
 t-shirt	T-shirt	zk	candidate-card-needed
-table	table	gk zk	candidate-card-needed
 tablet	tablet	cet4 cet6	candidate-card-needed
 tabulate	tabulate	cet6	candidate-card-needed
 tack	tack	cet6	candidate-card-needed
@@ -6022,7 +5757,6 @@ tar	tar	cet6	candidate-card-needed
 target	target	cet4 cet6 gk	candidate-card-needed
 tariff	tariff	cet6	candidate-card-needed
 task	task	cet4 cet6 gk zk	candidate-card-needed
-taste	taste	cet4 cet6 gk zk	candidate-card-needed
 tasteless	tasteless	gk	candidate-card-needed
 tasty	tasty	gk	candidate-card-needed
 tax	tax	cet4 cet6 gk	candidate-card-needed
@@ -6036,13 +5770,10 @@ tear	tear	cet4 cet6 gk	candidate-card-needed
 tease	tease	cet6 gk	candidate-card-needed
 technical	technical	cet4 cet6 gk	candidate-card-needed
 technician	technician	cet4 cet6	candidate-card-needed
-technique	technique	cet4 cet6 gk	candidate-card-needed
-technology	technology	cet4 cet6 gk zk	candidate-card-needed
 tedious	tedious	cet4 cet6	candidate-card-needed
 teenager	teenager	cet4 cet6 gk	candidate-card-needed
 telegram	telegram	cet4 cet6 gk	candidate-card-needed
 telegraph	telegraph	cet4 cet6 gk	candidate-card-needed
-telephone	telephone	gk zk	candidate-card-needed
 telescope	telescope	cet4 cet6 gk	candidate-card-needed
 television	television	gk zk	candidate-card-needed
 telex	telex	cet6	candidate-card-needed
@@ -6099,7 +5830,6 @@ themselves	themselves	gk zk	candidate-card-needed
 theorem	theorem	cet6	candidate-card-needed
 theoretical	theoretical	cet4 cet6 gk	candidate-card-needed
 therapy	therapy	cet6	candidate-card-needed
-there	there	gk zk	candidate-card-needed
 thereafter	thereafter	cet6	candidate-card-needed
 thereby	thereby	cet4 cet6	candidate-card-needed
 therefore	therefore	cet4 cet6 gk	candidate-card-needed
@@ -6146,7 +5876,6 @@ thrive	thrive	cet4 cet6	candidate-card-needed
 throat	throat	cet4 cet6 gk	candidate-card-needed
 throne	throne	cet4 cet6	candidate-card-needed
 throng	throng	cet4 cet6	candidate-card-needed
-through	through	gk zk	candidate-card-needed
 throughout	throughout	cet4 cet6 gk	candidate-card-needed
 throw	throw	gk zk	candidate-card-needed
 thrust	thrust	cet4 cet6	candidate-card-needed
@@ -6196,11 +5925,8 @@ tomato	tomato	cet4 cet6 gk zk	candidate-card-needed
 tomb	tomb	cet4 cet6 gk	candidate-card-needed
 ton	ton	cet4 cet6 gk zk	candidate-card-needed
 tone	tone	cet4 cet6	candidate-card-needed
-tongue	tongue	cet4 cet6 gk zk	candidate-card-needed
 tonight	tonight	gk zk	candidate-card-needed
-too	too	gk zk	candidate-card-needed
 tool	tool	cet4 cet6 gk zk	candidate-card-needed
-tooth	tooth	gk zk	candidate-card-needed
 toothache	toothache	gk zk	candidate-card-needed
 toothbrush	toothbrush	gk zk	candidate-card-needed
 toothpaste	toothpaste	gk zk	candidate-card-needed
@@ -6216,7 +5942,6 @@ torture	torture	cet4 cet6	candidate-card-needed
 toss	toss	cet4 cet6	candidate-card-needed
 total	total	cet4 cet6 gk zk	candidate-card-needed
 totally	totally	gk	candidate-card-needed
-touch	touch	cet4 cet6 gk zk	candidate-card-needed
 touchable	touchable	cet6	candidate-card-needed
 tough	tough	cet4 cet6 gk	candidate-card-needed
 tour	tour	cet4 cet6 gk zk	candidate-card-needed
@@ -6235,26 +5960,20 @@ trace	trace	cet4 cet6	candidate-card-needed
 track	track	cet4 cet6 gk	candidate-card-needed
 tract	tract	cet6	candidate-card-needed
 tractor	tractor	cet4 cet6 gk	candidate-card-needed
-trade	trade	cet4 cet6 gk zk	candidate-card-needed
 trademark	trademark	cet6	candidate-card-needed
 trader	trader	cet6	candidate-card-needed
 tradesman	tradesman	cet6	candidate-card-needed
-tradition	tradition	cet4 cet6 gk	candidate-card-needed
-traditional	traditional	cet4 cet6 gk zk	candidate-card-needed
 traffic	traffic	cet4 cet6 gk zk	candidate-card-needed
 tragedy	tragedy	cet4 cet6	candidate-card-needed
 tragic	tragic	cet6	candidate-card-needed
 trail	trail	cet4 cet6	candidate-card-needed
-train	train	gk zk	candidate-card-needed
 trainer	trainer	gk	candidate-card-needed
-training	training	cet4 cet6 gk zk	candidate-card-needed
 trait	trait	cet6	candidate-card-needed
 traitor	traitor	cet4 cet6	candidate-card-needed
 tram	tram	cet4 cet6 gk	candidate-card-needed
 tramp	tramp	cet4 cet6	candidate-card-needed
 trample	trample	cet6	candidate-card-needed
 tranquil	tranquil	cet6	candidate-card-needed
-transaction	transaction	cet6	candidate-card-needed
 transcend	transcend	cet6	candidate-card-needed
 transformer	transformer	cet4 cet6	candidate-card-needed
 transient	transient	cet6	candidate-card-needed
@@ -6270,7 +5989,6 @@ transplant	transplant	cet4 cet6	candidate-card-needed
 transportation	transportation	cet4 cet6	candidate-card-needed
 transverse	transverse	cet6	candidate-card-needed
 trap	trap	cet4 cet6 gk	candidate-card-needed
-travel	travel	gk zk	candidate-card-needed
 traveler	traveler	gk	candidate-card-needed
 traverse	traverse	cet6	candidate-card-needed
 tray	tray	cet4 cet6	candidate-card-needed
@@ -6296,7 +6014,6 @@ trick	trick	cet4 cet6 gk	candidate-card-needed
 trifle	trifle	cet4 cet6	candidate-card-needed
 trigger	trigger	cet6	candidate-card-needed
 trim	trim	cet4 cet6	candidate-card-needed
-trip	trip	gk zk	candidate-card-needed
 triple	triple	cet6	candidate-card-needed
 triumph	triumph	cet4 cet6	candidate-card-needed
 triumphant	triumphant	cet6	candidate-card-needed
@@ -6489,7 +6206,6 @@ valid	valid	cet4 cet6 gk	candidate-card-needed
 validity	validity	cet6	candidate-card-needed
 valley	valley	cet4 cet6 gk	candidate-card-needed
 valuable	valuable	cet4 cet6 gk	candidate-card-needed
-value	value	cet4 cet6 gk zk	candidate-card-needed
 valve	valve	cet6	candidate-card-needed
 van	van	cet4 cet6	candidate-card-needed
 vanilla	vanilla	gk	candidate-card-needed
@@ -6505,9 +6221,7 @@ vault	vault	cet6	candidate-card-needed
 vcd	vcd	gk zk	candidate-card-needed
 veal	veal	gk	candidate-card-needed
 vector	vector	cet6	candidate-card-needed
-vegetable	vegetable	gk zk	candidate-card-needed
 vegetation	vegetation	cet6	candidate-card-needed
-vehicle	vehicle	cet4 cet6 gk zk	candidate-card-needed
 veil	veil	cet4 cet6	candidate-card-needed
 vein	vein	cet6	candidate-card-needed
 velocity	velocity	cet4 cet6	candidate-card-needed
@@ -6526,7 +6240,6 @@ verse	verse	cet6	candidate-card-needed
 version	version	cet4 cet6 gk	candidate-card-needed
 versus	versus	cet6	candidate-card-needed
 vertical	vertical	cet4 cet6 gk	candidate-card-needed
-very	very	gk zk	candidate-card-needed
 vessel	vessel	cet4 cet6	candidate-card-needed
 vest	vest	cet4 cet6 gk	candidate-card-needed
 veteran	veteran	cet4 cet6	candidate-card-needed
@@ -6602,7 +6315,6 @@ vulgar	vulgar	cet6	candidate-card-needed
 vulnerable	vulnerable	cet6	candidate-card-needed
 wade	wade	cet6	candidate-card-needed
 wag	wag	cet6 gk	candidate-card-needed
-wage	wage	cet4 cet6 gk	candidate-card-needed
 waggon	waggon	cet4 cet6	candidate-card-needed
 wagon	wagon	cet4	candidate-card-needed
 waist	waist	cet4 cet6 gk	candidate-card-needed
@@ -6613,7 +6325,6 @@ wake	wake	gk zk	candidate-card-needed
 waken	waken	cet4 cet6	candidate-card-needed
 walk	walk	gk zk	candidate-card-needed
 walkman	walkman	gk	candidate-card-needed
-wall	wall	gk zk	candidate-card-needed
 wallet	wallet	cet4 cet6 gk	candidate-card-needed
 walnut	walnut	cet6 gk	candidate-card-needed
 wander	wander	cet4 cet6 gk	candidate-card-needed
@@ -6635,7 +6346,6 @@ waste	waste	cet4 cet6 gk zk	candidate-card-needed
 wasteful	wasteful	cet6	candidate-card-needed
 watch	watch	gk zk	candidate-card-needed
 watchful	watchful	cet6	candidate-card-needed
-water	water	gk zk	candidate-card-needed
 waterfall	waterfall	cet4 cet6	candidate-card-needed
 watermelon	watermelon	gk zk	candidate-card-needed
 waterproof	waterproof	cet4 cet6	candidate-card-needed
@@ -6685,18 +6395,15 @@ westwards	westwards	gk	candidate-card-needed
 wet	wet	gk zk	candidate-card-needed
 whale	whale	cet4 cet6 gk zk	candidate-card-needed
 wharf	wharf	cet6	candidate-card-needed
-what	what	gk zk	candidate-card-needed
 whatever	whatever	cet4 cet6 gk zk	candidate-card-needed
 whatsoever	whatsoever	cet4	candidate-card-needed
 wheat	wheat	cet4 cet6 gk zk	candidate-card-needed
 wheel	wheel	cet4 cet6 gk zk	candidate-card-needed
 whenever	whenever	cet4 cet6 gk zk	candidate-card-needed
-where	where	gk zk	candidate-card-needed
 whereas	whereas	cet4 cet6	candidate-card-needed
 whereby	whereby	cet6	candidate-card-needed
 wherever	wherever	cet4 cet6 gk	candidate-card-needed
 whether	whether	gk zk	candidate-card-needed
-which	which	gk zk	candidate-card-needed
 whichever	whichever	cet4 cet6 gk	candidate-card-needed
 whilst	whilst	cet4 cet6	candidate-card-needed
 whip	whip	cet4 cet6	candidate-card-needed
@@ -6707,14 +6414,12 @@ whisper	whisper	cet4 cet6 gk	candidate-card-needed
 whistle	whistle	cet4 cet6 gk	candidate-card-needed
 white	white	gk zk	candidate-card-needed
 whitewash	whitewash	cet4 cet6	candidate-card-needed
-who	who	gk zk	candidate-card-needed
 whoever	whoever	cet4 cet6	candidate-card-needed
 whole	whole	cet4 cet6 gk zk	candidate-card-needed
 wholesome	wholesome	cet6	candidate-card-needed
 wholly	wholly	cet4 cet6	candidate-card-needed
 whom	whom	gk zk	candidate-card-needed
 whose	whose	gk zk	candidate-card-needed
-why	why	gk zk	candidate-card-needed
 wicked	wicked	cet4 cet6	candidate-card-needed
 wide	wide	gk zk	candidate-card-needed
 widely	widely	cet4 cet6	candidate-card-needed
@@ -6727,7 +6432,6 @@ wife	wife	gk zk	candidate-card-needed
 wild	wild	cet4 cet6 gk	candidate-card-needed
 wildlife	wildlife	gk	candidate-card-needed
 wilful	wilful	cet6	candidate-card-needed
-will	will	gk zk	candidate-card-needed
 willing	willing	cet4 cet6 gk	candidate-card-needed
 willingly	willingly	gk	candidate-card-needed
 willingness	willingness	gk	candidate-card-needed
@@ -6737,7 +6441,6 @@ wind	wind	gk zk	candidate-card-needed
 windbreaker	windbreaker	gk	candidate-card-needed
 winding	winding	cet6	candidate-card-needed
 windmill	windmill	cet6	candidate-card-needed
-window	window	gk zk	candidate-card-needed
 windy	windy	cet6 gk zk	candidate-card-needed
 wine	wine	cet4 cet6 gk zk	candidate-card-needed
 wing	wing	cet4 cet6 gk zk	candidate-card-needed
@@ -6783,7 +6486,6 @@ world-wide	world-wide	cet4 cet6	candidate-card-needed
 worldwide	worldwide	cet4 gk	candidate-card-needed
 worm	worm	cet4 cet6 gk	candidate-card-needed
 worn	worn	gk	candidate-card-needed
-worried	worried	gk	candidate-card-needed
 worry	worry	gk zk	candidate-card-needed
 worse	worse	cet4 cet6 gk	candidate-card-needed
 worship	worship	cet4 cet6	candidate-card-needed
@@ -6792,7 +6494,6 @@ worth	worth	gk zk	candidate-card-needed
 worthless	worthless	cet4 cet6 gk	candidate-card-needed
 worthwhile	worthwhile	cet4 cet6 gk	candidate-card-needed
 worthy	worthy	cet4 cet6 gk	candidate-card-needed
-would	would	gk zk	candidate-card-needed
 wound	wound	cet4 cet6 gk zk	candidate-card-needed
 wounded	wounded	gk	candidate-card-needed
 wrap	wrap	cet4 cet6	candidate-card-needed
@@ -6818,7 +6519,6 @@ yearn	yearn	cet6	candidate-card-needed
 yeast	yeast	cet6	candidate-card-needed
 yell	yell	cet4 cet6 gk	candidate-card-needed
 yellow	yellow	gk zk	candidate-card-needed
-yes	yes	gk zk	candidate-card-needed
 yet	yet	gk zk	candidate-card-needed
 yield	yield	cet4 cet6	candidate-card-needed
 yielding	yielding	cet6	candidate-card-needed

@@ -12,10 +12,10 @@ with (ROOT/'content/scope/ecdict-words.tsv').open(encoding='utf-8',newline='') a
 assert len(candidates)==source['candidateWords']
 source['adoptedSha256']=hashlib.sha256((ROOT/'content/scope/ecdict-words.tsv').read_bytes()).hexdigest()
 source['licenseSha256']=hashlib.sha256((ROOT/'content/scope/ECDICT-LICENSE').read_bytes()).hexdigest()
-(ROOT/'content/scope/source.json').write_text(json.dumps(source,ensure_ascii=False,indent=2),encoding='utf-8')
+(ROOT/'content/scope/source.json').write_text(json.dumps(source,ensure_ascii=False,indent=2),encoding='utf-8',newline='\n')
 tags=Counter(tag for group in candidates.values() for tag in sorted(group))
 stages=Counter('基础' if group & {'zk','gk'} else '四级' if 'cet4' in group else '六级' for group in candidates.values())
-app_words={w['word']:w for w in data['words']}
+app_words={w['word'].lower():w for w in data['words']}
 audio_manifest=json.loads((ROOT/'public/audio/manifest.json').read_text(encoding='utf-8'))
 audio_by_file={x['file']:x for x in audio_manifest}
 problems=[]
@@ -24,7 +24,7 @@ for word in data['words']:
     issues=[]
     if not word['meaning'] or not word['ipa']: issues.append('missing-core-field')
     if len(word['phrases'])<2 or len(word['examples'])<2: issues.append('missing-usage')
-    base=word['word']
+    base=word['word'].lower()
     forms={base,base+'s',base+'es',base+'d',base+'ed',base+'ing',base+"'s"}
     if base.endswith('e'): forms.add(base[:-1]+'ing')
     if base.endswith('y'): forms.update({base[:-1]+'ies',base[:-1]+'ied'})
@@ -61,7 +61,7 @@ report={
 }
 out=ROOT/'content/reports'
 out.mkdir(parents=True,exist_ok=True)
-(out/'scope.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
+(out/'scope.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8',newline='\n')
 with (out/'card-audit.tsv').open('w',encoding='utf-8',newline='') as f:
     writer=csv.writer(f,delimiter='\t',lineterminator='\n')
     writer.writerow(['id','word','referenceLevel','topic','scene','concept','family','reviewStatus','sourceTags','issues'])
@@ -104,9 +104,9 @@ text=f'''# 词库范围与试用词卡清点
 
 [考试院大纲页面](https://cet.neea.edu.cn/html1/folder/16113/1588-1.htm)目前列出英语2016年修订版。本报告尚未逐条对照该大纲，因此没有给出官方覆盖率。
 
-300张卡片为原创辅助编写草稿，不能自动标为人工审核通过。`card-audit.tsv`逐卡记录分组、标签与缺项；`missing-cards.tsv`列出全部待制作候选词。音标、词义、搭配、词根证据与每段音频仍需要完整校审。
+{len(app_words)}张卡片为原创辅助编写草稿，不能自动标为人工审核通过。`card-audit.tsv`逐卡记录分组、标签与缺项；`missing-cards.tsv`列出全部待制作候选词。音标、词义、搭配、词根证据与每段音频仍需要完整校审。
 '''
-(out/'scope.md').write_text(text,encoding='utf-8')
+(out/'scope.md').write_text(text,encoding='utf-8',newline='\n')
 print('Candidate words:',len(candidates),'Trial cards:',len(app_words),'Missing cards:',len(missing),'Structural issues:',len(problems),flush=True)
 if problems:
     print(json.dumps(problems,ensure_ascii=True),flush=True)

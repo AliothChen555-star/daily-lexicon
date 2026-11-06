@@ -1,0 +1,476 @@
+{
+  "know": {
+    "label": "know 词族",
+    "meaning": "知道与知识",
+    "kind": "family",
+    "note": "按相关的现代词形与派生关系联系记忆；不将整个单词当作古典词根，也不意味着所有词形均为规则派生。"
+  },
+  "educate": {
+    "label": "educate 词族",
+    "meaning": "教育行为与教育",
+    "kind": "family",
+    "note": "按相关的现代词形与派生关系联系记忆；不将整个单词当作古典词根，也不意味着所有词形均为规则派生。"
+  },
+  "train": {
+    "label": "train 词族",
+    "meaning": "训练与培训",
+    "kind": "family",
+    "note": "按相关的现代词形与派生关系联系记忆；不将整个单词当作古典词根，也不意味着所有词形均为规则派生。"
+  },
+  "graduate": {
+    "label": "graduate 词族",
+    "meaning": "毕业与毕业生",
+    "kind": "family",
+    "note": "按相关的现代词形与派生关系联系记忆；不将整个单词当作古典词根，也不意味着所有词形均为规则派生。"
+  },
+  "profession": {
+    "label": "profession 词族",
+    "meaning": "职业与专业人士",
+    "kind": "family",
+    "note": "按相关的现代词形与派生关系联系记忆；不将整个单词当作古典词根，也不意味着所有词形均为规则派生。"
+  },
+  "employ": {
+    "label": "employ 词族",
+    "meaning": "雇佣与雇佣关系",
+    "kind": "family",
+    "note": "按相关的现代词形与派生关系联系记忆；不将整个单词当作古典词根，也不意味着所有词形均为规则派生。"
+  },
+  "anxious": {
+    "label": "anxious 词族",
+    "meaning": "焦虑与焦虑的状态",
+    "kind": "family",
+    "note": "按相关的现代词形与派生关系联系记忆；不将整个单词当作古典词根，也不意味着所有词形均为规则派生。"
+  },
+  "confident": {
+    "label": "confident 词族",
+    "meaning": "自信与信心",
+    "kind": "family",
+    "note": "按相关的现代词形与派生关系联系记忆；不将整个单词当作古典词根，也不意味着所有词形均为规则派生。"
+  },
+  "proud": {
+    "label": "proud 词族",
+    "meaning": "自豪与骄傲",
+    "kind": "family",
+    "note": "proud与pride是词形有变化的相关词，分别用于形容和名词表达，不是规则加后缀。"
+  },
+  "shame": {
+    "label": "shame 词族",
+    "meaning": "羞愧与感到羞愧",
+    "kind": "family",
+    "note": "按相关的现代词形与派生关系联系记忆；不将整个单词当作古典词根，也不意味着所有词形均为规则派生。"
+  },
+  "hope": {
+    "label": "hope 词族",
+    "meaning": "希望与抱有希望",
+    "kind": "family",
+    "note": "按相关的现代词形与派生关系联系记忆；不将整个单词当作古典词根，也不意味着所有词形均为规则派生。"
+  },
+  "honest": {
+    "label": "honest 词族",
+    "meaning": "诚实与诚实的品质",
+    "kind": "family",
+    "note": "按相关的现代词形与派生关系联系记忆；不将整个单词当作古典词根，也不意味着所有词形均为规则派生。"
+  },
+  "modest": {
+    "label": "modest 词族",
+    "meaning": "谦逊与谦逊的品质",
+    "kind": "family",
+    "note": "按相关的现代词形与派生关系联系记忆；不将整个单词当作古典词根，也不意味着所有词形均为规则派生。"
+  },
+  "curious": {
+    "label": "curious 词族",
+    "meaning": "好奇与好奇心",
+    "kind": "family",
+    "note": "按相关的现代词形与派生关系联系记忆；不将整个单词当作古典词根，也不意味着所有词形均为规则派生。"
+  },
+  "ambition": {
+    "label": "ambition 词族",
+    "meaning": "抱负与有抱负的",
+    "kind": "family",
+    "note": "按相关的现代词形与派生关系联系记忆；不将整个单词当作古典词根，也不意味着所有词形均为规则派生。"
+  },
+  "arrive": {
+    "label": "arrive 词族",
+    "meaning": "到达与到达这件事",
+    "kind": "family",
+    "note": "按相关的现代词形与派生关系联系记忆；不将整个单词当作古典词根，也不意味着所有词形均为规则派生。"
+  },
+  "depart": {
+    "label": "depart 词族",
+    "meaning": "出发与离开",
+    "kind": "family",
+    "note": "按相关的现代词形与派生关系联系记忆；不将整个单词当作古典词根，也不意味着所有词形均为规则派生。"
+  },
+  "consume": {
+    "label": "consume 词族",
+    "meaning": "消费与消费行为",
+    "kind": "family",
+    "note": "按相关的现代词形与派生关系联系记忆；不将整个单词当作古典词根，也不意味着所有词形均为规则派生。"
+  },
+  "invest": {
+    "label": "invest 词族",
+    "meaning": "投资与投资行为",
+    "kind": "family",
+    "note": "按相关的现代词形与派生关系联系记忆；不将整个单词当作古典词根，也不意味着所有词形均为规则派生。"
+  },
+  "access": {
+    "label": "access 词族",
+    "meaning": "访问与可访问的",
+    "kind": "family",
+    "note": "按相关的现代词形与派生关系联系记忆；不将整个单词当作古典词根，也不意味着所有词形均为规则派生。"
+  },
+  "secure": {
+    "label": "secure 词族",
+    "meaning": "安全与安全保障",
+    "kind": "family",
+    "note": "按相关的现代词形与派生关系联系记忆；不将整个单词当作古典词根，也不意味着所有词形均为规则派生。"
+  },
+  "private": {
+    "label": "private 词族",
+    "meaning": "私人的与隐私",
+    "kind": "family",
+    "note": "按相关的现代词形与派生关系联系记忆；不将整个单词当作古典词根，也不意味着所有词形均为规则派生。"
+  },
+  "automatic": {
+    "label": "automatic 词族",
+    "meaning": "自动的与自动地",
+    "kind": "family",
+    "note": "按相关的现代词形与派生关系联系记忆；不将整个单词当作古典词根，也不意味着所有词形均为规则派生。"
+  },
+  "efficient": {
+    "label": "efficient 词族",
+    "meaning": "高效的与效率",
+    "kind": "family",
+    "note": "按相关的现代词形与派生关系联系记忆；不将整个单词当作古典词根，也不意味着所有词形均为规则派生。"
+  },
+  "invent": {
+    "label": "invent 词族",
+    "meaning": "发明与发明成果",
+    "kind": "family",
+    "note": "按相关的现代词形与派生关系联系记忆；不将整个单词当作古典词根，也不意味着所有词形均为规则派生。"
+  },
+  "tradition": {
+    "label": "tradition 词族",
+    "meaning": "传统与传统的",
+    "kind": "family",
+    "note": "按相关的现代词形与派生关系联系记忆；不将整个单词当作古典词根，也不意味着所有词形均为规则派生。"
+  },
+  "celebrate": {
+    "label": "celebrate 词族",
+    "meaning": "庆祝与庆祝活动",
+    "kind": "family",
+    "note": "按相关的现代词形与派生关系联系记忆；不将整个单词当作古典词根，也不意味着所有词形均为规则派生。"
+  },
+  "art": {
+    "label": "art 词族",
+    "meaning": "艺术与艺术创作",
+    "kind": "family",
+    "note": "按相关的现代词形与派生关系联系记忆；不将整个单词当作古典词根，也不意味着所有词形均为规则派生。"
+  },
+  "music": {
+    "label": "music 词族",
+    "meaning": "音乐与音乐的",
+    "kind": "family",
+    "note": "按相关的现代词形与派生关系联系记忆；不将整个单词当作古典词根，也不意味着所有词形均为规则派生。"
+  },
+  "literature": {
+    "label": "literature 词族",
+    "meaning": "文学与文学的",
+    "kind": "family",
+    "note": "按相关的现代词形与派生关系联系记忆；不将整个单词当作古典词根，也不意味着所有词形均为规则派生。"
+  },
+  "poetry": {
+    "label": "poetry 词族",
+    "meaning": "诗人与诗歌",
+    "kind": "family",
+    "note": "poem是一首诗，poet是诗人，poetry是诗歌的总称；按相关现代词形联系，不以简单后缀规则互换。"
+  },
+  "history": {
+    "label": "history 词族",
+    "meaning": "历史与历史的",
+    "kind": "family",
+    "note": "按相关的现代词形与派生关系联系记忆；不将整个单词当作古典词根，也不意味着所有词形均为规则派生。"
+  },
+  "religion": {
+    "label": "religion 词族",
+    "meaning": "宗教与宗教的",
+    "kind": "family",
+    "note": "按相关的现代词形与派生关系联系记忆；不将整个单词当作古典词根，也不意味着所有词形均为规则派生。"
+  },
+  "migrate": {
+    "label": "migrate 词族",
+    "meaning": "迁移与迁居",
+    "kind": "family",
+    "note": "migrate表示迁移，emigrate侧重迁出，immigrant指迁入者；用相关词形记忆并区分方向，不能把三者当作同义词。"
+  },
+  "decide": {
+    "label": "decide 词族",
+    "meaning": "决定与决定的结果",
+    "kind": "family",
+    "note": "按相关的现代词形与派生关系联系记忆；不将整个单词当作古典词根，也不意味着所有词形均为规则派生。"
+  },
+  "choose": {
+    "label": "choose 词族",
+    "meaning": "选择与作出的选择",
+    "kind": "family",
+    "note": "按相关的现代词形与派生关系联系记忆；不将整个单词当作古典词根，也不意味着所有词形均为规则派生。"
+  },
+  "prefer": {
+    "label": "prefer 词族",
+    "meaning": "偏好与偏好的事物",
+    "kind": "family",
+    "note": "按相关的现代词形与派生关系联系记忆；不将整个单词当作古典词根，也不意味着所有词形均为规则派生。"
+  },
+  "prepare": {
+    "label": "prepare 词族",
+    "meaning": "准备与准备工作",
+    "kind": "family",
+    "note": "按相关的现代词形与派生关系联系记忆；不将整个单词当作古典词根，也不意味着所有词形均为规则派生。"
+  },
+  "expect": {
+    "label": "expect 词族",
+    "meaning": "期待与预期",
+    "kind": "family",
+    "note": "按相关的现代词形与派生关系联系记忆；不将整个单词当作古典词根，也不意味着所有词形均为规则派生。"
+  },
+  "achieve": {
+    "label": "achieve 词族",
+    "meaning": "达成与成就",
+    "kind": "family",
+    "note": "按相关的现代词形与派生关系联系记忆；不将整个单词当作古典词根，也不意味着所有词形均为规则派生。"
+  },
+  "succeed": {
+    "label": "succeed 词族",
+    "meaning": "成功与成功的",
+    "kind": "family",
+    "note": "按相关的现代词形与派生关系联系记忆；不将整个单词当作古典词根，也不意味着所有词形均为规则派生。"
+  },
+  "fail": {
+    "label": "fail 词族",
+    "meaning": "失败与失败的结果",
+    "kind": "family",
+    "note": "按相关的现代词形与派生关系联系记忆；不将整个单词当作古典词根，也不意味着所有词形均为规则派生。"
+  },
+  "persist": {
+    "label": "persist 词族",
+    "meaning": "坚持与坚持的品质",
+    "kind": "family",
+    "note": "按相关的现代词形与派生关系联系记忆；不将整个单词当作古典词根，也不意味着所有词形均为规则派生。"
+  },
+  "determine": {
+    "label": "determine 词族",
+    "meaning": "决定与决心",
+    "kind": "family",
+    "note": "按相关的现代词形与派生关系联系记忆；不将整个单词当作古典词根，也不意味着所有词形均为规则派生。"
+  },
+  "resolve": {
+    "label": "resolve 词族",
+    "meaning": "解决与决心",
+    "kind": "family",
+    "note": "按相关的现代词形与派生关系联系记忆；不将整个单词当作古典词根，也不意味着所有词形均为规则派生。"
+  },
+  "negotiate": {
+    "label": "negotiate 词族",
+    "meaning": "协商与协商的过程",
+    "kind": "family",
+    "note": "按相关的现代词形与派生关系联系记忆；不将整个单词当作古典词根，也不意味着所有词形均为规则派生。"
+  },
+  "body-parts": {
+    "label": "身体部位独立词",
+    "meaning": "按用法理解",
+    "kind": "independent",
+    "note": "本组按学习语境归置，不认定具有共同词根或直接派生关系。第二轮仍覆盖本组全部单词。"
+  },
+  "senses": {
+    "label": "感官与感知独立词",
+    "meaning": "按用法理解",
+    "kind": "independent",
+    "note": "本组按学习语境归置，不认定具有共同词根或直接派生关系。第二轮仍覆盖本组全部单词。"
+  },
+  "food-drinks": {
+    "label": "食物与饮品独立词",
+    "meaning": "按用法理解",
+    "kind": "independent",
+    "note": "本组按学习语境归置，不认定具有共同词根或直接派生关系。第二轮仍覆盖本组全部单词。"
+  },
+  "food-meals": {
+    "label": "用餐与烹饪独立词",
+    "meaning": "按用法理解",
+    "kind": "independent",
+    "note": "本组按学习语境归置，不认定具有共同词根或直接派生关系。第二轮仍覆盖本组全部单词。"
+  },
+  "home-objects": {
+    "label": "房屋与家具独立词",
+    "meaning": "按用法理解",
+    "kind": "independent",
+    "note": "本组按学习语境归置，不认定具有共同词根或直接派生关系。第二轮仍覆盖本组全部单词。"
+  },
+  "home-services": {
+    "label": "租住与维修独立词",
+    "meaning": "按用法理解",
+    "kind": "independent",
+    "note": "本组按学习语境归置，不认定具有共同词根或直接派生关系。第二轮仍覆盖本组全部单词。"
+  },
+  "study-people": {
+    "label": "学习者独立词",
+    "meaning": "按用法理解",
+    "kind": "independent",
+    "note": "本组按学习语境归置，不认定具有共同词根或直接派生关系。第二轮仍覆盖本组全部单词。"
+  },
+  "study-life": {
+    "label": "学习生活独立词",
+    "meaning": "按用法理解",
+    "kind": "independent",
+    "note": "本组按学习语境归置，不认定具有共同词根或直接派生关系。第二轮仍覆盖本组全部单词。"
+  },
+  "work-roles": {
+    "label": "职业与求职独立词",
+    "meaning": "按用法理解",
+    "kind": "independent",
+    "note": "本组按学习语境归置，不认定具有共同词根或直接派生关系。第二轮仍覆盖本组全部单词。"
+  },
+  "emotion-basic": {
+    "label": "基本情绪与感受独立词",
+    "meaning": "按用法理解",
+    "kind": "independent",
+    "note": "本组按学习语境归置，不认定具有共同词根或直接派生关系。第二轮仍覆盖本组全部单词。"
+  },
+  "character-independent": {
+    "label": "礼貌与品格独立词",
+    "meaning": "按用法理解",
+    "kind": "independent",
+    "note": "本组按学习语境归置，不认定具有共同词根或直接派生关系。第二轮仍覆盖本组全部单词。"
+  },
+  "space-positions": {
+    "label": "位置与距离独立词",
+    "meaning": "按用法理解",
+    "kind": "independent",
+    "note": "本组按学习语境归置，不认定具有共同词根或直接派生关系。第二轮仍覆盖本组全部单词。"
+  },
+  "space-relations": {
+    "label": "方位与空间关系独立词",
+    "meaning": "按用法理解",
+    "kind": "independent",
+    "note": "本组按学习语境归置，不认定具有共同词根或直接派生关系。第二轮仍覆盖本组全部单词。"
+  },
+  "travel": {
+    "label": "出行与交通独立词",
+    "meaning": "按用法理解",
+    "kind": "independent",
+    "note": "本组按学习语境归置，不认定具有共同词根或直接派生关系。第二轮仍覆盖本组全部单词。"
+  },
+  "basic-expression": {
+    "label": "基本表达与应答独立词",
+    "meaning": "按用法理解",
+    "kind": "independent",
+    "note": "本组按学习语境归置，不认定具有共同词根或直接派生关系。第二轮仍覆盖本组全部单词。"
+  },
+  "basic-modals": {
+    "label": "情态动词独立词",
+    "meaning": "按用法理解",
+    "kind": "independent",
+    "note": "本组按学习语境归置，不认定具有共同词根或直接派生关系。第二轮仍覆盖本组全部单词。"
+  },
+  "basic-questions": {
+    "label": "疑问表达独立词",
+    "meaning": "按用法理解",
+    "kind": "independent",
+    "note": "本组按学习语境归置，不认定具有共同词根或直接派生关系。第二轮仍覆盖本组全部单词。"
+  },
+  "basic-context": {
+    "label": "指示与其他独立词",
+    "meaning": "按用法理解",
+    "kind": "independent",
+    "note": "本组按学习语境归置，不认定具有共同词根或直接派生关系。第二轮仍覆盖本组全部单词。"
+  },
+  "basic-degree": {
+    "label": "程度与补充独立词",
+    "meaning": "按用法理解",
+    "kind": "independent",
+    "note": "本组按学习语境归置，不认定具有共同词根或直接派生关系。第二轮仍覆盖本组全部单词。"
+  },
+  "basic-frequency": {
+    "label": "频率与再次独立词",
+    "meaning": "按用法理解",
+    "kind": "independent",
+    "note": "本组按学习语境归置，不认定具有共同词根或直接派生关系。第二轮仍覆盖本组全部单词。"
+  },
+  "economy-basics": {
+    "label": "金钱与价值独立词",
+    "meaning": "按用法理解",
+    "kind": "independent",
+    "note": "本组按学习语境归置，不认定具有共同词根或直接派生关系。第二轮仍覆盖本组全部单词。"
+  },
+  "economy-transactions": {
+    "label": "交易与收付独立词",
+    "meaning": "按用法理解",
+    "kind": "independent",
+    "note": "本组按学习语境归置，不认定具有共同词根或直接派生关系。第二轮仍覆盖本组全部单词。"
+  },
+  "economy-income": {
+    "label": "收入与盈亏独立词",
+    "meaning": "按用法理解",
+    "kind": "independent",
+    "note": "本组按学习语境归置，不认定具有共同词根或直接派生关系。第二轮仍覆盖本组全部单词。"
+  },
+  "economy-market": {
+    "label": "市场与供需独立词",
+    "meaning": "按用法理解",
+    "kind": "independent",
+    "note": "本组按学习语境归置，不认定具有共同词根或直接派生关系。第二轮仍覆盖本组全部单词。"
+  },
+  "economy-finance": {
+    "label": "财务与收支独立词",
+    "meaning": "按用法理解",
+    "kind": "independent",
+    "note": "本组按学习语境归置，不认定具有共同词根或直接派生关系。第二轮仍覆盖本组全部单词。"
+  },
+  "technology-devices": {
+    "label": "数字设备独立词",
+    "meaning": "按用法理解",
+    "kind": "independent",
+    "note": "本组按学习语境归置，不认定具有共同词根或直接派生关系。第二轮仍覆盖本组全部单词。"
+  },
+  "technology-communication": {
+    "label": "信息与连接独立词",
+    "meaning": "按用法理解",
+    "kind": "independent",
+    "note": "本组按学习语境归置，不认定具有共同词根或直接派生关系。第二轮仍覆盖本组全部单词。"
+  },
+  "technology-computing": {
+    "label": "计算与技术独立词",
+    "meaning": "按用法理解",
+    "kind": "independent",
+    "note": "本组按学习语境归置，不认定具有共同词根或直接派生关系。第二轮仍覆盖本组全部单词。"
+  },
+  "technology-ideas": {
+    "label": "智能与创新独立词",
+    "meaning": "按用法理解",
+    "kind": "independent",
+    "note": "本组按学习语境归置，不认定具有共同词根或直接派生关系。第二轮仍覆盖本组全部单词。"
+  },
+  "culture-independent": {
+    "label": "文化与社会认同独立词",
+    "meaning": "按用法理解",
+    "kind": "independent",
+    "note": "本组按学习语境归置，不认定具有共同词根或直接派生关系。第二轮仍覆盖本组全部单词。"
+  },
+  "culture-events": {
+    "label": "节日与仪式独立词",
+    "meaning": "按用法理解",
+    "kind": "independent",
+    "note": "本组按学习语境归置，不认定具有共同词根或直接派生关系。第二轮仍覆盖本组全部单词。"
+  },
+  "action-planning": {
+    "label": "行动与选择独立词",
+    "meaning": "按用法理解",
+    "kind": "independent",
+    "note": "本组按学习语境归置，不认定具有共同词根或直接派生关系。第二轮仍覆盖本组全部单词。"
+  },
+  "action-effort": {
+    "label": "尝试与努力独立词",
+    "meaning": "按用法理解",
+    "kind": "independent",
+    "note": "本组按学习语境归置，不认定具有共同词根或直接派生关系。第二轮仍覆盖本组全部单词。"
+  }
+}

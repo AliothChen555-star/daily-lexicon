@@ -1,0 +1,66 @@
+{
+  "version": "0.3.0",
+  "date": "2026-11-06",
+  "topics": [
+    {
+      "id": "body",
+      "label": "身体与感官",
+      "subtitle": "认识身体，描述感受",
+      "words": "body head face eye ear nose mouth tooth tongue skin hand finger arm leg foot bone muscle brain blood heart lung stomach sight hearing smell taste touch pain injury recover"
+    },
+    {
+      "id": "food",
+      "label": "饮食与居住",
+      "subtitle": "从餐桌走到生活空间",
+      "words": "food water milk bread rice fruit vegetable meat fish egg sugar salt oil meal breakfast lunch dinner cook kitchen table chair bed window door wall floor roof rent repair furniture"
+    },
+    {
+      "id": "education",
+      "label": "教育与职业",
+      "subtitle": "从学习走向工作",
+      "words": "student pupil class lesson course subject question answer practice exercise knowledge skill ability education educate academic train training graduate graduation career profession professional occupation employ employee employer employment interview qualification"
+    },
+    {
+      "id": "emotion",
+      "label": "情绪与品格",
+      "subtitle": "说清感受，也理解自己",
+      "words": "happy sad afraid angry calm excitement worried anxious anxiety confident confidence proud pride ashamed shame hope hopeful fear courage brave honest honesty polite courtesy modest modesty curious curiosity ambitious ambition"
+    },
+    {
+      "id": "space",
+      "label": "空间与出行",
+      "subtitle": "找到位置，抵达远方",
+      "words": "place position location direction distance near far above below between through across along around inside outside front behind left right travel journey trip arrive arrival depart departure vehicle route destination"
+    },
+    {
+      "id": "basic",
+      "label": "基础表达",
+      "subtitle": "从自我表达走向日常问答",
+      "words": "I be not no yes can may must should will would who what which where why how here there other another such very also only too again always never sometimes"
+    },
+    {
+      "id": "economy",
+      "label": "商业与经济",
+      "subtitle": "理解交易与资源流动",
+      "words": "money price cost value buy sell pay spend save earn income salary wage profit loss trade market demand supply consume consumer consumption invest investment budget debt inflation revenue expenditure transaction"
+    },
+    {
+      "id": "technology",
+      "label": "信息与技术",
+      "subtitle": "理解数字生活的语言",
+      "words": "computer telephone message information digital device network software hardware program code screen signal access accessible secure security private privacy technology technique automatic automatically artificial intelligence efficient efficiency invent innovation invention"
+    },
+    {
+      "id": "culture",
+      "label": "文化与交流",
+      "subtitle": "认识传统，也看见差异",
+      "words": "culture civilization custom tradition traditional festival celebrate celebration ceremony art artist artistic music musical literature literary poem poet poetry history historical heritage religion religious ethnic identity migrate emigrate immigrant community"
+    },
+    {
+      "id": "decisions",
+      "label": "选择与行动",
+      "subtitle": "从作出选择到坚持完成",
+      "words": "decide decision choose choice prefer preference plan prepare preparation expect expectation achieve achievement succeed success successful fail failure attempt effort persist persistence determine determination resolve resolution negotiate negotiation compromise priority"
+    }
+  ]
+}

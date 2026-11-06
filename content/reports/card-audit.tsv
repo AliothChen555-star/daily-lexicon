@@ -241,9 +241,9 @@ dl-renewable	renewable	六级	nature	nature-ecology	nature-conservation	nature-r
 dl-contaminate	contaminate	六级	nature	nature-ecology	nature-conservation	nature-resources	editorial-draft	cet6	none
 dl-science	science	四级	science	science-inquiry	science-methods	science	editorial-draft	gk zk	none
 dl-scientific	scientific	四级	science	science-inquiry	science-methods	science	editorial-draft	cet4 cet6 gk	none
-dl-research	research	四级	science	science-inquiry	science-methods	science	editorial-draft	cet4 cet6 gk zk	none
-dl-experiment	experiment	四级	science	science-inquiry	science-methods	science	editorial-draft	cet4 cet6 gk zk	none
-dl-theory	theory	四级	science	science-inquiry	science-methods	science	editorial-draft	cet4 cet6 gk	none
+dl-research	research	四级	science	science-inquiry	science-methods	scientific-reasoning	editorial-draft	cet4 cet6 gk zk	none
+dl-experiment	experiment	四级	science	science-inquiry	science-methods	scientific-reasoning	editorial-draft	cet4 cet6 gk zk	none
+dl-theory	theory	四级	science	science-inquiry	science-methods	scientific-reasoning	editorial-draft	cet4 cet6 gk	none
 dl-method	method	四级	science	science-inquiry	science-methods	method	editorial-draft	cet4 cet6 gk zk	none
 dl-methodology	methodology	六级	science	science-inquiry	science-methods	method	editorial-draft		none
 dl-hypothesis	hypothesis	六级	science	science-inquiry	science-tests	scientific-reasoning	editorial-draft	cet6	none
@@ -299,3 +299,303 @@ dl-transparency	transparency	六级	civic	civic-responsibility	civic-legitimacy	
 dl-consensus	consensus	六级	civic	civic-responsibility	civic-legitimacy	civic-practices	editorial-draft	cet6 gk	none
 dl-legitimate	legitimate	六级	civic	civic-responsibility	civic-legitimacy	legitimate	editorial-draft	cet6	none
 dl-legitimacy	legitimacy	六级	civic	civic-responsibility	civic-legitimacy	legitimate	editorial-draft		none
+dl-body	body	基础	body	body-appearance	body-head	body-parts	editorial-draft	zk	none
+dl-head	head	基础	body	body-appearance	body-head	body-parts	editorial-draft	gk zk	none
+dl-face	face	基础	body	body-appearance	body-head	body-parts	editorial-draft	gk zk	none
+dl-eye	eye	基础	body	body-appearance	body-head	body-parts	editorial-draft	gk zk	none
+dl-ear	ear	基础	body	body-appearance	body-head	body-parts	editorial-draft	gk zk	none
+dl-nose	nose	基础	body	body-appearance	body-head	body-parts	editorial-draft	gk zk	none
+dl-mouth	mouth	基础	body	body-appearance	body-head	body-parts	editorial-draft	gk zk	none
+dl-tooth	tooth	基础	body	body-appearance	body-head	body-parts	editorial-draft	gk zk	none
+dl-tongue	tongue	基础	body	body-appearance	body-head	body-parts	editorial-draft	cet4 cet6 gk zk	none
+dl-skin	skin	基础	body	body-appearance	body-head	body-parts	editorial-draft	cet4 cet6 gk	none
+dl-hand	hand	基础	body	body-appearance	body-limbs	body-parts	editorial-draft	gk zk	none
+dl-finger	finger	基础	body	body-appearance	body-limbs	body-parts	editorial-draft	cet4 cet6 gk zk	none
+dl-arm	arm	基础	body	body-appearance	body-limbs	body-parts	editorial-draft	gk zk	none
+dl-leg	leg	基础	body	body-appearance	body-limbs	body-parts	editorial-draft	gk zk	none
+dl-foot	foot	基础	body	body-appearance	body-limbs	body-parts	editorial-draft	gk zk	none
+dl-bone	bone	基础	body	body-systems	body-support	body-parts	editorial-draft	cet4 gk	none
+dl-muscle	muscle	四级	body	body-systems	body-support	body-parts	editorial-draft	cet4 cet6	none
+dl-brain	brain	基础	body	body-systems	body-support	body-parts	editorial-draft	cet4 gk zk	none
+dl-blood	blood	基础	body	body-systems	body-organs	body-parts	editorial-draft	cet4 gk zk	none
+dl-heart	heart	基础	body	body-systems	body-organs	body-parts	editorial-draft	gk zk	none
+dl-lung	lung	基础	body	body-systems	body-organs	body-parts	editorial-draft	cet4 cet6 gk	none
+dl-stomach	stomach	基础	body	body-systems	body-organs	body-parts	editorial-draft	cet4 cet6 gk zk	none
+dl-sight	sight	基础	body	body-feeling	body-senses	senses	editorial-draft	cet4 cet6 gk zk	none
+dl-hearing	hearing	基础	body	body-feeling	body-senses	senses	editorial-draft	gk	none
+dl-smell	smell	基础	body	body-feeling	body-senses	senses	editorial-draft	gk zk	none
+dl-taste	taste	基础	body	body-feeling	body-senses	senses	editorial-draft	cet4 cet6 gk zk	none
+dl-touch	touch	基础	body	body-feeling	body-senses	senses	editorial-draft	cet4 cet6 gk zk	none
+dl-pain	pain	基础	body	body-feeling	body-recovery	health	editorial-draft	cet4 cet6 gk	none
+dl-injury	injury	基础	body	body-feeling	body-recovery	health	editorial-draft	cet4 cet6 gk	none
+dl-recover	recover	基础	body	body-feeling	body-recovery	health	editorial-draft	cet4 cet6 gk	none
+dl-food	food	基础	food	food-eating	food-staples	food-drinks	editorial-draft	gk zk	none
+dl-water	water	基础	food	food-eating	food-staples	food-drinks	editorial-draft	gk zk	none
+dl-milk	milk	基础	food	food-eating	food-staples	food-drinks	editorial-draft	gk zk	none
+dl-bread	bread	基础	food	food-eating	food-staples	food-drinks	editorial-draft	gk zk	none
+dl-rice	rice	基础	food	food-eating	food-staples	food-drinks	editorial-draft	gk zk	none
+dl-fruit	fruit	基础	food	food-eating	food-staples	food-drinks	editorial-draft	gk zk	none
+dl-vegetable	vegetable	基础	food	food-eating	food-staples	food-drinks	editorial-draft	gk zk	none
+dl-meat	meat	基础	food	food-eating	food-staples	food-drinks	editorial-draft	gk zk	none
+dl-fish	fish	基础	food	food-eating	food-staples	food-drinks	editorial-draft	gk zk	none
+dl-egg	egg	基础	food	food-eating	food-staples	food-drinks	editorial-draft	gk zk	none
+dl-sugar	sugar	基础	food	food-eating	food-flavour	food-drinks	editorial-draft	gk zk	none
+dl-salt	salt	基础	food	food-eating	food-flavour	food-drinks	editorial-draft	cet4 cet6 gk zk	none
+dl-oil	oil	基础	food	food-eating	food-flavour	food-drinks	editorial-draft	cet4 gk zk	none
+dl-cook	cook	基础	food	food-eating	food-flavour	food-meals	editorial-draft	gk zk	none
+dl-meal	meal	基础	food	food-eating	food-meals	food-meals	editorial-draft	gk zk	none
+dl-breakfast	breakfast	基础	food	food-eating	food-meals	food-meals	editorial-draft	gk zk	none
+dl-lunch	lunch	基础	food	food-eating	food-meals	food-meals	editorial-draft	gk zk	none
+dl-dinner	dinner	基础	food	food-eating	food-meals	food-meals	editorial-draft	gk zk	none
+dl-kitchen	kitchen	基础	food	food-home	food-objects	home-objects	editorial-draft	gk zk	none
+dl-table	table	基础	food	food-home	food-objects	home-objects	editorial-draft	gk zk	none
+dl-chair	chair	基础	food	food-home	food-objects	home-objects	editorial-draft	gk zk	none
+dl-bed	bed	基础	food	food-home	food-objects	home-objects	editorial-draft	gk zk	none
+dl-furniture	furniture	基础	food	food-home	food-objects	home-objects	editorial-draft	cet4 cet6 gk zk	none
+dl-window	window	基础	food	food-home	food-structure	home-objects	editorial-draft	gk zk	none
+dl-door	door	基础	food	food-home	food-structure	home-objects	editorial-draft	gk zk	none
+dl-wall	wall	基础	food	food-home	food-structure	home-objects	editorial-draft	gk zk	none
+dl-floor	floor	基础	food	food-home	food-structure	home-objects	editorial-draft	gk zk	none
+dl-roof	roof	基础	food	food-home	food-structure	home-objects	editorial-draft	cet4 cet6 gk	none
+dl-rent	rent	基础	food	food-housing	food-services	home-services	editorial-draft	cet4 cet6 gk	none
+dl-repair	repair	基础	food	food-housing	food-services	home-services	editorial-draft	cet4 cet6 gk zk	none
+dl-student	student	基础	education	education-classroom	education-people	study-people	editorial-draft	gk zk	none
+dl-pupil	pupil	基础	education	education-classroom	education-people	study-people	editorial-draft	gk zk	none
+dl-class	class	基础	education	education-classroom	education-people	study-life	editorial-draft	gk zk	none
+dl-lesson	lesson	基础	education	education-classroom	education-people	study-life	editorial-draft	gk zk	none
+dl-course	course	基础	education	education-classroom	education-people	study-life	editorial-draft	cet4 cet6 gk zk	none
+dl-subject	subject	基础	education	education-classroom	education-people	study-life	editorial-draft	gk	none
+dl-question	question	基础	education	education-classroom	education-study	study-life	editorial-draft	gk zk	none
+dl-answer	answer	基础	education	education-classroom	education-study	study-life	editorial-draft	gk zk	none
+dl-practice	practice	基础	education	education-classroom	education-study	study-life	editorial-draft	gk zk	none
+dl-exercise	exercise	基础	education	education-classroom	education-study	study-life	editorial-draft	gk zk	none
+dl-knowledge	knowledge	基础	education	education-classroom	education-competence	know	editorial-draft	cet4 cet6 gk zk	none
+dl-skill	skill	基础	education	education-classroom	education-competence	study-life	editorial-draft	cet4 cet6 gk zk	none
+dl-ability	ability	基础	education	education-classroom	education-competence	study-life	editorial-draft	cet4 gk zk	none
+dl-education	education	基础	education	education-development	education-education	educate	editorial-draft	cet4 gk zk	none
+dl-educate	educate	基础	education	education-development	education-education	educate	editorial-draft	cet4 gk	none
+dl-academic	academic	基础	education	education-development	education-education	study-life	editorial-draft	cet4 cet6 gk	none
+dl-train	train	基础	education	education-development	education-training	train	editorial-draft	gk zk	none
+dl-training	training	基础	education	education-development	education-training	train	editorial-draft	cet4 cet6 gk zk	none
+dl-graduate	graduate	基础	education	education-development	education-training	graduate	editorial-draft	cet4 cet6 gk	none
+dl-graduation	graduation	基础	education	education-development	education-training	graduate	editorial-draft	gk	none
+dl-career	career	四级	education	education-career	education-roles	work-roles	editorial-draft	cet4	none
+dl-profession	profession	基础	education	education-career	education-roles	profession	editorial-draft	cet4 cet6 gk	none
+dl-professional	professional	四级	education	education-career	education-roles	profession	editorial-draft	cet4 cet6	none
+dl-occupation	occupation	基础	education	education-career	education-roles	work-roles	editorial-draft	cet4 cet6 gk	none
+dl-employ	employ	基础	education	education-career	education-employment	employ	editorial-draft	cet4 cet6 gk	none
+dl-employee	employee	四级	education	education-career	education-employment	employ	editorial-draft	cet4 cet6	none
+dl-employer	employer	四级	education	education-career	education-employment	employ	editorial-draft	cet4 cet6	none
+dl-employment	employment	四级	education	education-career	education-employment	employ	editorial-draft	cet4 cet6	none
+dl-interview	interview	基础	education	education-career	education-applications	work-roles	editorial-draft	cet4 cet6 gk zk	none
+dl-qualification	qualification	基础	education	education-career	education-applications	work-roles	editorial-draft	cet6 gk	none
+dl-happy	happy	基础	emotion	emotion-feelings	emotion-mood	emotion-basic	editorial-draft	gk zk	none
+dl-sad	sad	基础	emotion	emotion-feelings	emotion-mood	emotion-basic	editorial-draft	gk zk	none
+dl-afraid	afraid	基础	emotion	emotion-feelings	emotion-mood	emotion-basic	editorial-draft	gk zk	none
+dl-angry	angry	基础	emotion	emotion-feelings	emotion-mood	emotion-basic	editorial-draft	gk zk	none
+dl-calm	calm	基础	emotion	emotion-feelings	emotion-mood	emotion-basic	editorial-draft	cet4 cet6 gk	none
+dl-excitement	excitement	四级	emotion	emotion-feelings	emotion-mood	emotion-basic	editorial-draft	cet4	none
+dl-worried	worried	基础	emotion	emotion-feelings	emotion-mood	emotion-basic	editorial-draft	gk	none
+dl-anxious	anxious	基础	emotion	emotion-feelings	emotion-mood	anxious	editorial-draft	cet4 cet6 gk	none
+dl-anxiety	anxiety	基础	emotion	emotion-feelings	emotion-mood	anxious	editorial-draft	cet4 cet6 gk	none
+dl-confident	confident	基础	emotion	emotion-feelings	emotion-self	confident	editorial-draft	cet4 cet6 gk	none
+dl-confidence	confidence	四级	emotion	emotion-feelings	emotion-self	confident	editorial-draft	cet4 cet6	none
+dl-proud	proud	基础	emotion	emotion-feelings	emotion-self	proud	editorial-draft	cet4 cet6 gk zk	none
+dl-pride	pride	基础	emotion	emotion-feelings	emotion-self	proud	editorial-draft	cet4 cet6 gk zk	none
+dl-ashamed	ashamed	基础	emotion	emotion-feelings	emotion-self	shame	editorial-draft	cet4 gk	none
+dl-shame	shame	基础	emotion	emotion-feelings	emotion-self	shame	editorial-draft	cet4 cet6 gk zk	none
+dl-hope	hope	基础	emotion	emotion-outlook	emotion-hope	hope	editorial-draft	gk zk	none
+dl-hopeful	hopeful	基础	emotion	emotion-outlook	emotion-hope	hope	editorial-draft	cet4 cet6 gk	none
+dl-fear	fear	基础	emotion	emotion-outlook	emotion-hope	emotion-basic	editorial-draft	cet4 cet6 gk zk	none
+dl-courage	courage	基础	emotion	emotion-outlook	emotion-courage	emotion-basic	editorial-draft	cet4 cet6 gk zk	none
+dl-brave	brave	基础	emotion	emotion-outlook	emotion-courage	emotion-basic	editorial-draft	cet4 gk zk	none
+dl-ambitious	ambitious	六级	emotion	emotion-outlook	emotion-courage	ambition	editorial-draft	cet6	none
+dl-ambition	ambition	基础	emotion	emotion-outlook	emotion-courage	ambition	editorial-draft	cet4 cet6 gk	none
+dl-honest	honest	基础	emotion	emotion-character	emotion-integrity	honest	editorial-draft	cet4 gk zk	none
+dl-honesty	honesty	四级	emotion	emotion-character	emotion-integrity	honest	editorial-draft	cet4 cet6	none
+dl-polite	polite	基础	emotion	emotion-character	emotion-integrity	character-independent	editorial-draft	gk zk	none
+dl-courtesy	courtesy	六级	emotion	emotion-character	emotion-integrity	character-independent	editorial-draft	cet6	none
+dl-modest	modest	基础	emotion	emotion-character	emotion-curiosity	modest	editorial-draft	cet4 cet6 gk	none
+dl-modesty	modesty	六级	emotion	emotion-character	emotion-curiosity	modest	editorial-draft	cet6	none
+dl-curious	curious	基础	emotion	emotion-character	emotion-curiosity	curious	editorial-draft	cet4 cet6 gk	none
+dl-curiosity	curiosity	四级	emotion	emotion-character	emotion-curiosity	curious	editorial-draft	cet4 cet6	none
+dl-place	place	基础	space	space-positioning	space-position	space-positions	editorial-draft	gk zk	none
+dl-position	position	基础	space	space-positioning	space-position	space-positions	editorial-draft	cet4 cet6 gk zk	none
+dl-location	location	四级	space	space-positioning	space-position	space-positions	editorial-draft	cet4 cet6	none
+dl-direction	direction	基础	space	space-positioning	space-position	space-positions	editorial-draft	cet4 cet6 gk zk	none
+dl-distance	distance	基础	space	space-positioning	space-position	space-positions	editorial-draft	cet4 cet6 gk	none
+dl-near	near	基础	space	space-positioning	space-height	space-relations	editorial-draft	gk zk	none
+dl-far	far	基础	space	space-positioning	space-height	space-relations	editorial-draft	gk zk	none
+dl-above	above	基础	space	space-positioning	space-height	space-relations	editorial-draft	gk zk	none
+dl-below	below	基础	space	space-positioning	space-height	space-relations	editorial-draft	gk zk	none
+dl-between	between	基础	space	space-relations	space-path	space-relations	editorial-draft	gk zk	none
+dl-through	through	基础	space	space-relations	space-path	space-relations	editorial-draft	gk zk	none
+dl-across	across	基础	space	space-relations	space-path	space-relations	editorial-draft	gk zk	none
+dl-along	along	基础	space	space-relations	space-path	space-relations	editorial-draft	gk zk	none
+dl-around	around	基础	space	space-relations	space-path	space-relations	editorial-draft	gk zk	none
+dl-inside	inside	基础	space	space-relations	space-orientation	space-relations	editorial-draft	cet4 cet6 gk zk	none
+dl-outside	outside	基础	space	space-relations	space-orientation	space-relations	editorial-draft	gk zk	none
+dl-front	front	基础	space	space-relations	space-orientation	space-relations	editorial-draft	gk zk	none
+dl-behind	behind	基础	space	space-relations	space-orientation	space-relations	editorial-draft	gk zk	none
+dl-left	left	基础	space	space-relations	space-orientation	space-relations	editorial-draft	gk zk	none
+dl-right	right	基础	space	space-relations	space-orientation	space-relations	editorial-draft	gk zk	none
+dl-travel	travel	基础	space	space-journeys	space-travel	travel	editorial-draft	gk zk	none
+dl-journey	journey	基础	space	space-journeys	space-travel	travel	editorial-draft	cet4 cet6 gk	none
+dl-trip	trip	基础	space	space-journeys	space-travel	travel	editorial-draft	gk zk	none
+dl-vehicle	vehicle	基础	space	space-journeys	space-travel	travel	editorial-draft	cet4 cet6 gk zk	none
+dl-route	route	四级	space	space-journeys	space-travel	travel	editorial-draft	cet4 cet6	none
+dl-destination	destination	基础	space	space-journeys	space-travel	travel	editorial-draft	cet4 cet6 gk	none
+dl-arrive	arrive	基础	space	space-journeys	space-arrival	arrive	editorial-draft	gk zk	none
+dl-arrival	arrival	基础	space	space-journeys	space-arrival	arrive	editorial-draft	cet4 gk	none
+dl-depart	depart	四级	space	space-journeys	space-arrival	depart	editorial-draft	cet4 cet6	none
+dl-departure	departure	基础	space	space-journeys	space-arrival	depart	editorial-draft	cet4 cet6 gk	none
+dl-i	i	基础	basic	basic-expression	basic-self	basic-expression	editorial-draft	gk zk	none
+dl-be	be	基础	basic	basic-expression	basic-self	basic-expression	editorial-draft	gk zk	none
+dl-not	not	基础	basic	basic-expression	basic-responses	basic-expression	editorial-draft	gk zk	none
+dl-no	no	基础	basic	basic-expression	basic-responses	basic-expression	editorial-draft	gk zk	none
+dl-yes	yes	基础	basic	basic-expression	basic-responses	basic-expression	editorial-draft	gk zk	none
+dl-can	can	基础	basic	basic-expression	basic-modals	basic-modals	editorial-draft	gk zk	none
+dl-may	may	基础	basic	basic-expression	basic-modals	basic-modals	editorial-draft	gk zk	none
+dl-must	must	基础	basic	basic-expression	basic-modals	basic-modals	editorial-draft	zk	none
+dl-should	should	基础	basic	basic-expression	basic-modals	basic-modals	editorial-draft	gk zk	none
+dl-will	will	基础	basic	basic-expression	basic-modals	basic-modals	editorial-draft	gk zk	none
+dl-would	would	基础	basic	basic-expression	basic-modals	basic-modals	editorial-draft	gk zk	none
+dl-who	who	基础	basic	basic-questions	basic-asking	basic-questions	editorial-draft	gk zk	none
+dl-what	what	基础	basic	basic-questions	basic-asking	basic-questions	editorial-draft	gk zk	none
+dl-which	which	基础	basic	basic-questions	basic-asking	basic-questions	editorial-draft	gk zk	none
+dl-where	where	基础	basic	basic-questions	basic-circumstances	basic-questions	editorial-draft	gk zk	none
+dl-why	why	基础	basic	basic-questions	basic-circumstances	basic-questions	editorial-draft	gk zk	none
+dl-how	how	基础	basic	basic-questions	basic-circumstances	basic-questions	editorial-draft	gk zk	none
+dl-here	here	基础	basic	basic-questions	basic-context	basic-context	editorial-draft	gk zk	none
+dl-there	there	基础	basic	basic-questions	basic-context	basic-context	editorial-draft	gk zk	none
+dl-other	other	基础	basic	basic-questions	basic-context	basic-context	editorial-draft	gk zk	none
+dl-another	another	基础	basic	basic-questions	basic-context	basic-context	editorial-draft	gk zk	none
+dl-such	such	基础	basic	basic-questions	basic-context	basic-context	editorial-draft	gk zk	none
+dl-very	very	基础	basic	basic-modification	basic-degree	basic-degree	editorial-draft	gk zk	none
+dl-also	also	基础	basic	basic-modification	basic-degree	basic-degree	editorial-draft	gk zk	none
+dl-only	only	基础	basic	basic-modification	basic-degree	basic-degree	editorial-draft	gk zk	none
+dl-too	too	基础	basic	basic-modification	basic-degree	basic-degree	editorial-draft	gk zk	none
+dl-again	again	基础	basic	basic-modification	basic-frequency	basic-frequency	editorial-draft	gk zk	none
+dl-always	always	基础	basic	basic-modification	basic-frequency	basic-frequency	editorial-draft	gk zk	none
+dl-never	never	基础	basic	basic-modification	basic-frequency	basic-frequency	editorial-draft	gk zk	none
+dl-sometimes	sometimes	基础	basic	basic-modification	basic-frequency	basic-frequency	editorial-draft	gk zk	none
+dl-money	money	基础	economy	economy-exchange	economy-worth	economy-basics	editorial-draft	gk zk	none
+dl-price	price	基础	economy	economy-exchange	economy-worth	economy-basics	editorial-draft	gk zk	none
+dl-cost	cost	基础	economy	economy-exchange	economy-worth	economy-basics	editorial-draft	gk zk	none
+dl-value	value	基础	economy	economy-exchange	economy-worth	economy-basics	editorial-draft	cet4 cet6 gk zk	none
+dl-buy	buy	基础	economy	economy-exchange	economy-payment	economy-transactions	editorial-draft	gk zk	none
+dl-sell	sell	基础	economy	economy-exchange	economy-payment	economy-transactions	editorial-draft	gk zk	none
+dl-pay	pay	基础	economy	economy-exchange	economy-payment	economy-transactions	editorial-draft	gk zk	none
+dl-spend	spend	基础	economy	economy-exchange	economy-payment	economy-transactions	editorial-draft	gk zk	none
+dl-save	save	基础	economy	economy-exchange	economy-payment	economy-transactions	editorial-draft	cet4 cet6 gk zk	none
+dl-earn	earn	基础	economy	economy-exchange	economy-payment	economy-transactions	editorial-draft	cet4 gk	none
+dl-income	income	基础	economy	economy-markets	economy-income	economy-income	editorial-draft	cet4 cet6 gk	none
+dl-salary	salary	基础	economy	economy-markets	economy-income	economy-income	editorial-draft	cet4 cet6 gk	none
+dl-wage	wage	基础	economy	economy-markets	economy-income	economy-income	editorial-draft	cet4 cet6 gk	none
+dl-profit	profit	基础	economy	economy-markets	economy-income	economy-income	editorial-draft	cet4 cet6 gk	none
+dl-loss	loss	基础	economy	economy-markets	economy-income	economy-income	editorial-draft	cet4 cet6 gk	none
+dl-trade	trade	基础	economy	economy-markets	economy-market	economy-market	editorial-draft	cet4 cet6 gk zk	none
+dl-market	market	基础	economy	economy-markets	economy-market	economy-market	editorial-draft	gk zk	none
+dl-demand	demand	基础	economy	economy-markets	economy-market	economy-market	editorial-draft	cet4 cet6 gk	none
+dl-supply	supply	基础	economy	economy-markets	economy-market	economy-market	editorial-draft	cet4 cet6 gk zk	none
+dl-consume	consume	基础	economy	economy-markets	economy-consumption	consume	editorial-draft	cet4 cet6 gk	none
+dl-consumer	consumer	四级	economy	economy-markets	economy-consumption	consume	editorial-draft	cet4 cet6	none
+dl-consumption	consumption	四级	economy	economy-markets	economy-consumption	consume	editorial-draft	cet4 cet6	none
+dl-invest	invest	四级	economy	economy-finance	economy-investment	invest	editorial-draft	cet4 cet6	none
+dl-investment	investment	四级	economy	economy-finance	economy-investment	invest	editorial-draft	cet4 cet6	none
+dl-budget	budget	基础	economy	economy-finance	economy-investment	economy-finance	editorial-draft	cet4 cet6 gk	none
+dl-debt	debt	基础	economy	economy-finance	economy-accounts	economy-finance	editorial-draft	cet4 cet6 gk	none
+dl-inflation	inflation	六级	economy	economy-finance	economy-accounts	economy-finance	editorial-draft	cet6	none
+dl-revenue	revenue	四级	economy	economy-finance	economy-accounts	economy-finance	editorial-draft	cet4 cet6	none
+dl-expenditure	expenditure	四级	economy	economy-finance	economy-accounts	economy-finance	editorial-draft	cet4 cet6	none
+dl-transaction	transaction	六级	economy	economy-finance	economy-accounts	economy-finance	editorial-draft	cet6	none
+dl-computer	computer	基础	technology	technology-devices	technology-equipment	technology-devices	editorial-draft	gk zk	none
+dl-telephone	telephone	基础	technology	technology-devices	technology-equipment	technology-devices	editorial-draft	gk zk	none
+dl-digital	digital	基础	technology	technology-devices	technology-equipment	technology-devices	editorial-draft	cet4 cet6 gk	none
+dl-device	device	四级	technology	technology-devices	technology-equipment	technology-devices	editorial-draft	cet4 cet6	none
+dl-screen	screen	基础	technology	technology-devices	technology-equipment	technology-devices	editorial-draft	cet4 cet6 gk zk	none
+dl-message	message	基础	technology	technology-devices	technology-communication	technology-communication	editorial-draft	cet4 cet6 gk zk	none
+dl-information	information	基础	technology	technology-devices	technology-communication	technology-communication	editorial-draft	gk zk	none
+dl-network	network	基础	technology	technology-devices	technology-communication	technology-communication	editorial-draft	cet4 cet6 gk	none
+dl-signal	signal	基础	technology	technology-devices	technology-communication	technology-communication	editorial-draft	cet4 cet6 gk	none
+dl-software	software	基础	technology	technology-devices	technology-software	technology-computing	editorial-draft	cet4 cet6 gk	none
+dl-hardware	hardware	四级	technology	technology-devices	technology-software	technology-computing	editorial-draft	cet4 cet6	none
+dl-program	program	四级	technology	technology-devices	technology-software	technology-computing	editorial-draft	cet4 cet6	none
+dl-code	code	四级	technology	technology-devices	technology-software	technology-computing	editorial-draft	cet4	none
+dl-access	access	基础	technology	technology-access	technology-availability	access	editorial-draft	cet4 cet6 gk	none
+dl-accessible	accessible	基础	technology	technology-access	technology-availability	access	editorial-draft	cet6 gk	none
+dl-secure	secure	基础	technology	technology-access	technology-privacy	secure	editorial-draft	cet4 cet6 gk	none
+dl-security	security	基础	technology	technology-access	technology-privacy	secure	editorial-draft	cet4 cet6 gk	none
+dl-private	private	基础	technology	technology-access	technology-privacy	private	editorial-draft	cet4 cet6 gk zk	none
+dl-privacy	privacy	六级	technology	technology-access	technology-privacy	private	editorial-draft	cet6	none
+dl-technology	technology	基础	technology	technology-progress	technology-methods	technology-computing	editorial-draft	cet4 cet6 gk zk	none
+dl-technique	technique	基础	technology	technology-progress	technology-methods	technology-computing	editorial-draft	cet4 cet6 gk	none
+dl-automatic	automatic	基础	technology	technology-progress	technology-methods	automatic	editorial-draft	cet4 cet6 gk	none
+dl-automatically	automatically	四级	technology	technology-progress	technology-methods	automatic	editorial-draft	cet4	none
+dl-artificial	artificial	基础	technology	technology-progress	technology-ideas	technology-ideas	editorial-draft	cet4 cet6 gk	none
+dl-intelligence	intelligence	基础	technology	technology-progress	technology-ideas	technology-ideas	editorial-draft	cet4 cet6 gk	none
+dl-efficient	efficient	四级	technology	technology-progress	technology-ideas	efficient	editorial-draft	cet4 cet6	none
+dl-efficiency	efficiency	四级	technology	technology-progress	technology-ideas	efficient	editorial-draft	cet4 cet6	none
+dl-invent	invent	基础	technology	technology-progress	technology-invention	invent	editorial-draft	cet4 cet6 gk zk	none
+dl-innovation	innovation	六级	technology	technology-progress	technology-invention	technology-ideas	editorial-draft	cet6	none
+dl-invention	invention	基础	technology	technology-progress	technology-invention	invent	editorial-draft	cet4 cet6 gk zk	none
+dl-culture	culture	基础	culture	culture-traditions	culture-civilization	culture-independent	editorial-draft	cet4 cet6 gk zk	none
+dl-civilization	civilization	基础	culture	culture-traditions	culture-civilization	culture-independent	editorial-draft	cet4 cet6 gk	none
+dl-custom	custom	基础	culture	culture-traditions	culture-civilization	culture-independent	editorial-draft	cet4 cet6 gk	none
+dl-tradition	tradition	基础	culture	culture-traditions	culture-civilization	tradition	editorial-draft	cet4 cet6 gk	none
+dl-traditional	traditional	基础	culture	culture-traditions	culture-civilization	tradition	editorial-draft	cet4 cet6 gk zk	none
+dl-festival	festival	基础	culture	culture-traditions	culture-events	culture-events	editorial-draft	cet4 cet6 gk zk	none
+dl-celebrate	celebrate	基础	culture	culture-traditions	culture-events	celebrate	editorial-draft	cet4 cet6 gk zk	none
+dl-celebration	celebration	基础	culture	culture-traditions	culture-events	celebrate	editorial-draft	gk	none
+dl-ceremony	ceremony	基础	culture	culture-traditions	culture-events	culture-events	editorial-draft	cet4 cet6 gk	none
+dl-art	art	基础	culture	culture-arts	culture-art	art	editorial-draft	cet4 gk zk	none
+dl-artist	artist	基础	culture	culture-arts	culture-art	art	editorial-draft	cet4 gk	none
+dl-artistic	artistic	四级	culture	culture-arts	culture-art	art	editorial-draft	cet4 cet6	none
+dl-music	music	基础	culture	culture-arts	culture-art	music	editorial-draft	gk zk	none
+dl-musical	musical	基础	culture	culture-arts	culture-art	music	editorial-draft	cet4 cet6 gk	none
+dl-literature	literature	基础	culture	culture-arts	culture-literature	literature	editorial-draft	cet4 cet6 gk	none
+dl-literary	literary	基础	culture	culture-arts	culture-literature	literature	editorial-draft	cet4 cet6 gk	none
+dl-poem	poem	基础	culture	culture-arts	culture-literature	poetry	editorial-draft	cet4 cet6 gk zk	none
+dl-poet	poet	基础	culture	culture-arts	culture-literature	poetry	editorial-draft	cet4 cet6 gk	none
+dl-poetry	poetry	四级	culture	culture-arts	culture-literature	poetry	editorial-draft	cet4 cet6	none
+dl-history	history	基础	culture	culture-identity	culture-heritage	history	editorial-draft	cet4 cet6 gk zk	none
+dl-historical	historical	四级	culture	culture-identity	culture-heritage	history	editorial-draft	cet4 cet6	none
+dl-heritage	heritage	六级	culture	culture-identity	culture-heritage	culture-independent	editorial-draft	cet6	none
+dl-religion	religion	基础	culture	culture-identity	culture-heritage	religion	editorial-draft	cet4 cet6 gk	none
+dl-religious	religious	基础	culture	culture-identity	culture-heritage	religion	editorial-draft	cet4 cet6 gk	none
+dl-ethnic	ethnic	六级	culture	culture-identity	culture-community	culture-independent	editorial-draft	cet6	none
+dl-identity	identity	基础	culture	culture-identity	culture-community	culture-independent	editorial-draft	cet4 gk	none
+dl-migrate	migrate	六级	culture	culture-identity	culture-community	migrate	editorial-draft	cet6	none
+dl-emigrate	emigrate	六级	culture	culture-identity	culture-community	migrate	editorial-draft	cet6	none
+dl-immigrant	immigrant	四级	culture	culture-identity	culture-community	migrate	editorial-draft	cet4 cet6	none
+dl-community	community	四级	culture	culture-identity	culture-community	culture-independent	editorial-draft	cet4 cet6	none
+dl-decide	decide	基础	decisions	decisions-choice	decisions-decisions	decide	editorial-draft	gk zk	none
+dl-decision	decision	基础	decisions	decisions-choice	decisions-decisions	decide	editorial-draft	cet4 cet6 gk zk	none
+dl-choose	choose	基础	decisions	decisions-choice	decisions-decisions	choose	editorial-draft	cet4 gk zk	none
+dl-choice	choice	基础	decisions	decisions-choice	decisions-decisions	choose	editorial-draft	cet4 cet6 gk zk	none
+dl-prefer	prefer	基础	decisions	decisions-choice	decisions-preference	prefer	editorial-draft	cet4 cet6 gk	none
+dl-preference	preference	基础	decisions	decisions-choice	decisions-preference	prefer	editorial-draft	cet4 cet6 gk	none
+dl-priority	priority	四级	decisions	decisions-choice	decisions-preference	action-planning	editorial-draft	cet4 cet6	none
+dl-plan	plan	基础	decisions	decisions-preparation	decisions-planning	action-planning	editorial-draft	gk zk	none
+dl-prepare	prepare	基础	decisions	decisions-preparation	decisions-planning	prepare	editorial-draft	cet4 cet6 gk zk	none
+dl-preparation	preparation	基础	decisions	decisions-preparation	decisions-planning	prepare	editorial-draft	cet4 cet6 gk	none
+dl-expect	expect	基础	decisions	decisions-preparation	decisions-expectations	expect	editorial-draft	gk zk	none
+dl-expectation	expectation	基础	decisions	decisions-preparation	decisions-expectations	expect	editorial-draft	cet4 cet6 gk	none
+dl-achieve	achieve	基础	decisions	decisions-preparation	decisions-expectations	achieve	editorial-draft	cet4 cet6 gk zk	none
+dl-achievement	achievement	基础	decisions	decisions-preparation	decisions-expectations	achieve	editorial-draft	cet4 cet6 gk	none
+dl-succeed	succeed	基础	decisions	decisions-preparation	decisions-outcomes	succeed	editorial-draft	cet4 cet6 gk zk	none
+dl-success	success	基础	decisions	decisions-preparation	decisions-outcomes	succeed	editorial-draft	cet4 cet6 gk zk	none
+dl-successful	successful	基础	decisions	decisions-preparation	decisions-outcomes	succeed	editorial-draft	cet4 cet6 gk zk	none
+dl-fail	fail	基础	decisions	decisions-preparation	decisions-outcomes	fail	editorial-draft	gk zk	none
+dl-failure	failure	基础	decisions	decisions-preparation	decisions-outcomes	fail	editorial-draft	cet4 gk	none
+dl-attempt	attempt	基础	decisions	decisions-action	decisions-effort	action-effort	editorial-draft	cet4 cet6 gk	none
+dl-effort	effort	基础	decisions	decisions-action	decisions-effort	action-effort	editorial-draft	cet4 cet6 gk zk	none
+dl-persist	persist	四级	decisions	decisions-action	decisions-effort	persist	editorial-draft	cet4 cet6	none
+dl-persistence	persistence	六级	decisions	decisions-action	decisions-effort	persist	editorial-draft	cet6	none
+dl-determine	determine	基础	decisions	decisions-action	decisions-determination	determine	editorial-draft	cet4 cet6 gk	none
+dl-determination	determination	基础	decisions	decisions-action	decisions-determination	determine	editorial-draft	cet4 cet6 gk	none
+dl-resolve	resolve	四级	decisions	decisions-action	decisions-determination	resolve	editorial-draft	cet4 cet6	none
+dl-resolution	resolution	四级	decisions	decisions-action	decisions-determination	resolve	editorial-draft	cet4 cet6	none
+dl-negotiate	negotiate	基础	decisions	decisions-action	decisions-agreement	negotiate	editorial-draft	cet6 gk	none
+dl-negotiation	negotiation	六级	decisions	decisions-action	decisions-agreement	negotiate	editorial-draft	cet6	none
+dl-compromise	compromise	基础	decisions	decisions-action	decisions-agreement	action-planning	editorial-draft	cet4 cet6 gk	none

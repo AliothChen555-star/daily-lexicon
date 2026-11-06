@@ -1,48 +1,1822 @@
 [
-  {"id":"mind","label":"观察与思考","subtitle":"从看见到理解","scenes":[
-    {"id":"mind-perception","label":"观察世界","concepts":[{"id":"mind-seeing","label":"看见与察觉","words":["see","look","notice","observe","observation","observer","inspect","inspection","perceive","perception"]},{"id":"mind-viewpoints","label":"视角与判断","words":["perspective","aspect","prospect","suspect","respect"]}]},
-    {"id":"mind-reasoning","label":"形成判断","concepts":[{"id":"mind-thinking","label":"思考与分析","words":["think","thought","consider","reconsider","reflect","reflection","analyze","analysis"]},{"id":"mind-evidence","label":"假设与证据","words":["assume","assumption","infer","inference","reason","reasonable","evidence"]}]}
-  ]},
-  {"id":"learning","label":"学习与表达","subtitle":"把想法说清楚","scenes":[
-    {"id":"learning-study","label":"学习与书写","concepts":[{"id":"learning-learning","label":"教与学","words":["learn","learning","teach","teacher","read","reader","write","writer"]},{"id":"learning-recording","label":"书写与记录","words":["describe","description","prescribe","prescription","manuscript","dictate","dictation"]}]},
-    {"id":"learning-expression","label":"交流与推论","concepts":[{"id":"learning-claims","label":"预测与论述","words":["predict","prediction","contradict","contradiction","explain","explanation"]},{"id":"learning-communication","label":"表达与交流","words":["express","expression","communicate","communication","discuss","discussion","conclude","conclusion","vocabulary"]}]}
-  ]},
-  {"id":"living","label":"生活与关系","subtitle":"与日常重新相遇","scenes":[
-    {"id":"living-relationships","label":"身边的人","concepts":[{"id":"living-belonging","label":"家庭与互助","words":["home","family","friend","friendship","help","helpful","care","careful"]},{"id":"living-trust","label":"信任与相信","words":["trust","trustworthy","believe","belief","credible","incredible","credit"]}]},
-    {"id":"living-growth","label":"相处与成长","concepts":[{"id":"living-connection","label":"创造与支持","words":["create","creative","creativity","connect","connection","support"]},{"id":"living-adapting","label":"舒适与适应","words":["comfort","comfortable","patient","patience","adapt","adaptation","flexible","flexibility","balance"]}]}
-  ]},
-  {"id":"society","label":"社会与发展","subtitle":"看见变化的力量","scenes":[
-    {"id":"society-building","label":"建设与流动","concepts":[{"id":"society-construction","label":"工作与建造","words":["work","worker","build","building","construct","construction","structure","reconstruct","infrastructure"]},{"id":"society-transport","label":"运送与改变","words":["transport","portable","report","transfer","transformation","transform","reform"]}]},
-    {"id":"society-changes","label":"影响与持续","concepts":[{"id":"society-distribution","label":"给予与分配","words":["contribute","contribution","distribute","distribution"]},{"id":"society-influence","label":"投入与吸引","words":["reject","rejection","inject","injection","attract","attraction","distract","distraction"]},{"id":"society-sustaining","label":"长久维持","words":["sustainable","sustainability"]}]}
-  ]},
-  {"id":"function","label":"指代与连接","subtitle":"让句子里的小词有位置","scenes":[
-    {"id":"function-reference","label":"指明人和事物","concepts":[{"id":"function-determiners","label":"指明对象","words":["a","the","this","that"]},{"id":"function-people","label":"人称指代","words":["it","they","we","you","he","she"]}]},
-    {"id":"function-linking","label":"连接想法","concepts":[{"id":"function-logic","label":"并列与条件","words":["and","or","but","because","if"]},{"id":"function-time-links","label":"时间与伴随","words":["when","while","before","after","as"]}]},
-    {"id":"function-relations","label":"说明关系","concepts":[{"id":"function-relation","label":"伴随与比较","words":["with","without","of","for","than"]},{"id":"function-direction","label":"位置与方向","words":["in","on","at","to","from"]}]}
-  ]},
-  {"id":"everyday","label":"日常与行动","subtitle":"从常用的小词开始","scenes":[
-    {"id":"everyday-action","label":"日常行动","concepts":[{"id":"everyday-moving","label":"来去与取予","words":["go","come","take","give","make","get"]},{"id":"everyday-knowing","label":"做与知","words":["have","do","say","know"]}]},
-    {"id":"everyday-doing","label":"处理日常","concepts":[{"id":"everyday-needs","label":"需要与寻找","words":["want","need","find","leave","bring"]},{"id":"everyday-using","label":"保留与使用","words":["keep","put","use","eat","drink"]}]},
-    {"id":"everyday-life","label":"人和生活","concepts":[{"id":"everyday-places","label":"生活的空间","words":["live","life","house","room","school","book"]},{"id":"everyday-people","label":"人与特征","words":["person","child","good","new"]}]}
-  ]},
-  {"id":"time","label":"时间与变化","subtitle":"把变化放进时间里","scenes":[
-    {"id":"time-calendar","label":"日历与时刻","concepts":[{"id":"time-dates","label":"此刻与日期","words":["now","then","today","tomorrow","yesterday"]},{"id":"time-units","label":"日历单位","words":["day","week","month","year","time"]},{"id":"time-order","label":"先后与早晚","words":["first","last","next","early","late"]}]},
-    {"id":"time-process","label":"过程与持续","concepts":[{"id":"time-progress","label":"开始与延续","words":["begin","end","continue","delay","period"]},{"id":"time-duration","label":"持续与渐变","words":["temporary","permanent","gradual","gradually"]}]},
-    {"id":"time-patterns","label":"规律与结果","concepts":[{"id":"time-frequency","label":"频率与发生","words":["frequent","frequently","occur","occurrence"]},{"id":"time-sequence","label":"次序与后果","words":["sequence","consequence"]}]}
-  ]},
-  {"id":"nature","label":"自然与健康","subtitle":"在身体与环境之间","scenes":[
-    {"id":"nature-health","label":"认识身体","concepts":[{"id":"nature-breathing","label":"呼吸与健康","words":["breathe","breath","healthy","illness","disease"]},{"id":"nature-nutrition","label":"营养与免疫","words":["nutrition","nutrient","metabolism","immune","immunity"]},{"id":"nature-diagnosis","label":"判断健康问题","words":["diagnose","diagnosis"]}]},
-    {"id":"nature-environment","label":"生活的环境","concepts":[{"id":"nature-resources","label":"资源与气候","words":["energy","resource","climate","environment","environmental"]},{"id":"nature-pollution","label":"污染与防护","words":["pollute","pollution","recycle","protect","protection"]}]},
-    {"id":"nature-ecology","label":"生态与保护","concepts":[{"id":"nature-systems","label":"生态关系","words":["ecology","ecological","ecosystem","biodiversity"]},{"id":"nature-conservation","label":"保存与再生","words":["conserve","conservation","renewable","contaminate"]}]}
-  ]},
-  {"id":"science","label":"科学与证据","subtitle":"把想法交给证据检验","scenes":[
-    {"id":"science-inquiry","label":"开展研究","concepts":[{"id":"science-methods","label":"研究与方法","words":["science","scientific","research","experiment","theory","method","methodology"]},{"id":"science-tests","label":"假说与实证","words":["hypothesis","empirical","empirically","objective","subjective"]}]},
-    {"id":"science-measuring","label":"测量与比较","concepts":[{"id":"science-data","label":"数据与精度","words":["data","measure","measurement","accurate","accuracy"]},{"id":"science-variables","label":"类型与变量","words":["quantitative","qualitative","variable","variation"]}]},
-    {"id":"science-evidence","label":"解释与核验","concepts":[{"id":"science-causes","label":"相关与因果","words":["correlate","correlation","causal","causality"]},{"id":"science-verifying","label":"验证与重现","words":["verify","verification","replicate","replication","phenomenon"]}]}
-  ]},
-  {"id":"civic","label":"制度与协作","subtitle":"理解共同生活的规则","scenes":[
-    {"id":"civic-governance","label":"制度与自主","concepts":[{"id":"civic-legislation","label":"立法与民主","words":["legislate","legislation","legislative","democracy","democratic"]},{"id":"civic-autonomy","label":"自主与参与","words":["autonomy","autonomous","participatory"]}]},
-    {"id":"civic-cooperation","label":"组织与协同","concepts":[{"id":"civic-working","label":"合作与整合","words":["collaborate","collaboration","coordinate","coordination","integrate","integration"]},{"id":"civic-inclusion","label":"包容与差异","words":["inclusion","exclusion","diverse","diversity","equity","inequality"]}]},
-    {"id":"civic-responsibility","label":"分配与责任","concepts":[{"id":"civic-implementation","label":"配置与落实","words":["allocate","allocation","implement","implementation","accountability"]},{"id":"civic-legitimacy","label":"透明与正当","words":["transparent","transparency","consensus","legitimate","legitimacy"]}]}
-  ]}
+  {
+    "id": "mind",
+    "label": "观察与思考",
+    "subtitle": "从看见到理解",
+    "scenes": [
+      {
+        "id": "mind-perception",
+        "label": "观察世界",
+        "concepts": [
+          {
+            "id": "mind-seeing",
+            "label": "看见与察觉",
+            "words": [
+              "see",
+              "look",
+              "notice",
+              "observe",
+              "observation",
+              "observer",
+              "inspect",
+              "inspection",
+              "perceive",
+              "perception"
+            ]
+          },
+          {
+            "id": "mind-viewpoints",
+            "label": "视角与判断",
+            "words": [
+              "perspective",
+              "aspect",
+              "prospect",
+              "suspect",
+              "respect"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "mind-reasoning",
+        "label": "形成判断",
+        "concepts": [
+          {
+            "id": "mind-thinking",
+            "label": "思考与分析",
+            "words": [
+              "think",
+              "thought",
+              "consider",
+              "reconsider",
+              "reflect",
+              "reflection",
+              "analyze",
+              "analysis"
+            ]
+          },
+          {
+            "id": "mind-evidence",
+            "label": "假设与证据",
+            "words": [
+              "assume",
+              "assumption",
+              "infer",
+              "inference",
+              "reason",
+              "reasonable",
+              "evidence"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "learning",
+    "label": "学习与表达",
+    "subtitle": "把想法说清楚",
+    "scenes": [
+      {
+        "id": "learning-study",
+        "label": "学习与书写",
+        "concepts": [
+          {
+            "id": "learning-learning",
+            "label": "教与学",
+            "words": [
+              "learn",
+              "learning",
+              "teach",
+              "teacher",
+              "read",
+              "reader",
+              "write",
+              "writer"
+            ]
+          },
+          {
+            "id": "learning-recording",
+            "label": "书写与记录",
+            "words": [
+              "describe",
+              "description",
+              "prescribe",
+              "prescription",
+              "manuscript",
+              "dictate",
+              "dictation"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "learning-expression",
+        "label": "交流与推论",
+        "concepts": [
+          {
+            "id": "learning-claims",
+            "label": "预测与论述",
+            "words": [
+              "predict",
+              "prediction",
+              "contradict",
+              "contradiction",
+              "explain",
+              "explanation"
+            ]
+          },
+          {
+            "id": "learning-communication",
+            "label": "表达与交流",
+            "words": [
+              "express",
+              "expression",
+              "communicate",
+              "communication",
+              "discuss",
+              "discussion",
+              "conclude",
+              "conclusion",
+              "vocabulary"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "living",
+    "label": "生活与关系",
+    "subtitle": "与日常重新相遇",
+    "scenes": [
+      {
+        "id": "living-relationships",
+        "label": "身边的人",
+        "concepts": [
+          {
+            "id": "living-belonging",
+            "label": "家庭与互助",
+            "words": [
+              "home",
+              "family",
+              "friend",
+              "friendship",
+              "help",
+              "helpful",
+              "care",
+              "careful"
+            ]
+          },
+          {
+            "id": "living-trust",
+            "label": "信任与相信",
+            "words": [
+              "trust",
+              "trustworthy",
+              "believe",
+              "belief",
+              "credible",
+              "incredible",
+              "credit"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "living-growth",
+        "label": "相处与成长",
+        "concepts": [
+          {
+            "id": "living-connection",
+            "label": "创造与支持",
+            "words": [
+              "create",
+              "creative",
+              "creativity",
+              "connect",
+              "connection",
+              "support"
+            ]
+          },
+          {
+            "id": "living-adapting",
+            "label": "舒适与适应",
+            "words": [
+              "comfort",
+              "comfortable",
+              "patient",
+              "patience",
+              "adapt",
+              "adaptation",
+              "flexible",
+              "flexibility",
+              "balance"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "society",
+    "label": "社会与发展",
+    "subtitle": "看见变化的力量",
+    "scenes": [
+      {
+        "id": "society-building",
+        "label": "建设与流动",
+        "concepts": [
+          {
+            "id": "society-construction",
+            "label": "工作与建造",
+            "words": [
+              "work",
+              "worker",
+              "build",
+              "building",
+              "construct",
+              "construction",
+              "structure",
+              "reconstruct",
+              "infrastructure"
+            ]
+          },
+          {
+            "id": "society-transport",
+            "label": "运送与改变",
+            "words": [
+              "transport",
+              "portable",
+              "report",
+              "transfer",
+              "transformation",
+              "transform",
+              "reform"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "society-changes",
+        "label": "影响与持续",
+        "concepts": [
+          {
+            "id": "society-distribution",
+            "label": "给予与分配",
+            "words": [
+              "contribute",
+              "contribution",
+              "distribute",
+              "distribution"
+            ]
+          },
+          {
+            "id": "society-influence",
+            "label": "投入与吸引",
+            "words": [
+              "reject",
+              "rejection",
+              "inject",
+              "injection",
+              "attract",
+              "attraction",
+              "distract",
+              "distraction"
+            ]
+          },
+          {
+            "id": "society-sustaining",
+            "label": "长久维持",
+            "words": [
+              "sustainable",
+              "sustainability"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "function",
+    "label": "指代与连接",
+    "subtitle": "让句子里的小词有位置",
+    "scenes": [
+      {
+        "id": "function-reference",
+        "label": "指明人和事物",
+        "concepts": [
+          {
+            "id": "function-determiners",
+            "label": "指明对象",
+            "words": [
+              "a",
+              "the",
+              "this",
+              "that"
+            ]
+          },
+          {
+            "id": "function-people",
+            "label": "人称指代",
+            "words": [
+              "it",
+              "they",
+              "we",
+              "you",
+              "he",
+              "she"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "function-linking",
+        "label": "连接想法",
+        "concepts": [
+          {
+            "id": "function-logic",
+            "label": "并列与条件",
+            "words": [
+              "and",
+              "or",
+              "but",
+              "because",
+              "if"
+            ]
+          },
+          {
+            "id": "function-time-links",
+            "label": "时间与伴随",
+            "words": [
+              "when",
+              "while",
+              "before",
+              "after",
+              "as"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "function-relations",
+        "label": "说明关系",
+        "concepts": [
+          {
+            "id": "function-relation",
+            "label": "伴随与比较",
+            "words": [
+              "with",
+              "without",
+              "of",
+              "for",
+              "than"
+            ]
+          },
+          {
+            "id": "function-direction",
+            "label": "位置与方向",
+            "words": [
+              "in",
+              "on",
+              "at",
+              "to",
+              "from"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "everyday",
+    "label": "日常与行动",
+    "subtitle": "从常用的小词开始",
+    "scenes": [
+      {
+        "id": "everyday-action",
+        "label": "日常行动",
+        "concepts": [
+          {
+            "id": "everyday-moving",
+            "label": "来去与取予",
+            "words": [
+              "go",
+              "come",
+              "take",
+              "give",
+              "make",
+              "get"
+            ]
+          },
+          {
+            "id": "everyday-knowing",
+            "label": "做与知",
+            "words": [
+              "have",
+              "do",
+              "say",
+              "know"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "everyday-doing",
+        "label": "处理日常",
+        "concepts": [
+          {
+            "id": "everyday-needs",
+            "label": "需要与寻找",
+            "words": [
+              "want",
+              "need",
+              "find",
+              "leave",
+              "bring"
+            ]
+          },
+          {
+            "id": "everyday-using",
+            "label": "保留与使用",
+            "words": [
+              "keep",
+              "put",
+              "use",
+              "eat",
+              "drink"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "everyday-life",
+        "label": "人和生活",
+        "concepts": [
+          {
+            "id": "everyday-places",
+            "label": "生活的空间",
+            "words": [
+              "live",
+              "life",
+              "house",
+              "room",
+              "school",
+              "book"
+            ]
+          },
+          {
+            "id": "everyday-people",
+            "label": "人与特征",
+            "words": [
+              "person",
+              "child",
+              "good",
+              "new"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "time",
+    "label": "时间与变化",
+    "subtitle": "把变化放进时间里",
+    "scenes": [
+      {
+        "id": "time-calendar",
+        "label": "日历与时刻",
+        "concepts": [
+          {
+            "id": "time-dates",
+            "label": "此刻与日期",
+            "words": [
+              "now",
+              "then",
+              "today",
+              "tomorrow",
+              "yesterday"
+            ]
+          },
+          {
+            "id": "time-units",
+            "label": "日历单位",
+            "words": [
+              "day",
+              "week",
+              "month",
+              "year",
+              "time"
+            ]
+          },
+          {
+            "id": "time-order",
+            "label": "先后与早晚",
+            "words": [
+              "first",
+              "last",
+              "next",
+              "early",
+              "late"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "time-process",
+        "label": "过程与持续",
+        "concepts": [
+          {
+            "id": "time-progress",
+            "label": "开始与延续",
+            "words": [
+              "begin",
+              "end",
+              "continue",
+              "delay",
+              "period"
+            ]
+          },
+          {
+            "id": "time-duration",
+            "label": "持续与渐变",
+            "words": [
+              "temporary",
+              "permanent",
+              "gradual",
+              "gradually"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "time-patterns",
+        "label": "规律与结果",
+        "concepts": [
+          {
+            "id": "time-frequency",
+            "label": "频率与发生",
+            "words": [
+              "frequent",
+              "frequently",
+              "occur",
+              "occurrence"
+            ]
+          },
+          {
+            "id": "time-sequence",
+            "label": "次序与后果",
+            "words": [
+              "sequence",
+              "consequence"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nature",
+    "label": "自然与健康",
+    "subtitle": "在身体与环境之间",
+    "scenes": [
+      {
+        "id": "nature-health",
+        "label": "认识身体",
+        "concepts": [
+          {
+            "id": "nature-breathing",
+            "label": "呼吸与健康",
+            "words": [
+              "breathe",
+              "breath",
+              "healthy",
+              "illness",
+              "disease"
+            ]
+          },
+          {
+            "id": "nature-nutrition",
+            "label": "营养与免疫",
+            "words": [
+              "nutrition",
+              "nutrient",
+              "metabolism",
+              "immune",
+              "immunity"
+            ]
+          },
+          {
+            "id": "nature-diagnosis",
+            "label": "判断健康问题",
+            "words": [
+              "diagnose",
+              "diagnosis"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "nature-environment",
+        "label": "生活的环境",
+        "concepts": [
+          {
+            "id": "nature-resources",
+            "label": "资源与气候",
+            "words": [
+              "energy",
+              "resource",
+              "climate",
+              "environment",
+              "environmental"
+            ]
+          },
+          {
+            "id": "nature-pollution",
+            "label": "污染与防护",
+            "words": [
+              "pollute",
+              "pollution",
+              "recycle",
+              "protect",
+              "protection"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "nature-ecology",
+        "label": "生态与保护",
+        "concepts": [
+          {
+            "id": "nature-systems",
+            "label": "生态关系",
+            "words": [
+              "ecology",
+              "ecological",
+              "ecosystem",
+              "biodiversity"
+            ]
+          },
+          {
+            "id": "nature-conservation",
+            "label": "保存与再生",
+            "words": [
+              "conserve",
+              "conservation",
+              "renewable",
+              "contaminate"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "science",
+    "label": "科学与证据",
+    "subtitle": "把想法交给证据检验",
+    "scenes": [
+      {
+        "id": "science-inquiry",
+        "label": "开展研究",
+        "concepts": [
+          {
+            "id": "science-methods",
+            "label": "研究与方法",
+            "words": [
+              "science",
+              "scientific",
+              "research",
+              "experiment",
+              "theory",
+              "method",
+              "methodology"
+            ]
+          },
+          {
+            "id": "science-tests",
+            "label": "假说与实证",
+            "words": [
+              "hypothesis",
+              "empirical",
+              "empirically",
+              "objective",
+              "subjective"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "science-measuring",
+        "label": "测量与比较",
+        "concepts": [
+          {
+            "id": "science-data",
+            "label": "数据与精度",
+            "words": [
+              "data",
+              "measure",
+              "measurement",
+              "accurate",
+              "accuracy"
+            ]
+          },
+          {
+            "id": "science-variables",
+            "label": "类型与变量",
+            "words": [
+              "quantitative",
+              "qualitative",
+              "variable",
+              "variation"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "science-evidence",
+        "label": "解释与核验",
+        "concepts": [
+          {
+            "id": "science-causes",
+            "label": "相关与因果",
+            "words": [
+              "correlate",
+              "correlation",
+              "causal",
+              "causality"
+            ]
+          },
+          {
+            "id": "science-verifying",
+            "label": "验证与重现",
+            "words": [
+              "verify",
+              "verification",
+              "replicate",
+              "replication",
+              "phenomenon"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "civic",
+    "label": "制度与协作",
+    "subtitle": "理解共同生活的规则",
+    "scenes": [
+      {
+        "id": "civic-governance",
+        "label": "制度与自主",
+        "concepts": [
+          {
+            "id": "civic-legislation",
+            "label": "立法与民主",
+            "words": [
+              "legislate",
+              "legislation",
+              "legislative",
+              "democracy",
+              "democratic"
+            ]
+          },
+          {
+            "id": "civic-autonomy",
+            "label": "自主与参与",
+            "words": [
+              "autonomy",
+              "autonomous",
+              "participatory"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "civic-cooperation",
+        "label": "组织与协同",
+        "concepts": [
+          {
+            "id": "civic-working",
+            "label": "合作与整合",
+            "words": [
+              "collaborate",
+              "collaboration",
+              "coordinate",
+              "coordination",
+              "integrate",
+              "integration"
+            ]
+          },
+          {
+            "id": "civic-inclusion",
+            "label": "包容与差异",
+            "words": [
+              "inclusion",
+              "exclusion",
+              "diverse",
+              "diversity",
+              "equity",
+              "inequality"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "civic-responsibility",
+        "label": "分配与责任",
+        "concepts": [
+          {
+            "id": "civic-implementation",
+            "label": "配置与落实",
+            "words": [
+              "allocate",
+              "allocation",
+              "implement",
+              "implementation",
+              "accountability"
+            ]
+          },
+          {
+            "id": "civic-legitimacy",
+            "label": "透明与正当",
+            "words": [
+              "transparent",
+              "transparency",
+              "consensus",
+              "legitimate",
+              "legitimacy"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "body",
+    "label": "身体与感官",
+    "subtitle": "认识身体，描述感受",
+    "scenes": [
+      {
+        "id": "body-appearance",
+        "label": "外表与动作",
+        "concepts": [
+          {
+            "id": "body-head",
+            "label": "头面与感官器官",
+            "words": [
+              "body",
+              "head",
+              "face",
+              "eye",
+              "ear",
+              "nose",
+              "mouth",
+              "tooth",
+              "tongue",
+              "skin"
+            ]
+          },
+          {
+            "id": "body-limbs",
+            "label": "四肢与动作",
+            "words": [
+              "hand",
+              "finger",
+              "arm",
+              "leg",
+              "foot"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "body-systems",
+        "label": "身体内部",
+        "concepts": [
+          {
+            "id": "body-support",
+            "label": "支撑与控制",
+            "words": [
+              "bone",
+              "muscle",
+              "brain"
+            ]
+          },
+          {
+            "id": "body-organs",
+            "label": "循环与消化",
+            "words": [
+              "blood",
+              "heart",
+              "lung",
+              "stomach"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "body-feeling",
+        "label": "感知与恢复",
+        "concepts": [
+          {
+            "id": "body-senses",
+            "label": "五种感官",
+            "words": [
+              "sight",
+              "hearing",
+              "smell",
+              "taste",
+              "touch"
+            ]
+          },
+          {
+            "id": "body-recovery",
+            "label": "疼痛与恢复",
+            "words": [
+              "pain",
+              "injury",
+              "recover"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "food",
+    "label": "饮食与居住",
+    "subtitle": "从餐桌走到生活空间",
+    "scenes": [
+      {
+        "id": "food-eating",
+        "label": "食物与用餐",
+        "concepts": [
+          {
+            "id": "food-staples",
+            "label": "食物与饮品",
+            "words": [
+              "food",
+              "water",
+              "milk",
+              "bread",
+              "rice",
+              "fruit",
+              "vegetable",
+              "meat",
+              "fish",
+              "egg"
+            ]
+          },
+          {
+            "id": "food-flavour",
+            "label": "调味与烹饪",
+            "words": [
+              "sugar",
+              "salt",
+              "oil",
+              "cook"
+            ]
+          },
+          {
+            "id": "food-meals",
+            "label": "每日三餐",
+            "words": [
+              "meal",
+              "breakfast",
+              "lunch",
+              "dinner"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "food-home",
+        "label": "居住空间",
+        "concepts": [
+          {
+            "id": "food-objects",
+            "label": "房间与家具",
+            "words": [
+              "kitchen",
+              "table",
+              "chair",
+              "bed",
+              "furniture"
+            ]
+          },
+          {
+            "id": "food-structure",
+            "label": "房屋结构",
+            "words": [
+              "window",
+              "door",
+              "wall",
+              "floor",
+              "roof"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "food-housing",
+        "label": "打理住处",
+        "concepts": [
+          {
+            "id": "food-services",
+            "label": "租住与维修",
+            "words": [
+              "rent",
+              "repair"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "education",
+    "label": "教育与职业",
+    "subtitle": "从学习走向工作",
+    "scenes": [
+      {
+        "id": "education-classroom",
+        "label": "课堂与学习",
+        "concepts": [
+          {
+            "id": "education-people",
+            "label": "学习者与课堂",
+            "words": [
+              "student",
+              "pupil",
+              "class",
+              "lesson",
+              "course",
+              "subject"
+            ]
+          },
+          {
+            "id": "education-study",
+            "label": "练习与问答",
+            "words": [
+              "question",
+              "answer",
+              "practice",
+              "exercise"
+            ]
+          },
+          {
+            "id": "education-competence",
+            "label": "知识与能力",
+            "words": [
+              "knowledge",
+              "skill",
+              "ability"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "education-development",
+        "label": "教育与培训",
+        "concepts": [
+          {
+            "id": "education-education",
+            "label": "教育与学术",
+            "words": [
+              "education",
+              "educate",
+              "academic"
+            ]
+          },
+          {
+            "id": "education-training",
+            "label": "培训与毕业",
+            "words": [
+              "train",
+              "training",
+              "graduate",
+              "graduation"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "education-career",
+        "label": "工作与求职",
+        "concepts": [
+          {
+            "id": "education-roles",
+            "label": "职业与专业",
+            "words": [
+              "career",
+              "profession",
+              "professional",
+              "occupation"
+            ]
+          },
+          {
+            "id": "education-employment",
+            "label": "雇佣关系",
+            "words": [
+              "employ",
+              "employee",
+              "employer",
+              "employment"
+            ]
+          },
+          {
+            "id": "education-applications",
+            "label": "面试与资格",
+            "words": [
+              "interview",
+              "qualification"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "emotion",
+    "label": "情绪与品格",
+    "subtitle": "说清感受，也理解自己",
+    "scenes": [
+      {
+        "id": "emotion-feelings",
+        "label": "理解感受",
+        "concepts": [
+          {
+            "id": "emotion-mood",
+            "label": "心情与情绪",
+            "words": [
+              "happy",
+              "sad",
+              "afraid",
+              "angry",
+              "calm",
+              "excitement",
+              "worried",
+              "anxious",
+              "anxiety"
+            ]
+          },
+          {
+            "id": "emotion-self",
+            "label": "自信与自我感受",
+            "words": [
+              "confident",
+              "confidence",
+              "proud",
+              "pride",
+              "ashamed",
+              "shame"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "emotion-outlook",
+        "label": "期待与勇气",
+        "concepts": [
+          {
+            "id": "emotion-hope",
+            "label": "希望与恐惧",
+            "words": [
+              "hope",
+              "hopeful",
+              "fear"
+            ]
+          },
+          {
+            "id": "emotion-courage",
+            "label": "勇气与进取",
+            "words": [
+              "courage",
+              "brave",
+              "ambitious",
+              "ambition"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "emotion-character",
+        "label": "相处与探索",
+        "concepts": [
+          {
+            "id": "emotion-integrity",
+            "label": "诚实与礼貌",
+            "words": [
+              "honest",
+              "honesty",
+              "polite",
+              "courtesy"
+            ]
+          },
+          {
+            "id": "emotion-curiosity",
+            "label": "谦逊与好奇",
+            "words": [
+              "modest",
+              "modesty",
+              "curious",
+              "curiosity"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "space",
+    "label": "空间与出行",
+    "subtitle": "找到位置，抵达远方",
+    "scenes": [
+      {
+        "id": "space-positioning",
+        "label": "确定位置",
+        "concepts": [
+          {
+            "id": "space-position",
+            "label": "地点与方向",
+            "words": [
+              "place",
+              "position",
+              "location",
+              "direction",
+              "distance"
+            ]
+          },
+          {
+            "id": "space-height",
+            "label": "远近与高低",
+            "words": [
+              "near",
+              "far",
+              "above",
+              "below"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "space-relations",
+        "label": "说明空间关系",
+        "concepts": [
+          {
+            "id": "space-path",
+            "label": "经过与环绕",
+            "words": [
+              "between",
+              "through",
+              "across",
+              "along",
+              "around"
+            ]
+          },
+          {
+            "id": "space-orientation",
+            "label": "内外与方位",
+            "words": [
+              "inside",
+              "outside",
+              "front",
+              "behind",
+              "left",
+              "right"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "space-journeys",
+        "label": "出发与抵达",
+        "concepts": [
+          {
+            "id": "space-travel",
+            "label": "行程与交通",
+            "words": [
+              "travel",
+              "journey",
+              "trip",
+              "vehicle",
+              "route",
+              "destination"
+            ]
+          },
+          {
+            "id": "space-arrival",
+            "label": "出发与到达",
+            "words": [
+              "arrive",
+              "arrival",
+              "depart",
+              "departure"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "basic",
+    "label": "基础表达",
+    "subtitle": "从自我表达走向日常问答",
+    "scenes": [
+      {
+        "id": "basic-expression",
+        "label": "表达与应答",
+        "concepts": [
+          {
+            "id": "basic-self",
+            "label": "自我与存在",
+            "words": [
+              "I",
+              "be"
+            ]
+          },
+          {
+            "id": "basic-responses",
+            "label": "肯定与否定",
+            "words": [
+              "not",
+              "no",
+              "yes"
+            ]
+          },
+          {
+            "id": "basic-modals",
+            "label": "能力与意愿",
+            "words": [
+              "can",
+              "may",
+              "must",
+              "should",
+              "will",
+              "would"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "basic-questions",
+        "label": "提问与指明",
+        "concepts": [
+          {
+            "id": "basic-asking",
+            "label": "人物与事物",
+            "words": [
+              "who",
+              "what",
+              "which"
+            ]
+          },
+          {
+            "id": "basic-circumstances",
+            "label": "地点原因与方式",
+            "words": [
+              "where",
+              "why",
+              "how"
+            ]
+          },
+          {
+            "id": "basic-context",
+            "label": "此处与其他",
+            "words": [
+              "here",
+              "there",
+              "other",
+              "another",
+              "such"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "basic-modification",
+        "label": "程度与频率",
+        "concepts": [
+          {
+            "id": "basic-degree",
+            "label": "程度与补充",
+            "words": [
+              "very",
+              "also",
+              "only",
+              "too"
+            ]
+          },
+          {
+            "id": "basic-frequency",
+            "label": "再次与频率",
+            "words": [
+              "again",
+              "always",
+              "never",
+              "sometimes"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "economy",
+    "label": "商业与经济",
+    "subtitle": "理解交易与资源流动",
+    "scenes": [
+      {
+        "id": "economy-exchange",
+        "label": "日常交易",
+        "concepts": [
+          {
+            "id": "economy-worth",
+            "label": "金钱与价值",
+            "words": [
+              "money",
+              "price",
+              "cost",
+              "value"
+            ]
+          },
+          {
+            "id": "economy-payment",
+            "label": "买卖与收付",
+            "words": [
+              "buy",
+              "sell",
+              "pay",
+              "spend",
+              "save",
+              "earn"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "economy-markets",
+        "label": "收入与市场",
+        "concepts": [
+          {
+            "id": "economy-income",
+            "label": "收入与盈亏",
+            "words": [
+              "income",
+              "salary",
+              "wage",
+              "profit",
+              "loss"
+            ]
+          },
+          {
+            "id": "economy-market",
+            "label": "交易与供需",
+            "words": [
+              "trade",
+              "market",
+              "demand",
+              "supply"
+            ]
+          },
+          {
+            "id": "economy-consumption",
+            "label": "消费与消费者",
+            "words": [
+              "consume",
+              "consumer",
+              "consumption"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "economy-finance",
+        "label": "投资与收支",
+        "concepts": [
+          {
+            "id": "economy-investment",
+            "label": "投资与预算",
+            "words": [
+              "invest",
+              "investment",
+              "budget"
+            ]
+          },
+          {
+            "id": "economy-accounts",
+            "label": "债务与收支",
+            "words": [
+              "debt",
+              "inflation",
+              "revenue",
+              "expenditure",
+              "transaction"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "technology",
+    "label": "信息与技术",
+    "subtitle": "理解数字生活的语言",
+    "scenes": [
+      {
+        "id": "technology-devices",
+        "label": "设备与连接",
+        "concepts": [
+          {
+            "id": "technology-equipment",
+            "label": "设备与界面",
+            "words": [
+              "computer",
+              "telephone",
+              "digital",
+              "device",
+              "screen"
+            ]
+          },
+          {
+            "id": "technology-communication",
+            "label": "信息与信号",
+            "words": [
+              "message",
+              "information",
+              "network",
+              "signal"
+            ]
+          },
+          {
+            "id": "technology-software",
+            "label": "程序与代码",
+            "words": [
+              "software",
+              "hardware",
+              "program",
+              "code"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "technology-access",
+        "label": "访问与保护",
+        "concepts": [
+          {
+            "id": "technology-availability",
+            "label": "访问与可用性",
+            "words": [
+              "access",
+              "accessible"
+            ]
+          },
+          {
+            "id": "technology-privacy",
+            "label": "安全与隐私",
+            "words": [
+              "secure",
+              "security",
+              "private",
+              "privacy"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "technology-progress",
+        "label": "技术与进步",
+        "concepts": [
+          {
+            "id": "technology-methods",
+            "label": "技术与方法",
+            "words": [
+              "technology",
+              "technique",
+              "automatic",
+              "automatically"
+            ]
+          },
+          {
+            "id": "technology-ideas",
+            "label": "智能与效率",
+            "words": [
+              "artificial",
+              "intelligence",
+              "efficient",
+              "efficiency"
+            ]
+          },
+          {
+            "id": "technology-invention",
+            "label": "发明与创新",
+            "words": [
+              "invent",
+              "innovation",
+              "invention"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "culture",
+    "label": "文化与交流",
+    "subtitle": "认识传统，也看见差异",
+    "scenes": [
+      {
+        "id": "culture-traditions",
+        "label": "传统与庆典",
+        "concepts": [
+          {
+            "id": "culture-civilization",
+            "label": "文化与习俗",
+            "words": [
+              "culture",
+              "civilization",
+              "custom",
+              "tradition",
+              "traditional"
+            ]
+          },
+          {
+            "id": "culture-events",
+            "label": "节日与仪式",
+            "words": [
+              "festival",
+              "celebrate",
+              "celebration",
+              "ceremony"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "culture-arts",
+        "label": "艺术与文学",
+        "concepts": [
+          {
+            "id": "culture-art",
+            "label": "艺术与音乐",
+            "words": [
+              "art",
+              "artist",
+              "artistic",
+              "music",
+              "musical"
+            ]
+          },
+          {
+            "id": "culture-literature",
+            "label": "文学与诗歌",
+            "words": [
+              "literature",
+              "literary",
+              "poem",
+              "poet",
+              "poetry"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "culture-identity",
+        "label": "历史与认同",
+        "concepts": [
+          {
+            "id": "culture-heritage",
+            "label": "历史与信仰",
+            "words": [
+              "history",
+              "historical",
+              "heritage",
+              "religion",
+              "religious"
+            ]
+          },
+          {
+            "id": "culture-community",
+            "label": "身份与迁移",
+            "words": [
+              "ethnic",
+              "identity",
+              "migrate",
+              "emigrate",
+              "immigrant",
+              "community"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "decisions",
+    "label": "选择与行动",
+    "subtitle": "从作出选择到坚持完成",
+    "scenes": [
+      {
+        "id": "decisions-choice",
+        "label": "作出选择",
+        "concepts": [
+          {
+            "id": "decisions-decisions",
+            "label": "决定与选择",
+            "words": [
+              "decide",
+              "decision",
+              "choose",
+              "choice"
+            ]
+          },
+          {
+            "id": "decisions-preference",
+            "label": "偏好与优先顺序",
+            "words": [
+              "prefer",
+              "preference",
+              "priority"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "decisions-preparation",
+        "label": "准备与结果",
+        "concepts": [
+          {
+            "id": "decisions-planning",
+            "label": "计划与准备",
+            "words": [
+              "plan",
+              "prepare",
+              "preparation"
+            ]
+          },
+          {
+            "id": "decisions-expectations",
+            "label": "期待与达成",
+            "words": [
+              "expect",
+              "expectation",
+              "achieve",
+              "achievement"
+            ]
+          },
+          {
+            "id": "decisions-outcomes",
+            "label": "成功与失败",
+            "words": [
+              "succeed",
+              "success",
+              "successful",
+              "fail",
+              "failure"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "decisions-action",
+        "label": "坚持与协商",
+        "concepts": [
+          {
+            "id": "decisions-effort",
+            "label": "尝试与坚持",
+            "words": [
+              "attempt",
+              "effort",
+              "persist",
+              "persistence"
+            ]
+          },
+          {
+            "id": "decisions-determination",
+            "label": "决心与解决",
+            "words": [
+              "determine",
+              "determination",
+              "resolve",
+              "resolution"
+            ]
+          },
+          {
+            "id": "decisions-agreement",
+            "label": "协商与折中",
+            "words": [
+              "negotiate",
+              "negotiation",
+              "compromise"
+            ]
+          }
+        ]
+      }
+    ]
+  }
 ]

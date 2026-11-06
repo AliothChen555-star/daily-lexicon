@@ -1,5 +1,5 @@
 from pathlib import Path
-import json, hashlib, re
+import json, hashlib, csv
 
 ROOT = Path(__file__).resolve().parents[1]
 roots = {
@@ -48,6 +48,9 @@ independent = {
 }
 for key,label in independent.items():
     roots[key]=(label,'按用法理解','independent','这些词按学习语境归置，不认定具有共同词根或直接派生关系。第二轮仍包含本组的每一个词。')
+for key,group in json.loads((ROOT/'content/groups-v0.3.json').read_text(encoding='utf-8')).items():
+    roots[key]=tuple(group[field] for field in ['label','meaning','kind','note'])
+roots['science']=('science 词族','科学与科学的','family','science与scientific按相关现代词形联系；research、experiment与theory属于独立词，不属于本词族。')
 
 forms = {
  'see':['过去式 saw','过去分词 seen','第三人称 sees'],
@@ -85,6 +88,23 @@ forms = {
  'coordinate':['本卡为动词，词尾读 /neɪt/','名词和形容词的词尾常读 /nət/'],
  'legitimate':['本卡为形容词，词尾读 /mət/','动词legitimate的词尾读 /meɪt/'],
 }
+forms.update({
+ 'i':['第一人称单数主格，始终大写 I','宾格 me','形容词性物主代词 my','名词性物主代词 mine'],
+ 'be':['现在时 am / is / are','过去式 was / were','过去分词 been','现在分词 being'],
+ 'body':['复数 bodies'], 'tooth':['复数 teeth /tiːθ/'], 'foot':['复数 feet /fiːt/'],
+ 'smell':['过去式与过去分词 smelled 或 smelt'], 'injury':['复数 injuries'],
+ 'fish':['表示鱼的常用复数为 fish；fishes可指不同鱼种'], 'furniture':['不可数名词','一件家具 a piece of furniture'],
+ 'knowledge':['通常为不可数名词'], 'information':['不可数名词','一条信息 a piece of information'],
+ 'software':['不可数名词'], 'hardware':['不可数名词'], 'money':['通常为不可数名词'],
+ 'mouth':['本卡主读音为名词 /maʊθ/','动词 mouth 读 /maʊð/'],
+ 'subject':['本卡主读音为名词 /ˈsʌbdʒekt/','动词 subject 读 /səbˈdʒekt/'],
+ 'graduate':['本卡主读音为动词 /ˈɡrædʒueɪt/','名词 graduate 读 /ˈɡrædʒuət/'],
+ 'left':['本卡表示左边、左侧','left也可作leave的过去式与过去分词，需结合语境区分'],
+ 'route':['可读 /ruːt/ 或 /raʊt/；本卡音频使用 /ruːt/'],
+ 'buy':['过去式与过去分词 bought'], 'sell':['过去式与过去分词 sold'],
+ 'pay':['付钱义的过去式与过去分词 paid'], 'spend':['过去式与过去分词 spent'],
+ 'choose':['过去式 chose','过去分词 chosen'], 'poetry':['通常为不可数名词，单首诗用 poem'],
+})
 words=[]
 topics=[]
 scenes=[]
@@ -92,6 +112,10 @@ concepts=[]
 taxonomy=json.loads((ROOT/'content/semantic.json').read_text(encoding='utf-8'))
 seen=set()
 legacy=json.loads((ROOT/'content/catalogs/0.1.0.json').read_text(encoding='utf-8'))
+previous=json.loads((ROOT/'content/catalogs/0.2.0.json').read_text(encoding='utf-8'))
+version=json.loads((ROOT/'package.json').read_text(encoding='utf-8'))['version']
+with (ROOT/'content/scope/ecdict-words.tsv').open(encoding='utf-8',newline='') as source:
+    candidate_tags={row['word']:set(row['tags'].split()) for row in csv.DictReader(source,delimiter='\t')}
 for topic in taxonomy:
     topic_id,label,subtitle=topic['id'],topic['label'],topic['subtitle']
     lines=(ROOT/'content/editorial'/f'{topic_id}.tsv').read_text(encoding='utf-8').splitlines()
@@ -106,11 +130,18 @@ for topic in taxonomy:
         def bilingual(item):
             en,zh=item.split('::',1)
             return {'en':en,'zh':zh}
-        assert word not in seen,(word,'duplicate word')
-        seen.add(word)
-        item={'id':'dl-'+word,'word':word,'ipa':ipa,'pos':pos,'meaning':meaning,'level':level,'topic':topic_id,'family':family,
-              'phrases':[bilingual(x) for x in phrases.split(';')], 'examples':[{**bilingual(example1),'audio':'audio/'+word+'--1.wav'},{**bilingual(example2),'audio':'audio/'+word+'--2.wav'}],
-              'forms':forms.get(word,[]),'audio':'audio/'+word+'.wav', 'source':'daily-lexicon-editorial-0.1' if 'dl-'+word in legacy['wordIds'] else 'daily-lexicon-editorial-0.2', 'reviewStatus':'editorial-draft'}
+        stem=word.lower()
+        word_id='dl-'+stem
+        assert stem not in seen,(word,'duplicate word')
+        seen.add(stem)
+        source_version='0.1' if word_id in legacy['wordIds'] else '0.2' if word_id in previous['wordIds'] else '0.3'
+        if source_version=='0.3':
+            assert stem in candidate_tags,(word,'not in pinned candidate scope')
+            tags=candidate_tags[stem]
+            level='基础' if tags & {'zk','gk'} else '四级' if 'cet4' in tags else '六级'
+        item={'id':word_id,'word':word,'ipa':ipa,'pos':pos,'meaning':meaning,'level':level,'topic':topic_id,'family':family,
+              'phrases':[bilingual(x) for x in phrases.split(';')], 'examples':[{**bilingual(example1),'audio':'audio/'+stem+'--1.wav'},{**bilingual(example2),'audio':'audio/'+stem+'--2.wav'}],
+              'forms':forms.get(stem,[]),'audio':'audio/'+stem+'.wav', 'source':'daily-lexicon-editorial-'+source_version, 'reviewStatus':'editorial-draft'}
         parsed[word]=item
     assigned=set()
     for scene in topic['scenes']:
@@ -131,19 +162,20 @@ for topic in taxonomy:
     assert assigned==set(parsed),(topic_id,'unclassified words')
     assert len(topic_words)==30,(topic_id,len(topic_words))
     topics.append({'id':topic_id,'label':label,'subtitle':subtitle,'description':subtitle,'column':label,'scenes':[s['id'] for s in topic['scenes']],'words':topic_words})
-assert len(words)==300
-assert len({w['id'] for w in words})==300
+assert len(words)==600
+assert len({w['id'] for w in words})==len(words)
 assert set(legacy['wordIds'])<=set(w['id'] for w in words),'stable IDs must be preserved'
+assert [w['id'] for w in words[:len(previous['wordIds'])]]==previous['wordIds'],'existing semantic order must be preserved'
 families=[]
 for key,(label,meaning,kind,note) in roots.items():
     members=[w['id'] for w in words if w['family']==key]
     if members:
         families.append({'id':key,'label':label,'meaning':meaning,'kind':kind,'note':note,'words':members,'reference':'https://en.wiktionary.org/wiki/'+next(w['word'] for w in words if w['family']==key)})
 families.sort(key=lambda r:({'root':0,'family':1,'independent':2}[r['kind']],-len(r['words']),r['id']))
-content={'version':'0.2.0','id':'daily-lexicon-editorial','title':'基础与四六级300词试用包','license':'CC-BY-SA-4.0','words':words,'topics':topics,'scenes':scenes,'concepts':concepts,'families':families,
-         'notice':'300词试用包，基础、四级、六级参考层级各100词。三级语义目录覆盖全部词条；正式大纲核对和完整人工校审仍在进行，不能视为完整六级词库。词根、现代词族和独立词分别标注。'}
+content={'version':version,'id':'daily-lexicon-editorial','title':f'基础与四六级{len(words)}词试用包','license':'CC-BY-SA-4.0','words':words,'topics':topics,'scenes':scenes,'concepts':concepts,'families':families,
+         'notice':f'{len(words)}词试用包，包含基础、四级和六级参考层级。新增词按固定候选来源的最低层级归类；正式大纲核对和完整人工校审仍在进行，不能视为完整六级词库。词根、现代词族和独立词分别标注。'}
 content['hash']=hashlib.sha256(json.dumps(content,sort_keys=True,ensure_ascii=False).encode()).hexdigest()
 target=ROOT/'src/data'
 target.mkdir(parents=True,exist_ok=True)
-(target/'content.json').write_text(json.dumps(content,ensure_ascii=False,indent=2),encoding='utf-8')
+(target/'content.json').write_text(json.dumps(content,ensure_ascii=False,indent=2),encoding='utf-8',newline='\n')
 print('Built',len(words),'words,',len(topics),'topics,',len(families),'families.')
