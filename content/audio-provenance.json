@@ -20,9 +20,9 @@
   "dataset": "LJSpeech",
   "datasetLicense": "Public domain, per bundled model card",
   "audioLicense": "CC-BY-SA-4.0",
-  "generatedDate": "2026-11-06",
-  "contentVersion": "0.4.0",
-  "audioFiles": 1890,
+  "generatedDate": "2026-11-09",
+  "contentVersion": "0.5.0",
+  "audioFiles": 2250,
   "synthesisParameters": {
     "lengthScale": 1.04,
     "noiseScale": 0.5,
@@ -44,7 +44,13 @@
       "contentVersion": "0.4.0",
       "date": "2026-11-06",
       "audioFiles": 90
+    },
+    {
+      "contentVersion": "0.5.0",
+      "date": "2026-11-09",
+      "audioFiles": 360,
+      "phonemizer": "en-us"
     }
   ],
-  "note": "本批新增数字生活30词的90段音频，既有1800段沿用原文件。"
+  "note": "本批120词的360段音频使用同一模型及en-us音素规则，单词异读按主词性校正。既有1890段沿用原文件与生成依据。"
 }

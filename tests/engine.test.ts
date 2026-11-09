@@ -6,6 +6,15 @@ const day = (n=0,hour=9) => new Date(Date.UTC(2026,10,4+n,hour-8));
 const courseDays = Math.ceil(wordIds.length / 30);
 const initial = () => createState(day(),'profile-test','device-test');
 function completeToday(input: AppState,date: Date) { let state=ensureDaily(input,date); for (const [i,id] of courseQueue(state,date).entries()) state=gradeWord(state,id,3,'course',new Date(+date+i*1000),`score-${state.rounds.length}-${date.toISOString()}-${i}`); return state; }
+let completedCourse:AppState|undefined;
+function completeSemanticCourse() {
+  if(!completedCourse) {
+    let state=initial();
+    for(let n=0;n<courseDays;n++) state=completeToday(state,day(n));
+    completedCourse=state;
+  }
+  return structuredClone(completedCourse);
+}
 beforeAll(async () => { await initializeEngine(); });
 
 describe('课程、记忆和备份的实际约束', () => {
@@ -20,7 +29,11 @@ describe('课程、记忆和备份的实际约束', () => {
       expect(round.order).toEqual(makeRound('p',1,mode,day()).order);
     }
     expect(makeRound('p',1,'random',day()).order).not.toEqual(makeRound('p',2,'random',day()).order);
-    expect(families.filter(f=>f.kind==='root').length).toBe(12);
+    const rootPositions=new Map(makeRound('p',1,'roots',day()).order.map((id,index)=>[id,index]));
+    for(const family of families) {
+      const positions=family.words.map(id=>rootPositions.get(id)!);
+      expect(Math.max(...positions)-Math.min(...positions)+1).toBe(family.words.length);
+    }
   });
   it('未完成的12词次日优先，再补18词；不补欠债到60词', () => {
     let state=initial(); const plan=getPlan(state,day()).words;
@@ -45,19 +58,19 @@ describe('课程、记忆和备份的实际约束', () => {
     expect(todayCourseDone(state,day())).toBe(1); expect(courseQueue(state,day())).toHaveLength(29);
   });
   it('按每日30词完成全量词包，次日自动进入词根轮，保留记忆并完整重读', () => {
-    let state=initial(); for(let n=0;n<courseDays;n++) state=completeToday(state,day(n));
+    const state=completeSemanticCourse();
     expect(currentRound(state).status).toBe('complete'); expect(coveredWords(state).size).toBe(wordIds.length);
     expect(ensureDaily(state,day(courseDays-1,18)).rounds).toHaveLength(1);
     const next=ensureDaily(state,day(courseDays)); expect(currentRound(next).mode).toBe('roots');
     expect(coveredWords(next).size).toBe(0); expect(Object.keys(next.memory)).toHaveLength(wordIds.length);
     expect(courseQueue(next,day(courseDays))).toHaveLength(30);
-  });
+  },30_000);
   it('撤销最后一个词会重新打开已完成轮次，并保留其他已读词', () => {
-    let state=initial(); for(let n=0;n<courseDays;n++) state=completeToday(state,day(n));
+    const state=completeSemanticCourse();
     const undone=undoLast(state,day(courseDays-1,10));
     expect(currentRound(undone).status).toBe('active'); expect(coveredWords(undone).size).toBe(wordIds.length-1);
     expect(courseQueue(undone,day(courseDays-1,10))).toEqual([wordIds.at(-1)]); expect(activeEvents(undone)).toHaveLength(wordIds.length-1);
-  });
+  },30_000);
   it('调整目标不删除已完成的词，手动换轮不删除复习', () => {
     let state=initial(); for(let i=0;i<8;i++) state=gradeWord(state,wordIds[i],3,'course',new Date(+day()+i*1000));
     state=updateSettings(state,{dailyTarget:5},day()); expect(getPlan(state,day()).words).toHaveLength(8); expect(courseQueue(state,day())).toHaveLength(0);

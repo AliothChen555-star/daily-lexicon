@@ -121,6 +121,26 @@ test('词库搜索、收藏、笔记和备份往返',async ({page},testInfo) => 
   await expect(page.locator('.dictionary-word')).toContainText('perspective');
 });
 
+test('新六级词可按三级目录找到，例句发音与构词关联可用',async ({page})=>{
+  await page.goto('/#library');
+  await page.getByRole('button',{name:'公共制度与法律',exact:true}).click();
+  await page.getByRole('combobox',{name:'学习场景'}).selectOption('institutions-court');
+  await page.getByRole('combobox',{name:'概念分块'}).selectOption('institutions-evidence');
+  await page.getByRole('combobox',{name:'词汇级别'}).selectOption('六级');
+  await expect(page.locator('.dictionary-row')).toHaveCount(5);
+  await page.getByRole('button',{name:/^testify /}).click();
+  const card=page.getByRole('dialog');
+  await expect(card.getByRole('heading',{name:'testify',exact:true})).toBeVisible();
+  await expect(card.getByLabel('单词的语义位置')).toContainText('审理与举证');
+  await expect(card).toContainText('一名技术人员同意就这些记录的保存方式作证。');
+  const clip=page.waitForResponse(response=>response.url().endsWith('/audio/testify--1.wav')&&response.ok());
+  await card.getByRole('button',{name:/^朗读例句：/}).first().click();
+  await clip;
+  await card.getByRole('button',{name:'testimony',exact:true}).click();
+  await expect(card.getByRole('heading',{name:'testimony',exact:true})).toBeVisible();
+  await expect(card).toContainText('证词；证言；证明');
+});
+
 test('五词目标可以完成，换轮保留学习记录',async ({page}) => {
   await page.goto('/#settings'); await page.getByRole('combobox',{name:'每日课程词数'}).selectOption('5');
   await page.getByRole('button',{name:'今日版',exact:true}).click(); await page.getByRole('button',{name:'开始今日学习',exact:true}).click();

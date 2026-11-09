@@ -18,13 +18,15 @@ describe('候选范围与正式内容的边界',()=>{
     expect(rows.some(([,tags])=>tags.split(' ').includes('cet6'))).toBe(true);
     expect(createHash('sha256').update(raw).digest('hex')).toBe(source.adoptedSha256);
     expect(source.adoptedFields).toEqual(['word','tag']);expect(source.omittedFields).toContain('translation');
-    expect(report.cards).toBe(630);expect(report.audioFiles).toBe(1890);
+    expect(report.cards).toBe(words.length);expect(report.audioFiles).toBe(words.length*3);
     const scopeRows=readFileSync('content/scope/study-scope.tsv','utf8').trim().split(/\r?\n/).slice(1).map(row=>row.split('\t'));
     const levels=new Map(scopeRows.map(row=>[row[0],row[2]]));
+    const required=new Set(scopeRows.filter(row=>row[3]==='yes').map(row=>row[0]));
     expect(scopeRows).toHaveLength(study.candidateWords);
     for(const word of words) {
       expect(word.level).toBe(levels.get(word.word.toLowerCase())??'扩展');
     }
+    expect(report.candidateMatches).toBe(words.filter(word=>required.has(word.word.toLowerCase())).length);
     expect(report.missingCards+report.candidateMatches).toBe(report.targetWords);
     expect(report.targetWords).toBe(study.targetWords);
     expect(report.structuralIssues).toHaveLength(0);

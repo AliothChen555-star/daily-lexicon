@@ -16,7 +16,7 @@ test('Windows 程序不依赖联网，发音正常，关闭重开保留进度',a
     await expect(page.getByRole('heading',{name:'今日三十词。'})).toBeVisible();
     await page.getByRole('button',{name:'开始今日学习',exact:true}).click();
     const duration=await page.evaluate(async () => {
-      const audio=new Audio(new URL('./audio/see.wav',document.baseURI).href);
+      const audio=new Audio(new URL('./audio/refute.wav',document.baseURI).href);
       await audio.play(); await new Promise<void>((resolve,reject)=>{audio.onended=()=>resolve();audio.onerror=()=>reject(new Error('local audio failed'));}); return audio.duration;
     });
     expect(duration).toBeGreaterThan(0.3);

@@ -1,0 +1,170 @@
+{
+  "not-mark": {
+    "label": "not-（标记）",
+    "meaning": "标记、指代与联想",
+    "kind": "root",
+    "note": "denote 与 connotation 的历史词形和拉丁语 notare（标记）有关。denote 侧重直接指代，connotation 指词语带出的联想或色彩。"
+  },
+  "cede-withdraw": {
+    "label": "ced- / -cede",
+    "meaning": "行进、退去、让步",
+    "kind": "root",
+    "note": "concede 与 recede 的历史词形都可追到拉丁语 cedere（走、退让）。concede 常用于承认或让步，recede 可指水位或物体逐渐退去。"
+  },
+  "test-witness": {
+    "label": "testi-（见证）",
+    "meaning": "证人、作证与证词",
+    "kind": "root",
+    "note": "testify 与 testimony 的历史词形都与拉丁语 testis（证人）有关。前者是动作，后者是证言；不因拼写含有 test 就把其他词归入本组。"
+  },
+  "lateral-parties": {
+    "label": "lateral 相关构词",
+    "meaning": "两方与多方",
+    "kind": "family",
+    "note": "bilateral 和 multilateral 都含有表示侧或方的 lateral；bi- 表两方，multi- 表多方。常用于协议、合作或谈判。"
+  },
+  "argumentation-texts": {
+    "label": "阅读材料与体裁独立词",
+    "meaning": "按阅读材料与体裁的用法理解",
+    "kind": "independent",
+    "note": "本组按学习语境归置，不表示共同词根或直接派生关系。通过搭配与例句理解每个词，第二轮仍完整覆盖。"
+  },
+  "argumentation-style": {
+    "label": "清晰表达与修辞独立词",
+    "meaning": "按清晰表达与修辞的用法理解",
+    "kind": "independent",
+    "note": "本组按学习语境归置，不表示共同词根或直接派生关系。通过搭配与例句理解每个词，第二轮仍完整覆盖。"
+  },
+  "argumentation-figures": {
+    "label": "字面意义与联想独立词",
+    "meaning": "按字面意义与联想的用法理解",
+    "kind": "independent",
+    "note": "本组按学习语境归置，不表示共同词根或直接派生关系。通过搭配与例句理解每个词，第二轮仍完整覆盖。"
+  },
+  "argumentation-interpretation": {
+    "label": "辨识与理解独立词",
+    "meaning": "按辨识与理解的用法理解",
+    "kind": "independent",
+    "note": "本组按学习语境归置，不表示共同词根或直接派生关系。通过搭配与例句理解每个词，第二轮仍完整覆盖。"
+  },
+  "argumentation-inference": {
+    "label": "前提与推断独立词",
+    "meaning": "按前提与推断的用法理解",
+    "kind": "independent",
+    "note": "本组按学习语境归置，不表示共同词根或直接派生关系。通过搭配与例句理解每个词，第二轮仍完整覆盖。"
+  },
+  "argumentation-checking": {
+    "label": "核对与反驳独立词",
+    "meaning": "按核对与反驳的用法理解",
+    "kind": "independent",
+    "note": "本组按学习语境归置，不表示共同词根或直接派生关系。通过搭配与例句理解每个词，第二轮仍完整覆盖。"
+  },
+  "institutions-participation": {
+    "label": "民意与表决独立词",
+    "meaning": "按民意与表决的用法理解",
+    "kind": "independent",
+    "note": "本组按学习语境归置，不表示共同词根或直接派生关系。通过搭配与例句理解每个词，第二轮仍完整覆盖。"
+  },
+  "institutions-legislation": {
+    "label": "拟定与生效独立词",
+    "meaning": "按拟定与生效的用法理解",
+    "kind": "independent",
+    "note": "本组按学习语境归置，不表示共同词根或直接派生关系。通过搭配与例句理解每个词，第二轮仍完整覆盖。"
+  },
+  "institutions-evidence": {
+    "label": "审理与举证独立词",
+    "meaning": "按审理与举证的用法理解",
+    "kind": "independent",
+    "note": "本组按学习语境归置，不表示共同词根或直接派生关系。通过搭配与例句理解每个词，第二轮仍完整覆盖。"
+  },
+  "institutions-litigation": {
+    "label": "诉讼与定罪独立词",
+    "meaning": "按诉讼与定罪的用法理解",
+    "kind": "independent",
+    "note": "本组按学习语境归置，不表示共同词根或直接派生关系。通过搭配与例句理解每个词，第二轮仍完整覆盖。"
+  },
+  "institutions-oversight": {
+    "label": "审查与豁免独立词",
+    "meaning": "按审查与豁免的用法理解",
+    "kind": "independent",
+    "note": "本组按学习语境归置，不表示共同词根或直接派生关系。通过搭配与例句理解每个词，第二轮仍完整覆盖。"
+  },
+  "institutions-compliance": {
+    "label": "遵守与纠正独立词",
+    "meaning": "按遵守与纠正的用法理解",
+    "kind": "independent",
+    "note": "本组按学习语境归置，不表示共同词根或直接派生关系。通过搭配与例句理解每个词，第二轮仍完整覆盖。"
+  },
+  "commerce-finance": {
+    "label": "公共财政独立词",
+    "meaning": "按公共财政的用法理解",
+    "kind": "independent",
+    "note": "本组按学习语境归置，不表示共同词根或直接派生关系。通过搭配与例句理解每个词，第二轮仍完整覆盖。"
+  },
+  "commerce-trade": {
+    "label": "贸易关系与流通独立词",
+    "meaning": "按贸易关系与流通的用法理解",
+    "kind": "independent",
+    "note": "本组按学习语境归置，不表示共同词根或直接派生关系。通过搭配与例句理解每个词，第二轮仍完整覆盖。"
+  },
+  "commerce-enterprises": {
+    "label": "企业关系与资产独立词",
+    "meaning": "按企业关系与资产的用法理解",
+    "kind": "independent",
+    "note": "本组按学习语境归置，不表示共同词根或直接派生关系。通过搭配与例句理解每个词，第二轮仍完整覆盖。"
+  },
+  "commerce-returns": {
+    "label": "收益与波动独立词",
+    "meaning": "按收益与波动的用法理解",
+    "kind": "independent",
+    "note": "本组按学习语境归置，不表示共同词根或直接派生关系。通过搭配与例句理解每个词，第二轮仍完整覆盖。"
+  },
+  "commerce-operations": {
+    "label": "库存与运营独立词",
+    "meaning": "按库存与运营的用法理解",
+    "kind": "independent",
+    "note": "本组按学习语境归置，不表示共同词根或直接派生关系。通过搭配与例句理解每个词，第二轮仍完整覆盖。"
+  },
+  "commerce-transactions": {
+    "label": "交易与保障独立词",
+    "meaning": "按交易与保障的用法理解",
+    "kind": "independent",
+    "note": "本组按学习语境归置，不表示共同词根或直接派生关系。通过搭配与例句理解每个词，第二轮仍完整覆盖。"
+  },
+  "environment-position": {
+    "label": "地理位置独立词",
+    "meaning": "按地理位置的用法理解",
+    "kind": "independent",
+    "note": "本组按学习语境归置，不表示共同词根或直接派生关系。通过搭配与例句理解每个词，第二轮仍完整覆盖。"
+  },
+  "environment-landforms": {
+    "label": "地表形态独立词",
+    "meaning": "按地表形态的用法理解",
+    "kind": "independent",
+    "note": "本组按学习语境归置，不表示共同词根或直接派生关系。通过搭配与例句理解每个词，第二轮仍完整覆盖。"
+  },
+  "environment-weather": {
+    "label": "天气、热量与蒸发独立词",
+    "meaning": "按天气、热量与蒸发的用法理解",
+    "kind": "independent",
+    "note": "本组按学习语境归置，不表示共同词根或直接派生关系。通过搭配与例句理解每个词，第二轮仍完整覆盖。"
+  },
+  "environment-water": {
+    "label": "冰水的汇集与流动独立词",
+    "meaning": "按冰水的汇集与流动的用法理解",
+    "kind": "independent",
+    "note": "本组按学习语境归置，不表示共同词根或直接派生关系。通过搭配与例句理解每个词，第二轮仍完整覆盖。"
+  },
+  "environment-ecology": {
+    "label": "生物与生境独立词",
+    "meaning": "按生物与生境的用法理解",
+    "kind": "independent",
+    "note": "本组按学习语境归置，不表示共同词根或直接派生关系。通过搭配与例句理解每个词，第二轮仍完整覆盖。"
+  },
+  "environment-degradation": {
+    "label": "损耗与环境风险独立词",
+    "meaning": "按损耗与环境风险的用法理解",
+    "kind": "independent",
+    "note": "本组按学习语境归置，不表示共同词根或直接派生关系。通过搭配与例句理解每个词，第二轮仍完整覆盖。"
+  }
+}

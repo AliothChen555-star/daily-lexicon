@@ -113,6 +113,29 @@ forms.update({
  'chat':['过去式与过去分词 chatted','现在分词 chatting'],
  'backup':['本卡为一个词的名词或形容词','动词短语写作 back up'],
 })
+forms.update({
+ 'excerpt':['本卡主读音为名词 /ˈeksɜːrpt/','动词 excerpt 表示摘录，重音常在第二音节'],
+ 'glossary':['复数 glossaries'], 'bibliography':['复数 bibliographies'],
+ 'articulate':['本卡主读音为动词 /ɑːrˈtɪkjəleɪt/','形容词 articulate 表示善于表达的，词尾常读 /lət/'],
+ 'elaborate':['本卡主读音为动词 /ɪˈlæbəreɪt/','形容词 elaborate 表示精心制作的或复杂的，词尾常读 /rət/'],
+ 'analogy':['复数 analogies'], 'subtle':['拼写中的 b 不发音'], 'discrepancy':['复数 discrepancies'],
+ 'referendum':['复数 referendums 或 referenda'], 'ratify':['过去式与过去分词 ratified'],
+ 'testify':['过去式与过去分词 testified'], 'sue':['过去式与过去分词 sued','现在分词 suing'],
+ 'convict':['本卡主读音为动词 /kənˈvɪkt/','名词 convict 指已被定罪的人，读 /ˈkɑːnvɪkt/'],
+ 'deter':['过去式与过去分词 deterred','现在分词 deterring'],
+ 'levy':['复数或第三人称单数 levies','过去式与过去分词 levied'], 'subsidy':['复数 subsidies'],
+ 'embargo':['复数 embargoes'],
+ 'merchandise':['作商品义时通常不可数','本卡名词词尾读 /z/，名词也可读 /s/'],
+ 'affiliate':['本卡主读音为名词 /əˈfɪliət/','动词 affiliate 表示使建立关联，词尾读 /eɪt/'],
+ 'monopoly':['复数 monopolies'], 'portfolio':['复数 portfolios'], 'inventory':['复数 inventories'],
+ 'depot':['本卡美音 /ˈdiːpoʊ/，末尾 t 不发音'],
+ 'allot':['过去式与过去分词 allotted','现在分词 allotting'],
+ 'refund':['本卡主读音为名词 /ˈriːfʌnd/','动词 refund 表示退款，常读 /rɪˈfʌnd/'],
+ 'warranty':['复数 warranties'], 'plateau':['复数 plateaus，也可写作 plateaux','过去式与过去分词 plateaued'],
+ 'tornado':['复数 tornadoes 或 tornados'],
+ 'overflow':['本卡主读音为动词 /ˌoʊvərˈfloʊ/','名词 overflow 的主重音常在首音节'],
+ 'vegetation':['通常为不可数名词'],
+})
 words=[]
 topics=[]
 scenes=[]

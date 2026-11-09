@@ -95,7 +95,6 @@ address	address	cet4 cet6 gk zk	target-card-needed
 adequacy	adequacy		target-card-needed
 adequate	adequate	cet4 cet6 gk	target-card-needed
 adequately	adequately		target-card-needed
-adhere	adhere	cet4 cet6	target-card-needed
 adherence	adherence		target-card-needed
 adjacent	adjacent	cet6	target-card-needed
 adjective	adjective	cet4	target-card-needed
@@ -152,7 +151,6 @@ affair	affair	cet4 cet6 gk	target-card-needed
 affect	affect	cet4 cet6 gk	target-card-needed
 affection	affection	cet4 cet6 gk	target-card-needed
 affectionate	affectionate		target-card-needed
-affiliate	affiliate	cet6	target-card-needed
 affiliation	affiliation		target-card-needed
 affirm	affirm	cet6	target-card-needed
 affirmation	affirmation		target-card-needed
@@ -237,12 +235,10 @@ alleviate	alleviate	cet6	target-card-needed
 alleviation	alleviation		target-card-needed
 alley	alley	gk	target-card-needed
 alliance	alliance	cet6	target-card-needed
-allot	allot		target-card-needed
 allotment	allotment		target-card-needed
 allow	allow	cet4 gk zk	target-card-needed
 allowance	allowance	cet6 gk	target-card-needed
 alloy	alloy	cet4 cet6	target-card-needed
-allude	allude		target-card-needed
 allure	allure		target-card-needed
 allurement	allurement		target-card-needed
 allusion	allusion		target-card-needed
@@ -278,7 +274,6 @@ ambassador	ambassador	cet6 gk	target-card-needed
 ambiguity	ambiguity	cet6	target-card-needed
 ambiguous	ambiguous	cet6 gk	target-card-needed
 ambulance	ambulance	cet4 gk	target-card-needed
-amend	amend		target-card-needed
 amendment	amendment		target-card-needed
 america	america	gk zk	target-card-needed
 american	american	gk zk	target-card-needed
@@ -298,7 +293,6 @@ amusing	amusing		target-card-needed
 an	an		target-card-needed
 analogous	analogous	cet6	target-card-needed
 analogue	analogue	cet6	target-card-needed
-analogy	analogy	cet6	target-card-needed
 analyse	analyse	cet4 cet6	target-card-needed
 analyst	analyst	cet6	target-card-needed
 analytic	analytic	cet6	target-card-needed
@@ -443,14 +437,12 @@ arrogant	arrogant	cet6	target-card-needed
 arrow	arrow	cet4 gk	target-card-needed
 artery	artery		target-card-needed
 article	article	cet4 gk zk	target-card-needed
-articulate	articulate	cet6	target-card-needed
 articulation	articulation		target-card-needed
 artifact	artifact		target-card-needed
 artillery	artillery		target-card-needed
 artistically	artistically		target-card-needed
 ascend	ascend	cet6	target-card-needed
 ascendance	ascendance		target-card-needed
-ascertain	ascertain	cet6	target-card-needed
 ascribe	ascribe	cet4 cet6	target-card-needed
 ash	ash	cet4 gk	target-card-needed
 ashore	ashore	cet6	target-card-needed
@@ -468,7 +460,6 @@ assassination	assassination		target-card-needed
 assault	assault	cet6	target-card-needed
 assemble	assemble	cet4 cet6	target-card-needed
 assembly	assembly	cet4	target-card-needed
-assert	assert	cet6	target-card-needed
 assertion	assertion		target-card-needed
 assertive	assertive	cet6	target-card-needed
 assess	assess	cet4 cet6 gk	target-card-needed
@@ -529,7 +520,6 @@ auction	auction		target-card-needed
 auctioneer	auctioneer		target-card-needed
 audience	audience	cet4 cet6 gk	target-card-needed
 audio	audio	cet4	target-card-needed
-audit	audit		target-card-needed
 auditing	auditing		target-card-needed
 auditor	auditor		target-card-needed
 auditorium	auditorium		target-card-needed
@@ -637,10 +627,8 @@ bargain	bargain	cet4 cet6 gk	target-card-needed
 barge	barge	cet6	target-card-needed
 bark	bark	cet4 cet6 gk	target-card-needed
 barn	barn	cet4 cet6	target-card-needed
-barometer	barometer	cet6	target-card-needed
 barracks	barracks		target-card-needed
 barrel	barrel	cet4 cet6	target-card-needed
-barren	barren	cet6	target-card-needed
 barrier	barrier	cet4 cet6 gk	target-card-needed
 base	base	cet4 gk	target-card-needed
 baseball	baseball	cet4 cet6 gk zk	target-card-needed
@@ -739,12 +727,10 @@ beyond	beyond	cet4 gk zk	target-card-needed
 bias	bias	cet6	target-card-needed
 bible	Bible	cet4	target-card-needed
 biblical	Biblical		target-card-needed
-bibliography	bibliography		target-card-needed
 bicycle	bicycle	cet4 gk zk	target-card-needed
 bid	bid	cet6 gk	target-card-needed
 big	big	gk zk	target-card-needed
 bike	bike	zk	target-card-needed
-bilateral	bilateral		target-card-needed
 bill	bill	cet4 gk zk	target-card-needed
 billion	billion	cet4 cet6 gk	target-card-needed
 billionaire	billionaire		target-card-needed
@@ -868,7 +854,6 @@ brand-new	brand-new		target-card-needed
 brandy	brandy	cet4 cet6	target-card-needed
 brass	brass	cet4	target-card-needed
 bravery	bravery	gk	target-card-needed
-breach	breach		target-card-needed
 breadth	breadth	cet4 cet6	target-card-needed
 break	break	gk zk	target-card-needed
 breakdown	breakdown	cet6	target-card-needed
@@ -1426,7 +1411,6 @@ computerize	computerize		target-card-needed
 comrade	comrade	cet4 cet6 gk	target-card-needed
 conceal	conceal	cet4 cet6	target-card-needed
 concealment	concealment		target-card-needed
-concede	concede	cet6	target-card-needed
 conceit	conceit	cet6	target-card-needed
 conceited	conceited		target-card-needed
 conceive	conceive	cet6	target-card-needed
@@ -1441,7 +1425,6 @@ concerning	concerning	cet4 cet6	target-card-needed
 concert	concert	cet4 cet6 gk zk	target-card-needed
 concerted	concerted		target-card-needed
 concession	concession	cet6	target-card-needed
-concise	concise	cet6	target-card-needed
 conclusive	conclusive		target-card-needed
 concrete	concrete	cet4 cet6 gk	target-card-needed
 concurrent	concurrent		target-card-needed
@@ -1487,7 +1470,6 @@ congress	congress	cet4 cet6	target-card-needed
 congressional	congressional		target-card-needed
 conjunction	conjunction	cet4 cet6	target-card-needed
 connecxion	connecxion		target-card-needed
-connotation	connotation		target-card-needed
 conquer	conquer	cet4 cet6	target-card-needed
 conqueror	conqueror	cet6	target-card-needed
 conquest	conquest	cet4 cet6	target-card-needed
@@ -1516,7 +1498,6 @@ conspiracy	conspiracy		target-card-needed
 conspire	conspire		target-card-needed
 constant	constant	cet4 cet6 gk	target-card-needed
 constituency	constituency		target-card-needed
-constituent	constituent	cet6	target-card-needed
 constitute	constitute	cet6	target-card-needed
 constitution	constitution	cet4 cet6 gk	target-card-needed
 constitutional	constitutional		target-card-needed
@@ -1581,7 +1562,6 @@ convert	convert	cet4 cet6	target-card-needed
 convertible	convertible		target-card-needed
 convey	convey	cet4 cet6 gk	target-card-needed
 conveyance	conveyance		target-card-needed
-convict	convict	cet6	target-card-needed
 conviction	conviction	cet6	target-card-needed
 convince	convince	cet4 cet6 gk	target-card-needed
 convincing	convincing	cet6	target-card-needed
@@ -1649,7 +1629,6 @@ countdown	countdown		target-card-needed
 counter	counter	cet4 cet6 gk	target-card-needed
 counteract	counteract	cet6	target-card-needed
 counteraction	counteraction		target-card-needed
-counterfeit	counterfeit		target-card-needed
 counterpart	counterpart	cet6	target-card-needed
 country	country	gk zk	target-card-needed
 countryside	countryside	gk zk	target-card-needed
@@ -1836,7 +1815,6 @@ decrease	decrease	cet4 cet6 gk	target-card-needed
 decree	decree	cet6	target-card-needed
 dedicate	dedicate	cet6	target-card-needed
 dedication	dedication		target-card-needed
-deduce	deduce	cet4 cet6	target-card-needed
 deducible	deducible		target-card-needed
 deduct	deduct	cet6	target-card-needed
 deductible	deductible		target-card-needed
@@ -1847,7 +1825,6 @@ deem	deem	cet6	target-card-needed
 deep	deep	gk zk	target-card-needed
 deeply	deeply	gk	target-card-needed
 deer	deer	cet4 cet6 gk	target-card-needed
-default	default	cet6	target-card-needed
 defeat	defeat	cet4 cet6 gk	target-card-needed
 defect	defect	cet4 cet6	target-card-needed
 defection	defection		target-card-needed
@@ -1871,7 +1848,6 @@ defy	defy	cet6	target-card-needed
 degenerate	degenerate	cet6	target-card-needed
 degeneration	degeneration		target-card-needed
 degradation	degradation	cet6	target-card-needed
-degrade	degrade	cet6	target-card-needed
 degree	degree	cet4 cet6 gk zk	target-card-needed
 delegate	delegate	cet4 cet6	target-card-needed
 delegation	delegation	cet4 cet6	target-card-needed
@@ -1898,7 +1874,6 @@ demonstration	demonstration		target-card-needed
 demonstrative	demonstrative		target-card-needed
 denial	denial	cet6	target-card-needed
 denotation	denotation		target-card-needed
-denote	denote	cet6	target-card-needed
 denounce	denounce	cet6	target-card-needed
 dense	dense	cet4 cet6	target-card-needed
 density	density	cet4 cet6	target-card-needed
@@ -1914,7 +1889,6 @@ dependence	dependence		target-card-needed
 dependent	dependent	cet4 cet6	target-card-needed
 depict	depict	cet6	target-card-needed
 depiction	depiction		target-card-needed
-deplete	deplete		target-card-needed
 depletion	depletion		target-card-needed
 deplore	deplore		target-card-needed
 deploy	deploy	cet6	target-card-needed
@@ -1922,8 +1896,6 @@ deployment	deployment		target-card-needed
 deport	deport		target-card-needed
 deportation	deportation	cet6	target-card-needed
 deposit	deposit	cet4 cet6 gk	target-card-needed
-depot	depot		target-card-needed
-depreciate	depreciate		target-card-needed
 depreciation	depreciation		target-card-needed
 depress	depress	cet4 cet6	target-card-needed
 depression	depression	cet4 cet6	target-card-needed
@@ -1976,7 +1948,6 @@ detect	detect	cet4 cet6	target-card-needed
 detection	detection	cet4 cet6	target-card-needed
 detective	detective	cet6 gk	target-card-needed
 detention	detention		target-card-needed
-deter	deter		target-card-needed
 detergent	detergent		target-card-needed
 deteriorate	deteriorate	cet6	target-card-needed
 deterioration	deterioration		target-card-needed
@@ -2073,7 +2044,6 @@ disaster	disaster	cet4 cet6 gk	target-card-needed
 disastrous	disastrous	cet6	target-card-needed
 disc	disc		target-card-needed
 discard	discard	cet4 cet6	target-card-needed
-discern	discern	cet6	target-card-needed
 discharge	discharge	cet4 cet6	target-card-needed
 disciplinary	disciplinary		target-card-needed
 discipline	discipline	cet4 cet6	target-card-needed
@@ -2084,11 +2054,9 @@ disco	disco		target-card-needed
 discord	discord		target-card-needed
 discount	discount	cet4 cet6 gk	target-card-needed
 discourage	discourage	cet4 cet6 gk	target-card-needed
-discourse	discourse	cet6	target-card-needed
 discover	discover	cet4 cet6 gk zk	target-card-needed
 discovery	discovery	cet4 cet6 gk zk	target-card-needed
 discreet	discreet		target-card-needed
-discrepancy	discrepancy	cet6	target-card-needed
 discriminate	discriminate		target-card-needed
 discrimination	discrimination	cet4 cet6 gk	target-card-needed
 discriminatory	discriminatory		target-card-needed
@@ -2122,7 +2090,6 @@ disrupt	disrupt	cet6	target-card-needed
 disruption	disruption		target-card-needed
 disruptive	disruptive	cet6	target-card-needed
 dissent	dissent		target-card-needed
-dissertation	dissertation		target-card-needed
 dissident	dissident		target-card-needed
 dissolve	dissolve	cet4 cet6	target-card-needed
 distant	distant	cet4 cet6 gk	target-card-needed
@@ -2148,7 +2115,6 @@ diversify	diversify	cet6	target-card-needed
 diversion	diversion	cet6	target-card-needed
 divert	divert	cet6	target-card-needed
 divide	divide	cet4 gk zk	target-card-needed
-dividend	dividend		target-card-needed
 divine	divine	cet6	target-card-needed
 division	division	cet4 cet6 gk	target-card-needed
 divisive	divisive		target-card-needed
@@ -2314,7 +2280,6 @@ eighty	eighty	cet4 gk zk	target-card-needed
 either	either	gk zk	target-card-needed
 eject	eject	cet6	target-card-needed
 ejection	ejection		target-card-needed
-elaborate	elaborate	cet4 cet6	target-card-needed
 elaboration	elaboration		target-card-needed
 elapse	elapse	cet6	target-card-needed
 elastic	elastic	cet4 cet6	target-card-needed
@@ -2325,7 +2290,6 @@ elderly	elderly	cet4	target-card-needed
 elect	elect	cet4 gk	target-card-needed
 election	election	cet4 cet6	target-card-needed
 elective	elective		target-card-needed
-electoral	electoral		target-card-needed
 electorate	electorate		target-card-needed
 electric	electric	cet4 cet6 gk zk	target-card-needed
 electrical	electrical	cet4 cet6 gk	target-card-needed
@@ -2356,7 +2320,6 @@ else	else	gk zk	target-card-needed
 elsewhere	elsewhere	cet4 cet6	target-card-needed
 emancipate	emancipate		target-card-needed
 emancipation	emancipation		target-card-needed
-embargo	embargo		target-card-needed
 embark	embark	cet6	target-card-needed
 embarrass	embarrass	cet4 cet6 gk	target-card-needed
 embarrassment	embarrassment		target-card-needed
@@ -2389,7 +2352,6 @@ empty	empty	gk zk	target-card-needed
 emulate	emulate		target-card-needed
 emulation	emulation		target-card-needed
 enable	enable	cet4 cet6	target-card-needed
-enact	enact		target-card-needed
 enactment	enactment		target-card-needed
 enclose	enclose	cet4 cet6	target-card-needed
 enclosure	enclosure	cet6	target-card-needed
@@ -2479,7 +2441,6 @@ equality	equality	cet4 cet6 gk	target-card-needed
 equally	equally		target-card-needed
 equate	equate	cet6	target-card-needed
 equation	equation	cet4 cet6	target-card-needed
-equator	equator	cet6	target-card-needed
 equip	equip	cet4 cet6 gk	target-card-needed
 equipment	equipment	cet4 cet6 gk	target-card-needed
 equitable	equitable		target-card-needed
@@ -2492,7 +2453,6 @@ erase	erase		target-card-needed
 eraser	eraser	gk zk	target-card-needed
 erect	erect	cet4 cet6	target-card-needed
 erection	erection		target-card-needed
-erode	erode		target-card-needed
 erosion	erosion	cet6	target-card-needed
 erosive	erosive		target-card-needed
 err	err		target-card-needed
@@ -2532,7 +2492,6 @@ evacuation	evacuation		target-card-needed
 evade	evade		target-card-needed
 evaluate	evaluate	cet4 cet6 gk	target-card-needed
 evaluation	evaluation	cet6	target-card-needed
-evaporate	evaporate	cet4 cet6	target-card-needed
 evaporation	evaporation	cet6	target-card-needed
 evasion	evasion		target-card-needed
 evasive	evasive		target-card-needed
@@ -2576,7 +2535,6 @@ excellent	excellent	cet4 cet6 gk zk	target-card-needed
 except	except	gk zk	target-card-needed
 exception	exception	cet4 cet6	target-card-needed
 exceptional	exceptional	cet6	target-card-needed
-excerpt	excerpt		target-card-needed
 excess	excess	cet4 cet6	target-card-needed
 excessive	excessive	cet4 cet6	target-card-needed
 exchange	exchange	cet4 cet6 gk	target-card-needed
@@ -2594,7 +2552,6 @@ execution	execution	cet6	target-card-needed
 executive	executive	cet4 cet6	target-card-needed
 exemplary	exemplary		target-card-needed
 exemplify	exemplify	cet6	target-card-needed
-exempt	exempt	cet6	target-card-needed
 exemption	exemption		target-card-needed
 exert	exert	cet4 cet6	target-card-needed
 exertion	exertion		target-card-needed
@@ -2679,7 +2636,6 @@ facilitate	facilitate	cet6	target-card-needed
 facilitation	facilitation		target-card-needed
 facility	facility	cet4 cet6	target-card-needed
 fact	fact	cet4 gk zk	target-card-needed
-faction	faction	cet6	target-card-needed
 factor	factor	cet4	target-card-needed
 factory	factory	gk zk	target-card-needed
 factual	factual		target-card-needed
@@ -2809,7 +2765,6 @@ fireworks	fireworks		target-card-needed
 firm	firm	cet4 cet6 gk	target-card-needed
 firmly	firmly	gk	target-card-needed
 firstly	firstly		target-card-needed
-fiscal	fiscal		target-card-needed
 fisherman	fisherman	cet4 cet6 gk zk	target-card-needed
 fishing	fishing		target-card-needed
 fist	fist	cet4 cet6 gk	target-card-needed
@@ -2942,7 +2897,6 @@ fragrant	fragrant	cet6 gk	target-card-needed
 frame	frame	cet4 cet6	target-card-needed
 framework	framework	cet4 cet6 gk	target-card-needed
 franc	franc	gk	target-card-needed
-franchise	franchise		target-card-needed
 frank	frank	cet4 cet6	target-card-needed
 frantic	frantic		target-card-needed
 frantically	frantically		target-card-needed
@@ -3076,7 +3030,6 @@ giggle	giggle		target-card-needed
 giraffe	giraffe	gk zk	target-card-needed
 girl	girl	gk zk	target-card-needed
 given	given		target-card-needed
-glacier	glacier		target-card-needed
 glad	glad	gk zk	target-card-needed
 glamor	glamor		target-card-needed
 glamorous	glamorous		target-card-needed
@@ -3100,7 +3053,6 @@ gloom	gloom		target-card-needed
 gloomy	gloomy	cet4 cet6	target-card-needed
 glorious	glorious	cet4 cet6	target-card-needed
 glory	glory	cet4 cet6 gk	target-card-needed
-glossary	glossary	cet6	target-card-needed
 glove	glove	cet4 cet6 gk zk	target-card-needed
 glow	glow	cet4 cet6	target-card-needed
 glue	glue	cet4 cet6 gk	target-card-needed
@@ -3319,7 +3271,6 @@ hello	hello	gk zk	target-card-needed
 helmet	helmet	cet4 cet6 gk	target-card-needed
 helpless	helpless	cet4 cet6	target-card-needed
 helplessly	helplessly		target-card-needed
-hemisphere	hemisphere	cet6	target-card-needed
 hen	hen	cet4 gk zk	target-card-needed
 hence	hence	cet4 cet6	target-card-needed
 henceforth	henceforth	cet6	target-card-needed
@@ -3443,7 +3394,6 @@ humanitarian	humanitarian	cet6	target-card-needed
 humanity	humanity	cet6	target-card-needed
 humble	humble	cet4 cet6	target-card-needed
 humbly	humbly		target-card-needed
-humid	humid	cet4 cet6	target-card-needed
 humidity	humidity	cet6	target-card-needed
 humiliate	humiliate		target-card-needed
 humiliation	humiliation	cet6	target-card-needed
@@ -3479,7 +3429,6 @@ hysteria	hysteria	cet6	target-card-needed
 hysterical	hysterical	cet6	target-card-needed
 ice	ice	gk zk	target-card-needed
 ice-cream	ice-cream	cet4	target-card-needed
-iceberg	iceberg		target-card-needed
 iceland	iceland	gk	target-card-needed
 icon	icon		target-card-needed
 icy	icy	cet6	target-card-needed
@@ -3608,7 +3557,6 @@ indict	indict		target-card-needed
 indictment	indictment		target-card-needed
 indifference	indifference		target-card-needed
 indifferent	indifferent	cet4 cet6	target-card-needed
-indigenous	indigenous		target-card-needed
 indignant	indignant	cet4 cet6	target-card-needed
 indignation	indignation	cet6	target-card-needed
 indispensable	indispensable	cet4 cet6	target-card-needed
@@ -3646,7 +3594,6 @@ influenza	influenza		target-card-needed
 inform	inform	cet4 cet6 gk	target-card-needed
 informant	informant		target-card-needed
 informative	informative		target-card-needed
-infringe	infringe		target-card-needed
 infringement	infringement		target-card-needed
 ingenious	ingenious	cet6	target-card-needed
 ingenuity	ingenuity	cet6	target-card-needed
@@ -3729,7 +3676,6 @@ integrity	integrity	cet6	target-card-needed
 intellect	intellect	cet6	target-card-needed
 intellectual	intellectual	cet4 cet6	target-card-needed
 intelligent	intelligent	cet4 cet6	target-card-needed
-intelligible	intelligible	cet6	target-card-needed
 intend	intend	cet4 cet6 gk	target-card-needed
 intense	intense	cet4 cet6	target-card-needed
 intensify	intensify	cet6	target-card-needed
@@ -3793,7 +3739,6 @@ invariably	invariably	cet6	target-card-needed
 invasion	invasion	cet4 cet6	target-card-needed
 invasive	invasive		target-card-needed
 inventor	inventor	cet4 cet6 gk	target-card-needed
-inventory	inventory	cet6	target-card-needed
 inversion	inversion		target-card-needed
 invert	invert	cet6	target-card-needed
 investigate	investigate	cet4 cet6	target-card-needed
@@ -3843,7 +3788,6 @@ january	January	gk zk	target-card-needed
 japan	japan	gk zk	target-card-needed
 japanese	japanese	gk zk	target-card-needed
 jar	jar	cet4 cet6 gk	target-card-needed
-jargon	jargon		target-card-needed
 jaw	jaw	cet4 cet6 gk	target-card-needed
 jazz	jazz	cet4 gk	target-card-needed
 jealous	jealous	cet4 cet6	target-card-needed
@@ -3877,7 +3821,6 @@ joyous	joyous		target-card-needed
 judge	judge	cet4 cet6 gk	target-card-needed
 judgement	judgement	cet4 cet6 gk	target-card-needed
 judgment	judgment		target-card-needed
-judicial	judicial		target-card-needed
 judiciary	judiciary		target-card-needed
 juice	juice	gk zk	target-card-needed
 juicy	juicy	gk	target-card-needed
@@ -3888,7 +3831,6 @@ june	June	gk zk	target-card-needed
 jungle	jungle	cet4 cet6 gk	target-card-needed
 junior	junior	cet4 cet6 gk	target-card-needed
 junk	junk	cet6 gk	target-card-needed
-jurisdiction	jurisdiction		target-card-needed
 juror	juror		target-card-needed
 jury	jury	cet4 cet6	target-card-needed
 just	just	gk zk	target-card-needed
@@ -3967,7 +3909,6 @@ lastly	lastly		target-card-needed
 lately	lately	cet4 cet6 gk	target-card-needed
 later	later	cet4 cet6 gk	target-card-needed
 latest	latest	gk	target-card-needed
-latitude	latitude	cet6	target-card-needed
 latter	latter	cet4 cet6 gk	target-card-needed
 laugh	laugh	gk zk	target-card-needed
 laughter	laughter	cet4 cet6 gk	target-card-needed
@@ -3978,7 +3919,6 @@ lavish	lavish		target-card-needed
 law	law	cet4 cet6 gk zk	target-card-needed
 lawful	lawful		target-card-needed
 lawn	lawn	cet4 cet6	target-card-needed
-lawsuit	lawsuit	cet6	target-card-needed
 lawyer	lawyer	cet4 cet6 gk	target-card-needed
 lay	lay	cet4 cet6 gk zk	target-card-needed
 layer	layer	cet4 cet6	target-card-needed
@@ -4031,7 +3971,6 @@ letter	letter	gk zk	target-card-needed
 level	level	cet4 cet6 gk zk	target-card-needed
 lever	lever	cet4 cet6	target-card-needed
 leverage	leverage	cet4	target-card-needed
-levy	levy		target-card-needed
 liability	liability	cet6	target-card-needed
 liable	liable	cet4 cet6	target-card-needed
 liar	liar	cet4 cet6	target-card-needed
@@ -4115,14 +4054,12 @@ logic	logic	cet4 cet6	target-card-needed
 logical	logical	cet4 cet6	target-card-needed
 logistic	logistic		target-card-needed
 logistical	logistical		target-card-needed
-logistics	logistics	cet6	target-card-needed
 logo	logo		target-card-needed
 london	london	gk zk	target-card-needed
 loneliness	loneliness		target-card-needed
 lonely	lonely	cet4 cet6 gk zk	target-card-needed
 long	long	gk zk	target-card-needed
 longevity	longevity	cet6	target-card-needed
-longitude	longitude	cet6	target-card-needed
 longitudinal	longitudinal		target-card-needed
 loom	loom		target-card-needed
 loop	loop	cet4 cet6	target-card-needed
@@ -4151,7 +4088,6 @@ lubricate	lubricate	cet4 cet6	target-card-needed
 lubrication	lubrication		target-card-needed
 luck	luck	cet4 gk zk	target-card-needed
 lucky	lucky	cet4 gk zk	target-card-needed
-lucrative	lucrative		target-card-needed
 luggage	luggage	cet4 cet6 gk	target-card-needed
 luminous	luminous	cet6	target-card-needed
 lump	lump	cet4 cet6	target-card-needed
@@ -4232,7 +4168,6 @@ margin	margin	cet4 cet6	target-card-needed
 marginal	marginal	cet6	target-card-needed
 marine	marine	cet4 cet6	target-card-needed
 marital	marital		target-card-needed
-maritime	maritime	cet6	target-card-needed
 mark	mark	cet4 gk zk	target-card-needed
 marketing	marketing		target-card-needed
 marriage	marriage	cet4 cet6 gk zk	target-card-needed
@@ -4332,14 +4267,12 @@ mentally	mentally	gk	target-card-needed
 mention	mention	gk zk	target-card-needed
 mentor	mentor		target-card-needed
 menu	menu	gk zk	target-card-needed
-merchandise	merchandise	cet6	target-card-needed
 merchant	merchant	cet4 cet6 gk	target-card-needed
 merciful	merciful	cet6 gk	target-card-needed
 mercury	mercury	cet4 cet6	target-card-needed
 mercy	mercy	cet4 cet6 gk	target-card-needed
 mere	mere	cet4 cet6	target-card-needed
 merely	merely	cet4 cet6 gk	target-card-needed
-merge	merge	cet6	target-card-needed
 merger	merger		target-card-needed
 merit	merit	cet4 cet6	target-card-needed
 meritorious	meritorious		target-card-needed
@@ -4351,7 +4284,6 @@ messy	messy	gk	target-card-needed
 metabolic	metabolic	cet6	target-card-needed
 metal	metal	cet4 cet6 gk zk	target-card-needed
 metallic	metallic	cet6	target-card-needed
-metaphor	metaphor		target-card-needed
 metaphorical	metaphorical		target-card-needed
 meter	meter		target-card-needed
 methodical	methodical		target-card-needed
@@ -4478,7 +4410,6 @@ monitor	monitor	cet4 cet6 gk zk	target-card-needed
 monkey	monkey	cet4 gk zk	target-card-needed
 monopolise	monopolise		target-card-needed
 monopolize	monopolize		target-card-needed
-monopoly	monopoly	cet6	target-card-needed
 monotonous	monotonous		target-card-needed
 monotony	monotony		target-card-needed
 monster	monster	cet6	target-card-needed
@@ -4536,7 +4467,6 @@ mud	mud	cet4 cet6 gk	target-card-needed
 muddy	muddy	cet4 cet6 gk	target-card-needed
 mug	mug	cet4 cet6	target-card-needed
 mule	mule		target-card-needed
-multilateral	multilateral		target-card-needed
 multiple	multiple	cet4 cet6	target-card-needed
 multiplication	multiplication	cet6	target-card-needed
 multiply	multiply	cet4 cet6 gk	target-card-needed
@@ -4732,7 +4662,6 @@ oblige	oblige	cet4 cet6	target-card-needed
 obliged	obliged		target-card-needed
 obscene	obscene	cet6	target-card-needed
 obscenity	obscenity		target-card-needed
-obscure	obscure	cet4 cet6	target-card-needed
 obscurity	obscurity		target-card-needed
 observant	observant		target-card-needed
 observatory	observatory		target-card-needed
@@ -4903,7 +4832,6 @@ overall	overall	cet4 cet6	target-card-needed
 overcoat	overcoat	cet4 cet6 gk zk	target-card-needed
 overcome	overcome	cet4 cet6 gk	target-card-needed
 overdue	overdue	cet4	target-card-needed
-overflow	overflow	cet6	target-card-needed
 overhaul	overhaul		target-card-needed
 overhead	overhead	cet4 cet6 gk	target-card-needed
 overhear	overhear	cet6	target-card-needed
@@ -5070,7 +4998,6 @@ pendulum	pendulum	cet6	target-card-needed
 penetrate	penetrate	cet4 cet6	target-card-needed
 penetration	penetration	cet6	target-card-needed
 penguin	penguin		target-card-needed
-peninsula	peninsula	cet4 cet6	target-card-needed
 penny	penny	cet4 cet6 gk zk	target-card-needed
 pension	pension	cet4 cet6 gk	target-card-needed
 pensioner	pensioner		target-card-needed
@@ -5120,7 +5047,6 @@ pessimism	pessimism		target-card-needed
 pessimist	pessimist		target-card-needed
 pessimistic	pessimistic	cet4 cet6	target-card-needed
 pest	pest	cet6 gk	target-card-needed
-pesticide	pesticide		target-card-needed
 pet	pet	cet4 cet6 gk zk	target-card-needed
 petition	petition	cet6	target-card-needed
 petitioner	petitioner		target-card-needed
@@ -5184,7 +5110,6 @@ pizza	pizza		target-card-needed
 placement	placement		target-card-needed
 plague	plague	cet6	target-card-needed
 plain	plain	cet4 cet6 gk zk	target-card-needed
-plaintiff	plaintiff		target-card-needed
 plane	plane	gk zk	target-card-needed
 planet	planet	cet4 cet6 gk zk	target-card-needed
 planetary	planetary		target-card-needed
@@ -5194,9 +5119,7 @@ plant	plant	gk zk	target-card-needed
 plantation	plantation	cet4 cet6	target-card-needed
 plastic	plastic	cet4 cet6 gk zk	target-card-needed
 plate	plate	gk zk	target-card-needed
-plateau	plateau	cet6	target-card-needed
 platform	platform	cet4 cet6 gk	target-card-needed
-plausible	plausible	cet6	target-card-needed
 play	play	gk zk	target-card-needed
 player	player	cet4 cet6 gk	target-card-needed
 playground	playground	cet4 cet6 gk zk	target-card-needed
@@ -5263,7 +5186,6 @@ pork	pork	gk zk	target-card-needed
 porridge	porridge	cet4 cet6 gk	target-card-needed
 port	port	cet4 cet6 gk	target-card-needed
 porter	porter	cet4 cet6 gk	target-card-needed
-portfolio	portfolio		target-card-needed
 portion	portion	cet4 cet6	target-card-needed
 portrait	portrait	cet4 cet6	target-card-needed
 portray	portray	cet6	target-card-needed
@@ -5319,7 +5241,6 @@ precious	precious	cet4 cet6 gk	target-card-needed
 precise	precise	cet4 cet6 gk	target-card-needed
 precisely	precisely		target-card-needed
 precision	precision	cet4 cet6	target-card-needed
-predator	predator		target-card-needed
 predatory	predatory		target-card-needed
 predecessor	predecessor	cet6	target-card-needed
 predictable	predictable		target-card-needed
@@ -5335,8 +5256,6 @@ prejudice	prejudice	cet4 cet6 gk	target-card-needed
 preliminary	preliminary	cet4 cet6	target-card-needed
 premature	premature	cet6	target-card-needed
 premier	premier	cet4 cet6 gk	target-card-needed
-premise	premise	cet6	target-card-needed
-premium	premium	cet6	target-card-needed
 preoccupied	preoccupied		target-card-needed
 preoccupy	preoccupy		target-card-needed
 preparatory	preparatory		target-card-needed
@@ -5359,7 +5278,6 @@ pressure	pressure	cet4 cet6 gk	target-card-needed
 prestige	prestige	cet6	target-card-needed
 prestigious	prestigious		target-card-needed
 presumably	presumably	cet4 cet6	target-card-needed
-presume	presume	cet6	target-card-needed
 presumption	presumption		target-card-needed
 pretence	pretence		target-card-needed
 pretend	pretend	cet4 cet6 gk	target-card-needed
@@ -5374,7 +5292,6 @@ prevention	prevention	cet6	target-card-needed
 preventive	preventive		target-card-needed
 preview	preview	gk	target-card-needed
 previous	previous	cet4 cet6	target-card-needed
-prey	prey	cet6	target-card-needed
 priceless	priceless		target-card-needed
 priest	priest	cet4 cet6	target-card-needed
 primarily	primarily	cet4 cet6	target-card-needed
@@ -5462,7 +5379,6 @@ proposal	proposal	cet4 cet6	target-card-needed
 propose	propose	cet4 cet6	target-card-needed
 proposition	proposition	cet6	target-card-needed
 prose	prose	cet6	target-card-needed
-prosecute	prosecute		target-card-needed
 prosecution	prosecution		target-card-needed
 prospective	prospective	cet6	target-card-needed
 prosper	prosper		target-card-needed
@@ -5602,7 +5518,6 @@ rat	rat	cet4 cet6 gk zk	target-card-needed
 rate	rate	cet4 cet6 gk	target-card-needed
 rather	rather	cet4 cet6 gk zk	target-card-needed
 ratification	ratification		target-card-needed
-ratify	ratify		target-card-needed
 rating	rating	cet6	target-card-needed
 ratio	ratio	cet4 cet6	target-card-needed
 ration	ration		target-card-needed
@@ -5637,7 +5552,6 @@ rebellion	rebellion	cet4 cet6	target-card-needed
 rebellious	rebellious		target-card-needed
 rebuild	rebuild	gk	target-card-needed
 recall	recall	cet4 cet6	target-card-needed
-recede	recede		target-card-needed
 receipt	receipt	gk	target-card-needed
 receive	receive	gk zk	target-card-needed
 receiver	receiver	cet4 cet6 gk	target-card-needed
@@ -5659,7 +5573,6 @@ recognition	recognition	cet4 cet6	target-card-needed
 recognize	recognize	cet4 cet6	target-card-needed
 recommend	recommend	cet4 cet6 gk	target-card-needed
 recommendation	recommendation	cet4 cet6	target-card-needed
-reconcile	reconcile	cet6	target-card-needed
 reconciliation	reconciliation		target-card-needed
 reconciliatory	reconciliatory		target-card-needed
 record	record	cet4 cet6 gk zk	target-card-needed
@@ -5672,7 +5585,6 @@ recruit	recruit	cet4 cet6	target-card-needed
 recruitment	recruitment	cet6	target-card-needed
 rectangle	rectangle	cet6 gk	target-card-needed
 rectification	rectification		target-card-needed
-rectify	rectify	cet6	target-card-needed
 recur	recur	cet6	target-card-needed
 recurrence	recurrence	cet6	target-card-needed
 recyclable	recyclable		target-card-needed
@@ -5686,7 +5598,6 @@ reel	reel	cet4 cet6	target-card-needed
 refer	refer	cet4 cet6 gk	target-card-needed
 referee	referee	cet6 gk	target-card-needed
 reference	reference	cet4 cet6 gk	target-card-needed
-referendum	referendum		target-card-needed
 refine	refine	cet4 cet6	target-card-needed
 refinement	refinement		target-card-needed
 refinery	refinery	cet6	target-card-needed
@@ -5701,11 +5612,9 @@ refrigeration	refrigeration		target-card-needed
 refrigerator	refrigerator	cet4 cet6 gk	target-card-needed
 refuge	refuge	cet4 cet6	target-card-needed
 refugee	refugee	cet6	target-card-needed
-refund	refund		target-card-needed
 refusal	refusal	cet4 cet6 gk	target-card-needed
 refuse	refuse	cet4 cet6 gk zk	target-card-needed
 refutation	refutation		target-card-needed
-refute	refute	cet4 cet6	target-card-needed
 regard	regard	cet4 cet6 gk zk	target-card-needed
 regarding	regarding	cet4 cet6	target-card-needed
 regardless	regardless	cet4 cet6 gk	target-card-needed
@@ -5825,7 +5734,6 @@ resentment	resentment	cet6	target-card-needed
 reservation	reservation	cet4 cet6 gk	target-card-needed
 reserve	reserve	cet4 cet6 gk	target-card-needed
 reserved	reserved		target-card-needed
-reservoir	reservoir	cet6	target-card-needed
 reshuffle	reshuffle		target-card-needed
 reside	reside	cet6	target-card-needed
 residence	residence	cet4 cet6	target-card-needed
@@ -5907,7 +5815,6 @@ reward	reward	cet4 cet6 gk	target-card-needed
 rewarding	rewarding		target-card-needed
 rewind	rewind	gk	target-card-needed
 rewrite	rewrite	gk	target-card-needed
-rhetoric	rhetoric		target-card-needed
 rhetorical	rhetorical		target-card-needed
 rhyme	rhyme	gk	target-card-needed
 rhythm	rhythm	cet4 cet6	target-card-needed
@@ -5919,7 +5826,6 @@ rid	rid	cet4 cet6 gk	target-card-needed
 riddle	riddle	cet4 cet6 gk zk	target-card-needed
 ride	ride	gk zk	target-card-needed
 rider	rider	cet4 cet6	target-card-needed
-ridge	ridge	cet4 cet6	target-card-needed
 ridicule	ridicule	cet6	target-card-needed
 ridiculous	ridiculous	cet4 cet6 gk	target-card-needed
 rifle	rifle	cet4 cet6	target-card-needed
@@ -6108,7 +6014,6 @@ scripture	scripture	cet6	target-card-needed
 scrub	scrub	cet6	target-card-needed
 scrutinise	scrutinise		target-card-needed
 scrutinize	scrutinize		target-card-needed
-scrutiny	scrutiny	cet6	target-card-needed
 sculpture	sculpture	cet6 gk	target-card-needed
 sea	sea	gk zk	target-card-needed
 seagull	seagull	gk	target-card-needed
@@ -6292,7 +6197,6 @@ sign	sign	cet4 cet6 gk	target-card-needed
 signature	signature	cet4 cet6 gk	target-card-needed
 significance	significance	cet4 cet6 gk	target-card-needed
 significant	significant	cet4 cet6	target-card-needed
-signify	signify	cet6	target-card-needed
 silence	silence	cet4 cet6 gk zk	target-card-needed
 silent	silent	cet4 cet6 gk zk	target-card-needed
 silicon	silicon	cet6	target-card-needed
@@ -6651,7 +6555,6 @@ statistical	statistical	cet4 cet6	target-card-needed
 statistics	statistics	cet4 cet6 gk	target-card-needed
 statue	statue	cet4 cet6 gk	target-card-needed
 status	status	cet4 cet6 gk	target-card-needed
-statute	statute	cet4	target-card-needed
 statutory	statutory		target-card-needed
 stay	stay	gk zk	target-card-needed
 steadily	steadily	cet4 cet6	target-card-needed
@@ -6682,7 +6585,6 @@ stimulate	stimulate	cet4 cet6	target-card-needed
 stimulation	stimulation		target-card-needed
 stimulus	stimulus	cet6	target-card-needed
 sting	sting	cet4 cet6	target-card-needed
-stipulate	stipulate		target-card-needed
 stipulation	stipulation		target-card-needed
 stir	stir	cet4 cet6	target-card-needed
 stitch	stitch	cet4 cet6	target-card-needed
@@ -6721,7 +6623,6 @@ strawberry	strawberry	cet4 cet6 gk zk	target-card-needed
 stray	stray	cet6	target-card-needed
 streak	streak		target-card-needed
 stream	stream	cet4 cet6 gk zk	target-card-needed
-streamline	streamline	cet6	target-card-needed
 street	street	gk zk	target-card-needed
 strength	strength	cet4 cet6 gk	target-card-needed
 strengthen	strengthen	cet4 cet6 gk	target-card-needed
@@ -6769,13 +6670,11 @@ subscription	subscription	cet6	target-card-needed
 subsequent	subsequent	cet4 cet6	target-card-needed
 subsidise	subsidise		target-card-needed
 subsidize	subsidize		target-card-needed
-subsidy	subsidy	cet4 cet6	target-card-needed
 subsistence	subsistence		target-card-needed
 substance	substance	cet4 cet6	target-card-needed
 substantial	substantial	cet4 cet6	target-card-needed
 substitute	substitute	cet4 cet6 gk	target-card-needed
 substitution	substitution		target-card-needed
-subtle	subtle	cet6	target-card-needed
 subtlety	subtlety		target-card-needed
 subtract	subtract	cet4 cet6	target-card-needed
 subtraction	subtraction	gk	target-card-needed
@@ -6788,7 +6687,6 @@ successor	successor	cet6	target-card-needed
 suck	suck	cet4 cet6 gk	target-card-needed
 sudden	sudden	cet4 cet6 gk zk	target-card-needed
 suddenly	suddenly	cet4 cet6	target-card-needed
-sue	sue	cet6	target-card-needed
 suffer	suffer	cet4 cet6 gk	target-card-needed
 suffering	suffering	gk	target-card-needed
 suffice	suffice	cet6	target-card-needed
@@ -6863,7 +6761,6 @@ surrender	surrender	cet4 cet6	target-card-needed
 surround	surround	cet4 cet6 gk	target-card-needed
 surrounding	surrounding	gk	target-card-needed
 surroundings	surroundings	cet4 cet6	target-card-needed
-surveillance	surveillance		target-card-needed
 survey	survey	cet4 cet6	target-card-needed
 survival	survival	cet4 cet6 gk	target-card-needed
 survive	survive	cet4 cet6 gk	target-card-needed
@@ -6876,7 +6773,6 @@ suspicion	suspicion	cet4 cet6	target-card-needed
 suspicious	suspicious	cet4 cet6	target-card-needed
 sustain	sustain	cet4 cet6	target-card-needed
 swallow	swallow	cet4 cet6 gk	target-card-needed
-swamp	swamp	cet4 cet6	target-card-needed
 swap	swap	gk	target-card-needed
 sway	sway	cet4 cet6	target-card-needed
 swear	swear	cet4 cet6 gk	target-card-needed
@@ -6944,7 +6840,6 @@ tanker	tanker	cet6 gk	target-card-needed
 tap	tap	cet4 cet6 gk	target-card-needed
 tape	tape	cet4 cet6 gk zk	target-card-needed
 target	target	cet4 cet6 gk	target-card-needed
-tariff	tariff	cet6	target-card-needed
 task	task	cet4 cet6 gk zk	target-card-needed
 tasteless	tasteless	gk	target-card-needed
 tasty	tasty	gk	target-card-needed
@@ -7000,7 +6895,6 @@ terminal	terminal	cet4 cet6 gk	target-card-needed
 terminate	terminate	cet6	target-card-needed
 termination	termination		target-card-needed
 terrace	terrace	cet6	target-card-needed
-terrain	terrain	cet6	target-card-needed
 terrible	terrible	cet4 cet6 gk zk	target-card-needed
 terribly	terribly		target-card-needed
 terrific	terrific	cet4 cet6	target-card-needed
@@ -7012,8 +6906,6 @@ terrorism	terrorism		target-card-needed
 terrorist	terrorist	cet6	target-card-needed
 tertiary	tertiary		target-card-needed
 test	test	cet4 cet6 gk zk	target-card-needed
-testify	testify	cet6	target-card-needed
-testimony	testimony	cet6	target-card-needed
 textbook	textbook	cet4 cet6 gk	target-card-needed
 textile	textile	cet4 cet6	target-card-needed
 texture	texture	cet6	target-card-needed
@@ -7036,7 +6928,6 @@ therapist	therapist		target-card-needed
 therapy	therapy	cet6	target-card-needed
 thereby	thereby	cet4 cet6	target-card-needed
 therefore	therefore	cet4 cet6 gk	target-card-needed
-thermal	thermal	cet6	target-card-needed
 thermometer	thermometer	cet4 cet6	target-card-needed
 thermos	thermos	gk	target-card-needed
 these	these	gk zk	target-card-needed
@@ -7138,7 +7029,6 @@ topic	topic	cet4 cet6 gk	target-card-needed
 topical	topical		target-card-needed
 topple	topple		target-card-needed
 torch	torch	cet4 cet6	target-card-needed
-tornado	tornado		target-card-needed
 tortoise	tortoise	cet4 cet6 gk	target-card-needed
 torture	torture	cet4 cet6	target-card-needed
 toss	toss	cet4 cet6	target-card-needed
@@ -7156,7 +7046,6 @@ towel	towel	cet4 cet6 gk zk	target-card-needed
 tower	tower	cet4 cet6 gk zk	target-card-needed
 town	town	gk zk	target-card-needed
 township	township		target-card-needed
-toxic	toxic	cet6	target-card-needed
 toy	toy	cet4 cet6 gk zk	target-card-needed
 trace	trace	cet4 cet6	target-card-needed
 track	track	cet4 cet6 gk	target-card-needed
@@ -7202,7 +7091,6 @@ tray	tray	cet4 cet6	target-card-needed
 tread	tread	cet6	target-card-needed
 treasure	treasure	cet4 cet6 gk zk	target-card-needed
 treasurer	treasurer	cet6	target-card-needed
-treasury	treasury		target-card-needed
 treat	treat	cet4 cet6 gk	target-card-needed
 treatment	treatment	cet4 cet6 gk zk	target-card-needed
 treaty	treaty	cet4 cet6	target-card-needed
@@ -7265,7 +7153,6 @@ turkey	turkey	cet4 cet6 gk	target-card-needed
 turmoil	turmoil	cet6	target-card-needed
 turn	turn	gk zk	target-card-needed
 turnout	turnout		target-card-needed
-turnover	turnover	cet6	target-card-needed
 turtle	turtle	cet6	target-card-needed
 tutor	tutor	cet4 cet6 gk	target-card-needed
 tutorial	tutorial		target-card-needed
@@ -7291,7 +7178,6 @@ ultimately	ultimately	cet4 cet6	target-card-needed
 ultra	ultra		target-card-needed
 umbrella	umbrella	gk zk	target-card-needed
 unable	unable	cet4 cet6 gk	target-card-needed
-unanimous	unanimous	cet6	target-card-needed
 unbearable	unbearable	cet4 cet6 gk	target-card-needed
 unbelievable	unbelievable	gk	target-card-needed
 uncertain	uncertain	cet4 cet6 gk	target-card-needed
@@ -7428,7 +7314,6 @@ vast	vast	cet4 cet6 gk	target-card-needed
 vcd	vcd	gk zk	target-card-needed
 veal	veal	gk	target-card-needed
 vegetarian	vegetarian		target-card-needed
-vegetation	vegetation	cet6	target-card-needed
 veil	veil	cet4 cet6	target-card-needed
 vein	vein	cet6	target-card-needed
 velocity	velocity	cet4 cet6	target-card-needed
@@ -7441,7 +7326,6 @@ venture	venture	cet4 cet6	target-card-needed
 venue	venue		target-card-needed
 verb	verb	cet4 cet6	target-card-needed
 verbal	verbal	cet6	target-card-needed
-verdict	verdict	cet6	target-card-needed
 verge	verge	cet6	target-card-needed
 versatile	versatile	cet6	target-card-needed
 verse	verse	cet6	target-card-needed
@@ -7506,7 +7390,6 @@ vocational	vocational	cet6	target-card-needed
 vogue	vogue		target-card-needed
 voice	voice	cet4 cet6 gk zk	target-card-needed
 void	void	cet6	target-card-needed
-volatile	volatile		target-card-needed
 volatility	volatility		target-card-needed
 volcanic	volcanic		target-card-needed
 volcano	volcano	cet4 cet6 gk	target-card-needed
@@ -7532,7 +7415,6 @@ waist	waist	cet4 cet6 gk	target-card-needed
 wait	wait	gk zk	target-card-needed
 waiter	waiter	cet4 cet6 gk	target-card-needed
 waitress	waitress	cet6 gk	target-card-needed
-waive	waive		target-card-needed
 waiver	waiver		target-card-needed
 wake	wake	gk zk	target-card-needed
 waken	waken	cet4 cet6	target-card-needed
@@ -7552,7 +7434,6 @@ warmth	warmth	cet4 cet6 gk	target-card-needed
 warn	warn	cet4 cet6 zk	target-card-needed
 warning	warning	cet6 gk	target-card-needed
 warrant	warrant	cet6	target-card-needed
-warranty	warranty		target-card-needed
 warrior	warrior		target-card-needed
 wary	wary		target-card-needed
 wash	wash	gk zk	target-card-needed
@@ -7630,7 +7511,6 @@ whistle	whistle	cet4 cet6 gk	target-card-needed
 white	white	gk zk	target-card-needed
 whoever	whoever	cet4 cet6	target-card-needed
 whole	whole	cet4 cet6 gk zk	target-card-needed
-wholesale	wholesale		target-card-needed
 wholesome	wholesome	cet6	target-card-needed
 wholly	wholly	cet4 cet6	target-card-needed
 whom	whom	gk zk	target-card-needed

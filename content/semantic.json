@@ -1909,5 +1909,369 @@
         ]
       }
     ]
+  },
+  {
+    "id": "argumentation",
+    "label": "学术阅读与论证",
+    "subtitle": "从读懂论点到检验论证",
+    "scenes": [
+      {
+        "id": "argumentation-reading",
+        "label": "学术文本与表达",
+        "concepts": [
+          {
+            "id": "argumentation-texts",
+            "label": "阅读材料与体裁",
+            "words": [
+              "excerpt",
+              "glossary",
+              "bibliography",
+              "dissertation",
+              "discourse"
+            ]
+          },
+          {
+            "id": "argumentation-style",
+            "label": "清晰表达与修辞",
+            "words": [
+              "rhetoric",
+              "articulate",
+              "concise",
+              "elaborate",
+              "jargon"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "argumentation-meaning",
+        "label": "词义与解读",
+        "concepts": [
+          {
+            "id": "argumentation-figures",
+            "label": "字面意义与联想",
+            "words": [
+              "analogy",
+              "metaphor",
+              "connotation",
+              "denote",
+              "signify"
+            ]
+          },
+          {
+            "id": "argumentation-interpretation",
+            "label": "辨识与理解",
+            "words": [
+              "allude",
+              "discern",
+              "subtle",
+              "intelligible",
+              "obscure"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "argumentation-reasoning",
+        "label": "推断与检验",
+        "concepts": [
+          {
+            "id": "argumentation-inference",
+            "label": "前提与推断",
+            "words": [
+              "premise",
+              "deduce",
+              "presume",
+              "ascertain",
+              "plausible"
+            ]
+          },
+          {
+            "id": "argumentation-checking",
+            "label": "核对与反驳",
+            "words": [
+              "discrepancy",
+              "assert",
+              "concede",
+              "refute",
+              "reconcile"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "public-institutions",
+    "label": "公共制度与法律",
+    "subtitle": "从表决到执行与纠偏",
+    "scenes": [
+      {
+        "id": "institutions-policy",
+        "label": "参与与立法",
+        "concepts": [
+          {
+            "id": "institutions-participation",
+            "label": "民意与表决",
+            "words": [
+              "constituent",
+              "electoral",
+              "referendum",
+              "faction",
+              "unanimous"
+            ]
+          },
+          {
+            "id": "institutions-legislation",
+            "label": "拟定与生效",
+            "words": [
+              "amend",
+              "enact",
+              "ratify",
+              "statute",
+              "stipulate"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "institutions-court",
+        "label": "司法程序",
+        "concepts": [
+          {
+            "id": "institutions-evidence",
+            "label": "审理与举证",
+            "words": [
+              "judicial",
+              "jurisdiction",
+              "testify",
+              "testimony",
+              "verdict"
+            ]
+          },
+          {
+            "id": "institutions-litigation",
+            "label": "诉讼与定罪",
+            "words": [
+              "lawsuit",
+              "plaintiff",
+              "sue",
+              "prosecute",
+              "convict"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "institutions-regulation",
+        "label": "监管与执行",
+        "concepts": [
+          {
+            "id": "institutions-oversight",
+            "label": "审查与豁免",
+            "words": [
+              "audit",
+              "scrutiny",
+              "surveillance",
+              "exempt",
+              "waive"
+            ]
+          },
+          {
+            "id": "institutions-compliance",
+            "label": "遵守与纠正",
+            "words": [
+              "adhere",
+              "breach",
+              "infringe",
+              "deter",
+              "rectify"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "commerce",
+    "label": "经济与经营",
+    "subtitle": "从贸易政策到企业日常",
+    "scenes": [
+      {
+        "id": "commerce-markets",
+        "label": "财政与贸易",
+        "concepts": [
+          {
+            "id": "commerce-finance",
+            "label": "公共财政",
+            "words": [
+              "fiscal",
+              "treasury",
+              "levy",
+              "tariff",
+              "subsidy"
+            ]
+          },
+          {
+            "id": "commerce-trade",
+            "label": "贸易关系与流通",
+            "words": [
+              "embargo",
+              "bilateral",
+              "multilateral",
+              "merchandise",
+              "wholesale"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "commerce-organization",
+        "label": "企业与收益",
+        "concepts": [
+          {
+            "id": "commerce-enterprises",
+            "label": "企业关系与资产",
+            "words": [
+              "affiliate",
+              "franchise",
+              "monopoly",
+              "merge",
+              "portfolio"
+            ]
+          },
+          {
+            "id": "commerce-returns",
+            "label": "收益与波动",
+            "words": [
+              "dividend",
+              "lucrative",
+              "depreciate",
+              "volatile",
+              "turnover"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "commerce-management",
+        "label": "经营与交易",
+        "concepts": [
+          {
+            "id": "commerce-operations",
+            "label": "库存与运营",
+            "words": [
+              "inventory",
+              "logistics",
+              "depot",
+              "streamline",
+              "allot"
+            ]
+          },
+          {
+            "id": "commerce-transactions",
+            "label": "交易与保障",
+            "words": [
+              "default",
+              "refund",
+              "warranty",
+              "premium",
+              "counterfeit"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "environment-change",
+    "label": "地理与环境变化",
+    "subtitle": "从定位地貌到理解生态变化",
+    "scenes": [
+      {
+        "id": "environment-landscape",
+        "label": "位置与地貌",
+        "concepts": [
+          {
+            "id": "environment-position",
+            "label": "地理位置",
+            "words": [
+              "equator",
+              "hemisphere",
+              "latitude",
+              "longitude",
+              "maritime"
+            ]
+          },
+          {
+            "id": "environment-landforms",
+            "label": "地表形态",
+            "words": [
+              "peninsula",
+              "plateau",
+              "terrain",
+              "ridge",
+              "swamp"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "environment-dynamics",
+        "label": "天气与水文",
+        "concepts": [
+          {
+            "id": "environment-weather",
+            "label": "天气、热量与蒸发",
+            "words": [
+              "barometer",
+              "humid",
+              "tornado",
+              "thermal",
+              "evaporate"
+            ]
+          },
+          {
+            "id": "environment-water",
+            "label": "冰水的汇集与流动",
+            "words": [
+              "glacier",
+              "iceberg",
+              "reservoir",
+              "overflow",
+              "recede"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "environment-resources",
+        "label": "生态与资源",
+        "concepts": [
+          {
+            "id": "environment-ecology",
+            "label": "生物与生境",
+            "words": [
+              "vegetation",
+              "indigenous",
+              "predator",
+              "prey",
+              "pesticide"
+            ]
+          },
+          {
+            "id": "environment-degradation",
+            "label": "损耗与环境风险",
+            "words": [
+              "barren",
+              "erode",
+              "degrade",
+              "deplete",
+              "toxic"
+            ]
+          }
+        ]
+      }
+    ]
   }
 ]

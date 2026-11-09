@@ -27,6 +27,7 @@ test('实际Windows旧程序写入后，新程序在同一档案续学并保留�
     if(oldCount===content.words.length) await expect(page.getByLabel('词包升级说明',{exact:true})).toHaveCount(0);
     else await expect(page.getByLabel('词包升级说明',{exact:true})).toContainText(`增补 ${content.words.length-oldCount} 词`);
     await expect(page.getByRole('progressbar')).toHaveAttribute('aria-valuenow','1');
+    await expect(page.getByRole('progressbar')).toHaveAttribute('aria-valuemax','30');
     await expect(page.getByText(`本轮 1 / ${content.words.length} 词`,{exact:true})).toBeVisible();
     await page.getByRole('button',{name:'继续今日学习'}).click();await expect(page.getByRole('heading',{name:'look',exact:true})).toBeVisible();
     await page.getByRole('button',{name:'词库目录',exact:true}).click();await page.getByRole('combobox',{name:'学习状态'}).selectOption('saved');

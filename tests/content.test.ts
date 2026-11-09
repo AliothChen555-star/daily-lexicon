@@ -2,11 +2,12 @@ import { describe,it,expect } from 'vitest';
 import { readFileSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import path from 'node:path';
+import pack from '../content/pack.json';
+import batch from '../content/batches/0.5.0.json';
 import { content, families, topics, scenes, concepts, words, wordIds, historicalCatalogs, sceneById, conceptById } from '../src/content';
 describe('随包内容完整性',()=>{
-  it('630词覆盖21个主题和三级目录，旧词标识和语义顺序保留，每卡应用完整',()=>{
-    expect(words).toHaveLength(630); expect(new Set(wordIds).size).toBe(630);
-    expect(topics).toHaveLength(21); expect(families.length).toBeGreaterThan(96);
+  it('实际词数符合词包清单，所有词卡覆盖三级目录和构词分组，每卡应用完整',()=>{
+    expect(words).toHaveLength(pack.expectedWords); expect(new Set(wordIds).size).toBe(words.length);
     expect(topics.flatMap(t=>t.words).sort()).toEqual([...wordIds].sort());
     expect(families.flatMap(f=>f.words).sort()).toEqual([...wordIds].sort());
     expect(scenes.flatMap(s=>s.words).sort()).toEqual([...wordIds].sort());
@@ -25,7 +26,14 @@ describe('随包内容完整性',()=>{
     }
     expect(content.license).toBe('CC-BY-SA-4.0');
   });
-  it('1890段本地音频存在，WAV头、时长与SHA-256清单匹配',()=>{
+  it('原630词的语义顺序保留，本批六级词按新主题追加',()=>{
+    const previous=historicalCatalogs.find(catalog=>catalog.version==='0.4.0')!;
+    expect(previous.wordIds).toHaveLength(630);
+    expect(wordIds.slice(0,previous.wordIds.length)).toEqual(previous.wordIds);
+    const additions=batch.topics.flatMap(topic=>topic.words.split(' ').map(word=>'dl-'+word));
+    expect(wordIds.slice(previous.wordIds.length,previous.wordIds.length+additions.length)).toEqual(additions);
+  });
+  it('每词三段本地音频的WAV头、时长与SHA-256清单匹配',()=>{
     const root=path.resolve('public/audio');
     const manifest=JSON.parse(readFileSync(path.join(root,'manifest.json'),'utf8')) as {file:string;seconds:number;sha256:string}[];
     expect(manifest).toHaveLength(words.length*3); expect(new Set(manifest.map(x=>x.file)).size).toBe(words.length*3);

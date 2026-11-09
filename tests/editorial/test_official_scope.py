@@ -58,3 +58,23 @@ class OfficialScopeArtifactTests(unittest.TestCase):
         self.assertEqual(len({e['recordId'] for e in entries['appropriate']['evidence'] if e['role']=='head'}),2)
         self.assertTrue(any(e['role']=='listed-form' and e['gradeBasis']=='inherited-from-row' for e in entries['accountability']['evidence']))
         self.assertEqual(entries['april']['display'],'April')
+
+    def test_cet6_editorial_batch_has_direct_headword_evidence_for_every_card(self):
+        def read(path):return json.loads((ROOT/path).read_text(encoding='utf-8'))
+        batch=read('content/batches/0.5.0.json')
+        scope=load_scope();entries=scope['entries']
+        cards={w['word']:w for w in read('src/data/content.json')['words']}
+        homographs=read('content/scope/homographs.json')
+        selected=[word for topic in batch['topics'] for word in topic['words'].split()]
+        self.assertEqual(len(selected),120)
+        self.assertEqual(len(set(selected)),len(selected))
+        self.assertEqual(set(batch['sourceRecords']),set(selected))
+        self.assertEqual(batch['studyScopeSha256'],scope['study']['adoptedSha256'])
+        for word,record in batch['sourceRecords'].items():
+            with self.subTest(word=word):
+                self.assertTrue(entries[word]['required'])
+                self.assertNotIn(word,homographs)
+                self.assertEqual(cards[word]['level'],'六级')
+                self.assertEqual(cards[word]['source'],'daily-lexicon-editorial-0.5')
+                self.assertTrue(any(e['recordId']==record and e['role']=='head' and e['grade']=='cet6'
+                                    and e['expression']==word and e['expansion']=='literal' for e in entries[word]['evidence']))

@@ -629,3 +629,123 @@ dl-email	email	基础	digital	digital-conversation	digital-messages	technology-c
 dl-text	text	基础	digital	digital-conversation	digital-messages	technology-communication	pending	gk zk	none
 dl-online	online	四级	digital	digital-conversation	digital-messages	technology-communication	pending		none
 dl-wireless	wireless	四级	digital	digital-conversation	digital-messages	technology-communication	pending	cet4 cet6	none
+dl-excerpt	excerpt	六级	argumentation	argumentation-reading	argumentation-texts	argumentation-texts	pending		none
+dl-glossary	glossary	六级	argumentation	argumentation-reading	argumentation-texts	argumentation-texts	pending	cet6	none
+dl-bibliography	bibliography	六级	argumentation	argumentation-reading	argumentation-texts	argumentation-texts	pending		none
+dl-dissertation	dissertation	六级	argumentation	argumentation-reading	argumentation-texts	argumentation-texts	pending		none
+dl-discourse	discourse	六级	argumentation	argumentation-reading	argumentation-texts	argumentation-texts	pending	cet6	none
+dl-rhetoric	rhetoric	六级	argumentation	argumentation-reading	argumentation-style	argumentation-style	pending		none
+dl-articulate	articulate	六级	argumentation	argumentation-reading	argumentation-style	argumentation-style	pending	cet6	none
+dl-concise	concise	六级	argumentation	argumentation-reading	argumentation-style	argumentation-style	pending	cet6	none
+dl-elaborate	elaborate	六级	argumentation	argumentation-reading	argumentation-style	argumentation-style	pending	cet4 cet6	none
+dl-jargon	jargon	六级	argumentation	argumentation-reading	argumentation-style	argumentation-style	pending		none
+dl-analogy	analogy	六级	argumentation	argumentation-meaning	argumentation-figures	argumentation-figures	pending	cet6	none
+dl-metaphor	metaphor	六级	argumentation	argumentation-meaning	argumentation-figures	argumentation-figures	pending		none
+dl-connotation	connotation	六级	argumentation	argumentation-meaning	argumentation-figures	not-mark	pending		none
+dl-denote	denote	六级	argumentation	argumentation-meaning	argumentation-figures	not-mark	pending	cet6	none
+dl-signify	signify	六级	argumentation	argumentation-meaning	argumentation-figures	argumentation-figures	pending	cet6	none
+dl-allude	allude	六级	argumentation	argumentation-meaning	argumentation-interpretation	argumentation-interpretation	pending		none
+dl-discern	discern	六级	argumentation	argumentation-meaning	argumentation-interpretation	argumentation-interpretation	pending	cet6	none
+dl-subtle	subtle	六级	argumentation	argumentation-meaning	argumentation-interpretation	argumentation-interpretation	pending	cet6	none
+dl-intelligible	intelligible	六级	argumentation	argumentation-meaning	argumentation-interpretation	argumentation-interpretation	pending	cet6	none
+dl-obscure	obscure	六级	argumentation	argumentation-meaning	argumentation-interpretation	argumentation-interpretation	pending	cet4 cet6	none
+dl-premise	premise	六级	argumentation	argumentation-reasoning	argumentation-inference	argumentation-inference	pending	cet6	none
+dl-deduce	deduce	六级	argumentation	argumentation-reasoning	argumentation-inference	argumentation-inference	pending	cet4 cet6	none
+dl-presume	presume	六级	argumentation	argumentation-reasoning	argumentation-inference	argumentation-inference	pending	cet6	none
+dl-ascertain	ascertain	六级	argumentation	argumentation-reasoning	argumentation-inference	argumentation-inference	pending	cet6	none
+dl-plausible	plausible	六级	argumentation	argumentation-reasoning	argumentation-inference	argumentation-inference	pending	cet6	none
+dl-discrepancy	discrepancy	六级	argumentation	argumentation-reasoning	argumentation-checking	argumentation-checking	pending	cet6	none
+dl-assert	assert	六级	argumentation	argumentation-reasoning	argumentation-checking	argumentation-checking	pending	cet6	none
+dl-concede	concede	六级	argumentation	argumentation-reasoning	argumentation-checking	cede-withdraw	pending	cet6	none
+dl-refute	refute	六级	argumentation	argumentation-reasoning	argumentation-checking	argumentation-checking	pending	cet4 cet6	none
+dl-reconcile	reconcile	六级	argumentation	argumentation-reasoning	argumentation-checking	argumentation-checking	pending	cet6	none
+dl-constituent	constituent	六级	public-institutions	institutions-policy	institutions-participation	institutions-participation	pending	cet6	none
+dl-electoral	electoral	六级	public-institutions	institutions-policy	institutions-participation	institutions-participation	pending		none
+dl-referendum	referendum	六级	public-institutions	institutions-policy	institutions-participation	institutions-participation	pending		none
+dl-faction	faction	六级	public-institutions	institutions-policy	institutions-participation	institutions-participation	pending	cet6	none
+dl-unanimous	unanimous	六级	public-institutions	institutions-policy	institutions-participation	institutions-participation	pending	cet6	none
+dl-amend	amend	六级	public-institutions	institutions-policy	institutions-legislation	institutions-legislation	pending		none
+dl-enact	enact	六级	public-institutions	institutions-policy	institutions-legislation	institutions-legislation	pending		none
+dl-ratify	ratify	六级	public-institutions	institutions-policy	institutions-legislation	institutions-legislation	pending		none
+dl-statute	statute	六级	public-institutions	institutions-policy	institutions-legislation	institutions-legislation	pending	cet4	none
+dl-stipulate	stipulate	六级	public-institutions	institutions-policy	institutions-legislation	institutions-legislation	pending		none
+dl-judicial	judicial	六级	public-institutions	institutions-court	institutions-evidence	institutions-evidence	pending		none
+dl-jurisdiction	jurisdiction	六级	public-institutions	institutions-court	institutions-evidence	institutions-evidence	pending		none
+dl-testify	testify	六级	public-institutions	institutions-court	institutions-evidence	test-witness	pending	cet6	none
+dl-testimony	testimony	六级	public-institutions	institutions-court	institutions-evidence	test-witness	pending	cet6	none
+dl-verdict	verdict	六级	public-institutions	institutions-court	institutions-evidence	dict	pending	cet6	none
+dl-lawsuit	lawsuit	六级	public-institutions	institutions-court	institutions-litigation	institutions-litigation	pending	cet6	none
+dl-plaintiff	plaintiff	六级	public-institutions	institutions-court	institutions-litigation	institutions-litigation	pending		none
+dl-sue	sue	六级	public-institutions	institutions-court	institutions-litigation	institutions-litigation	pending	cet6	none
+dl-prosecute	prosecute	六级	public-institutions	institutions-court	institutions-litigation	institutions-litigation	pending		none
+dl-convict	convict	六级	public-institutions	institutions-court	institutions-litigation	institutions-litigation	pending	cet6	none
+dl-audit	audit	六级	public-institutions	institutions-regulation	institutions-oversight	institutions-oversight	pending		none
+dl-scrutiny	scrutiny	六级	public-institutions	institutions-regulation	institutions-oversight	institutions-oversight	pending	cet6	none
+dl-surveillance	surveillance	六级	public-institutions	institutions-regulation	institutions-oversight	institutions-oversight	pending		none
+dl-exempt	exempt	六级	public-institutions	institutions-regulation	institutions-oversight	institutions-oversight	pending	cet6	none
+dl-waive	waive	六级	public-institutions	institutions-regulation	institutions-oversight	institutions-oversight	pending		none
+dl-adhere	adhere	六级	public-institutions	institutions-regulation	institutions-compliance	institutions-compliance	pending	cet4 cet6	none
+dl-breach	breach	六级	public-institutions	institutions-regulation	institutions-compliance	institutions-compliance	pending		none
+dl-infringe	infringe	六级	public-institutions	institutions-regulation	institutions-compliance	institutions-compliance	pending		none
+dl-deter	deter	六级	public-institutions	institutions-regulation	institutions-compliance	institutions-compliance	pending		none
+dl-rectify	rectify	六级	public-institutions	institutions-regulation	institutions-compliance	institutions-compliance	pending	cet6	none
+dl-fiscal	fiscal	六级	commerce	commerce-markets	commerce-finance	commerce-finance	pending		none
+dl-treasury	treasury	六级	commerce	commerce-markets	commerce-finance	commerce-finance	pending		none
+dl-levy	levy	六级	commerce	commerce-markets	commerce-finance	commerce-finance	pending		none
+dl-tariff	tariff	六级	commerce	commerce-markets	commerce-finance	commerce-finance	pending	cet6	none
+dl-subsidy	subsidy	六级	commerce	commerce-markets	commerce-finance	commerce-finance	pending	cet4 cet6	none
+dl-embargo	embargo	六级	commerce	commerce-markets	commerce-trade	commerce-trade	pending		none
+dl-bilateral	bilateral	六级	commerce	commerce-markets	commerce-trade	lateral-parties	pending		none
+dl-multilateral	multilateral	六级	commerce	commerce-markets	commerce-trade	lateral-parties	pending		none
+dl-merchandise	merchandise	六级	commerce	commerce-markets	commerce-trade	commerce-trade	pending	cet6	none
+dl-wholesale	wholesale	六级	commerce	commerce-markets	commerce-trade	commerce-trade	pending		none
+dl-affiliate	affiliate	六级	commerce	commerce-organization	commerce-enterprises	commerce-enterprises	pending	cet6	none
+dl-franchise	franchise	六级	commerce	commerce-organization	commerce-enterprises	commerce-enterprises	pending		none
+dl-monopoly	monopoly	六级	commerce	commerce-organization	commerce-enterprises	commerce-enterprises	pending	cet6	none
+dl-merge	merge	六级	commerce	commerce-organization	commerce-enterprises	commerce-enterprises	pending	cet6	none
+dl-portfolio	portfolio	六级	commerce	commerce-organization	commerce-enterprises	commerce-enterprises	pending		none
+dl-dividend	dividend	六级	commerce	commerce-organization	commerce-returns	commerce-returns	pending		none
+dl-lucrative	lucrative	六级	commerce	commerce-organization	commerce-returns	commerce-returns	pending		none
+dl-depreciate	depreciate	六级	commerce	commerce-organization	commerce-returns	commerce-returns	pending		none
+dl-volatile	volatile	六级	commerce	commerce-organization	commerce-returns	commerce-returns	pending		none
+dl-turnover	turnover	六级	commerce	commerce-organization	commerce-returns	commerce-returns	pending	cet6	none
+dl-inventory	inventory	六级	commerce	commerce-management	commerce-operations	commerce-operations	pending	cet6	none
+dl-logistics	logistics	六级	commerce	commerce-management	commerce-operations	commerce-operations	pending	cet6	none
+dl-depot	depot	六级	commerce	commerce-management	commerce-operations	commerce-operations	pending		none
+dl-streamline	streamline	六级	commerce	commerce-management	commerce-operations	commerce-operations	pending	cet6	none
+dl-allot	allot	六级	commerce	commerce-management	commerce-operations	commerce-operations	pending		none
+dl-default	default	六级	commerce	commerce-management	commerce-transactions	commerce-transactions	pending	cet6	none
+dl-refund	refund	六级	commerce	commerce-management	commerce-transactions	commerce-transactions	pending		none
+dl-warranty	warranty	六级	commerce	commerce-management	commerce-transactions	commerce-transactions	pending		none
+dl-premium	premium	六级	commerce	commerce-management	commerce-transactions	commerce-transactions	pending	cet6	none
+dl-counterfeit	counterfeit	六级	commerce	commerce-management	commerce-transactions	commerce-transactions	pending		none
+dl-equator	equator	六级	environment-change	environment-landscape	environment-position	environment-position	pending	cet6	none
+dl-hemisphere	hemisphere	六级	environment-change	environment-landscape	environment-position	environment-position	pending	cet6	none
+dl-latitude	latitude	六级	environment-change	environment-landscape	environment-position	environment-position	pending	cet6	none
+dl-longitude	longitude	六级	environment-change	environment-landscape	environment-position	environment-position	pending	cet6	none
+dl-maritime	maritime	六级	environment-change	environment-landscape	environment-position	environment-position	pending	cet6	none
+dl-peninsula	peninsula	六级	environment-change	environment-landscape	environment-landforms	environment-landforms	pending	cet4 cet6	none
+dl-plateau	plateau	六级	environment-change	environment-landscape	environment-landforms	environment-landforms	pending	cet6	none
+dl-terrain	terrain	六级	environment-change	environment-landscape	environment-landforms	environment-landforms	pending	cet6	none
+dl-ridge	ridge	六级	environment-change	environment-landscape	environment-landforms	environment-landforms	pending	cet4 cet6	none
+dl-swamp	swamp	六级	environment-change	environment-landscape	environment-landforms	environment-landforms	pending	cet4 cet6	none
+dl-barometer	barometer	六级	environment-change	environment-dynamics	environment-weather	environment-weather	pending	cet6	none
+dl-humid	humid	六级	environment-change	environment-dynamics	environment-weather	environment-weather	pending	cet4 cet6	none
+dl-tornado	tornado	六级	environment-change	environment-dynamics	environment-weather	environment-weather	pending		none
+dl-thermal	thermal	六级	environment-change	environment-dynamics	environment-weather	environment-weather	pending	cet6	none
+dl-evaporate	evaporate	六级	environment-change	environment-dynamics	environment-weather	environment-weather	pending	cet4 cet6	none
+dl-glacier	glacier	六级	environment-change	environment-dynamics	environment-water	environment-water	pending		none
+dl-iceberg	iceberg	六级	environment-change	environment-dynamics	environment-water	environment-water	pending		none
+dl-reservoir	reservoir	六级	environment-change	environment-dynamics	environment-water	environment-water	pending	cet6	none
+dl-overflow	overflow	六级	environment-change	environment-dynamics	environment-water	environment-water	pending	cet6	none
+dl-recede	recede	六级	environment-change	environment-dynamics	environment-water	cede-withdraw	pending		none
+dl-vegetation	vegetation	六级	environment-change	environment-resources	environment-ecology	environment-ecology	pending	cet6	none
+dl-indigenous	indigenous	六级	environment-change	environment-resources	environment-ecology	environment-ecology	pending		none
+dl-predator	predator	六级	environment-change	environment-resources	environment-ecology	environment-ecology	pending		none
+dl-prey	prey	六级	environment-change	environment-resources	environment-ecology	environment-ecology	pending	cet6	none
+dl-pesticide	pesticide	六级	environment-change	environment-resources	environment-ecology	environment-ecology	pending		none
+dl-barren	barren	六级	environment-change	environment-resources	environment-degradation	environment-degradation	pending	cet6	none
+dl-erode	erode	六级	environment-change	environment-resources	environment-degradation	environment-degradation	pending		none
+dl-degrade	degrade	六级	environment-change	environment-resources	environment-degradation	environment-degradation	pending	cet6	none
+dl-deplete	deplete	六级	environment-change	environment-resources	environment-degradation	environment-degradation	pending		none
+dl-toxic	toxic	六级	environment-change	environment-resources	environment-degradation	environment-degradation	pending	cet6	none

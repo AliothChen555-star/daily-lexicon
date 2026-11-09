@@ -1,6 +1,6 @@
 {
-  "version": "0.4.0",
-  "catalogVersion": "0.4.0",
+  "version": "0.5.0",
+  "catalogVersion": "0.5.0",
   "id": "daily-lexicon-editorial",
   "title": "基础与四六级词库",
   "license": "CC-BY-SA-4.0",
@@ -24171,6 +24171,4639 @@
       "reviewStatus": "editorial-draft",
       "scene": "digital-conversation",
       "concept": "digital-messages"
+    },
+    {
+      "id": "dl-excerpt",
+      "word": "excerpt",
+      "ipa": "/ˈeksɜːrpt/",
+      "pos": "n.",
+      "meaning": "摘录；节选",
+      "level": "六级",
+      "topic": "argumentation",
+      "family": "argumentation-texts",
+      "phrases": [
+        {
+          "en": "a short excerpt",
+          "zh": "一小段节选"
+        },
+        {
+          "en": "an excerpt from a novel",
+          "zh": "小说节选"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The handout opens with an excerpt from a travel diary.",
+          "zh": "讲义开头是一段旅行日记的节选。",
+          "audio": "audio/excerpt--1.wav"
+        },
+        {
+          "en": "This excerpt gives a sense of the author's style.",
+          "zh": "这段节选让人对作者的风格有了初步印象。",
+          "audio": "audio/excerpt--2.wav"
+        }
+      ],
+      "forms": [
+        "本卡主读音为名词 /ˈeksɜːrpt/",
+        "动词 excerpt 表示摘录，重音常在第二音节"
+      ],
+      "audio": "audio/excerpt.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "argumentation-reading",
+      "concept": "argumentation-texts"
+    },
+    {
+      "id": "dl-glossary",
+      "word": "glossary",
+      "ipa": "/ˈɡlɑːsəri/",
+      "pos": "n.",
+      "meaning": "术语表；专用词汇释义表",
+      "level": "六级",
+      "topic": "argumentation",
+      "family": "argumentation-texts",
+      "phrases": [
+        {
+          "en": "a glossary of terms",
+          "zh": "术语表"
+        },
+        {
+          "en": "consult the glossary",
+          "zh": "查阅术语表"
+        }
+      ],
+      "examples": [
+        {
+          "en": "A glossary at the end explains the terms used in the maps.",
+          "zh": "书末的术语表解释了地图上用到的术语。",
+          "audio": "audio/glossary--1.wav"
+        },
+        {
+          "en": "I added a glossary so new readers could follow the discussion.",
+          "zh": "我加了一份术语表，方便初次接触的读者理解讨论内容。",
+          "audio": "audio/glossary--2.wav"
+        }
+      ],
+      "forms": [
+        "复数 glossaries"
+      ],
+      "audio": "audio/glossary.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "argumentation-reading",
+      "concept": "argumentation-texts"
+    },
+    {
+      "id": "dl-bibliography",
+      "word": "bibliography",
+      "ipa": "/ˌbɪbliˈɑːɡrəfi/",
+      "pos": "n.",
+      "meaning": "参考书目；文献目录",
+      "level": "六级",
+      "topic": "argumentation",
+      "family": "argumentation-texts",
+      "phrases": [
+        {
+          "en": "compile a bibliography",
+          "zh": "编制参考书目"
+        },
+        {
+          "en": "an annotated bibliography",
+          "zh": "带注释的参考书目"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The bibliography lists several interviews as well as books.",
+          "zh": "参考书目除了书籍，还列出了几篇访谈。",
+          "audio": "audio/bibliography--1.wav"
+        },
+        {
+          "en": "Mina checked the dates in her bibliography before submitting the essay.",
+          "zh": "米娜交论文前核对了参考书目中的日期。",
+          "audio": "audio/bibliography--2.wav"
+        }
+      ],
+      "forms": [
+        "复数 bibliographies"
+      ],
+      "audio": "audio/bibliography.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "argumentation-reading",
+      "concept": "argumentation-texts"
+    },
+    {
+      "id": "dl-dissertation",
+      "word": "dissertation",
+      "ipa": "/ˌdɪsərˈteɪʃən/",
+      "pos": "n.",
+      "meaning": "学位论文；专题长篇论文",
+      "level": "六级",
+      "topic": "argumentation",
+      "family": "argumentation-texts",
+      "phrases": [
+        {
+          "en": "write a dissertation",
+          "zh": "撰写学位论文"
+        },
+        {
+          "en": "defend a dissertation",
+          "zh": "进行学位论文答辩"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Her dissertation examines how small museums collect oral histories.",
+          "zh": "她的学位论文研究小型博物馆如何收集口述历史。",
+          "audio": "audio/dissertation--1.wav"
+        },
+        {
+          "en": "Leo revised the final chapter of his dissertation over the summer.",
+          "zh": "利奥在夏天修改了学位论文的最后一章。",
+          "audio": "audio/dissertation--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/dissertation.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "argumentation-reading",
+      "concept": "argumentation-texts"
+    },
+    {
+      "id": "dl-discourse",
+      "word": "discourse",
+      "ipa": "/ˈdɪskɔːrs/",
+      "pos": "n.",
+      "meaning": "话语；讨论；系统阐述",
+      "level": "六级",
+      "topic": "argumentation",
+      "family": "argumentation-texts",
+      "phrases": [
+        {
+          "en": "public discourse",
+          "zh": "公共讨论"
+        },
+        {
+          "en": "academic discourse",
+          "zh": "学术话语"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The study traces how the phrase entered public discourse.",
+          "zh": "这项研究追溯了这个短语如何进入公共讨论。",
+          "audio": "audio/discourse--1.wav"
+        },
+        {
+          "en": "The course compares the language of academic discourse with everyday conversation.",
+          "zh": "这门课比较学术话语和日常交谈的语言特点。",
+          "audio": "audio/discourse--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/discourse.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "argumentation-reading",
+      "concept": "argumentation-texts"
+    },
+    {
+      "id": "dl-rhetoric",
+      "word": "rhetoric",
+      "ipa": "/ˈretərɪk/",
+      "pos": "n.",
+      "meaning": "修辞；说服性的言辞；华而不实的说辞",
+      "level": "六级",
+      "topic": "argumentation",
+      "family": "argumentation-style",
+      "phrases": [
+        {
+          "en": "the art of rhetoric",
+          "zh": "修辞的艺术"
+        },
+        {
+          "en": "empty rhetoric",
+          "zh": "空洞的说辞"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The class studies rhetoric by comparing two versions of a speech.",
+          "zh": "这门课通过比较同一篇演讲的两个版本来研究修辞。",
+          "audio": "audio/rhetoric--1.wav"
+        },
+        {
+          "en": "Residents wanted a timetable for repairs instead of more rhetoric.",
+          "zh": "居民们想要一份维修时间表，不想再听空话。",
+          "audio": "audio/rhetoric--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/rhetoric.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "argumentation-reading",
+      "concept": "argumentation-style"
+    },
+    {
+      "id": "dl-articulate",
+      "word": "articulate",
+      "ipa": "/ɑːrˈtɪkjəleɪt/",
+      "pos": "v.",
+      "meaning": "清楚表达；清晰发音",
+      "level": "六级",
+      "topic": "argumentation",
+      "family": "argumentation-style",
+      "phrases": [
+        {
+          "en": "articulate a concern",
+          "zh": "清楚表达顾虑"
+        },
+        {
+          "en": "articulate a sound",
+          "zh": "清晰地发出一个音"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The survey gave staff a chance to articulate their concerns.",
+          "zh": "这项调查让员工有机会清楚地表达自己的顾虑。",
+          "audio": "audio/articulate--1.wav"
+        },
+        {
+          "en": "Try to articulate the final consonant without adding another vowel.",
+          "zh": "试着清楚地发出末尾的辅音，不要再加上一个元音。",
+          "audio": "audio/articulate--2.wav"
+        }
+      ],
+      "forms": [
+        "本卡主读音为动词 /ɑːrˈtɪkjəleɪt/",
+        "形容词 articulate 表示善于表达的，词尾常读 /lət/"
+      ],
+      "audio": "audio/articulate.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "argumentation-reading",
+      "concept": "argumentation-style"
+    },
+    {
+      "id": "dl-concise",
+      "word": "concise",
+      "ipa": "/kənˈsaɪs/",
+      "pos": "adj.",
+      "meaning": "简明的；简洁的",
+      "level": "六级",
+      "topic": "argumentation",
+      "family": "argumentation-style",
+      "phrases": [
+        {
+          "en": "a concise summary",
+          "zh": "简明的摘要"
+        },
+        {
+          "en": "clear and concise",
+          "zh": "清晰简洁"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The editor asked for a concise account of the experiment.",
+          "zh": "编辑要求用简明的文字描述这次实验。",
+          "audio": "audio/concise--1.wav"
+        },
+        {
+          "en": "A concise caption explains what the two lines represent.",
+          "zh": "一条简洁的图注说明了两条线分别代表什么。",
+          "audio": "audio/concise--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/concise.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "argumentation-reading",
+      "concept": "argumentation-style"
+    },
+    {
+      "id": "dl-elaborate",
+      "word": "elaborate",
+      "ipa": "/ɪˈlæbəreɪt/",
+      "pos": "v.",
+      "meaning": "详细说明；进一步阐述",
+      "level": "六级",
+      "topic": "argumentation",
+      "family": "argumentation-style",
+      "phrases": [
+        {
+          "en": "elaborate on a point",
+          "zh": "详述某一点"
+        },
+        {
+          "en": "elaborate further",
+          "zh": "进一步说明"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Could you elaborate on the reason for the delay?",
+          "zh": "你能详细说明一下延误的原因吗？",
+          "audio": "audio/elaborate--1.wav"
+        },
+        {
+          "en": "The author uses the final chapter to elaborate on this idea.",
+          "zh": "作者在最后一章进一步阐述这个观点。",
+          "audio": "audio/elaborate--2.wav"
+        }
+      ],
+      "forms": [
+        "本卡主读音为动词 /ɪˈlæbəreɪt/",
+        "形容词 elaborate 表示精心制作的或复杂的，词尾常读 /rət/"
+      ],
+      "audio": "audio/elaborate.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "argumentation-reading",
+      "concept": "argumentation-style"
+    },
+    {
+      "id": "dl-jargon",
+      "word": "jargon",
+      "ipa": "/ˈdʒɑːrɡən/",
+      "pos": "n.",
+      "meaning": "行话；专业术语",
+      "level": "六级",
+      "topic": "argumentation",
+      "family": "argumentation-style",
+      "phrases": [
+        {
+          "en": "technical jargon",
+          "zh": "技术行话"
+        },
+        {
+          "en": "avoid jargon",
+          "zh": "避免使用行话"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The guide avoids jargon so that beginners can use it.",
+          "zh": "这份指南尽量不用行话，方便初学者使用。",
+          "audio": "audio/jargon--1.wav"
+        },
+        {
+          "en": "Much of the jargon in the memo was unfamiliar to new staff.",
+          "zh": "备忘录中的许多行话让新员工感到陌生。",
+          "audio": "audio/jargon--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/jargon.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "argumentation-reading",
+      "concept": "argumentation-style"
+    },
+    {
+      "id": "dl-analogy",
+      "word": "analogy",
+      "ipa": "/əˈnælədʒi/",
+      "pos": "n.",
+      "meaning": "类比；相似关系",
+      "level": "六级",
+      "topic": "argumentation",
+      "family": "argumentation-figures",
+      "phrases": [
+        {
+          "en": "draw an analogy",
+          "zh": "作类比"
+        },
+        {
+          "en": "an analogy between two things",
+          "zh": "两事物之间的类比"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The teacher drew an analogy between memory and a filing system.",
+          "zh": "老师把记忆和文件归档系统作了类比。",
+          "audio": "audio/analogy--1.wav"
+        },
+        {
+          "en": "The analogy helps at first, but it does not explain every detail.",
+          "zh": "这个类比起初有帮助，但不能解释每个细节。",
+          "audio": "audio/analogy--2.wav"
+        }
+      ],
+      "forms": [
+        "复数 analogies"
+      ],
+      "audio": "audio/analogy.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "argumentation-meaning",
+      "concept": "argumentation-figures"
+    },
+    {
+      "id": "dl-metaphor",
+      "word": "metaphor",
+      "ipa": "/ˈmetəfɔːr/",
+      "pos": "n.",
+      "meaning": "隐喻；借喻",
+      "level": "六级",
+      "topic": "argumentation",
+      "family": "argumentation-figures",
+      "phrases": [
+        {
+          "en": "use a metaphor",
+          "zh": "使用隐喻"
+        },
+        {
+          "en": "a metaphor for change",
+          "zh": "象征变化的隐喻"
+        }
+      ],
+      "examples": [
+        {
+          "en": "In the poem, winter is a metaphor for loneliness.",
+          "zh": "在这首诗里，冬天是孤独的隐喻。",
+          "audio": "audio/metaphor--1.wav"
+        },
+        {
+          "en": "She used the metaphor of a bridge to describe the program.",
+          "zh": "她用桥作隐喻来描述这个项目。",
+          "audio": "audio/metaphor--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/metaphor.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "argumentation-meaning",
+      "concept": "argumentation-figures"
+    },
+    {
+      "id": "dl-connotation",
+      "word": "connotation",
+      "ipa": "/ˌkɑːnəˈteɪʃən/",
+      "pos": "n.",
+      "meaning": "词语的隐含意义；联想色彩",
+      "level": "六级",
+      "topic": "argumentation",
+      "family": "not-mark",
+      "phrases": [
+        {
+          "en": "a positive connotation",
+          "zh": "正面的联想色彩"
+        },
+        {
+          "en": "a negative connotation",
+          "zh": "负面的联想色彩"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The word has a warmer connotation in letters than in reports.",
+          "zh": "这个词在书信里比在报告里更带有亲切意味。",
+          "audio": "audio/connotation--1.wav"
+        },
+        {
+          "en": "The two labels describe similar roles, but each has a different connotation.",
+          "zh": "这两个称呼描述的角色相似，但带出的联想不同。",
+          "audio": "audio/connotation--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/connotation.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "argumentation-meaning",
+      "concept": "argumentation-figures"
+    },
+    {
+      "id": "dl-denote",
+      "word": "denote",
+      "ipa": "/dɪˈnoʊt/",
+      "pos": "v.",
+      "meaning": "表示；指代；标明",
+      "level": "六级",
+      "topic": "argumentation",
+      "family": "not-mark",
+      "phrases": [
+        {
+          "en": "denote a quantity",
+          "zh": "表示一个量"
+        },
+        {
+          "en": "denote a category",
+          "zh": "标明一个类别"
+        }
+      ],
+      "examples": [
+        {
+          "en": "In this table, an asterisk is used to denote a missing value.",
+          "zh": "在这张表中，星号用来标记缺失值。",
+          "audio": "audio/denote--1.wav"
+        },
+        {
+          "en": "The letters A and B denote the two groups in the study.",
+          "zh": "字母 A 和 B 分别代表研究中的两组。",
+          "audio": "audio/denote--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/denote.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "argumentation-meaning",
+      "concept": "argumentation-figures"
+    },
+    {
+      "id": "dl-signify",
+      "word": "signify",
+      "ipa": "/ˈsɪɡnəfaɪ/",
+      "pos": "v.",
+      "meaning": "表示；意味着；表明",
+      "level": "六级",
+      "topic": "argumentation",
+      "family": "argumentation-figures",
+      "phrases": [
+        {
+          "en": "signify approval",
+          "zh": "表示赞同"
+        },
+        {
+          "en": "signify a change",
+          "zh": "标志着变化"
+        }
+      ],
+      "examples": [
+        {
+          "en": "In this diagram, a circle can signify either a station or a junction.",
+          "zh": "在这张图里，圆圈可以表示车站，也可以表示交汇点。",
+          "audio": "audio/signify--1.wav"
+        },
+        {
+          "en": "A delay does not necessarily signify a change in policy.",
+          "zh": "延误未必意味着政策有变。",
+          "audio": "audio/signify--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/signify.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "argumentation-meaning",
+      "concept": "argumentation-figures"
+    },
+    {
+      "id": "dl-allude",
+      "word": "allude",
+      "ipa": "/əˈluːd/",
+      "pos": "v.",
+      "meaning": "暗指；间接提及",
+      "level": "六级",
+      "topic": "argumentation",
+      "family": "argumentation-interpretation",
+      "phrases": [
+        {
+          "en": "allude to an incident",
+          "zh": "间接提到一起事件"
+        },
+        {
+          "en": "allude to a difficulty",
+          "zh": "暗示有困难"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The letter seems to allude to a dispute that took place years earlier.",
+          "zh": "这封信似乎暗指多年前发生的一场争执。",
+          "audio": "audio/allude--1.wav"
+        },
+        {
+          "en": "She did not name the book, but she did allude to its final scene.",
+          "zh": "她没有说出书名，却间接提到了书中的最后一幕。",
+          "audio": "audio/allude--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/allude.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "argumentation-meaning",
+      "concept": "argumentation-interpretation"
+    },
+    {
+      "id": "dl-discern",
+      "word": "discern",
+      "ipa": "/dɪˈsɜːrn/",
+      "pos": "v.",
+      "meaning": "辨认；察觉；识别",
+      "level": "六级",
+      "topic": "argumentation",
+      "family": "argumentation-interpretation",
+      "phrases": [
+        {
+          "en": "discern a pattern",
+          "zh": "辨认出规律"
+        },
+        {
+          "en": "discern a difference",
+          "zh": "察觉到差异"
+        }
+      ],
+      "examples": [
+        {
+          "en": "It took several readings to discern a pattern in the notes.",
+          "zh": "反复读了几遍后，才看出笔记里的规律。",
+          "audio": "audio/discern--1.wav"
+        },
+        {
+          "en": "From the doorway we could just discern the outline of a desk.",
+          "zh": "站在门口，我们只能勉强辨认出一张书桌的轮廓。",
+          "audio": "audio/discern--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/discern.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "argumentation-meaning",
+      "concept": "argumentation-interpretation"
+    },
+    {
+      "id": "dl-subtle",
+      "word": "subtle",
+      "ipa": "/ˈsʌtəl/",
+      "pos": "adj.",
+      "meaning": "细微的；不易察觉的；巧妙的",
+      "level": "六级",
+      "topic": "argumentation",
+      "family": "argumentation-interpretation",
+      "phrases": [
+        {
+          "en": "a subtle distinction",
+          "zh": "细微的区别"
+        },
+        {
+          "en": "a subtle hint",
+          "zh": "含蓄的暗示"
+        }
+      ],
+      "examples": [
+        {
+          "en": "There is a subtle difference between the two translations.",
+          "zh": "这两种译法有细微差别。",
+          "audio": "audio/subtle--1.wav"
+        },
+        {
+          "en": "The writer uses subtle changes in tone to show growing tension.",
+          "zh": "作者通过语气的微妙变化表现不断加剧的紧张感。",
+          "audio": "audio/subtle--2.wav"
+        }
+      ],
+      "forms": [
+        "拼写中的 b 不发音"
+      ],
+      "audio": "audio/subtle.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "argumentation-meaning",
+      "concept": "argumentation-interpretation"
+    },
+    {
+      "id": "dl-intelligible",
+      "word": "intelligible",
+      "ipa": "/ɪnˈtelɪdʒəbəl/",
+      "pos": "adj.",
+      "meaning": "可理解的；能听清的",
+      "level": "六级",
+      "topic": "argumentation",
+      "family": "argumentation-interpretation",
+      "phrases": [
+        {
+          "en": "make something intelligible",
+          "zh": "让某事变得易懂"
+        },
+        {
+          "en": "barely intelligible",
+          "zh": "几乎无法听清或理解"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The diagrams make the argument intelligible to readers outside the field.",
+          "zh": "这些图让该领域之外的读者也能理解论证。",
+          "audio": "audio/intelligible--1.wav"
+        },
+        {
+          "en": "The last few words on the tape were barely intelligible.",
+          "zh": "录音带上最后几个词几乎听不清。",
+          "audio": "audio/intelligible--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/intelligible.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "argumentation-meaning",
+      "concept": "argumentation-interpretation"
+    },
+    {
+      "id": "dl-obscure",
+      "word": "obscure",
+      "ipa": "/əbˈskjʊr/",
+      "pos": "adj.; v.",
+      "meaning": "鲜为人知的；难懂的；遮住；使难以看清或理解",
+      "level": "六级",
+      "topic": "argumentation",
+      "family": "argumentation-interpretation",
+      "phrases": [
+        {
+          "en": "an obscure reference",
+          "zh": "晦涩的引述"
+        },
+        {
+          "en": "obscure the meaning",
+          "zh": "使含义变得模糊"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The editor explained an obscure reference in a footnote.",
+          "zh": "编辑用脚注解释了一处晦涩的引述。",
+          "audio": "audio/obscure--1.wav"
+        },
+        {
+          "en": "Extra details can obscure the main point of a simple argument.",
+          "zh": "额外的细节可能让原本简单的论证变得主次不清。",
+          "audio": "audio/obscure--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/obscure.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "argumentation-meaning",
+      "concept": "argumentation-interpretation"
+    },
+    {
+      "id": "dl-premise",
+      "word": "premise",
+      "ipa": "/ˈpremɪs/",
+      "pos": "n.",
+      "meaning": "前提；立论依据",
+      "level": "六级",
+      "topic": "argumentation",
+      "family": "argumentation-inference",
+      "phrases": [
+        {
+          "en": "a false premise",
+          "zh": "错误的前提"
+        },
+        {
+          "en": "start from a premise",
+          "zh": "从一个前提出发"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The proposal rests on the premise that the hall is available on Fridays.",
+          "zh": "这项提议以礼堂每周五都能使用为前提。",
+          "audio": "audio/premise--1.wav"
+        },
+        {
+          "en": "If the first premise is wrong, the conclusion needs another justification.",
+          "zh": "如果第一个前提不成立，就要为结论另找依据。",
+          "audio": "audio/premise--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/premise.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "argumentation-reasoning",
+      "concept": "argumentation-inference"
+    },
+    {
+      "id": "dl-deduce",
+      "word": "deduce",
+      "ipa": "/dɪˈduːs/",
+      "pos": "v.",
+      "meaning": "推断；推导出",
+      "level": "六级",
+      "topic": "argumentation",
+      "family": "argumentation-inference",
+      "phrases": [
+        {
+          "en": "deduce from the evidence",
+          "zh": "根据证据推断"
+        },
+        {
+          "en": "deduce a result",
+          "zh": "推导出结果"
+        }
+      ],
+      "examples": [
+        {
+          "en": "We can deduce the order of events from the timestamps.",
+          "zh": "我们可以根据时间戳推断事件的先后顺序。",
+          "audio": "audio/deduce--1.wav"
+        },
+        {
+          "en": "The students used the first two equations to deduce the final result.",
+          "zh": "学生们用前两个方程推导出最终结果。",
+          "audio": "audio/deduce--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/deduce.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "argumentation-reasoning",
+      "concept": "argumentation-inference"
+    },
+    {
+      "id": "dl-presume",
+      "word": "presume",
+      "ipa": "/prɪˈzuːm/",
+      "pos": "v.",
+      "meaning": "推定；想当然地认为；擅自做",
+      "level": "六级",
+      "topic": "argumentation",
+      "family": "argumentation-inference",
+      "phrases": [
+        {
+          "en": "presume that",
+          "zh": "推定……"
+        },
+        {
+          "en": "presume to speak for",
+          "zh": "擅自代表……发言"
+        }
+      ],
+      "examples": [
+        {
+          "en": "We should not presume that every blank cell represents a zero.",
+          "zh": "我们不该想当然地认为每个空白单元格都代表零。",
+          "audio": "audio/presume--1.wav"
+        },
+        {
+          "en": "I would not presume to speak for everyone in the group.",
+          "zh": "我不会擅自代表组里的每个人发言。",
+          "audio": "audio/presume--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/presume.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "argumentation-reasoning",
+      "concept": "argumentation-inference"
+    },
+    {
+      "id": "dl-ascertain",
+      "word": "ascertain",
+      "ipa": "/ˌæsərˈteɪn/",
+      "pos": "v.",
+      "meaning": "查明；弄清；确定",
+      "level": "六级",
+      "topic": "argumentation",
+      "family": "argumentation-inference",
+      "phrases": [
+        {
+          "en": "ascertain the cause",
+          "zh": "查明原因"
+        },
+        {
+          "en": "ascertain whether",
+          "zh": "查明是否……"
+        }
+      ],
+      "examples": [
+        {
+          "en": "We called the venue to ascertain whether the hall was open.",
+          "zh": "我们给场地方打电话，确认礼堂是否开放。",
+          "audio": "audio/ascertain--1.wav"
+        },
+        {
+          "en": "Investigators could not ascertain the exact cause of the outage.",
+          "zh": "调查人员未能查明停电的确切原因。",
+          "audio": "audio/ascertain--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/ascertain.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "argumentation-reasoning",
+      "concept": "argumentation-inference"
+    },
+    {
+      "id": "dl-plausible",
+      "word": "plausible",
+      "ipa": "/ˈplɔːzəbəl/",
+      "pos": "adj.",
+      "meaning": "似乎合理的；貌似可信的",
+      "level": "六级",
+      "topic": "argumentation",
+      "family": "argumentation-inference",
+      "phrases": [
+        {
+          "en": "a plausible explanation",
+          "zh": "似乎合理的解释"
+        },
+        {
+          "en": "a plausible account",
+          "zh": "听起来可信的说法"
+        }
+      ],
+      "examples": [
+        {
+          "en": "A missing page is a plausible explanation for the gap.",
+          "zh": "缺了一页可能是出现这段空缺的合理解释。",
+          "audio": "audio/plausible--1.wav"
+        },
+        {
+          "en": "Her account sounded plausible until we compared it with the schedule.",
+          "zh": "她的说法听起来可信，直到我们拿它和日程表作了比对。",
+          "audio": "audio/plausible--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/plausible.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "argumentation-reasoning",
+      "concept": "argumentation-inference"
+    },
+    {
+      "id": "dl-discrepancy",
+      "word": "discrepancy",
+      "ipa": "/dɪˈskrepənsi/",
+      "pos": "n.",
+      "meaning": "差异；不一致之处",
+      "level": "六级",
+      "topic": "argumentation",
+      "family": "argumentation-checking",
+      "phrases": [
+        {
+          "en": "a discrepancy between",
+          "zh": "……之间的不一致"
+        },
+        {
+          "en": "explain a discrepancy",
+          "zh": "解释一处差异"
+        }
+      ],
+      "examples": [
+        {
+          "en": "We found a discrepancy between the receipt and the order form.",
+          "zh": "我们发现收据和订单有一处不一致。",
+          "audio": "audio/discrepancy--1.wav"
+        },
+        {
+          "en": "A late correction explains the discrepancy in the published totals.",
+          "zh": "发布的合计数不一致，是因为有一处更正来得较晚。",
+          "audio": "audio/discrepancy--2.wav"
+        }
+      ],
+      "forms": [
+        "复数 discrepancies"
+      ],
+      "audio": "audio/discrepancy.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "argumentation-reasoning",
+      "concept": "argumentation-checking"
+    },
+    {
+      "id": "dl-assert",
+      "word": "assert",
+      "ipa": "/əˈsɜːrt/",
+      "pos": "v.",
+      "meaning": "断言；坚称；主张或维护",
+      "level": "六级",
+      "topic": "argumentation",
+      "family": "argumentation-checking",
+      "phrases": [
+        {
+          "en": "assert a claim",
+          "zh": "坚称某个主张"
+        },
+        {
+          "en": "assert one's rights",
+          "zh": "维护自己的权利"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The authors assert that both methods give comparable results.",
+          "zh": "作者断言，两种方法得出的结果具有可比性。",
+          "audio": "audio/assert--1.wav"
+        },
+        {
+          "en": "The members met to discuss how to assert their rights.",
+          "zh": "成员们开会讨论如何维护自己的权利。",
+          "audio": "audio/assert--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/assert.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "argumentation-reasoning",
+      "concept": "argumentation-checking"
+    },
+    {
+      "id": "dl-concede",
+      "word": "concede",
+      "ipa": "/kənˈsiːd/",
+      "pos": "v.",
+      "meaning": "承认；让步；承认失败",
+      "level": "六级",
+      "topic": "argumentation",
+      "family": "cede-withdraw",
+      "phrases": [
+        {
+          "en": "concede a point",
+          "zh": "承认对方有一点说得对"
+        },
+        {
+          "en": "concede defeat",
+          "zh": "承认失败"
+        }
+      ],
+      "examples": [
+        {
+          "en": "I concede that our first estimate left out some costs.",
+          "zh": "我承认，我们最初的估算漏掉了一些费用。",
+          "audio": "audio/concede--1.wav"
+        },
+        {
+          "en": "The captain refused to concede defeat while there was time to score.",
+          "zh": "只要还有得分时间，队长就不肯认输。",
+          "audio": "audio/concede--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/concede.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "argumentation-reasoning",
+      "concept": "argumentation-checking"
+    },
+    {
+      "id": "dl-refute",
+      "word": "refute",
+      "ipa": "/rɪˈfjuːt/",
+      "pos": "v.",
+      "meaning": "用证据驳倒；证伪",
+      "level": "六级",
+      "topic": "argumentation",
+      "family": "argumentation-checking",
+      "phrases": [
+        {
+          "en": "refute a claim",
+          "zh": "驳倒一个说法"
+        },
+        {
+          "en": "refute an argument",
+          "zh": "驳倒一项论证"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The original recordings helped refute the claim about the interview.",
+          "zh": "原始录音帮助驳倒了关于这次采访的说法。",
+          "audio": "audio/refute--1.wav"
+        },
+        {
+          "en": "One clear counterexample is enough to refute a universal claim.",
+          "zh": "只要一个明确的反例，就足以驳倒一个全称命题。",
+          "audio": "audio/refute--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/refute.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "argumentation-reasoning",
+      "concept": "argumentation-checking"
+    },
+    {
+      "id": "dl-reconcile",
+      "word": "reconcile",
+      "ipa": "/ˈrekənsaɪl/",
+      "pos": "v.",
+      "meaning": "调和；使和解；核对并使一致",
+      "level": "六级",
+      "topic": "argumentation",
+      "family": "argumentation-checking",
+      "phrases": [
+        {
+          "en": "reconcile two accounts",
+          "zh": "核对并调和两种说法"
+        },
+        {
+          "en": "reconcile with",
+          "zh": "与……和解"
+        }
+      ],
+      "examples": [
+        {
+          "en": "We had to reconcile the survey figures with the attendance records.",
+          "zh": "我们得核对调查数据和出勤记录，找出并解决不一致之处。",
+          "audio": "audio/reconcile--1.wav"
+        },
+        {
+          "en": "It took months for the two neighbors to reconcile after the dispute.",
+          "zh": "争执过后，两位邻居花了几个月才和解。",
+          "audio": "audio/reconcile--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/reconcile.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "argumentation-reasoning",
+      "concept": "argumentation-checking"
+    },
+    {
+      "id": "dl-constituent",
+      "word": "constituent",
+      "ipa": "/kənˈstɪtʃuənt/",
+      "pos": "n.",
+      "meaning": "选区居民或选民；组成部分",
+      "level": "六级",
+      "topic": "public-institutions",
+      "family": "institutions-participation",
+      "phrases": [
+        {
+          "en": "hear from constituents",
+          "zh": "听取选区居民的意见"
+        },
+        {
+          "en": "a constituent of a mixture",
+          "zh": "混合物的一种成分"
+        }
+      ],
+      "examples": [
+        {
+          "en": "A constituent wrote to her representative about the bus service.",
+          "zh": "一位选区居民写信给她的代表，反映公交服务问题。",
+          "audio": "audio/constituent--1.wav"
+        },
+        {
+          "en": "Water is the main constituent of this sample.",
+          "zh": "水是这个样品的主要成分。",
+          "audio": "audio/constituent--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/constituent.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "institutions-policy",
+      "concept": "institutions-participation"
+    },
+    {
+      "id": "dl-electoral",
+      "word": "electoral",
+      "ipa": "/ɪˈlektərəl/",
+      "pos": "adj.",
+      "meaning": "选举的；与选举有关的",
+      "level": "六级",
+      "topic": "public-institutions",
+      "family": "institutions-participation",
+      "phrases": [
+        {
+          "en": "the electoral system",
+          "zh": "选举制度"
+        },
+        {
+          "en": "electoral boundaries",
+          "zh": "选区边界"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The guide explains how the electoral system converts votes into seats.",
+          "zh": "这份指南解释了选举制度如何把票数换算成席位。",
+          "audio": "audio/electoral--1.wav"
+        },
+        {
+          "en": "Changes to electoral boundaries may affect which district a voter belongs to.",
+          "zh": "选区边界调整可能影响选民所属的选区。",
+          "audio": "audio/electoral--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/electoral.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "institutions-policy",
+      "concept": "institutions-participation"
+    },
+    {
+      "id": "dl-referendum",
+      "word": "referendum",
+      "ipa": "/ˌrefərˈendəm/",
+      "pos": "n.",
+      "meaning": "全民公投；由选民直接表决的投票",
+      "level": "六级",
+      "topic": "public-institutions",
+      "family": "institutions-participation",
+      "phrases": [
+        {
+          "en": "hold a referendum",
+          "zh": "举行公投"
+        },
+        {
+          "en": "put a question to a referendum",
+          "zh": "把问题交由公投决定"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The city held a referendum on the proposed transport plan.",
+          "zh": "这座城市就拟议的交通方案举行了公投。",
+          "audio": "audio/referendum--1.wav"
+        },
+        {
+          "en": "In the referendum, voters answered a single question on the ballot.",
+          "zh": "这次公投中，选民在选票上只需回答一个问题。",
+          "audio": "audio/referendum--2.wav"
+        }
+      ],
+      "forms": [
+        "复数 referendums 或 referenda"
+      ],
+      "audio": "audio/referendum.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "institutions-policy",
+      "concept": "institutions-participation"
+    },
+    {
+      "id": "dl-faction",
+      "word": "faction",
+      "ipa": "/ˈfækʃən/",
+      "pos": "n.",
+      "meaning": "派别；派系",
+      "level": "六级",
+      "topic": "public-institutions",
+      "family": "institutions-participation",
+      "phrases": [
+        {
+          "en": "a rival faction",
+          "zh": "敌对派系"
+        },
+        {
+          "en": "a faction within the party",
+          "zh": "党内派系"
+        }
+      ],
+      "examples": [
+        {
+          "en": "A small faction within the committee opposed the compromise.",
+          "zh": "委员会内部的一个小派系反对这项折中方案。",
+          "audio": "audio/faction--1.wav"
+        },
+        {
+          "en": "Each faction sent a delegate to the meeting.",
+          "zh": "各派都派了一名代表参会。",
+          "audio": "audio/faction--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/faction.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "institutions-policy",
+      "concept": "institutions-participation"
+    },
+    {
+      "id": "dl-unanimous",
+      "word": "unanimous",
+      "ipa": "/juːˈnænɪməs/",
+      "pos": "adj.",
+      "meaning": "一致同意的；无异议的",
+      "level": "六级",
+      "topic": "public-institutions",
+      "family": "institutions-participation",
+      "phrases": [
+        {
+          "en": "a unanimous decision",
+          "zh": "一致通过的决定"
+        },
+        {
+          "en": "unanimous support",
+          "zh": "一致支持"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The vote was unanimous, although the debate lasted two hours.",
+          "zh": "讨论虽然持续了两个小时，表决却一致通过。",
+          "audio": "audio/unanimous--1.wav"
+        },
+        {
+          "en": "The proposal received unanimous support from the panel.",
+          "zh": "这项提议得到评审小组的一致支持。",
+          "audio": "audio/unanimous--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/unanimous.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "institutions-policy",
+      "concept": "institutions-participation"
+    },
+    {
+      "id": "dl-amend",
+      "word": "amend",
+      "ipa": "/əˈmend/",
+      "pos": "v.",
+      "meaning": "修订；修改",
+      "level": "六级",
+      "topic": "public-institutions",
+      "family": "institutions-legislation",
+      "phrases": [
+        {
+          "en": "amend a law",
+          "zh": "修订法律"
+        },
+        {
+          "en": "amend an agreement",
+          "zh": "修改协议"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The committee voted to amend the draft before sending it back.",
+          "zh": "委员会投票决定先修订草案，再将其发回。",
+          "audio": "audio/amend--1.wav"
+        },
+        {
+          "en": "Both sides agreed to amend the contract to reflect the new schedule.",
+          "zh": "双方同意修改合同，以反映新的时间安排。",
+          "audio": "audio/amend--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/amend.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "institutions-policy",
+      "concept": "institutions-legislation"
+    },
+    {
+      "id": "dl-enact",
+      "word": "enact",
+      "ipa": "/ɪˈnækt/",
+      "pos": "v.",
+      "meaning": "制定并使成为法律；表演",
+      "level": "六级",
+      "topic": "public-institutions",
+      "family": "institutions-legislation",
+      "phrases": [
+        {
+          "en": "enact a law",
+          "zh": "制定法律"
+        },
+        {
+          "en": "enact a scene",
+          "zh": "表演一个场景"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The council plans to enact a rule covering access to the hall.",
+          "zh": "议会计划制定一项关于礼堂使用的规定。",
+          "audio": "audio/enact--1.wav"
+        },
+        {
+          "en": "The students will enact a scene from the play before discussing it.",
+          "zh": "学生们会先表演剧中的一幕，再展开讨论。",
+          "audio": "audio/enact--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/enact.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "institutions-policy",
+      "concept": "institutions-legislation"
+    },
+    {
+      "id": "dl-ratify",
+      "word": "ratify",
+      "ipa": "/ˈrætəfaɪ/",
+      "pos": "v.",
+      "meaning": "正式批准；正式确认",
+      "level": "六级",
+      "topic": "public-institutions",
+      "family": "institutions-legislation",
+      "phrases": [
+        {
+          "en": "ratify a treaty",
+          "zh": "批准条约"
+        },
+        {
+          "en": "ratify an agreement",
+          "zh": "正式批准协议"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The treaty will take effect after the parties ratify it.",
+          "zh": "条约在各方正式批准后生效。",
+          "audio": "audio/ratify--1.wav"
+        },
+        {
+          "en": "Members met on Friday to ratify the revised agreement.",
+          "zh": "成员们周五开会，正式批准修订后的协议。",
+          "audio": "audio/ratify--2.wav"
+        }
+      ],
+      "forms": [
+        "过去式与过去分词 ratified"
+      ],
+      "audio": "audio/ratify.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "institutions-policy",
+      "concept": "institutions-legislation"
+    },
+    {
+      "id": "dl-statute",
+      "word": "statute",
+      "ipa": "/ˈstætʃuːt/",
+      "pos": "n.",
+      "meaning": "成文法；法令",
+      "level": "六级",
+      "topic": "public-institutions",
+      "family": "institutions-legislation",
+      "phrases": [
+        {
+          "en": "under a statute",
+          "zh": "依据一部成文法"
+        },
+        {
+          "en": "a statute governing something",
+          "zh": "规范某事的法令"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The historian compared the original statute with the later amendments.",
+          "zh": "历史学者比较了原法令和后来通过的修正条款。",
+          "audio": "audio/statute--1.wav"
+        },
+        {
+          "en": "The court had to decide how the statute applied to the dispute.",
+          "zh": "法院必须判断这部成文法如何适用于该争议。",
+          "audio": "audio/statute--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/statute.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "institutions-policy",
+      "concept": "institutions-legislation"
+    },
+    {
+      "id": "dl-stipulate",
+      "word": "stipulate",
+      "ipa": "/ˈstɪpjəleɪt/",
+      "pos": "v.",
+      "meaning": "明确规定；约定",
+      "level": "六级",
+      "topic": "public-institutions",
+      "family": "institutions-legislation",
+      "phrases": [
+        {
+          "en": "stipulate a deadline",
+          "zh": "规定截止时间"
+        },
+        {
+          "en": "stipulate that",
+          "zh": "明确规定……"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The rules stipulate that each entry must include a title.",
+          "zh": "规则明确规定，每份参赛作品都要有标题。",
+          "audio": "audio/stipulate--1.wav"
+        },
+        {
+          "en": "The parties did not stipulate a date for the next meeting.",
+          "zh": "各方没有约定下次会议的日期。",
+          "audio": "audio/stipulate--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/stipulate.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "institutions-policy",
+      "concept": "institutions-legislation"
+    },
+    {
+      "id": "dl-judicial",
+      "word": "judicial",
+      "ipa": "/dʒuːˈdɪʃəl/",
+      "pos": "adj.",
+      "meaning": "司法的；法院审理的",
+      "level": "六级",
+      "topic": "public-institutions",
+      "family": "institutions-evidence",
+      "phrases": [
+        {
+          "en": "judicial review",
+          "zh": "司法审查"
+        },
+        {
+          "en": "a judicial decision",
+          "zh": "司法裁决"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The association asked for judicial review of the decision.",
+          "zh": "该协会请求对这一决定进行司法审查。",
+          "audio": "audio/judicial--1.wav"
+        },
+        {
+          "en": "The archive includes records of judicial decisions from the period.",
+          "zh": "档案馆保存着那个时期的司法裁决记录。",
+          "audio": "audio/judicial--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/judicial.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "institutions-court",
+      "concept": "institutions-evidence"
+    },
+    {
+      "id": "dl-jurisdiction",
+      "word": "jurisdiction",
+      "ipa": "/ˌdʒʊrɪsˈdɪkʃən/",
+      "pos": "n.",
+      "meaning": "管辖权；管辖范围或区域",
+      "level": "六级",
+      "topic": "public-institutions",
+      "family": "institutions-evidence",
+      "phrases": [
+        {
+          "en": "within the jurisdiction of",
+          "zh": "在……的管辖范围内"
+        },
+        {
+          "en": "have jurisdiction over",
+          "zh": "对……有管辖权"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The two agencies disagreed over who had jurisdiction.",
+          "zh": "两个机构对谁拥有管辖权意见不一。",
+          "audio": "audio/jurisdiction--1.wav"
+        },
+        {
+          "en": "The court first considered whether the dispute fell within its jurisdiction.",
+          "zh": "法院首先考虑这起争议是否在其管辖范围之内。",
+          "audio": "audio/jurisdiction--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/jurisdiction.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "institutions-court",
+      "concept": "institutions-evidence"
+    },
+    {
+      "id": "dl-testify",
+      "word": "testify",
+      "ipa": "/ˈtestəfaɪ/",
+      "pos": "v.",
+      "meaning": "作证；证实",
+      "level": "六级",
+      "topic": "public-institutions",
+      "family": "test-witness",
+      "phrases": [
+        {
+          "en": "testify in court",
+          "zh": "出庭作证"
+        },
+        {
+          "en": "testify to something",
+          "zh": "证明某事"
+        }
+      ],
+      "examples": [
+        {
+          "en": "A technician agreed to testify about how the records were stored.",
+          "zh": "一名技术人员同意就这些记录的保存方式作证。",
+          "audio": "audio/testify--1.wav"
+        },
+        {
+          "en": "Several workers offered to testify in court about what they saw.",
+          "zh": "几名工人表示愿意出庭，就亲眼所见作证。",
+          "audio": "audio/testify--2.wav"
+        }
+      ],
+      "forms": [
+        "过去式与过去分词 testified"
+      ],
+      "audio": "audio/testify.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "institutions-court",
+      "concept": "institutions-evidence"
+    },
+    {
+      "id": "dl-testimony",
+      "word": "testimony",
+      "ipa": "/ˈtestəməni/",
+      "pos": "n.",
+      "meaning": "证词；证言；证明",
+      "level": "六级",
+      "topic": "public-institutions",
+      "family": "test-witness",
+      "phrases": [
+        {
+          "en": "give testimony",
+          "zh": "作证"
+        },
+        {
+          "en": "expert testimony",
+          "zh": "专家证言"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The witness gave testimony about the events before the fire.",
+          "zh": "证人就火灾发生前的情况作了证。",
+          "audio": "audio/testimony--1.wav"
+        },
+        {
+          "en": "The court compared the testimony with the timestamps in the security footage.",
+          "zh": "法院把证词和监控录像上的时间戳作了比较。",
+          "audio": "audio/testimony--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/testimony.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "institutions-court",
+      "concept": "institutions-evidence"
+    },
+    {
+      "id": "dl-verdict",
+      "word": "verdict",
+      "ipa": "/ˈvɜːrdɪkt/",
+      "pos": "n.",
+      "meaning": "裁决，尤指陪审团的裁决；评价",
+      "level": "六级",
+      "topic": "public-institutions",
+      "family": "dict",
+      "phrases": [
+        {
+          "en": "reach a verdict",
+          "zh": "作出裁决"
+        },
+        {
+          "en": "a unanimous verdict",
+          "zh": "一致作出的裁决"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The jury reached a verdict after reviewing the photographs.",
+          "zh": "陪审团在审查照片后作出了裁决。",
+          "audio": "audio/verdict--1.wav"
+        },
+        {
+          "en": "The reviewers' verdict was that the guide needed clearer maps.",
+          "zh": "评审们的结论是，这份指南需要更清楚的地图。",
+          "audio": "audio/verdict--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/verdict.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "institutions-court",
+      "concept": "institutions-evidence"
+    },
+    {
+      "id": "dl-lawsuit",
+      "word": "lawsuit",
+      "ipa": "/ˈlɔːsuːt/",
+      "pos": "n.",
+      "meaning": "诉讼；诉讼案件",
+      "level": "六级",
+      "topic": "public-institutions",
+      "family": "institutions-litigation",
+      "phrases": [
+        {
+          "en": "file a lawsuit",
+          "zh": "提起诉讼"
+        },
+        {
+          "en": "settle a lawsuit",
+          "zh": "和解了结诉讼"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The tenants filed a lawsuit over the deposit.",
+          "zh": "租户因押金纠纷提起了诉讼。",
+          "audio": "audio/lawsuit--1.wav"
+        },
+        {
+          "en": "Both sides agreed to settle the lawsuit before trial.",
+          "zh": "双方同意在开庭前通过和解了结诉讼。",
+          "audio": "audio/lawsuit--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/lawsuit.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "institutions-court",
+      "concept": "institutions-litigation"
+    },
+    {
+      "id": "dl-plaintiff",
+      "word": "plaintiff",
+      "ipa": "/ˈpleɪntɪf/",
+      "pos": "n.",
+      "meaning": "原告，尤指民事案件中的原告",
+      "level": "六级",
+      "topic": "public-institutions",
+      "family": "institutions-litigation",
+      "phrases": [
+        {
+          "en": "the plaintiff's lawyer",
+          "zh": "原告律师"
+        },
+        {
+          "en": "rule in favor of the plaintiff",
+          "zh": "判原告胜诉"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The plaintiff asked the court to order the return of the deposit.",
+          "zh": "原告请求法院下令退还押金。",
+          "audio": "audio/plaintiff--1.wav"
+        },
+        {
+          "en": "The plaintiff's lawyer presented the letters as evidence.",
+          "zh": "原告律师将这些信件作为证据出示。",
+          "audio": "audio/plaintiff--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/plaintiff.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "institutions-court",
+      "concept": "institutions-litigation"
+    },
+    {
+      "id": "dl-sue",
+      "word": "sue",
+      "ipa": "/suː/",
+      "pos": "v.",
+      "meaning": "起诉；提起民事诉讼",
+      "level": "六级",
+      "topic": "public-institutions",
+      "family": "institutions-litigation",
+      "phrases": [
+        {
+          "en": "sue for damages",
+          "zh": "起诉要求赔偿"
+        },
+        {
+          "en": "sue someone for something",
+          "zh": "因某事起诉某人"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The photographer decided to sue for damages after the image was used without permission.",
+          "zh": "照片未经许可被使用后，摄影师决定起诉索赔。",
+          "audio": "audio/sue--1.wav"
+        },
+        {
+          "en": "The firm chose to negotiate rather than sue its former partner.",
+          "zh": "这家公司选择与前合作伙伴谈判，而不是起诉对方。",
+          "audio": "audio/sue--2.wav"
+        }
+      ],
+      "forms": [
+        "过去式与过去分词 sued",
+        "现在分词 suing"
+      ],
+      "audio": "audio/sue.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "institutions-court",
+      "concept": "institutions-litigation"
+    },
+    {
+      "id": "dl-prosecute",
+      "word": "prosecute",
+      "ipa": "/ˈprɑːsɪkjuːt/",
+      "pos": "v.",
+      "meaning": "对……提起刑事诉讼；检控",
+      "level": "六级",
+      "topic": "public-institutions",
+      "family": "institutions-litigation",
+      "phrases": [
+        {
+          "en": "prosecute a suspect",
+          "zh": "对嫌疑人提起公诉"
+        },
+        {
+          "en": "prosecute a case",
+          "zh": "办理刑事控诉案件"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The authorities did not prosecute the case until they had reviewed the records.",
+          "zh": "有关部门审查记录后才就该案提起公诉。",
+          "audio": "audio/prosecute--1.wav"
+        },
+        {
+          "en": "The evidence was too limited to prosecute the suspect.",
+          "zh": "证据太有限，不足以对该嫌疑人提起公诉。",
+          "audio": "audio/prosecute--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/prosecute.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "institutions-court",
+      "concept": "institutions-litigation"
+    },
+    {
+      "id": "dl-convict",
+      "word": "convict",
+      "ipa": "/kənˈvɪkt/",
+      "pos": "v.",
+      "meaning": "判定……有罪；给……定罪",
+      "level": "六级",
+      "topic": "public-institutions",
+      "family": "institutions-litigation",
+      "phrases": [
+        {
+          "en": "convict someone of fraud",
+          "zh": "判定某人犯欺诈罪"
+        },
+        {
+          "en": "enough evidence to convict",
+          "zh": "足以定罪的证据"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The jury did not convict the defendant on that charge.",
+          "zh": "陪审团没有认定被告在该项指控上有罪。",
+          "audio": "audio/convict--1.wav"
+        },
+        {
+          "en": "The records helped convict two people of fraud.",
+          "zh": "这些记录为判定两人犯欺诈罪提供了帮助。",
+          "audio": "audio/convict--2.wav"
+        }
+      ],
+      "forms": [
+        "本卡主读音为动词 /kənˈvɪkt/",
+        "名词 convict 指已被定罪的人，读 /ˈkɑːnvɪkt/"
+      ],
+      "audio": "audio/convict.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "institutions-court",
+      "concept": "institutions-litigation"
+    },
+    {
+      "id": "dl-audit",
+      "word": "audit",
+      "ipa": "/ˈɔːdɪt/",
+      "pos": "n.; v.",
+      "meaning": "审计；审查账目或流程",
+      "level": "六级",
+      "topic": "public-institutions",
+      "family": "institutions-oversight",
+      "phrases": [
+        {
+          "en": "an independent audit",
+          "zh": "独立审计"
+        },
+        {
+          "en": "audit the accounts",
+          "zh": "审计账目"
+        }
+      ],
+      "examples": [
+        {
+          "en": "An independent audit found two duplicate payments.",
+          "zh": "一次独立审计发现了两笔重复付款。",
+          "audio": "audio/audit--1.wav"
+        },
+        {
+          "en": "The board asked an outside firm to audit the accounts.",
+          "zh": "董事会委托一家外部机构审计账目。",
+          "audio": "audio/audit--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/audit.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "institutions-regulation",
+      "concept": "institutions-oversight"
+    },
+    {
+      "id": "dl-scrutiny",
+      "word": "scrutiny",
+      "ipa": "/ˈskruːtəni/",
+      "pos": "n.",
+      "meaning": "仔细审查；细察",
+      "level": "六级",
+      "topic": "public-institutions",
+      "family": "institutions-oversight",
+      "phrases": [
+        {
+          "en": "under close scrutiny",
+          "zh": "受到严格审查"
+        },
+        {
+          "en": "come under scrutiny",
+          "zh": "受到审查"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The contract came under scrutiny after the figures were published.",
+          "zh": "数字公布后，这份合同受到仔细审查。",
+          "audio": "audio/scrutiny--1.wav"
+        },
+        {
+          "en": "Under closer scrutiny, the two signatures looked quite different.",
+          "zh": "仔细查看后发现，两个签名看起来很不一样。",
+          "audio": "audio/scrutiny--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/scrutiny.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "institutions-regulation",
+      "concept": "institutions-oversight"
+    },
+    {
+      "id": "dl-surveillance",
+      "word": "surveillance",
+      "ipa": "/sərˈveɪləns/",
+      "pos": "n.",
+      "meaning": "监视；监控",
+      "level": "六级",
+      "topic": "public-institutions",
+      "family": "institutions-oversight",
+      "phrases": [
+        {
+          "en": "video surveillance",
+          "zh": "视频监控"
+        },
+        {
+          "en": "under surveillance",
+          "zh": "处于监视之下"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The warehouse uses video surveillance at its loading entrance.",
+          "zh": "仓库在装卸入口使用视频监控。",
+          "audio": "audio/surveillance--1.wav"
+        },
+        {
+          "en": "The committee discussed limits on surveillance in shared spaces.",
+          "zh": "委员会讨论了对共用空间监控的限制。",
+          "audio": "audio/surveillance--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/surveillance.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "institutions-regulation",
+      "concept": "institutions-oversight"
+    },
+    {
+      "id": "dl-exempt",
+      "word": "exempt",
+      "ipa": "/ɪɡˈzempt/",
+      "pos": "adj.; v.",
+      "meaning": "获豁免的；免除……的义务",
+      "level": "六级",
+      "topic": "public-institutions",
+      "family": "institutions-oversight",
+      "phrases": [
+        {
+          "en": "be exempt from a fee",
+          "zh": "免缴一项费用"
+        },
+        {
+          "en": "exempt someone from a requirement",
+          "zh": "免除某人的一项义务"
+        }
+      ],
+      "examples": [
+        {
+          "en": "In this program, school groups are exempt from the booking fee.",
+          "zh": "在这个项目里，学校团体免交预约费。",
+          "audio": "audio/exempt--1.wav"
+        },
+        {
+          "en": "The policy can exempt small projects from the extra reporting requirement.",
+          "zh": "这项政策可以免除小型项目的额外报告义务。",
+          "audio": "audio/exempt--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/exempt.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "institutions-regulation",
+      "concept": "institutions-oversight"
+    },
+    {
+      "id": "dl-waive",
+      "word": "waive",
+      "ipa": "/weɪv/",
+      "pos": "v.",
+      "meaning": "放弃权利；免除费用或要求",
+      "level": "六级",
+      "topic": "public-institutions",
+      "family": "institutions-oversight",
+      "phrases": [
+        {
+          "en": "waive a fee",
+          "zh": "免除费用"
+        },
+        {
+          "en": "waive a right",
+          "zh": "放弃一项权利"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The museum agreed to waive the entry fee for school groups.",
+          "zh": "博物馆同意免收学校团体的门票费。",
+          "audio": "audio/waive--1.wav"
+        },
+        {
+          "en": "She did not want to waive her right to appeal.",
+          "zh": "她不愿放弃自己的上诉权。",
+          "audio": "audio/waive--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/waive.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "institutions-regulation",
+      "concept": "institutions-oversight"
+    },
+    {
+      "id": "dl-adhere",
+      "word": "adhere",
+      "ipa": "/ədˈhɪr/",
+      "pos": "v.",
+      "meaning": "黏附；遵守；坚持",
+      "level": "六级",
+      "topic": "public-institutions",
+      "family": "institutions-compliance",
+      "phrases": [
+        {
+          "en": "adhere to the rules",
+          "zh": "遵守规则"
+        },
+        {
+          "en": "adhere to a surface",
+          "zh": "黏附在表面上"
+        }
+      ],
+      "examples": [
+        {
+          "en": "All suppliers must adhere to the same reporting rules.",
+          "zh": "所有供应商都必须遵守同样的报告规定。",
+          "audio": "audio/adhere--1.wav"
+        },
+        {
+          "en": "The label will not adhere to a wet surface.",
+          "zh": "标签粘不住潮湿的表面。",
+          "audio": "audio/adhere--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/adhere.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "institutions-regulation",
+      "concept": "institutions-compliance"
+    },
+    {
+      "id": "dl-breach",
+      "word": "breach",
+      "ipa": "/briːtʃ/",
+      "pos": "n.; v.",
+      "meaning": "违反；违约；突破或缺口",
+      "level": "六级",
+      "topic": "public-institutions",
+      "family": "institutions-compliance",
+      "phrases": [
+        {
+          "en": "a breach of contract",
+          "zh": "违约"
+        },
+        {
+          "en": "a breach of security",
+          "zh": "安全防线被突破"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The dispute concerned an alleged breach of contract.",
+          "zh": "这起争议涉及一项被指称的违约行为。",
+          "audio": "audio/breach--1.wav"
+        },
+        {
+          "en": "Floodwater began to breach the barrier near the bridge.",
+          "zh": "洪水开始冲破桥附近的挡水屏障。",
+          "audio": "audio/breach--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/breach.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "institutions-regulation",
+      "concept": "institutions-compliance"
+    },
+    {
+      "id": "dl-infringe",
+      "word": "infringe",
+      "ipa": "/ɪnˈfrɪndʒ/",
+      "pos": "v.",
+      "meaning": "侵犯；违反",
+      "level": "六级",
+      "topic": "public-institutions",
+      "family": "institutions-compliance",
+      "phrases": [
+        {
+          "en": "infringe copyright",
+          "zh": "侵犯著作权"
+        },
+        {
+          "en": "infringe on privacy",
+          "zh": "侵犯隐私"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The publishers checked whether the images would infringe copyright.",
+          "zh": "出版方检查使用这些图片是否会侵犯著作权。",
+          "audio": "audio/infringe--1.wav"
+        },
+        {
+          "en": "New monitoring tools can infringe on privacy if used without clear limits.",
+          "zh": "新的监控工具若没有明确的使用限制，可能侵犯隐私。",
+          "audio": "audio/infringe--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/infringe.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "institutions-regulation",
+      "concept": "institutions-compliance"
+    },
+    {
+      "id": "dl-deter",
+      "word": "deter",
+      "ipa": "/dɪˈtɜːr/",
+      "pos": "v.",
+      "meaning": "阻止；使打消念头",
+      "level": "六级",
+      "topic": "public-institutions",
+      "family": "institutions-compliance",
+      "phrases": [
+        {
+          "en": "deter theft",
+          "zh": "防止盗窃"
+        },
+        {
+          "en": "deter someone from doing something",
+          "zh": "使某人打消做某事的念头"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Better lighting may help deter theft near the bicycle racks.",
+          "zh": "改善自行车架附近的照明可能有助于防盗。",
+          "audio": "audio/deter--1.wav"
+        },
+        {
+          "en": "The steep fee could deter people from applying.",
+          "zh": "高额费用可能会让人打消申请的念头。",
+          "audio": "audio/deter--2.wav"
+        }
+      ],
+      "forms": [
+        "过去式与过去分词 deterred",
+        "现在分词 deterring"
+      ],
+      "audio": "audio/deter.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "institutions-regulation",
+      "concept": "institutions-compliance"
+    },
+    {
+      "id": "dl-rectify",
+      "word": "rectify",
+      "ipa": "/ˈrektəfaɪ/",
+      "pos": "v.",
+      "meaning": "纠正；补救",
+      "level": "六级",
+      "topic": "public-institutions",
+      "family": "institutions-compliance",
+      "phrases": [
+        {
+          "en": "rectify an error",
+          "zh": "纠正错误"
+        },
+        {
+          "en": "rectify a problem",
+          "zh": "解决问题"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The team worked overnight to rectify the mistake in the records.",
+          "zh": "团队连夜纠正记录中的错误。",
+          "audio": "audio/rectify--1.wav"
+        },
+        {
+          "en": "The supplier has promised to rectify the problem before the next delivery.",
+          "zh": "供应商承诺在下一次交货前解决这个问题。",
+          "audio": "audio/rectify--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/rectify.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "institutions-regulation",
+      "concept": "institutions-compliance"
+    },
+    {
+      "id": "dl-fiscal",
+      "word": "fiscal",
+      "ipa": "/ˈfɪskəl/",
+      "pos": "adj.",
+      "meaning": "财政的；财务的",
+      "level": "六级",
+      "topic": "commerce",
+      "family": "commerce-finance",
+      "phrases": [
+        {
+          "en": "fiscal policy",
+          "zh": "财政政策"
+        },
+        {
+          "en": "the fiscal year",
+          "zh": "财政年度或会计年度"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The report summarizes spending in the last fiscal year.",
+          "zh": "这份报告概述了上一财政年度的支出。",
+          "audio": "audio/fiscal--1.wav"
+        },
+        {
+          "en": "The debate focused on fiscal policy rather than interest rates.",
+          "zh": "讨论集中在财政政策，而不是利率上。",
+          "audio": "audio/fiscal--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/fiscal.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "commerce-markets",
+      "concept": "commerce-finance"
+    },
+    {
+      "id": "dl-treasury",
+      "word": "treasury",
+      "ipa": "/ˈtreʒəri/",
+      "pos": "n.",
+      "meaning": "国库；财政部门；资金库",
+      "level": "六级",
+      "topic": "commerce",
+      "family": "commerce-finance",
+      "phrases": [
+        {
+          "en": "the public treasury",
+          "zh": "公共财政资金"
+        },
+        {
+          "en": "a treasury official",
+          "zh": "财政部门官员"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The treasury published a summary of public spending.",
+          "zh": "财政部门公布了一份公共支出摘要。",
+          "audio": "audio/treasury--1.wav"
+        },
+        {
+          "en": "The funds were returned to the public treasury at the end of the project.",
+          "zh": "项目结束时，剩余资金退回了国库。",
+          "audio": "audio/treasury--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/treasury.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "commerce-markets",
+      "concept": "commerce-finance"
+    },
+    {
+      "id": "dl-levy",
+      "word": "levy",
+      "ipa": "/ˈlevi/",
+      "pos": "v.; n.",
+      "meaning": "征收；征收的税费",
+      "level": "六级",
+      "topic": "commerce",
+      "family": "commerce-finance",
+      "phrases": [
+        {
+          "en": "levy a tax on",
+          "zh": "对……征税"
+        },
+        {
+          "en": "a levy on imports",
+          "zh": "对进口商品征收的税费"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The proposal would levy a fee on heavy vehicles entering the port.",
+          "zh": "该提议将向进入港口的重型车辆收费。",
+          "audio": "audio/levy--1.wav"
+        },
+        {
+          "en": "The new levy appears as a separate line on the bill.",
+          "zh": "新征收的费用在账单上单独列了一项。",
+          "audio": "audio/levy--2.wav"
+        }
+      ],
+      "forms": [
+        "复数或第三人称单数 levies",
+        "过去式与过去分词 levied"
+      ],
+      "audio": "audio/levy.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "commerce-markets",
+      "concept": "commerce-finance"
+    },
+    {
+      "id": "dl-tariff",
+      "word": "tariff",
+      "ipa": "/ˈtærɪf/",
+      "pos": "n.",
+      "meaning": "关税；收费标准",
+      "level": "六级",
+      "topic": "commerce",
+      "family": "commerce-finance",
+      "phrases": [
+        {
+          "en": "a tariff on imports",
+          "zh": "进口关税"
+        },
+        {
+          "en": "reduce a tariff",
+          "zh": "降低关税"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The report compares the tariff on imported shoes with the tariff on leather.",
+          "zh": "这份报告比较了进口鞋和进口皮革的关税。",
+          "audio": "audio/tariff--1.wav"
+        },
+        {
+          "en": "The company included the tariff when estimating the cost of the parts.",
+          "zh": "公司估算零件成本时把关税也算了进去。",
+          "audio": "audio/tariff--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/tariff.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "commerce-markets",
+      "concept": "commerce-finance"
+    },
+    {
+      "id": "dl-subsidy",
+      "word": "subsidy",
+      "ipa": "/ˈsʌbsɪdi/",
+      "pos": "n.",
+      "meaning": "补贴；补助金",
+      "level": "六级",
+      "topic": "commerce",
+      "family": "commerce-finance",
+      "phrases": [
+        {
+          "en": "a government subsidy",
+          "zh": "政府补贴"
+        },
+        {
+          "en": "receive a subsidy",
+          "zh": "获得补贴"
+        }
+      ],
+      "examples": [
+        {
+          "en": "A small subsidy helped the theater keep ticket prices low.",
+          "zh": "一笔小额补贴帮助剧院维持较低的票价。",
+          "audio": "audio/subsidy--1.wav"
+        },
+        {
+          "en": "The report explains how the subsidy is divided among the schools.",
+          "zh": "报告说明这笔补助金如何分给各所学校。",
+          "audio": "audio/subsidy--2.wav"
+        }
+      ],
+      "forms": [
+        "复数 subsidies"
+      ],
+      "audio": "audio/subsidy.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "commerce-markets",
+      "concept": "commerce-finance"
+    },
+    {
+      "id": "dl-embargo",
+      "word": "embargo",
+      "ipa": "/ɪmˈbɑːrɡoʊ/",
+      "pos": "n.; v.",
+      "meaning": "禁运；限制发布；禁止贸易或发布",
+      "level": "六级",
+      "topic": "commerce",
+      "family": "commerce-trade",
+      "phrases": [
+        {
+          "en": "impose a trade embargo",
+          "zh": "实施贸易禁运"
+        },
+        {
+          "en": "lift an embargo",
+          "zh": "解除禁运或发布限制"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The trade embargo forced suppliers to find other markets.",
+          "zh": "贸易禁运迫使供应商寻找其他市场。",
+          "audio": "audio/embargo--1.wav"
+        },
+        {
+          "en": "The editor kept the report under embargo until the announcement.",
+          "zh": "编辑在消息正式公布前没有发布这份报告。",
+          "audio": "audio/embargo--2.wav"
+        }
+      ],
+      "forms": [
+        "复数 embargoes"
+      ],
+      "audio": "audio/embargo.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "commerce-markets",
+      "concept": "commerce-trade"
+    },
+    {
+      "id": "dl-bilateral",
+      "word": "bilateral",
+      "ipa": "/baɪˈlætərəl/",
+      "pos": "adj.",
+      "meaning": "双边的；双方的；两侧的",
+      "level": "六级",
+      "topic": "commerce",
+      "family": "lateral-parties",
+      "phrases": [
+        {
+          "en": "a bilateral agreement",
+          "zh": "双边协议"
+        },
+        {
+          "en": "bilateral talks",
+          "zh": "双边会谈"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The two universities signed a bilateral agreement on student exchanges.",
+          "zh": "这两所大学签署了学生交流的双边协议。",
+          "audio": "audio/bilateral--1.wav"
+        },
+        {
+          "en": "The countries held bilateral talks before the larger meeting.",
+          "zh": "在更大范围的会议之前，这两个国家举行了双边会谈。",
+          "audio": "audio/bilateral--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/bilateral.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "commerce-markets",
+      "concept": "commerce-trade"
+    },
+    {
+      "id": "dl-multilateral",
+      "word": "multilateral",
+      "ipa": "/ˌmʌltɪˈlætərəl/",
+      "pos": "adj.",
+      "meaning": "多边的；多方参与的",
+      "level": "六级",
+      "topic": "commerce",
+      "family": "lateral-parties",
+      "phrases": [
+        {
+          "en": "a multilateral agreement",
+          "zh": "多边协议"
+        },
+        {
+          "en": "multilateral negotiations",
+          "zh": "多边谈判"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Several countries joined the multilateral talks on shipping rules.",
+          "zh": "多个国家加入了关于航运规则的多边会谈。",
+          "audio": "audio/multilateral--1.wav"
+        },
+        {
+          "en": "The project grew out of a multilateral agreement among the five partners.",
+          "zh": "这个项目源自五个合作方达成的多边协议。",
+          "audio": "audio/multilateral--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/multilateral.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "commerce-markets",
+      "concept": "commerce-trade"
+    },
+    {
+      "id": "dl-merchandise",
+      "word": "merchandise",
+      "ipa": "/ˈmɜːrtʃəndaɪz/",
+      "pos": "n.",
+      "meaning": "商品；货品",
+      "level": "六级",
+      "topic": "commerce",
+      "family": "commerce-trade",
+      "phrases": [
+        {
+          "en": "unsold merchandise",
+          "zh": "未售出的商品"
+        },
+        {
+          "en": "display merchandise",
+          "zh": "陈列商品"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The shop returned its unsold merchandise to the supplier.",
+          "zh": "商店把未售出的商品退给了供应商。",
+          "audio": "audio/merchandise--1.wav"
+        },
+        {
+          "en": "The museum sells merchandise inspired by its collection.",
+          "zh": "博物馆出售以馆藏为灵感设计的商品。",
+          "audio": "audio/merchandise--2.wav"
+        }
+      ],
+      "forms": [
+        "作商品义时通常不可数",
+        "本卡名词词尾读 /z/，名词也可读 /s/"
+      ],
+      "audio": "audio/merchandise.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "commerce-markets",
+      "concept": "commerce-trade"
+    },
+    {
+      "id": "dl-wholesale",
+      "word": "wholesale",
+      "ipa": "/ˈhoʊlseɪl/",
+      "pos": "adj.; adv.; n.",
+      "meaning": "批发的；以批发方式；批发",
+      "level": "六级",
+      "topic": "commerce",
+      "family": "commerce-trade",
+      "phrases": [
+        {
+          "en": "a wholesale price",
+          "zh": "批发价"
+        },
+        {
+          "en": "buy wholesale",
+          "zh": "批发购买"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The cafe buys its paper cups wholesale.",
+          "zh": "这家咖啡馆通过批发渠道购买纸杯。",
+          "audio": "audio/wholesale--1.wav"
+        },
+        {
+          "en": "The wholesale price does not include delivery.",
+          "zh": "批发价不含送货费。",
+          "audio": "audio/wholesale--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/wholesale.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "commerce-markets",
+      "concept": "commerce-trade"
+    },
+    {
+      "id": "dl-affiliate",
+      "word": "affiliate",
+      "ipa": "/əˈfɪliət/",
+      "pos": "n.",
+      "meaning": "附属机构；关联机构",
+      "level": "六级",
+      "topic": "commerce",
+      "family": "commerce-enterprises",
+      "phrases": [
+        {
+          "en": "a local affiliate",
+          "zh": "当地的附属机构"
+        },
+        {
+          "en": "an affiliate of",
+          "zh": "……的关联机构"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The program is run by a local affiliate of the charity.",
+          "zh": "该项目由这家慈善机构在当地的一个分支运营。",
+          "audio": "audio/affiliate--1.wav"
+        },
+        {
+          "en": "The regional affiliate handles requests from smaller retailers.",
+          "zh": "这家区域附属机构负责处理小型零售商的需求。",
+          "audio": "audio/affiliate--2.wav"
+        }
+      ],
+      "forms": [
+        "本卡主读音为名词 /əˈfɪliət/",
+        "动词 affiliate 表示使建立关联，词尾读 /eɪt/"
+      ],
+      "audio": "audio/affiliate.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "commerce-organization",
+      "concept": "commerce-enterprises"
+    },
+    {
+      "id": "dl-franchise",
+      "word": "franchise",
+      "ipa": "/ˈfræntʃaɪz/",
+      "pos": "n.; v.",
+      "meaning": "特许经营权；特许经营店；授予特许经营权",
+      "level": "六级",
+      "topic": "commerce",
+      "family": "commerce-enterprises",
+      "phrases": [
+        {
+          "en": "run a franchise",
+          "zh": "经营一家加盟店"
+        },
+        {
+          "en": "grant a franchise",
+          "zh": "授予特许经营权"
+        }
+      ],
+      "examples": [
+        {
+          "en": "She runs a bakery franchise near the station.",
+          "zh": "她在车站附近经营一家连锁面包店的加盟门店。",
+          "audio": "audio/franchise--1.wav"
+        },
+        {
+          "en": "The founders chose to franchise the business rather than open every branch themselves.",
+          "zh": "创办者选择通过特许经营扩张，而不是亲自开设每家分店。",
+          "audio": "audio/franchise--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/franchise.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "commerce-organization",
+      "concept": "commerce-enterprises"
+    },
+    {
+      "id": "dl-monopoly",
+      "word": "monopoly",
+      "ipa": "/məˈnɑːpəli/",
+      "pos": "n.",
+      "meaning": "垄断；独占；垄断企业",
+      "level": "六级",
+      "topic": "commerce",
+      "family": "commerce-enterprises",
+      "phrases": [
+        {
+          "en": "a monopoly on",
+          "zh": "对……的垄断"
+        },
+        {
+          "en": "break a monopoly",
+          "zh": "打破垄断"
+        }
+      ],
+      "examples": [
+        {
+          "en": "For years one supplier held a monopoly on deliveries to the island.",
+          "zh": "多年来，一家供应商垄断了通往这座岛的货运业务。",
+          "audio": "audio/monopoly--1.wav"
+        },
+        {
+          "en": "A second provider finally broke the monopoly in the town.",
+          "zh": "第二家服务商终于打破了镇上的垄断局面。",
+          "audio": "audio/monopoly--2.wav"
+        }
+      ],
+      "forms": [
+        "复数 monopolies"
+      ],
+      "audio": "audio/monopoly.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "commerce-organization",
+      "concept": "commerce-enterprises"
+    },
+    {
+      "id": "dl-merge",
+      "word": "merge",
+      "ipa": "/mɜːrdʒ/",
+      "pos": "v.",
+      "meaning": "合并；融合；汇入",
+      "level": "六级",
+      "topic": "commerce",
+      "family": "commerce-enterprises",
+      "phrases": [
+        {
+          "en": "merge with another company",
+          "zh": "与另一家公司合并"
+        },
+        {
+          "en": "merge two files",
+          "zh": "合并两个文件"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The two firms plan to merge after a year of negotiations.",
+          "zh": "经过一年的谈判，两家公司计划合并。",
+          "audio": "audio/merge--1.wav"
+        },
+        {
+          "en": "Please merge the two lists before removing duplicates.",
+          "zh": "请先合并两份清单，再去除重复项。",
+          "audio": "audio/merge--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/merge.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "commerce-organization",
+      "concept": "commerce-enterprises"
+    },
+    {
+      "id": "dl-portfolio",
+      "word": "portfolio",
+      "ipa": "/pɔːrtˈfoʊlioʊ/",
+      "pos": "n.",
+      "meaning": "投资组合；作品集",
+      "level": "六级",
+      "topic": "commerce",
+      "family": "commerce-enterprises",
+      "phrases": [
+        {
+          "en": "an investment portfolio",
+          "zh": "投资组合"
+        },
+        {
+          "en": "a design portfolio",
+          "zh": "设计作品集"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Bonds made up a small part of the fund's portfolio.",
+          "zh": "债券在这只基金的投资组合里占了一小部分。",
+          "audio": "audio/portfolio--1.wav"
+        },
+        {
+          "en": "Her portfolio includes work from three design projects.",
+          "zh": "她的作品集收录了三个设计项目的成果。",
+          "audio": "audio/portfolio--2.wav"
+        }
+      ],
+      "forms": [
+        "复数 portfolios"
+      ],
+      "audio": "audio/portfolio.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "commerce-organization",
+      "concept": "commerce-enterprises"
+    },
+    {
+      "id": "dl-dividend",
+      "word": "dividend",
+      "ipa": "/ˈdɪvɪdend/",
+      "pos": "n.",
+      "meaning": "股息；红利；被除数",
+      "level": "六级",
+      "topic": "commerce",
+      "family": "commerce-returns",
+      "phrases": [
+        {
+          "en": "pay a dividend",
+          "zh": "派发股息"
+        },
+        {
+          "en": "a cash dividend",
+          "zh": "现金股息"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The board voted to pay a dividend at the end of the quarter.",
+          "zh": "董事会投票决定在季度末派发股息。",
+          "audio": "audio/dividend--1.wav"
+        },
+        {
+          "en": "In the division problem, the dividend is the number being divided.",
+          "zh": "在这道除法题里，dividend 指被除数。",
+          "audio": "audio/dividend--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/dividend.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "commerce-organization",
+      "concept": "commerce-returns"
+    },
+    {
+      "id": "dl-lucrative",
+      "word": "lucrative",
+      "ipa": "/ˈluːkrətɪv/",
+      "pos": "adj.",
+      "meaning": "利润丰厚的；赚钱的",
+      "level": "六级",
+      "topic": "commerce",
+      "family": "commerce-returns",
+      "phrases": [
+        {
+          "en": "a lucrative contract",
+          "zh": "利润丰厚的合同"
+        },
+        {
+          "en": "a lucrative market",
+          "zh": "有利可图的市场"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Repairing old cameras became a lucrative side business for him.",
+          "zh": "修理旧相机成了他收入颇丰的副业。",
+          "audio": "audio/lucrative--1.wav"
+        },
+        {
+          "en": "The small firm won a lucrative contract to supply parts.",
+          "zh": "这家小公司拿到了一份利润丰厚的零件供应合同。",
+          "audio": "audio/lucrative--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/lucrative.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "commerce-organization",
+      "concept": "commerce-returns"
+    },
+    {
+      "id": "dl-depreciate",
+      "word": "depreciate",
+      "ipa": "/dɪˈpriːʃieɪt/",
+      "pos": "v.",
+      "meaning": "贬值；计提折旧",
+      "level": "六级",
+      "topic": "commerce",
+      "family": "commerce-returns",
+      "phrases": [
+        {
+          "en": "depreciate over time",
+          "zh": "随时间贬值"
+        },
+        {
+          "en": "depreciate an asset",
+          "zh": "对一项资产计提折旧"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The company expects the equipment to depreciate over time.",
+          "zh": "公司预计这批设备会随时间贬值。",
+          "audio": "audio/depreciate--1.wav"
+        },
+        {
+          "en": "In the accounting exercise, students depreciate the equipment over five years.",
+          "zh": "在这道会计练习里，学生按五年对设备计提折旧。",
+          "audio": "audio/depreciate--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/depreciate.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "commerce-organization",
+      "concept": "commerce-returns"
+    },
+    {
+      "id": "dl-volatile",
+      "word": "volatile",
+      "ipa": "/ˈvɑːlətəl/",
+      "pos": "adj.",
+      "meaning": "波动剧烈的；不稳定的；易挥发的",
+      "level": "六级",
+      "topic": "commerce",
+      "family": "commerce-returns",
+      "phrases": [
+        {
+          "en": "a volatile market",
+          "zh": "波动剧烈的市场"
+        },
+        {
+          "en": "a volatile liquid",
+          "zh": "易挥发的液体"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Demand for the product remained volatile throughout the trial.",
+          "zh": "整个试销期间，产品需求一直波动很大。",
+          "audio": "audio/volatile--1.wav"
+        },
+        {
+          "en": "The sample contained a volatile liquid that evaporated quickly in the open air.",
+          "zh": "样品里有一种易挥发的液体，接触空气后很快蒸发。",
+          "audio": "audio/volatile--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/volatile.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "commerce-organization",
+      "concept": "commerce-returns"
+    },
+    {
+      "id": "dl-turnover",
+      "word": "turnover",
+      "ipa": "/ˈtɜːrnoʊvər/",
+      "pos": "n.",
+      "meaning": "营业额；人员流动率；周转",
+      "level": "六级",
+      "topic": "commerce",
+      "family": "commerce-returns",
+      "phrases": [
+        {
+          "en": "annual turnover",
+          "zh": "年营业额"
+        },
+        {
+          "en": "staff turnover",
+          "zh": "员工流动率"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Annual turnover rose even though the store shortened its opening hours.",
+          "zh": "尽管商店缩短了营业时间，年营业额仍然上涨了。",
+          "audio": "audio/turnover--1.wav"
+        },
+        {
+          "en": "High staff turnover made it hard to build a stable team.",
+          "zh": "员工流动率高，很难建立一支稳定的团队。",
+          "audio": "audio/turnover--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/turnover.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "commerce-organization",
+      "concept": "commerce-returns"
+    },
+    {
+      "id": "dl-inventory",
+      "word": "inventory",
+      "ipa": "/ˈɪnvəntɔːri/",
+      "pos": "n.",
+      "meaning": "库存；存货；物品清单",
+      "level": "六级",
+      "topic": "commerce",
+      "family": "commerce-operations",
+      "phrases": [
+        {
+          "en": "take inventory",
+          "zh": "盘点库存"
+        },
+        {
+          "en": "an inventory of equipment",
+          "zh": "设备清单"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Staff took inventory after the last delivery on Friday.",
+          "zh": "周五最后一批货送到后，员工盘点了库存。",
+          "audio": "audio/inventory--1.wav"
+        },
+        {
+          "en": "The inventory lists a serial number for each piece of equipment.",
+          "zh": "清单为每件设备列出了序列号。",
+          "audio": "audio/inventory--2.wav"
+        }
+      ],
+      "forms": [
+        "复数 inventories"
+      ],
+      "audio": "audio/inventory.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "commerce-management",
+      "concept": "commerce-operations"
+    },
+    {
+      "id": "dl-logistics",
+      "word": "logistics",
+      "ipa": "/ləˈdʒɪstɪks/",
+      "pos": "n.",
+      "meaning": "物流；组织安排",
+      "level": "六级",
+      "topic": "commerce",
+      "family": "commerce-operations",
+      "phrases": [
+        {
+          "en": "a logistics company",
+          "zh": "物流公司"
+        },
+        {
+          "en": "handle the logistics",
+          "zh": "负责组织安排"
+        }
+      ],
+      "examples": [
+        {
+          "en": "A local company handles the logistics for the online shop.",
+          "zh": "一家当地公司负责这家网店的物流。",
+          "audio": "audio/logistics--1.wav"
+        },
+        {
+          "en": "The team discussed the logistics of moving the exhibition to another city.",
+          "zh": "团队讨论了把展览移到另一座城市的组织安排。",
+          "audio": "audio/logistics--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/logistics.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "commerce-management",
+      "concept": "commerce-operations"
+    },
+    {
+      "id": "dl-depot",
+      "word": "depot",
+      "ipa": "/ˈdiːpoʊ/",
+      "pos": "n.",
+      "meaning": "货物仓库；车辆场站",
+      "level": "六级",
+      "topic": "commerce",
+      "family": "commerce-operations",
+      "phrases": [
+        {
+          "en": "a bus depot",
+          "zh": "公交车场站"
+        },
+        {
+          "en": "a distribution depot",
+          "zh": "配送仓库"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The buses return to the depot at the end of the day.",
+          "zh": "每天收班后，公交车返回场站。",
+          "audio": "audio/depot--1.wav"
+        },
+        {
+          "en": "Orders are packed at the depot before being sent to the shops.",
+          "zh": "订单商品先在配送仓库打包，再运往各家门店。",
+          "audio": "audio/depot--2.wav"
+        }
+      ],
+      "forms": [
+        "本卡美音 /ˈdiːpoʊ/，末尾 t 不发音"
+      ],
+      "audio": "audio/depot.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "commerce-management",
+      "concept": "commerce-operations"
+    },
+    {
+      "id": "dl-streamline",
+      "word": "streamline",
+      "ipa": "/ˈstriːmlaɪn/",
+      "pos": "v.",
+      "meaning": "简化流程；使更高效；使呈流线型",
+      "level": "六级",
+      "topic": "commerce",
+      "family": "commerce-operations",
+      "phrases": [
+        {
+          "en": "streamline a process",
+          "zh": "简化流程"
+        },
+        {
+          "en": "streamline operations",
+          "zh": "精简运营流程"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The new form helped streamline the process for returning goods.",
+          "zh": "新表单简化了退货流程。",
+          "audio": "audio/streamline--1.wav"
+        },
+        {
+          "en": "The team removed duplicate checks to streamline daily operations.",
+          "zh": "团队去掉了重复的检查步骤，让日常运营更高效。",
+          "audio": "audio/streamline--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/streamline.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "commerce-management",
+      "concept": "commerce-operations"
+    },
+    {
+      "id": "dl-allot",
+      "word": "allot",
+      "ipa": "/əˈlɑːt/",
+      "pos": "v.",
+      "meaning": "分配；划拨",
+      "level": "六级",
+      "topic": "commerce",
+      "family": "commerce-operations",
+      "phrases": [
+        {
+          "en": "allot time to a task",
+          "zh": "为任务分配时间"
+        },
+        {
+          "en": "allot funds to a project",
+          "zh": "为项目划拨资金"
+        }
+      ],
+      "examples": [
+        {
+          "en": "We can allot one hour to each part of the workshop.",
+          "zh": "我们可以给工作坊的每个环节分配一小时。",
+          "audio": "audio/allot--1.wav"
+        },
+        {
+          "en": "The committee will allot extra funds to the repairs.",
+          "zh": "委员会将为维修项目划拨额外资金。",
+          "audio": "audio/allot--2.wav"
+        }
+      ],
+      "forms": [
+        "过去式与过去分词 allotted",
+        "现在分词 allotting"
+      ],
+      "audio": "audio/allot.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "commerce-management",
+      "concept": "commerce-operations"
+    },
+    {
+      "id": "dl-default",
+      "word": "default",
+      "ipa": "/dɪˈfɔːlt/",
+      "pos": "n.; v.",
+      "meaning": "违约；不履行义务；默认设置",
+      "level": "六级",
+      "topic": "commerce",
+      "family": "commerce-transactions",
+      "phrases": [
+        {
+          "en": "default on a loan",
+          "zh": "贷款违约"
+        },
+        {
+          "en": "by default",
+          "zh": "默认情况下"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The business could default on its loan if it missed another payment.",
+          "zh": "如果企业再漏还一期贷款，就可能构成违约。",
+          "audio": "audio/default--1.wav"
+        },
+        {
+          "en": "By default, the app saves a copy on the device.",
+          "zh": "在默认设置下，应用会把副本保存在设备上。",
+          "audio": "audio/default--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/default.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "commerce-management",
+      "concept": "commerce-transactions"
+    },
+    {
+      "id": "dl-refund",
+      "word": "refund",
+      "ipa": "/ˈriːfʌnd/",
+      "pos": "n.",
+      "meaning": "退款；退还的款项",
+      "level": "六级",
+      "topic": "commerce",
+      "family": "commerce-transactions",
+      "phrases": [
+        {
+          "en": "request a refund",
+          "zh": "申请退款"
+        },
+        {
+          "en": "a full refund",
+          "zh": "全额退款"
+        }
+      ],
+      "examples": [
+        {
+          "en": "She requested a refund after the class was canceled.",
+          "zh": "课程取消后，她申请了退款。",
+          "audio": "audio/refund--1.wav"
+        },
+        {
+          "en": "The receipt shows that the refund includes the delivery fee.",
+          "zh": "收据显示，退款包含送货费。",
+          "audio": "audio/refund--2.wav"
+        }
+      ],
+      "forms": [
+        "本卡主读音为名词 /ˈriːfʌnd/",
+        "动词 refund 表示退款，常读 /rɪˈfʌnd/"
+      ],
+      "audio": "audio/refund.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "commerce-management",
+      "concept": "commerce-transactions"
+    },
+    {
+      "id": "dl-warranty",
+      "word": "warranty",
+      "ipa": "/ˈwɔːrənti/",
+      "pos": "n.",
+      "meaning": "保修；保修凭证；保证条款",
+      "level": "六级",
+      "topic": "commerce",
+      "family": "commerce-transactions",
+      "phrases": [
+        {
+          "en": "under warranty",
+          "zh": "在保修期内"
+        },
+        {
+          "en": "a limited warranty",
+          "zh": "有限保修"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The technician checked whether the device was still under warranty.",
+          "zh": "技术人员检查这台设备是否还在保修期内。",
+          "audio": "audio/warranty--1.wav"
+        },
+        {
+          "en": "Keep the warranty with the receipt in case you need a repair.",
+          "zh": "把保修凭证和收据放在一起，以备需要维修时使用。",
+          "audio": "audio/warranty--2.wav"
+        }
+      ],
+      "forms": [
+        "复数 warranties"
+      ],
+      "audio": "audio/warranty.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "commerce-management",
+      "concept": "commerce-transactions"
+    },
+    {
+      "id": "dl-premium",
+      "word": "premium",
+      "ipa": "/ˈpriːmiəm/",
+      "pos": "n.",
+      "meaning": "保险费；溢价；额外费用",
+      "level": "六级",
+      "topic": "commerce",
+      "family": "commerce-transactions",
+      "phrases": [
+        {
+          "en": "pay a premium",
+          "zh": "支付保险费或额外费用"
+        },
+        {
+          "en": "at a premium",
+          "zh": "以高于通常水平的价格"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The insurance premium is listed separately on the statement.",
+          "zh": "对账单上单独列出了保险费。",
+          "audio": "audio/premium--1.wav"
+        },
+        {
+          "en": "Seats near the stage were sold at a premium.",
+          "zh": "靠近舞台的座位以较高的价格出售。",
+          "audio": "audio/premium--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/premium.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "commerce-management",
+      "concept": "commerce-transactions"
+    },
+    {
+      "id": "dl-counterfeit",
+      "word": "counterfeit",
+      "ipa": "/ˈkaʊntərfeɪt/",
+      "pos": "adj.; v.",
+      "meaning": "伪造的；仿冒的；伪造",
+      "level": "六级",
+      "topic": "commerce",
+      "family": "commerce-transactions",
+      "phrases": [
+        {
+          "en": "counterfeit goods",
+          "zh": "仿冒商品"
+        },
+        {
+          "en": "a counterfeit ticket",
+          "zh": "假票"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The scanner detected a counterfeit ticket at the gate.",
+          "zh": "扫描器在入口处识别出了一张假票。",
+          "audio": "audio/counterfeit--1.wav"
+        },
+        {
+          "en": "Someone tried to counterfeit the label by copying its design.",
+          "zh": "有人试图复制标签的设计来伪造标签。",
+          "audio": "audio/counterfeit--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/counterfeit.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "commerce-management",
+      "concept": "commerce-transactions"
+    },
+    {
+      "id": "dl-equator",
+      "word": "equator",
+      "ipa": "/ɪˈkweɪtər/",
+      "pos": "n.",
+      "meaning": "赤道",
+      "level": "六级",
+      "topic": "environment-change",
+      "family": "environment-position",
+      "phrases": [
+        {
+          "en": "cross the equator",
+          "zh": "穿过赤道"
+        },
+        {
+          "en": "near the equator",
+          "zh": "在赤道附近"
+        }
+      ],
+      "examples": [
+        {
+          "en": "On the globe, a red line marks the equator.",
+          "zh": "地球仪上用红线标出了赤道。",
+          "audio": "audio/equator--1.wav"
+        },
+        {
+          "en": "The ship crossed the equator shortly after dawn.",
+          "zh": "天亮后不久，那艘船穿过了赤道。",
+          "audio": "audio/equator--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/equator.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "environment-landscape",
+      "concept": "environment-position"
+    },
+    {
+      "id": "dl-hemisphere",
+      "word": "hemisphere",
+      "ipa": "/ˈhemɪsfɪr/",
+      "pos": "n.",
+      "meaning": "半球；大脑半球",
+      "level": "六级",
+      "topic": "environment-change",
+      "family": "environment-position",
+      "phrases": [
+        {
+          "en": "the Northern Hemisphere",
+          "zh": "北半球"
+        },
+        {
+          "en": "the right hemisphere of the brain",
+          "zh": "右脑半球"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The exhibit compares summer in the two hemispheres.",
+          "zh": "展览对比了南北两个半球的夏季。",
+          "audio": "audio/hemisphere--1.wav"
+        },
+        {
+          "en": "The scan shows the left hemisphere from several angles.",
+          "zh": "扫描图从多个角度显示了左侧大脑半球。",
+          "audio": "audio/hemisphere--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/hemisphere.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "environment-landscape",
+      "concept": "environment-position"
+    },
+    {
+      "id": "dl-latitude",
+      "word": "latitude",
+      "ipa": "/ˈlætɪtuːd/",
+      "pos": "n.",
+      "meaning": "纬度；自由决定的余地",
+      "level": "六级",
+      "topic": "environment-change",
+      "family": "environment-position",
+      "phrases": [
+        {
+          "en": "measure latitude",
+          "zh": "测量纬度"
+        },
+        {
+          "en": "give someone latitude",
+          "zh": "给某人自由决定的余地"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The two towns lie at nearly the same latitude.",
+          "zh": "这两座城镇几乎在同一纬度上。",
+          "audio": "audio/latitude--1.wav"
+        },
+        {
+          "en": "The instructor gave us some latitude in choosing a topic.",
+          "zh": "老师在选题上给了我们一些自由决定的空间。",
+          "audio": "audio/latitude--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/latitude.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "environment-landscape",
+      "concept": "environment-position"
+    },
+    {
+      "id": "dl-longitude",
+      "word": "longitude",
+      "ipa": "/ˈlɑːndʒətuːd/",
+      "pos": "n.",
+      "meaning": "经度",
+      "level": "六级",
+      "topic": "environment-change",
+      "family": "environment-position",
+      "phrases": [
+        {
+          "en": "latitude and longitude",
+          "zh": "纬度和经度"
+        },
+        {
+          "en": "measure longitude",
+          "zh": "测量经度"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The notebook records the latitude and longitude of each sampling site.",
+          "zh": "笔记本记录了每个采样地点的纬度和经度。",
+          "audio": "audio/longitude--1.wav"
+        },
+        {
+          "en": "Enter the longitude to see the position on the map.",
+          "zh": "输入经度，即可查看地图上的位置。",
+          "audio": "audio/longitude--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/longitude.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "environment-landscape",
+      "concept": "environment-position"
+    },
+    {
+      "id": "dl-maritime",
+      "word": "maritime",
+      "ipa": "/ˈmærɪtaɪm/",
+      "pos": "adj.",
+      "meaning": "海事的；航海的；海上贸易的",
+      "level": "六级",
+      "topic": "environment-change",
+      "family": "environment-position",
+      "phrases": [
+        {
+          "en": "maritime trade",
+          "zh": "海上贸易"
+        },
+        {
+          "en": "a maritime museum",
+          "zh": "海事博物馆"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The harbor was once an important center of maritime trade.",
+          "zh": "这个港口曾是重要的海上贸易中心。",
+          "audio": "audio/maritime--1.wav"
+        },
+        {
+          "en": "The maritime museum displays tools used by early navigators.",
+          "zh": "海事博物馆陈列着早期航海者使用的工具。",
+          "audio": "audio/maritime--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/maritime.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "environment-landscape",
+      "concept": "environment-position"
+    },
+    {
+      "id": "dl-peninsula",
+      "word": "peninsula",
+      "ipa": "/pəˈnɪnsələ/",
+      "pos": "n.",
+      "meaning": "半岛",
+      "level": "六级",
+      "topic": "environment-change",
+      "family": "environment-landforms",
+      "phrases": [
+        {
+          "en": "a narrow peninsula",
+          "zh": "狭长的半岛"
+        },
+        {
+          "en": "the tip of a peninsula",
+          "zh": "半岛的尖端"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The road ends at a small harbor on the peninsula.",
+          "zh": "这条路的尽头是半岛上的一个小港口。",
+          "audio": "audio/peninsula--1.wav"
+        },
+        {
+          "en": "A lighthouse stands at the tip of the peninsula.",
+          "zh": "半岛尖端矗立着一座灯塔。",
+          "audio": "audio/peninsula--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/peninsula.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "environment-landscape",
+      "concept": "environment-landforms"
+    },
+    {
+      "id": "dl-plateau",
+      "word": "plateau",
+      "ipa": "/plætˈoʊ/",
+      "pos": "n.; v.",
+      "meaning": "高原；停滞期；达到稳定水平",
+      "level": "六级",
+      "topic": "environment-change",
+      "family": "environment-landforms",
+      "phrases": [
+        {
+          "en": "a high plateau",
+          "zh": "高原"
+        },
+        {
+          "en": "reach a plateau",
+          "zh": "达到稳定水平"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The road climbs gradually to a wide plateau.",
+          "zh": "道路缓缓向上，通往一片宽阔的高原。",
+          "audio": "audio/plateau--1.wav"
+        },
+        {
+          "en": "Attendance began to plateau after several months of growth.",
+          "zh": "到场人数增长了几个月后，开始趋于稳定。",
+          "audio": "audio/plateau--2.wav"
+        }
+      ],
+      "forms": [
+        "复数 plateaus，也可写作 plateaux",
+        "过去式与过去分词 plateaued"
+      ],
+      "audio": "audio/plateau.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "environment-landscape",
+      "concept": "environment-landforms"
+    },
+    {
+      "id": "dl-terrain",
+      "word": "terrain",
+      "ipa": "/təˈreɪn/",
+      "pos": "n.",
+      "meaning": "地形；地势",
+      "level": "六级",
+      "topic": "environment-change",
+      "family": "environment-landforms",
+      "phrases": [
+        {
+          "en": "rugged terrain",
+          "zh": "崎岖地形"
+        },
+        {
+          "en": "mountainous terrain",
+          "zh": "山地地形"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The rescue team had to cross rough terrain to reach the cabin.",
+          "zh": "救援队必须穿过崎岖地段才能到达小屋。",
+          "audio": "audio/terrain--1.wav"
+        },
+        {
+          "en": "The map shows how the terrain changes beyond the river.",
+          "zh": "这张地图显示了河对岸的地形变化。",
+          "audio": "audio/terrain--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/terrain.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "environment-landscape",
+      "concept": "environment-landforms"
+    },
+    {
+      "id": "dl-ridge",
+      "word": "ridge",
+      "ipa": "/rɪdʒ/",
+      "pos": "n.",
+      "meaning": "山脊；脊状凸起",
+      "level": "六级",
+      "topic": "environment-change",
+      "family": "environment-landforms",
+      "phrases": [
+        {
+          "en": "a mountain ridge",
+          "zh": "山脊"
+        },
+        {
+          "en": "along the ridge",
+          "zh": "沿着山脊"
+        }
+      ],
+      "examples": [
+        {
+          "en": "A narrow ridge separates the two valleys.",
+          "zh": "一条狭窄的山脊把两个山谷隔开。",
+          "audio": "audio/ridge--1.wav"
+        },
+        {
+          "en": "The lid has a raised ridge around the edge.",
+          "zh": "盖子的边缘有一圈凸起。",
+          "audio": "audio/ridge--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/ridge.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "environment-landscape",
+      "concept": "environment-landforms"
+    },
+    {
+      "id": "dl-swamp",
+      "word": "swamp",
+      "ipa": "/swɑːmp/",
+      "pos": "n.; v.",
+      "meaning": "沼泽；淹没；使忙不过来",
+      "level": "六级",
+      "topic": "environment-change",
+      "family": "environment-landforms",
+      "phrases": [
+        {
+          "en": "a freshwater swamp",
+          "zh": "淡水沼泽"
+        },
+        {
+          "en": "be swamped with requests",
+          "zh": "被大量请求压得忙不过来"
+        }
+      ],
+      "examples": [
+        {
+          "en": "A wooden walkway crosses the swamp near the visitor center.",
+          "zh": "游客中心附近有一条横穿沼泽的木栈道。",
+          "audio": "audio/swamp--1.wav"
+        },
+        {
+          "en": "Requests began to swamp the help desk after registration opened.",
+          "zh": "报名开放后，服务台收到的请求多得应接不暇。",
+          "audio": "audio/swamp--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/swamp.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "environment-landscape",
+      "concept": "environment-landforms"
+    },
+    {
+      "id": "dl-barometer",
+      "word": "barometer",
+      "ipa": "/bəˈrɑːmətər/",
+      "pos": "n.",
+      "meaning": "气压计；反映变化的指标或晴雨表",
+      "level": "六级",
+      "topic": "environment-change",
+      "family": "environment-weather",
+      "phrases": [
+        {
+          "en": "read a barometer",
+          "zh": "读取气压计"
+        },
+        {
+          "en": "serve as a barometer of",
+          "zh": "充当……的晴雨表"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The barometer showed a drop in pressure before the storm.",
+          "zh": "风暴来临前，气压计显示气压下降了。",
+          "audio": "audio/barometer--1.wav"
+        },
+        {
+          "en": "Attendance at the fair serves as a barometer of interest in local history.",
+          "zh": "展会的到场人数反映了人们对当地历史的兴趣。",
+          "audio": "audio/barometer--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/barometer.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "environment-dynamics",
+      "concept": "environment-weather"
+    },
+    {
+      "id": "dl-humid",
+      "word": "humid",
+      "ipa": "/ˈhjuːmɪd/",
+      "pos": "adj.",
+      "meaning": "潮湿的；湿度高的",
+      "level": "六级",
+      "topic": "environment-change",
+      "family": "environment-weather",
+      "phrases": [
+        {
+          "en": "humid air",
+          "zh": "潮湿的空气"
+        },
+        {
+          "en": "a humid climate",
+          "zh": "湿润的气候"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The air felt humid after the afternoon rain.",
+          "zh": "午后下过雨，空气让人觉得很潮湿。",
+          "audio": "audio/humid--1.wav"
+        },
+        {
+          "en": "The museum keeps paper records out of humid rooms.",
+          "zh": "博物馆把纸质档案存放在不潮湿的房间里。",
+          "audio": "audio/humid--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/humid.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "environment-dynamics",
+      "concept": "environment-weather"
+    },
+    {
+      "id": "dl-tornado",
+      "word": "tornado",
+      "ipa": "/tɔːrˈneɪdoʊ/",
+      "pos": "n.",
+      "meaning": "龙卷风",
+      "level": "六级",
+      "topic": "environment-change",
+      "family": "environment-weather",
+      "phrases": [
+        {
+          "en": "a tornado warning",
+          "zh": "龙卷风预警"
+        },
+        {
+          "en": "a tornado touches down",
+          "zh": "龙卷风接触地面"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The school canceled the outdoor game when a tornado warning was issued.",
+          "zh": "龙卷风预警发布后，学校取消了户外比赛。",
+          "audio": "audio/tornado--1.wav"
+        },
+        {
+          "en": "The tornado left a narrow path of damage across the fields.",
+          "zh": "龙卷风掠过田野，留下一条狭长的受损地带。",
+          "audio": "audio/tornado--2.wav"
+        }
+      ],
+      "forms": [
+        "复数 tornadoes 或 tornados"
+      ],
+      "audio": "audio/tornado.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "environment-dynamics",
+      "concept": "environment-weather"
+    },
+    {
+      "id": "dl-thermal",
+      "word": "thermal",
+      "ipa": "/ˈθɜːrməl/",
+      "pos": "adj.",
+      "meaning": "热的；与热量有关的；保暖的",
+      "level": "六级",
+      "topic": "environment-change",
+      "family": "environment-weather",
+      "phrases": [
+        {
+          "en": "thermal insulation",
+          "zh": "隔热保温"
+        },
+        {
+          "en": "thermal energy",
+          "zh": "热能"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The builders added thermal insulation to the roof.",
+          "zh": "施工人员在屋顶加装了隔热保温层。",
+          "audio": "audio/thermal--1.wav"
+        },
+        {
+          "en": "The camera uses thermal images to show where heat escapes.",
+          "zh": "这台相机用热成像图显示热量从哪里流失。",
+          "audio": "audio/thermal--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/thermal.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "environment-dynamics",
+      "concept": "environment-weather"
+    },
+    {
+      "id": "dl-evaporate",
+      "word": "evaporate",
+      "ipa": "/ɪˈvæpəreɪt/",
+      "pos": "v.",
+      "meaning": "蒸发；使蒸发；逐渐消失",
+      "level": "六级",
+      "topic": "environment-change",
+      "family": "environment-weather",
+      "phrases": [
+        {
+          "en": "evaporate from a surface",
+          "zh": "从表面蒸发"
+        },
+        {
+          "en": "evaporate into the air",
+          "zh": "蒸发到空气中"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The water began to evaporate as the tray warmed up.",
+          "zh": "托盘变暖后，水开始蒸发。",
+          "audio": "audio/evaporate--1.wav"
+        },
+        {
+          "en": "Their hopes of finishing early began to evaporate when the lift broke.",
+          "zh": "电梯一坏，他们提前完工的希望就开始落空。",
+          "audio": "audio/evaporate--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/evaporate.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "environment-dynamics",
+      "concept": "environment-weather"
+    },
+    {
+      "id": "dl-glacier",
+      "word": "glacier",
+      "ipa": "/ˈɡleɪʃər/",
+      "pos": "n.",
+      "meaning": "冰川",
+      "level": "六级",
+      "topic": "environment-change",
+      "family": "environment-water",
+      "phrases": [
+        {
+          "en": "a mountain glacier",
+          "zh": "山地冰川"
+        },
+        {
+          "en": "a retreating glacier",
+          "zh": "正在退缩的冰川"
+        }
+      ],
+      "examples": [
+        {
+          "en": "A stream carried meltwater away from the glacier.",
+          "zh": "一条溪流把冰川的融水带走了。",
+          "audio": "audio/glacier--1.wav"
+        },
+        {
+          "en": "Researchers photographed the same glacier each summer.",
+          "zh": "研究人员每年夏天都拍摄同一条冰川。",
+          "audio": "audio/glacier--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/glacier.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "environment-dynamics",
+      "concept": "environment-water"
+    },
+    {
+      "id": "dl-iceberg",
+      "word": "iceberg",
+      "ipa": "/ˈaɪsbɜːrɡ/",
+      "pos": "n.",
+      "meaning": "冰山",
+      "level": "六级",
+      "topic": "environment-change",
+      "family": "environment-water",
+      "phrases": [
+        {
+          "en": "a drifting iceberg",
+          "zh": "漂流的冰山"
+        },
+        {
+          "en": "the tip of the iceberg",
+          "zh": "冰山一角"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The crew spotted an iceberg through the fog.",
+          "zh": "船员透过雾气发现了一座冰山。",
+          "audio": "audio/iceberg--1.wav"
+        },
+        {
+          "en": "The missing package was only the tip of the iceberg: dozens of orders had no tracking number.",
+          "zh": "包裹丢失只是冰山一角，还有几十笔订单没有物流单号。",
+          "audio": "audio/iceberg--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/iceberg.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "environment-dynamics",
+      "concept": "environment-water"
+    },
+    {
+      "id": "dl-reservoir",
+      "word": "reservoir",
+      "ipa": "/ˈrezərvwɑːr/",
+      "pos": "n.",
+      "meaning": "水库；储存容器；储备",
+      "level": "六级",
+      "topic": "environment-change",
+      "family": "environment-water",
+      "phrases": [
+        {
+          "en": "a water reservoir",
+          "zh": "蓄水库"
+        },
+        {
+          "en": "a reservoir of knowledge",
+          "zh": "丰富的知识储备"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Rain raised the water level in the reservoir overnight.",
+          "zh": "一夜的降雨抬高了水库的水位。",
+          "audio": "audio/reservoir--1.wav"
+        },
+        {
+          "en": "The archive is a reservoir of knowledge about local crafts.",
+          "zh": "这座档案馆保存着大量关于本地手工艺的知识。",
+          "audio": "audio/reservoir--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/reservoir.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "environment-dynamics",
+      "concept": "environment-water"
+    },
+    {
+      "id": "dl-overflow",
+      "word": "overflow",
+      "ipa": "/ˌoʊvərˈfloʊ/",
+      "pos": "v.",
+      "meaning": "溢出；漫出；挤得装不下",
+      "level": "六级",
+      "topic": "environment-change",
+      "family": "environment-water",
+      "phrases": [
+        {
+          "en": "overflow the banks",
+          "zh": "漫过河岸"
+        },
+        {
+          "en": "overflow with visitors",
+          "zh": "挤满来访者"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The bucket will overflow if the tap is left running.",
+          "zh": "如果水龙头一直开着，水桶就会溢出来。",
+          "audio": "audio/overflow--1.wav"
+        },
+        {
+          "en": "The river began to overflow its banks after hours of rain.",
+          "zh": "下了几个小时雨后，河水开始漫过河岸。",
+          "audio": "audio/overflow--2.wav"
+        }
+      ],
+      "forms": [
+        "本卡主读音为动词 /ˌoʊvərˈfloʊ/",
+        "名词 overflow 的主重音常在首音节"
+      ],
+      "audio": "audio/overflow.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "environment-dynamics",
+      "concept": "environment-water"
+    },
+    {
+      "id": "dl-recede",
+      "word": "recede",
+      "ipa": "/rɪˈsiːd/",
+      "pos": "v.",
+      "meaning": "后退；消退；逐渐远去",
+      "level": "六级",
+      "topic": "environment-change",
+      "family": "cede-withdraw",
+      "phrases": [
+        {
+          "en": "floodwaters recede",
+          "zh": "洪水退去"
+        },
+        {
+          "en": "recede from view",
+          "zh": "渐渐远去直至看不见"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The floodwater began to recede after two dry days.",
+          "zh": "连续两天没下雨后，洪水开始退去。",
+          "audio": "audio/recede--1.wav"
+        },
+        {
+          "en": "From the ferry we watched the lights of the harbor recede.",
+          "zh": "我们在渡轮上看着港口的灯光渐渐远去。",
+          "audio": "audio/recede--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/recede.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "environment-dynamics",
+      "concept": "environment-water"
+    },
+    {
+      "id": "dl-vegetation",
+      "word": "vegetation",
+      "ipa": "/ˌvedʒɪˈteɪʃən/",
+      "pos": "n.",
+      "meaning": "植被；某地区的植物总称",
+      "level": "六级",
+      "topic": "environment-change",
+      "family": "environment-ecology",
+      "phrases": [
+        {
+          "en": "dense vegetation",
+          "zh": "茂密的植被"
+        },
+        {
+          "en": "sparse vegetation",
+          "zh": "稀疏的植被"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Dense vegetation hid the stream from view.",
+          "zh": "茂密的植被挡住了视线，让人看不见溪流。",
+          "audio": "audio/vegetation--1.wav"
+        },
+        {
+          "en": "The survey compares vegetation on both sides of the path.",
+          "zh": "这项调查比较了小路两侧的植被。",
+          "audio": "audio/vegetation--2.wav"
+        }
+      ],
+      "forms": [
+        "通常为不可数名词"
+      ],
+      "audio": "audio/vegetation.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "environment-resources",
+      "concept": "environment-ecology"
+    },
+    {
+      "id": "dl-indigenous",
+      "word": "indigenous",
+      "ipa": "/ɪnˈdɪdʒənəs/",
+      "pos": "adj.",
+      "meaning": "原产于当地的；本土的；原住民的",
+      "level": "六级",
+      "topic": "environment-change",
+      "family": "environment-ecology",
+      "phrases": [
+        {
+          "en": "indigenous plants",
+          "zh": "本土植物"
+        },
+        {
+          "en": "indigenous to a region",
+          "zh": "原产于某地区"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Several plants in the garden are indigenous to the island.",
+          "zh": "花园里的几种植物原产于这座岛。",
+          "audio": "audio/indigenous--1.wav"
+        },
+        {
+          "en": "The exhibition featured work by Indigenous artists from several communities.",
+          "zh": "展览重点展示了来自多个社区的原住民艺术家作品。",
+          "audio": "audio/indigenous--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/indigenous.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "environment-resources",
+      "concept": "environment-ecology"
+    },
+    {
+      "id": "dl-predator",
+      "word": "predator",
+      "ipa": "/ˈpredətər/",
+      "pos": "n.",
+      "meaning": "捕食者；掠夺者",
+      "level": "六级",
+      "topic": "environment-change",
+      "family": "environment-ecology",
+      "phrases": [
+        {
+          "en": "a natural predator",
+          "zh": "天敌；自然界中的捕食者"
+        },
+        {
+          "en": "escape from a predator",
+          "zh": "逃离捕食者"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The owl is a predator that hunts near the edge of the field.",
+          "zh": "猫头鹰是一种捕食者，会在田边附近猎食。",
+          "audio": "audio/predator--1.wav"
+        },
+        {
+          "en": "A young fish can hide among the plants to avoid a predator.",
+          "zh": "小鱼可以躲在水草中，避开捕食者。",
+          "audio": "audio/predator--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/predator.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "environment-resources",
+      "concept": "environment-ecology"
+    },
+    {
+      "id": "dl-prey",
+      "word": "prey",
+      "ipa": "/preɪ/",
+      "pos": "n.; v.",
+      "meaning": "猎物；受害者；捕食；侵害",
+      "level": "六级",
+      "topic": "environment-change",
+      "family": "environment-ecology",
+      "phrases": [
+        {
+          "en": "hunt for prey",
+          "zh": "寻找猎物"
+        },
+        {
+          "en": "prey on insects",
+          "zh": "捕食昆虫"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The owl waited quietly for its prey to move.",
+          "zh": "猫头鹰静静地等着猎物动起来。",
+          "audio": "audio/prey--1.wav"
+        },
+        {
+          "en": "Some small birds prey on insects near the pond.",
+          "zh": "有些小鸟在池塘附近捕食昆虫。",
+          "audio": "audio/prey--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/prey.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "environment-resources",
+      "concept": "environment-ecology"
+    },
+    {
+      "id": "dl-pesticide",
+      "word": "pesticide",
+      "ipa": "/ˈpestɪsaɪd/",
+      "pos": "n.",
+      "meaning": "农药；杀灭或控制有害生物的药剂",
+      "level": "六级",
+      "topic": "environment-change",
+      "family": "environment-ecology",
+      "phrases": [
+        {
+          "en": "pesticide use",
+          "zh": "农药使用"
+        },
+        {
+          "en": "pesticide residue",
+          "zh": "农药残留"
+        }
+      ],
+      "examples": [
+        {
+          "en": "The experiment measured pesticide residue on the leaves.",
+          "zh": "这项实验测量了叶片上的农药残留。",
+          "audio": "audio/pesticide--1.wav"
+        },
+        {
+          "en": "The farmers discussed ways to reduce pesticide use.",
+          "zh": "农民们讨论了减少农药使用的方法。",
+          "audio": "audio/pesticide--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/pesticide.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "environment-resources",
+      "concept": "environment-ecology"
+    },
+    {
+      "id": "dl-barren",
+      "word": "barren",
+      "ipa": "/ˈbærən/",
+      "pos": "adj.",
+      "meaning": "贫瘠的；荒芜的；没有成果的",
+      "level": "六级",
+      "topic": "environment-change",
+      "family": "environment-degradation",
+      "phrases": [
+        {
+          "en": "barren land",
+          "zh": "贫瘠的土地"
+        },
+        {
+          "en": "a barren landscape",
+          "zh": "荒芜的景观"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Little grows on the barren slope above the quarry.",
+          "zh": "采石场上方的贫瘠山坡几乎不长植物。",
+          "audio": "audio/barren--1.wav"
+        },
+        {
+          "en": "From the road we could see a barren landscape of sand and stone.",
+          "zh": "从路上望去，只见一片由沙石构成的荒芜景象。",
+          "audio": "audio/barren--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/barren.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "environment-resources",
+      "concept": "environment-degradation"
+    },
+    {
+      "id": "dl-erode",
+      "word": "erode",
+      "ipa": "/ɪˈroʊd/",
+      "pos": "v.",
+      "meaning": "侵蚀；逐渐削弱",
+      "level": "六级",
+      "topic": "environment-change",
+      "family": "environment-degradation",
+      "phrases": [
+        {
+          "en": "erode the soil",
+          "zh": "侵蚀土壤"
+        },
+        {
+          "en": "erode trust",
+          "zh": "逐渐损害信任"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Rainwater can erode exposed soil on a steep slope.",
+          "zh": "雨水会侵蚀陡坡上裸露的土壤。",
+          "audio": "audio/erode--1.wav"
+        },
+        {
+          "en": "Repeated delays began to erode trust between the two teams.",
+          "zh": "一再延误开始逐渐损害两支团队之间的信任。",
+          "audio": "audio/erode--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/erode.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "environment-resources",
+      "concept": "environment-degradation"
+    },
+    {
+      "id": "dl-degrade",
+      "word": "degrade",
+      "ipa": "/dɪˈɡreɪd/",
+      "pos": "v.",
+      "meaning": "降低品质；退化或降解；贬低",
+      "level": "六级",
+      "topic": "environment-change",
+      "family": "environment-degradation",
+      "phrases": [
+        {
+          "en": "degrade water quality",
+          "zh": "降低水质"
+        },
+        {
+          "en": "degrade over time",
+          "zh": "随时间逐渐降解或变差"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Waste from the site could degrade water quality downstream.",
+          "zh": "场地排出的废物可能使下游水质变差。",
+          "audio": "audio/degrade--1.wav"
+        },
+        {
+          "en": "The material will degrade slowly when exposed to sunlight.",
+          "zh": "这种材料暴露在阳光下会缓慢降解。",
+          "audio": "audio/degrade--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/degrade.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "environment-resources",
+      "concept": "environment-degradation"
+    },
+    {
+      "id": "dl-deplete",
+      "word": "deplete",
+      "ipa": "/dɪˈpliːt/",
+      "pos": "v.",
+      "meaning": "大量消耗；使储备减少",
+      "level": "六级",
+      "topic": "environment-change",
+      "family": "environment-degradation",
+      "phrases": [
+        {
+          "en": "deplete water reserves",
+          "zh": "消耗储水"
+        },
+        {
+          "en": "deplete a supply",
+          "zh": "大量消耗储备"
+        }
+      ],
+      "examples": [
+        {
+          "en": "A long dry spell can deplete the town's water reserves.",
+          "zh": "长期干旱会大量消耗镇上的储水。",
+          "audio": "audio/deplete--1.wav"
+        },
+        {
+          "en": "The extra deliveries began to deplete the warehouse's fuel supply.",
+          "zh": "额外的运送任务开始大量消耗仓库的燃料储备。",
+          "audio": "audio/deplete--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/deplete.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "environment-resources",
+      "concept": "environment-degradation"
+    },
+    {
+      "id": "dl-toxic",
+      "word": "toxic",
+      "ipa": "/ˈtɑːksɪk/",
+      "pos": "adj.",
+      "meaning": "有毒的；危害很大的",
+      "level": "六级",
+      "topic": "environment-change",
+      "family": "environment-degradation",
+      "phrases": [
+        {
+          "en": "toxic waste",
+          "zh": "有毒废物"
+        },
+        {
+          "en": "a toxic substance",
+          "zh": "有毒物质"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Workers fenced off the area after discovering toxic waste.",
+          "zh": "工人发现有毒废物后，把这个区域围了起来。",
+          "audio": "audio/toxic--1.wav"
+        },
+        {
+          "en": "The manager tried to address the toxic culture in the office.",
+          "zh": "经理试图改善办公室里有害的工作氛围。",
+          "audio": "audio/toxic--2.wav"
+        }
+      ],
+      "forms": [],
+      "audio": "audio/toxic.wav",
+      "source": "daily-lexicon-editorial-0.5",
+      "reviewStatus": "editorial-draft",
+      "scene": "environment-resources",
+      "concept": "environment-degradation"
     }
   ],
   "topics": [
@@ -25092,6 +29725,182 @@
         "dl-text",
         "dl-online",
         "dl-wireless"
+      ]
+    },
+    {
+      "id": "argumentation",
+      "label": "学术阅读与论证",
+      "subtitle": "从读懂论点到检验论证",
+      "description": "从读懂论点到检验论证",
+      "column": "学术阅读与论证",
+      "scenes": [
+        "argumentation-reading",
+        "argumentation-meaning",
+        "argumentation-reasoning"
+      ],
+      "words": [
+        "dl-excerpt",
+        "dl-glossary",
+        "dl-bibliography",
+        "dl-dissertation",
+        "dl-discourse",
+        "dl-rhetoric",
+        "dl-articulate",
+        "dl-concise",
+        "dl-elaborate",
+        "dl-jargon",
+        "dl-analogy",
+        "dl-metaphor",
+        "dl-connotation",
+        "dl-denote",
+        "dl-signify",
+        "dl-allude",
+        "dl-discern",
+        "dl-subtle",
+        "dl-intelligible",
+        "dl-obscure",
+        "dl-premise",
+        "dl-deduce",
+        "dl-presume",
+        "dl-ascertain",
+        "dl-plausible",
+        "dl-discrepancy",
+        "dl-assert",
+        "dl-concede",
+        "dl-refute",
+        "dl-reconcile"
+      ]
+    },
+    {
+      "id": "public-institutions",
+      "label": "公共制度与法律",
+      "subtitle": "从表决到执行与纠偏",
+      "description": "从表决到执行与纠偏",
+      "column": "公共制度与法律",
+      "scenes": [
+        "institutions-policy",
+        "institutions-court",
+        "institutions-regulation"
+      ],
+      "words": [
+        "dl-constituent",
+        "dl-electoral",
+        "dl-referendum",
+        "dl-faction",
+        "dl-unanimous",
+        "dl-amend",
+        "dl-enact",
+        "dl-ratify",
+        "dl-statute",
+        "dl-stipulate",
+        "dl-judicial",
+        "dl-jurisdiction",
+        "dl-testify",
+        "dl-testimony",
+        "dl-verdict",
+        "dl-lawsuit",
+        "dl-plaintiff",
+        "dl-sue",
+        "dl-prosecute",
+        "dl-convict",
+        "dl-audit",
+        "dl-scrutiny",
+        "dl-surveillance",
+        "dl-exempt",
+        "dl-waive",
+        "dl-adhere",
+        "dl-breach",
+        "dl-infringe",
+        "dl-deter",
+        "dl-rectify"
+      ]
+    },
+    {
+      "id": "commerce",
+      "label": "经济与经营",
+      "subtitle": "从贸易政策到企业日常",
+      "description": "从贸易政策到企业日常",
+      "column": "经济与经营",
+      "scenes": [
+        "commerce-markets",
+        "commerce-organization",
+        "commerce-management"
+      ],
+      "words": [
+        "dl-fiscal",
+        "dl-treasury",
+        "dl-levy",
+        "dl-tariff",
+        "dl-subsidy",
+        "dl-embargo",
+        "dl-bilateral",
+        "dl-multilateral",
+        "dl-merchandise",
+        "dl-wholesale",
+        "dl-affiliate",
+        "dl-franchise",
+        "dl-monopoly",
+        "dl-merge",
+        "dl-portfolio",
+        "dl-dividend",
+        "dl-lucrative",
+        "dl-depreciate",
+        "dl-volatile",
+        "dl-turnover",
+        "dl-inventory",
+        "dl-logistics",
+        "dl-depot",
+        "dl-streamline",
+        "dl-allot",
+        "dl-default",
+        "dl-refund",
+        "dl-warranty",
+        "dl-premium",
+        "dl-counterfeit"
+      ]
+    },
+    {
+      "id": "environment-change",
+      "label": "地理与环境变化",
+      "subtitle": "从定位地貌到理解生态变化",
+      "description": "从定位地貌到理解生态变化",
+      "column": "地理与环境变化",
+      "scenes": [
+        "environment-landscape",
+        "environment-dynamics",
+        "environment-resources"
+      ],
+      "words": [
+        "dl-equator",
+        "dl-hemisphere",
+        "dl-latitude",
+        "dl-longitude",
+        "dl-maritime",
+        "dl-peninsula",
+        "dl-plateau",
+        "dl-terrain",
+        "dl-ridge",
+        "dl-swamp",
+        "dl-barometer",
+        "dl-humid",
+        "dl-tornado",
+        "dl-thermal",
+        "dl-evaporate",
+        "dl-glacier",
+        "dl-iceberg",
+        "dl-reservoir",
+        "dl-overflow",
+        "dl-recede",
+        "dl-vegetation",
+        "dl-indigenous",
+        "dl-predator",
+        "dl-prey",
+        "dl-pesticide",
+        "dl-barren",
+        "dl-erode",
+        "dl-degrade",
+        "dl-deplete",
+        "dl-toxic"
       ]
     }
   ],
@@ -26385,6 +31194,258 @@
         "dl-text",
         "dl-online",
         "dl-wireless"
+      ]
+    },
+    {
+      "id": "argumentation-reading",
+      "label": "学术文本与表达",
+      "topic": "argumentation",
+      "concepts": [
+        "argumentation-texts",
+        "argumentation-style"
+      ],
+      "words": [
+        "dl-excerpt",
+        "dl-glossary",
+        "dl-bibliography",
+        "dl-dissertation",
+        "dl-discourse",
+        "dl-rhetoric",
+        "dl-articulate",
+        "dl-concise",
+        "dl-elaborate",
+        "dl-jargon"
+      ]
+    },
+    {
+      "id": "argumentation-meaning",
+      "label": "词义与解读",
+      "topic": "argumentation",
+      "concepts": [
+        "argumentation-figures",
+        "argumentation-interpretation"
+      ],
+      "words": [
+        "dl-analogy",
+        "dl-metaphor",
+        "dl-connotation",
+        "dl-denote",
+        "dl-signify",
+        "dl-allude",
+        "dl-discern",
+        "dl-subtle",
+        "dl-intelligible",
+        "dl-obscure"
+      ]
+    },
+    {
+      "id": "argumentation-reasoning",
+      "label": "推断与检验",
+      "topic": "argumentation",
+      "concepts": [
+        "argumentation-inference",
+        "argumentation-checking"
+      ],
+      "words": [
+        "dl-premise",
+        "dl-deduce",
+        "dl-presume",
+        "dl-ascertain",
+        "dl-plausible",
+        "dl-discrepancy",
+        "dl-assert",
+        "dl-concede",
+        "dl-refute",
+        "dl-reconcile"
+      ]
+    },
+    {
+      "id": "institutions-policy",
+      "label": "参与与立法",
+      "topic": "public-institutions",
+      "concepts": [
+        "institutions-participation",
+        "institutions-legislation"
+      ],
+      "words": [
+        "dl-constituent",
+        "dl-electoral",
+        "dl-referendum",
+        "dl-faction",
+        "dl-unanimous",
+        "dl-amend",
+        "dl-enact",
+        "dl-ratify",
+        "dl-statute",
+        "dl-stipulate"
+      ]
+    },
+    {
+      "id": "institutions-court",
+      "label": "司法程序",
+      "topic": "public-institutions",
+      "concepts": [
+        "institutions-evidence",
+        "institutions-litigation"
+      ],
+      "words": [
+        "dl-judicial",
+        "dl-jurisdiction",
+        "dl-testify",
+        "dl-testimony",
+        "dl-verdict",
+        "dl-lawsuit",
+        "dl-plaintiff",
+        "dl-sue",
+        "dl-prosecute",
+        "dl-convict"
+      ]
+    },
+    {
+      "id": "institutions-regulation",
+      "label": "监管与执行",
+      "topic": "public-institutions",
+      "concepts": [
+        "institutions-oversight",
+        "institutions-compliance"
+      ],
+      "words": [
+        "dl-audit",
+        "dl-scrutiny",
+        "dl-surveillance",
+        "dl-exempt",
+        "dl-waive",
+        "dl-adhere",
+        "dl-breach",
+        "dl-infringe",
+        "dl-deter",
+        "dl-rectify"
+      ]
+    },
+    {
+      "id": "commerce-markets",
+      "label": "财政与贸易",
+      "topic": "commerce",
+      "concepts": [
+        "commerce-finance",
+        "commerce-trade"
+      ],
+      "words": [
+        "dl-fiscal",
+        "dl-treasury",
+        "dl-levy",
+        "dl-tariff",
+        "dl-subsidy",
+        "dl-embargo",
+        "dl-bilateral",
+        "dl-multilateral",
+        "dl-merchandise",
+        "dl-wholesale"
+      ]
+    },
+    {
+      "id": "commerce-organization",
+      "label": "企业与收益",
+      "topic": "commerce",
+      "concepts": [
+        "commerce-enterprises",
+        "commerce-returns"
+      ],
+      "words": [
+        "dl-affiliate",
+        "dl-franchise",
+        "dl-monopoly",
+        "dl-merge",
+        "dl-portfolio",
+        "dl-dividend",
+        "dl-lucrative",
+        "dl-depreciate",
+        "dl-volatile",
+        "dl-turnover"
+      ]
+    },
+    {
+      "id": "commerce-management",
+      "label": "经营与交易",
+      "topic": "commerce",
+      "concepts": [
+        "commerce-operations",
+        "commerce-transactions"
+      ],
+      "words": [
+        "dl-inventory",
+        "dl-logistics",
+        "dl-depot",
+        "dl-streamline",
+        "dl-allot",
+        "dl-default",
+        "dl-refund",
+        "dl-warranty",
+        "dl-premium",
+        "dl-counterfeit"
+      ]
+    },
+    {
+      "id": "environment-landscape",
+      "label": "位置与地貌",
+      "topic": "environment-change",
+      "concepts": [
+        "environment-position",
+        "environment-landforms"
+      ],
+      "words": [
+        "dl-equator",
+        "dl-hemisphere",
+        "dl-latitude",
+        "dl-longitude",
+        "dl-maritime",
+        "dl-peninsula",
+        "dl-plateau",
+        "dl-terrain",
+        "dl-ridge",
+        "dl-swamp"
+      ]
+    },
+    {
+      "id": "environment-dynamics",
+      "label": "天气与水文",
+      "topic": "environment-change",
+      "concepts": [
+        "environment-weather",
+        "environment-water"
+      ],
+      "words": [
+        "dl-barometer",
+        "dl-humid",
+        "dl-tornado",
+        "dl-thermal",
+        "dl-evaporate",
+        "dl-glacier",
+        "dl-iceberg",
+        "dl-reservoir",
+        "dl-overflow",
+        "dl-recede"
+      ]
+    },
+    {
+      "id": "environment-resources",
+      "label": "生态与资源",
+      "topic": "environment-change",
+      "concepts": [
+        "environment-ecology",
+        "environment-degradation"
+      ],
+      "words": [
+        "dl-vegetation",
+        "dl-indigenous",
+        "dl-predator",
+        "dl-prey",
+        "dl-pesticide",
+        "dl-barren",
+        "dl-erode",
+        "dl-degrade",
+        "dl-deplete",
+        "dl-toxic"
       ]
     }
   ],
@@ -28058,9 +33119,338 @@
         "dl-online",
         "dl-wireless"
       ]
+    },
+    {
+      "id": "argumentation-texts",
+      "label": "阅读材料与体裁",
+      "topic": "argumentation",
+      "scene": "argumentation-reading",
+      "words": [
+        "dl-excerpt",
+        "dl-glossary",
+        "dl-bibliography",
+        "dl-dissertation",
+        "dl-discourse"
+      ]
+    },
+    {
+      "id": "argumentation-style",
+      "label": "清晰表达与修辞",
+      "topic": "argumentation",
+      "scene": "argumentation-reading",
+      "words": [
+        "dl-rhetoric",
+        "dl-articulate",
+        "dl-concise",
+        "dl-elaborate",
+        "dl-jargon"
+      ]
+    },
+    {
+      "id": "argumentation-figures",
+      "label": "字面意义与联想",
+      "topic": "argumentation",
+      "scene": "argumentation-meaning",
+      "words": [
+        "dl-analogy",
+        "dl-metaphor",
+        "dl-connotation",
+        "dl-denote",
+        "dl-signify"
+      ]
+    },
+    {
+      "id": "argumentation-interpretation",
+      "label": "辨识与理解",
+      "topic": "argumentation",
+      "scene": "argumentation-meaning",
+      "words": [
+        "dl-allude",
+        "dl-discern",
+        "dl-subtle",
+        "dl-intelligible",
+        "dl-obscure"
+      ]
+    },
+    {
+      "id": "argumentation-inference",
+      "label": "前提与推断",
+      "topic": "argumentation",
+      "scene": "argumentation-reasoning",
+      "words": [
+        "dl-premise",
+        "dl-deduce",
+        "dl-presume",
+        "dl-ascertain",
+        "dl-plausible"
+      ]
+    },
+    {
+      "id": "argumentation-checking",
+      "label": "核对与反驳",
+      "topic": "argumentation",
+      "scene": "argumentation-reasoning",
+      "words": [
+        "dl-discrepancy",
+        "dl-assert",
+        "dl-concede",
+        "dl-refute",
+        "dl-reconcile"
+      ]
+    },
+    {
+      "id": "institutions-participation",
+      "label": "民意与表决",
+      "topic": "public-institutions",
+      "scene": "institutions-policy",
+      "words": [
+        "dl-constituent",
+        "dl-electoral",
+        "dl-referendum",
+        "dl-faction",
+        "dl-unanimous"
+      ]
+    },
+    {
+      "id": "institutions-legislation",
+      "label": "拟定与生效",
+      "topic": "public-institutions",
+      "scene": "institutions-policy",
+      "words": [
+        "dl-amend",
+        "dl-enact",
+        "dl-ratify",
+        "dl-statute",
+        "dl-stipulate"
+      ]
+    },
+    {
+      "id": "institutions-evidence",
+      "label": "审理与举证",
+      "topic": "public-institutions",
+      "scene": "institutions-court",
+      "words": [
+        "dl-judicial",
+        "dl-jurisdiction",
+        "dl-testify",
+        "dl-testimony",
+        "dl-verdict"
+      ]
+    },
+    {
+      "id": "institutions-litigation",
+      "label": "诉讼与定罪",
+      "topic": "public-institutions",
+      "scene": "institutions-court",
+      "words": [
+        "dl-lawsuit",
+        "dl-plaintiff",
+        "dl-sue",
+        "dl-prosecute",
+        "dl-convict"
+      ]
+    },
+    {
+      "id": "institutions-oversight",
+      "label": "审查与豁免",
+      "topic": "public-institutions",
+      "scene": "institutions-regulation",
+      "words": [
+        "dl-audit",
+        "dl-scrutiny",
+        "dl-surveillance",
+        "dl-exempt",
+        "dl-waive"
+      ]
+    },
+    {
+      "id": "institutions-compliance",
+      "label": "遵守与纠正",
+      "topic": "public-institutions",
+      "scene": "institutions-regulation",
+      "words": [
+        "dl-adhere",
+        "dl-breach",
+        "dl-infringe",
+        "dl-deter",
+        "dl-rectify"
+      ]
+    },
+    {
+      "id": "commerce-finance",
+      "label": "公共财政",
+      "topic": "commerce",
+      "scene": "commerce-markets",
+      "words": [
+        "dl-fiscal",
+        "dl-treasury",
+        "dl-levy",
+        "dl-tariff",
+        "dl-subsidy"
+      ]
+    },
+    {
+      "id": "commerce-trade",
+      "label": "贸易关系与流通",
+      "topic": "commerce",
+      "scene": "commerce-markets",
+      "words": [
+        "dl-embargo",
+        "dl-bilateral",
+        "dl-multilateral",
+        "dl-merchandise",
+        "dl-wholesale"
+      ]
+    },
+    {
+      "id": "commerce-enterprises",
+      "label": "企业关系与资产",
+      "topic": "commerce",
+      "scene": "commerce-organization",
+      "words": [
+        "dl-affiliate",
+        "dl-franchise",
+        "dl-monopoly",
+        "dl-merge",
+        "dl-portfolio"
+      ]
+    },
+    {
+      "id": "commerce-returns",
+      "label": "收益与波动",
+      "topic": "commerce",
+      "scene": "commerce-organization",
+      "words": [
+        "dl-dividend",
+        "dl-lucrative",
+        "dl-depreciate",
+        "dl-volatile",
+        "dl-turnover"
+      ]
+    },
+    {
+      "id": "commerce-operations",
+      "label": "库存与运营",
+      "topic": "commerce",
+      "scene": "commerce-management",
+      "words": [
+        "dl-inventory",
+        "dl-logistics",
+        "dl-depot",
+        "dl-streamline",
+        "dl-allot"
+      ]
+    },
+    {
+      "id": "commerce-transactions",
+      "label": "交易与保障",
+      "topic": "commerce",
+      "scene": "commerce-management",
+      "words": [
+        "dl-default",
+        "dl-refund",
+        "dl-warranty",
+        "dl-premium",
+        "dl-counterfeit"
+      ]
+    },
+    {
+      "id": "environment-position",
+      "label": "地理位置",
+      "topic": "environment-change",
+      "scene": "environment-landscape",
+      "words": [
+        "dl-equator",
+        "dl-hemisphere",
+        "dl-latitude",
+        "dl-longitude",
+        "dl-maritime"
+      ]
+    },
+    {
+      "id": "environment-landforms",
+      "label": "地表形态",
+      "topic": "environment-change",
+      "scene": "environment-landscape",
+      "words": [
+        "dl-peninsula",
+        "dl-plateau",
+        "dl-terrain",
+        "dl-ridge",
+        "dl-swamp"
+      ]
+    },
+    {
+      "id": "environment-weather",
+      "label": "天气、热量与蒸发",
+      "topic": "environment-change",
+      "scene": "environment-dynamics",
+      "words": [
+        "dl-barometer",
+        "dl-humid",
+        "dl-tornado",
+        "dl-thermal",
+        "dl-evaporate"
+      ]
+    },
+    {
+      "id": "environment-water",
+      "label": "冰水的汇集与流动",
+      "topic": "environment-change",
+      "scene": "environment-dynamics",
+      "words": [
+        "dl-glacier",
+        "dl-iceberg",
+        "dl-reservoir",
+        "dl-overflow",
+        "dl-recede"
+      ]
+    },
+    {
+      "id": "environment-ecology",
+      "label": "生物与生境",
+      "topic": "environment-change",
+      "scene": "environment-resources",
+      "words": [
+        "dl-vegetation",
+        "dl-indigenous",
+        "dl-predator",
+        "dl-prey",
+        "dl-pesticide"
+      ]
+    },
+    {
+      "id": "environment-degradation",
+      "label": "损耗与环境风险",
+      "topic": "environment-change",
+      "scene": "environment-resources",
+      "words": [
+        "dl-barren",
+        "dl-erode",
+        "dl-degrade",
+        "dl-deplete",
+        "dl-toxic"
+      ]
     }
   ],
   "families": [
+    {
+      "id": "dict",
+      "label": "dict",
+      "meaning": "说，表达",
+      "kind": "root",
+      "note": "与拉丁语“说”有关。predict可用“提前说出”辅助理解，contradict可用“反着说”辅助理解。",
+      "words": [
+        "dl-dictate",
+        "dl-dictation",
+        "dl-predict",
+        "dl-prediction",
+        "dl-contradict",
+        "dl-contradiction",
+        "dl-verdict"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/dictate"
+    },
     {
       "id": "spect",
       "label": "spec / spect",
@@ -28077,22 +33467,6 @@
         "dl-respect"
       ],
       "reference": "https://en.wiktionary.org/wiki/inspect"
-    },
-    {
-      "id": "dict",
-      "label": "dict",
-      "meaning": "说，表达",
-      "kind": "root",
-      "note": "与拉丁语“说”有关。predict可用“提前说出”辅助理解，contradict可用“反着说”辅助理解。",
-      "words": [
-        "dl-dictate",
-        "dl-dictation",
-        "dl-predict",
-        "dl-prediction",
-        "dl-contradict",
-        "dl-contradiction"
-      ],
-      "reference": "https://en.wiktionary.org/wiki/dictate"
     },
     {
       "id": "scrib",
@@ -28207,6 +33581,18 @@
       "reference": "https://en.wiktionary.org/wiki/transformation"
     },
     {
+      "id": "cede-withdraw",
+      "label": "ced- / -cede",
+      "meaning": "行进、退去、让步",
+      "kind": "root",
+      "note": "concede 与 recede 的历史词形都可追到拉丁语 cedere（走、退让）。concede 常用于承认或让步，recede 可指水位或物体逐渐退去。",
+      "words": [
+        "dl-concede",
+        "dl-recede"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/concede"
+    },
+    {
       "id": "flex",
       "label": "flex",
       "meaning": "弯曲",
@@ -28219,6 +33605,18 @@
       "reference": "https://en.wiktionary.org/wiki/flexible"
     },
     {
+      "id": "not-mark",
+      "label": "not-（标记）",
+      "meaning": "标记、指代与联想",
+      "kind": "root",
+      "note": "denote 与 connotation 的历史词形和拉丁语 notare（标记）有关。denote 侧重直接指代，connotation 指词语带出的联想或色彩。",
+      "words": [
+        "dl-connotation",
+        "dl-denote"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/connotation"
+    },
+    {
       "id": "sequ",
       "label": "sequ / secu",
       "meaning": "跟随，接续",
@@ -28229,6 +33627,18 @@
         "dl-consequence"
       ],
       "reference": "https://en.wiktionary.org/wiki/sequence"
+    },
+    {
+      "id": "test-witness",
+      "label": "testi-（见证）",
+      "meaning": "证人、作证与证词",
+      "kind": "root",
+      "note": "testify 与 testimony 的历史词形都与拉丁语 testis（证人）有关。前者是动作，后者是证言；不因拼写含有 test 就把其他词归入本组。",
+      "words": [
+        "dl-testify",
+        "dl-testimony"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/testify"
     },
     {
       "id": "employ",
@@ -29093,6 +34503,18 @@
         "dl-knowledge"
       ],
       "reference": "https://en.wiktionary.org/wiki/know"
+    },
+    {
+      "id": "lateral-parties",
+      "label": "lateral 相关构词",
+      "meaning": "两方与多方",
+      "kind": "family",
+      "note": "bilateral 和 multilateral 都含有表示侧或方的 lateral；bi- 表两方，multi- 表多方。常用于协议、合作或谈判。",
+      "words": [
+        "dl-bilateral",
+        "dl-multilateral"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/bilateral"
     },
     {
       "id": "learn",
@@ -30181,6 +35603,66 @@
       "reference": "https://en.wiktionary.org/wiki/travel"
     },
     {
+      "id": "argumentation-inference",
+      "label": "前提与推断独立词",
+      "meaning": "按前提与推断的用法理解",
+      "kind": "independent",
+      "note": "本组按学习语境归置，不表示共同词根或直接派生关系。通过搭配与例句理解每个词，第二轮仍完整覆盖。",
+      "words": [
+        "dl-premise",
+        "dl-deduce",
+        "dl-presume",
+        "dl-ascertain",
+        "dl-plausible"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/premise"
+    },
+    {
+      "id": "argumentation-interpretation",
+      "label": "辨识与理解独立词",
+      "meaning": "按辨识与理解的用法理解",
+      "kind": "independent",
+      "note": "本组按学习语境归置，不表示共同词根或直接派生关系。通过搭配与例句理解每个词，第二轮仍完整覆盖。",
+      "words": [
+        "dl-allude",
+        "dl-discern",
+        "dl-subtle",
+        "dl-intelligible",
+        "dl-obscure"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/allude"
+    },
+    {
+      "id": "argumentation-style",
+      "label": "清晰表达与修辞独立词",
+      "meaning": "按清晰表达与修辞的用法理解",
+      "kind": "independent",
+      "note": "本组按学习语境归置，不表示共同词根或直接派生关系。通过搭配与例句理解每个词，第二轮仍完整覆盖。",
+      "words": [
+        "dl-rhetoric",
+        "dl-articulate",
+        "dl-concise",
+        "dl-elaborate",
+        "dl-jargon"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/rhetoric"
+    },
+    {
+      "id": "argumentation-texts",
+      "label": "阅读材料与体裁独立词",
+      "meaning": "按阅读材料与体裁的用法理解",
+      "kind": "independent",
+      "note": "本组按学习语境归置，不表示共同词根或直接派生关系。通过搭配与例句理解每个词，第二轮仍完整覆盖。",
+      "words": [
+        "dl-excerpt",
+        "dl-glossary",
+        "dl-bibliography",
+        "dl-dissertation",
+        "dl-discourse"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/excerpt"
+    },
+    {
       "id": "basic-context",
       "label": "指示与其他独立词",
       "meaning": "按用法理解",
@@ -30211,6 +35693,81 @@
       "reference": "https://en.wiktionary.org/wiki/I"
     },
     {
+      "id": "commerce-enterprises",
+      "label": "企业关系与资产独立词",
+      "meaning": "按企业关系与资产的用法理解",
+      "kind": "independent",
+      "note": "本组按学习语境归置，不表示共同词根或直接派生关系。通过搭配与例句理解每个词，第二轮仍完整覆盖。",
+      "words": [
+        "dl-affiliate",
+        "dl-franchise",
+        "dl-monopoly",
+        "dl-merge",
+        "dl-portfolio"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/affiliate"
+    },
+    {
+      "id": "commerce-finance",
+      "label": "公共财政独立词",
+      "meaning": "按公共财政的用法理解",
+      "kind": "independent",
+      "note": "本组按学习语境归置，不表示共同词根或直接派生关系。通过搭配与例句理解每个词，第二轮仍完整覆盖。",
+      "words": [
+        "dl-fiscal",
+        "dl-treasury",
+        "dl-levy",
+        "dl-tariff",
+        "dl-subsidy"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/fiscal"
+    },
+    {
+      "id": "commerce-operations",
+      "label": "库存与运营独立词",
+      "meaning": "按库存与运营的用法理解",
+      "kind": "independent",
+      "note": "本组按学习语境归置，不表示共同词根或直接派生关系。通过搭配与例句理解每个词，第二轮仍完整覆盖。",
+      "words": [
+        "dl-inventory",
+        "dl-logistics",
+        "dl-depot",
+        "dl-streamline",
+        "dl-allot"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/inventory"
+    },
+    {
+      "id": "commerce-returns",
+      "label": "收益与波动独立词",
+      "meaning": "按收益与波动的用法理解",
+      "kind": "independent",
+      "note": "本组按学习语境归置，不表示共同词根或直接派生关系。通过搭配与例句理解每个词，第二轮仍完整覆盖。",
+      "words": [
+        "dl-dividend",
+        "dl-lucrative",
+        "dl-depreciate",
+        "dl-volatile",
+        "dl-turnover"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/dividend"
+    },
+    {
+      "id": "commerce-transactions",
+      "label": "交易与保障独立词",
+      "meaning": "按交易与保障的用法理解",
+      "kind": "independent",
+      "note": "本组按学习语境归置，不表示共同词根或直接派生关系。通过搭配与例句理解每个词，第二轮仍完整覆盖。",
+      "words": [
+        "dl-default",
+        "dl-refund",
+        "dl-warranty",
+        "dl-premium",
+        "dl-counterfeit"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/default"
+    },
+    {
       "id": "economy-income",
       "label": "收入与盈亏独立词",
       "meaning": "按用法理解",
@@ -30226,6 +35783,81 @@
       "reference": "https://en.wiktionary.org/wiki/income"
     },
     {
+      "id": "environment-degradation",
+      "label": "损耗与环境风险独立词",
+      "meaning": "按损耗与环境风险的用法理解",
+      "kind": "independent",
+      "note": "本组按学习语境归置，不表示共同词根或直接派生关系。通过搭配与例句理解每个词，第二轮仍完整覆盖。",
+      "words": [
+        "dl-barren",
+        "dl-erode",
+        "dl-degrade",
+        "dl-deplete",
+        "dl-toxic"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/barren"
+    },
+    {
+      "id": "environment-ecology",
+      "label": "生物与生境独立词",
+      "meaning": "按生物与生境的用法理解",
+      "kind": "independent",
+      "note": "本组按学习语境归置，不表示共同词根或直接派生关系。通过搭配与例句理解每个词，第二轮仍完整覆盖。",
+      "words": [
+        "dl-vegetation",
+        "dl-indigenous",
+        "dl-predator",
+        "dl-prey",
+        "dl-pesticide"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/vegetation"
+    },
+    {
+      "id": "environment-landforms",
+      "label": "地表形态独立词",
+      "meaning": "按地表形态的用法理解",
+      "kind": "independent",
+      "note": "本组按学习语境归置，不表示共同词根或直接派生关系。通过搭配与例句理解每个词，第二轮仍完整覆盖。",
+      "words": [
+        "dl-peninsula",
+        "dl-plateau",
+        "dl-terrain",
+        "dl-ridge",
+        "dl-swamp"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/peninsula"
+    },
+    {
+      "id": "environment-position",
+      "label": "地理位置独立词",
+      "meaning": "按地理位置的用法理解",
+      "kind": "independent",
+      "note": "本组按学习语境归置，不表示共同词根或直接派生关系。通过搭配与例句理解每个词，第二轮仍完整覆盖。",
+      "words": [
+        "dl-equator",
+        "dl-hemisphere",
+        "dl-latitude",
+        "dl-longitude",
+        "dl-maritime"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/equator"
+    },
+    {
+      "id": "environment-weather",
+      "label": "天气、热量与蒸发独立词",
+      "meaning": "按天气、热量与蒸发的用法理解",
+      "kind": "independent",
+      "note": "本组按学习语境归置，不表示共同词根或直接派生关系。通过搭配与例句理解每个词，第二轮仍完整覆盖。",
+      "words": [
+        "dl-barometer",
+        "dl-humid",
+        "dl-tornado",
+        "dl-thermal",
+        "dl-evaporate"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/barometer"
+    },
+    {
       "id": "food-meals",
       "label": "用餐与烹饪独立词",
       "meaning": "按用法理解",
@@ -30239,6 +35871,81 @@
         "dl-dinner"
       ],
       "reference": "https://en.wiktionary.org/wiki/cook"
+    },
+    {
+      "id": "institutions-compliance",
+      "label": "遵守与纠正独立词",
+      "meaning": "按遵守与纠正的用法理解",
+      "kind": "independent",
+      "note": "本组按学习语境归置，不表示共同词根或直接派生关系。通过搭配与例句理解每个词，第二轮仍完整覆盖。",
+      "words": [
+        "dl-adhere",
+        "dl-breach",
+        "dl-infringe",
+        "dl-deter",
+        "dl-rectify"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/adhere"
+    },
+    {
+      "id": "institutions-legislation",
+      "label": "拟定与生效独立词",
+      "meaning": "按拟定与生效的用法理解",
+      "kind": "independent",
+      "note": "本组按学习语境归置，不表示共同词根或直接派生关系。通过搭配与例句理解每个词，第二轮仍完整覆盖。",
+      "words": [
+        "dl-amend",
+        "dl-enact",
+        "dl-ratify",
+        "dl-statute",
+        "dl-stipulate"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/amend"
+    },
+    {
+      "id": "institutions-litigation",
+      "label": "诉讼与定罪独立词",
+      "meaning": "按诉讼与定罪的用法理解",
+      "kind": "independent",
+      "note": "本组按学习语境归置，不表示共同词根或直接派生关系。通过搭配与例句理解每个词，第二轮仍完整覆盖。",
+      "words": [
+        "dl-lawsuit",
+        "dl-plaintiff",
+        "dl-sue",
+        "dl-prosecute",
+        "dl-convict"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/lawsuit"
+    },
+    {
+      "id": "institutions-oversight",
+      "label": "审查与豁免独立词",
+      "meaning": "按审查与豁免的用法理解",
+      "kind": "independent",
+      "note": "本组按学习语境归置，不表示共同词根或直接派生关系。通过搭配与例句理解每个词，第二轮仍完整覆盖。",
+      "words": [
+        "dl-audit",
+        "dl-scrutiny",
+        "dl-surveillance",
+        "dl-exempt",
+        "dl-waive"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/audit"
+    },
+    {
+      "id": "institutions-participation",
+      "label": "民意与表决独立词",
+      "meaning": "按民意与表决的用法理解",
+      "kind": "independent",
+      "note": "本组按学习语境归置，不表示共同词根或直接派生关系。通过搭配与例句理解每个词，第二轮仍完整覆盖。",
+      "words": [
+        "dl-constituent",
+        "dl-electoral",
+        "dl-referendum",
+        "dl-faction",
+        "dl-unanimous"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/constituent"
     },
     {
       "id": "senses",
@@ -30269,6 +35976,20 @@
         "dl-distance"
       ],
       "reference": "https://en.wiktionary.org/wiki/place"
+    },
+    {
+      "id": "argumentation-checking",
+      "label": "核对与反驳独立词",
+      "meaning": "按核对与反驳的用法理解",
+      "kind": "independent",
+      "note": "本组按学习语境归置，不表示共同词根或直接派生关系。通过搭配与例句理解每个词，第二轮仍完整覆盖。",
+      "words": [
+        "dl-discrepancy",
+        "dl-assert",
+        "dl-refute",
+        "dl-reconcile"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/discrepancy"
     },
     {
       "id": "basic-degree",
@@ -30327,6 +36048,20 @@
       "reference": "https://en.wiktionary.org/wiki/trade"
     },
     {
+      "id": "environment-water",
+      "label": "冰水的汇集与流动独立词",
+      "meaning": "按冰水的汇集与流动的用法理解",
+      "kind": "independent",
+      "note": "本组按学习语境归置，不表示共同词根或直接派生关系。通过搭配与例句理解每个词，第二轮仍完整覆盖。",
+      "words": [
+        "dl-glacier",
+        "dl-iceberg",
+        "dl-reservoir",
+        "dl-overflow"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/glacier"
+    },
+    {
       "id": "work-roles",
       "label": "职业与求职独立词",
       "meaning": "按用法理解",
@@ -30352,6 +36087,32 @@
         "dl-compromise"
       ],
       "reference": "https://en.wiktionary.org/wiki/priority"
+    },
+    {
+      "id": "argumentation-figures",
+      "label": "字面意义与联想独立词",
+      "meaning": "按字面意义与联想的用法理解",
+      "kind": "independent",
+      "note": "本组按学习语境归置，不表示共同词根或直接派生关系。通过搭配与例句理解每个词，第二轮仍完整覆盖。",
+      "words": [
+        "dl-analogy",
+        "dl-metaphor",
+        "dl-signify"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/analogy"
+    },
+    {
+      "id": "commerce-trade",
+      "label": "贸易关系与流通独立词",
+      "meaning": "按贸易关系与流通的用法理解",
+      "kind": "independent",
+      "note": "本组按学习语境归置，不表示共同词根或直接派生关系。通过搭配与例句理解每个词，第二轮仍完整覆盖。",
+      "words": [
+        "dl-embargo",
+        "dl-merchandise",
+        "dl-wholesale"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/embargo"
     },
     {
       "id": "measurement",
@@ -30428,6 +36189,18 @@
       "reference": "https://en.wiktionary.org/wiki/rent"
     },
     {
+      "id": "institutions-evidence",
+      "label": "审理与举证独立词",
+      "meaning": "按审理与举证的用法理解",
+      "kind": "independent",
+      "note": "本组按学习语境归置，不表示共同词根或直接派生关系。通过搭配与例句理解每个词，第二轮仍完整覆盖。",
+      "words": [
+        "dl-judicial",
+        "dl-jurisdiction"
+      ],
+      "reference": "https://en.wiktionary.org/wiki/judicial"
+    },
+    {
       "id": "study-people",
       "label": "学习者独立词",
       "meaning": "按用法理解",
@@ -30462,6 +36235,6 @@
       "reference": "https://en.wiktionary.org/wiki/use"
     }
   ],
-  "notice": "当前已收录630词。目标范围结合官方词表与基础词，保留词目、附列形式、变体与页码依据；范围裁定、全量成卡与内容校审正在进行。",
-  "hash": "3460e102d1aafd1ab758059e7c4a7e70a3957fda19ad7910e14a26093bc24379"
+  "notice": "当前已收录750词。本批补入120个官方词表直接列出的六级词；词目、附列形式、变体与页码依据分别保留，范围裁定、全量成卡与内容校审正在进行。",
+  "hash": "e70fcbc361e52baddbd08adbe93f6542e81ee54ea328c825c8f35ff5fd9579df"
 }

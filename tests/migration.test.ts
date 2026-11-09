@@ -121,7 +121,7 @@ describe('真实v0.2的300词档案与v2备份升级',()=>{
     const tomorrow=new Date('2026-11-16T01:00:00Z');
     expect(courseQueue(ensureDaily(next,tomorrow),tomorrow)).toEqual(wordIds.slice(300,330));
   });
-  it('300词旧词根轮与快照保留，完成后开始600词语义轮',()=>{
+  it('300词旧词根轮与快照保留，完成后开始新版语义轮',()=>{
     let state=migrateState(cast(recentRoots),new Date('2026-11-16T01:00:00Z'));
     expect(state.contentUpdate?.policy).toBe('finish-legacy');
     const order=[...currentRound(state).order];expect(order).toHaveLength(300);

@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "appVersion": "1.0.0-dev.2",
-  "contentVersion": "0.4.0",
-  "catalogVersion": "0.4.0",
-  "contentHash": "3460e102d1aafd1ab758059e7c4a7e70a3957fda19ad7910e14a26093bc24379",
+  "appVersion": "1.0.0-dev.3",
+  "contentVersion": "0.5.0",
+  "catalogVersion": "0.5.0",
+  "contentHash": "e70fcbc361e52baddbd08adbe93f6542e81ee54ea328c825c8f35ff5fd9579df",
   "candidateWords": 9089,
   "targetWords": 8375,
   "referenceWords": 7109,
@@ -90,10 +90,10 @@
     "policy": "基础取固定参考来源的zk/gk；合并官方所有词目、附列形式及显式变体机械展开。参考来源独有的四六级标签不自动进入目标；保留为可检索参考项。此目标待范围裁定，不表示所有义项已成卡。",
     "countConvention": "官方标示5418词目、2551附列形式；提取的5377物理行、2519附列单元格、展开去重拼写分别计数，尚未将其计数口径视为一致。"
   },
-  "cards": 630,
-  "targetCards": 617,
+  "cards": 750,
+  "targetCards": 737,
   "nonTargetCards": 13,
-  "missingCards": 7758,
+  "missingCards": 7638,
   "approvedCards": 0,
   "staleCards": 0,
   "levelIssues": [],
@@ -118,7 +118,7 @@
       "id": "version",
       "label": "正式发行版本",
       "passed": false,
-      "detail": "当前为1.0.0-dev.2，目标为1.0.0"
+      "detail": "当前为1.0.0-dev.3，目标为1.0.0"
     },
     {
       "id": "official-extraction",
@@ -136,7 +136,7 @@
       "id": "coverage",
       "label": "目标词卡覆盖",
       "passed": false,
-      "detail": "8375个当前目标拼写，7758个尚未成卡"
+      "detail": "8375个当前目标拼写，7638个尚未成卡"
     },
     {
       "id": "scope-decisions",
@@ -154,7 +154,7 @@
       "id": "reviews",
       "label": "词卡逐项人工校审",
       "passed": false,
-      "detail": "0/630张有效通过，0张因内容变更待重审"
+      "detail": "0/750张有效通过，0张因内容变更待重审"
     },
     {
       "id": "source-snapshot",

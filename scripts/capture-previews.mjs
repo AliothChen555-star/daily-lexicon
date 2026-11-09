@@ -14,9 +14,9 @@ try {
   await page.setViewportSize({width:390,height:844});
   await page.screenshot({path:'docs/previews/mobile.png'});
   await page.getByRole('button',{name:'词库目录',exact:true}).click();
-  await page.getByRole('button',{name:'科学与证据',exact:true}).click();
-  await page.getByRole('combobox',{name:'学习场景'}).selectOption('science-evidence');
-  await page.getByRole('combobox',{name:'概念分块'}).selectOption('science-verifying');
+  await page.getByRole('button',{name:'公共制度与法律',exact:true}).click();
+  await page.getByRole('combobox',{name:'学习场景'}).selectOption('institutions-court');
+  await page.getByRole('combobox',{name:'概念分块'}).selectOption('institutions-evidence');
   await page.screenshot({path:'docs/previews/semantic-mobile.png',fullPage:true});
   await page.setViewportSize({width:1440,height:1080});
   await page.screenshot({path:'docs/previews/semantic-desktop.png',fullPage:true});

@@ -12,6 +12,14 @@ OUT.mkdir(parents=True,exist_ok=True)
 content=json.loads((ROOT/'src/data/content.json').read_text(encoding='utf-8'))
 voice=PiperVoice.load(str(VOICE/'en_US-ljspeech-medium.onnx'))
 config=SynthesisConfig(length_scale=1.04,noise_scale=0.5,noise_w_scale=0.65)
+# Preserve the phonemizer used by earlier batches; opt newer source batches in explicitly.
+default_phonemizer=voice.config.espeak_voice
+batch_phonemizers={}
+for batch_file in sorted((ROOT/'content/batches').glob('*.json')):
+    batch=json.loads(batch_file.read_text(encoding='utf-8'))
+    if phonemizer:=batch.get('audioPhonemizer'):
+        source_version='.'.join(batch['version'].split('.')[:2])
+        batch_phonemizers['daily-lexicon-editorial-'+source_version]=phonemizer
 overrides={
     'suspect.wav':'səspˈɛkt.','transport.wav':'tɹˈænspɔːɹt.','dictate.wav':'dˈɪkteɪt.',
     'live.wav':'lˈɪv.','use.wav':'jˈuːz.','house.wav':'hˈaʊs.',
@@ -20,9 +28,13 @@ overrides={
     'graduate.wav':'ɡɹˈædʒuˌeɪt.','route.wav':'ɹˈuːt.',
     'download.wav':'dˈaʊnloʊd.','upload.wav':'ʌplˈoʊd.','update.wav':'ʌpdˈeɪt.',
     'online.wav':'ˌɑːnlˈaɪn.',
+    'excerpt.wav':'ˈɛksɜːɹpt.','convict.wav':'kənvˈɪkt.',
+    'affiliate.wav':'ɐfˈɪlɪʲət.','refund.wav':'ɹˈiːfʌnd.',
+    'glossary.wav':'ɡlˈɑːsɚɹi.','longitude.wav':'lˈɑːndʒətuːd.','peninsula.wav':'pənˈɪnsələ.',
 }
 manifest=[]
 for index,word in enumerate(content['words']):
+    voice.config.espeak_voice=batch_phonemizers.get(word['source'],default_phonemizer)
     stem=word['id'].removeprefix('dl-')
     pieces=[(word['word']+'.', stem+'.wav')]+[(x['en'],stem+'--'+str(n+1)+'.wav') for n,x in enumerate(word['examples'])]
     for text,filename in pieces:
